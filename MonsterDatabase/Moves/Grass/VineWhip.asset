@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb18544be9a24d808b663c731e22bca5, type: 3}
+  m_Name: VineWhip
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/VineWhip
+  LocalizableDescription: Moves/VineWhip/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Vine_Whip_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 964c796fc7fc9fa4e8ebe2468b9fea61, type: 2}
+  MoveCategory: 0
+  BasePowerPoints: 25
+  MaxPowerPoints: 40
+  Priority: 0
+  MakesContact: 1
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 1
+  SoundBased: 0
+  InfiniteAccuracy: 0
+  Accuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 0
+  FallbackAnimation: {fileID: 0}
+  CanBeUsedOutsideBattle: 0
+  Power: 45
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  Audio:
+    Audio: Vine Whip
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+  VinePrefab: {fileID: 5673896722948710176, guid: a4ac95ebcb00d3e44ad79472cc15aa02, type: 3}
+  VineStartingPosition: {x: -1.5, y: 0.25, z: 0}
+  VineStartingRotation: {x: 0, y: 0, z: 65}
+  VineTargetPosition: {x: 1.5, y: -0.125, z: 0}
+  GrassHitPrefab: {fileID: 7347882138336658236, guid: d8d8190637a1b014ea19d73f60cdc226, type: 3}

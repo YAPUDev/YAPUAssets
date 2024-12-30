@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2c253d1f2384f97b9ff6a1e9f837a57, type: 3}
+  m_Name: EnergyRoot
+  m_EditorClassIdentifier: 
+  LocalizableName: Items/EnergyRoot
+  LocalizableDescription: Items/EnergyRoot/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Energy_Root
+  ItemCategory: {fileID: 11400000, guid: 5b224b419718c7e4ead4d02b2ce9fc72, type: 2}
+  Icon: {fileID: 21300000, guid: 33c1656da824db247910a9917e956634, type: 3}
+  DefaultPrice: 1200
+  CanBeSold: 1
+  SellPercentage: 0.5
+  CanBeHeld: 1
+  FlingPower: 30
+  FlingHasAdditionalEffects: 0
+  FlingEffects: []
+  SharesXP: 0
+  OnItemMovedItemEffects: []
+  OnStatCalculationEffects: []
+  AfterActionCallbacks: []
+  PostTurnCallbackItemEffects: []
+  OnCalculateAccuracyWhenTargetedItemEffects: []
+  OnCalculateMoveDamageItemEffects: []
+  HitByMoveCallbacks: []
+  AfterHitByMoveCallbacks: []
+  OnDeterminePriorityInsideBracketCallbacks: []
+  OnCalculateXPYieldEffects: []
+  OnYieldEffects: []
+  OnCalculatePriceMoneyItemEffects: []
+  OnCalculateWeatherEffectDurationItemEffects: []
+  OnCalculateTerrainEffectDurationItemEffects: []
+  OnCalculateEncounterChanceItemEffects: []
+  NeedsPanelAnimationInBagScreen: 1
+  UseOnTargetEffects:
+  - {fileID: 11400000, guid: 11c4e2b828c75364b95e82993c722ad0, type: 2}
+  - {fileID: 11400000, guid: 96c635cef3b925b4c8eafc3b115f0d0c, type: 2}
+  UseOnTargetMoveEffects: []
+  UseOutOfBattleEffects: []
+  UseInBattleEffects: []

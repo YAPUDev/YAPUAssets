@@ -1,0 +1,349 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4475415407183250810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4475415407183250815}
+  - component: {fileID: 4475415407183250809}
+  - component: {fileID: 4475415407183250808}
+  m_Layer: 0
+  m_Name: BrownDoor 0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4475415407183250815
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4475415407183250810}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -11, y: -7, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4475415407183250809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4475415407183250810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1863631827a74043b89600abdd3ca131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnEnableCommands: []
+  OnEnableCommandGraph:
+    rid: -2
+  RunLoopOnEnable: 0
+  LoopCommands: []
+  LoopCommandGraph:
+    rid: -2
+  PlayerInteractsWhenOnTop: 0
+  InteractCommands: []
+  InteractCommandGraph:
+    rid: -2
+  OnDemandCommands0: []
+  OnDemandCommands1: []
+  OnDemandCommands2: []
+  OnDemandCommands3: []
+  OnDemandCommandGraph0:
+    rid: -2
+  OnDemandCommandGraph1:
+    rid: -2
+  OnDemandCommandGraph2:
+    rid: -2
+  OnDemandCommandGraph3:
+    rid: -2
+  RunningCommands: 0
+  GlobalGridManager: {fileID: 0}
+  LoopRunning: 0
+  ShouldLoop: 0
+  CurrentGrid: {fileID: 0}
+  OnPlayerAboutToEnter: []
+  OnPlayerAboutToEnterCommandGraph:
+    rid: 7393535424251822451
+  OnPlayerEntered: []
+  OnPlayerEnteredCommandGraph:
+    rid: 7393535424251822464
+  OnPlayerAboutToBeTeleported: []
+  OnPlayerAboutToBeTeleportedCommandGraph:
+    rid: 7393535424251822473
+  OnPlayerTeleported: []
+  OnPlayerTeleportedCommandGraph:
+    rid: 7393535424251822478
+  OnActorPushedInside: []
+  OnActorPushedInsideCommandGraph:
+    rid: -2
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 7393535424251822451
+      type: {class: ActorCommandGraph, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph, asm: Varguiniano.YAPU.Runtime}
+      data:
+        RootNode:
+          rid: 7393535424251822452
+        Nodes:
+        - rid: 7393535424251822452
+        - rid: 7393535424251822455
+        - rid: 7393535424251822457
+    - rid: 7393535424251822452
+      type: {class: RootNode, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: RootNode
+        GUID: 3e78d15bb1befd44baf41ee486c2d2d2
+        Position: {x: 0, y: 0}
+        NextCommand:
+          rid: 7393535424251822455
+    - rid: 7393535424251822455
+      type: {class: PlaySound, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Sounds, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: PlaySound
+        GUID: 63d9d72d039371e418ba8b84880ae63f
+        Position: {x: 508, y: -7.5}
+        NextCommand:
+          rid: 7393535424251822457
+        Sound:
+          Audio: Entering Door
+          AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+        Loop: 0
+        Pitch: 1
+        Volume: 0.85
+        FadeInTime: 0
+        PreventDuplicates: 0
+    - rid: 7393535424251822457
+      type: {class: ChangeSpriteAnimation, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Animations, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: ChangeSpriteAnimation
+        GUID: 7804253d54579754eb94b78f0d32a389
+        Position: {x: 1107, y: 1}
+        NextCommand:
+          rid: -2
+        Interval: 0.15
+        Sprites:
+        - {fileID: -158335946, guid: db9b94c851a8fd045a81339ae518628b, type: 3}
+        - {fileID: 2092897709, guid: db9b94c851a8fd045a81339ae518628b, type: 3}
+        - {fileID: -579413718, guid: db9b94c851a8fd045a81339ae518628b, type: 3}
+        Sound:
+          rid: -2
+        HasRendererInSameObject: 1
+        Renderer: {fileID: 0}
+    - rid: 7393535424251822464
+      type: {class: ActorCommandGraph, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph, asm: Varguiniano.YAPU.Runtime}
+      data:
+        RootNode:
+          rid: 7393535424251822465
+        Nodes:
+        - rid: 7393535424251822465
+        - rid: 7393535424251822468
+        - rid: 7393535424251822470
+        - rid: 7393535424251822472
+    - rid: 7393535424251822465
+      type: {class: RootNode, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: RootNode
+        GUID: 847f31d188e98b741a30aa776a6a9219
+        Position: {x: 0, y: 0}
+        NextCommand:
+          rid: 7393535424251822468
+    - rid: 7393535424251822468
+      type: {class: PlaySound, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Sounds, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: PlaySound
+        GUID: 85551f0fb43561d4294240df67427fc4
+        Position: {x: 469, y: -7.5}
+        NextCommand:
+          rid: 7393535424251822470
+        Sound:
+          Audio: Exit Door
+          AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+        Loop: 0
+        Pitch: 1
+        Volume: 0.85
+        FadeInTime: 0
+        PreventDuplicates: 0
+    - rid: 7393535424251822470
+      type: {class: WaitTime, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Utils, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: WaitTime
+        GUID: d7436ddffdde2bf438a93a55dec5c349
+        Position: {x: 1081, y: 8}
+        NextCommand:
+          rid: 7393535424251822472
+        Time: 0
+        Seconds: 0.1
+        MinWait: 1
+        MaxWait: 2
+    - rid: 7393535424251822472
+      type: {class: TeleportPlayer, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Utils, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: TeleportPlayer
+        GUID: 19b6bffff5aa8f5478c3166346d54c76
+        Position: {x: 1564, y: 16}
+        NextCommand:
+          rid: -2
+        SceneLocation:
+          Scene: {fileID: 11400000, guid: 0054900bb87c0b44696d6cdb15dd3dd1, type: 2}
+          Location: {x: 0, y: 0}
+    - rid: 7393535424251822473
+      type: {class: ActorCommandGraph, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph, asm: Varguiniano.YAPU.Runtime}
+      data:
+        RootNode:
+          rid: 7393535424251822474
+        Nodes:
+        - rid: 7393535424251822474
+        - rid: 7393535424251822477
+    - rid: 7393535424251822474
+      type: {class: RootNode, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: RootNode
+        GUID: da286c2aa9440974caf4a1d6e1d0391c
+        Position: {x: 0, y: 0}
+        NextCommand:
+          rid: 7393535424251822477
+    - rid: 7393535424251822477
+      type: {class: ChangeSpriteAnimation, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Animations, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: ChangeSpriteAnimation
+        GUID: 01da634c7cafbca43b0c17a05f7707c6
+        Position: {x: 563, y: -21}
+        NextCommand:
+          rid: -2
+        Interval: 0
+        Sprites:
+        - {fileID: -579413718, guid: db9b94c851a8fd045a81339ae518628b, type: 3}
+        Sound:
+          rid: -2
+        HasRendererInSameObject: 1
+        Renderer: {fileID: 0}
+    - rid: 7393535424251822478
+      type: {class: ActorCommandGraph, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph, asm: Varguiniano.YAPU.Runtime}
+      data:
+        RootNode:
+          rid: 7393535424251822479
+        Nodes:
+        - rid: 7393535424251822479
+        - rid: 7393535424251822482
+        - rid: 7393535424251822484
+        - rid: 7393535424251822486
+    - rid: 7393535424251822479
+      type: {class: RootNode, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: RootNode
+        GUID: aff87a0798163f848962dddeffa67aba
+        Position: {x: 0, y: 0}
+        NextCommand:
+          rid: 7393535424251822482
+    - rid: 7393535424251822482
+      type: {class: MovePlayer, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Animations, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: MovePlayer
+        GUID: 966e6caaded70be4b8ce57c5671db52d
+        Position: {x: 488, y: -1}
+        NextCommand:
+          rid: 7393535424251822484
+        Direction: 1
+        NumberOfTiles: 1
+        WaitForNextTileToBeFree: 1
+    - rid: 7393535424251822484
+      type: {class: PlaySound, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Sounds, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: PlaySound
+        GUID: 3cf352392cf4a96478fefc8dcee304be
+        Position: {x: 963, y: 7}
+        NextCommand:
+          rid: 7393535424251822486
+        Sound:
+          Audio: Entering Door
+          AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+        Loop: 0
+        Pitch: 1
+        Volume: 0.85
+        FadeInTime: 0
+        PreventDuplicates: 0
+    - rid: 7393535424251822486
+      type: {class: ChangeSpriteAnimation, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Animations, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: ChangeSpriteAnimation
+        GUID: 7f265095d7cb9ca4792e443d108373cf
+        Position: {x: 1524, y: 7}
+        NextCommand:
+          rid: -2
+        Interval: 0.15
+        Sprites:
+        - {fileID: 2092897709, guid: db9b94c851a8fd045a81339ae518628b, type: 3}
+        - {fileID: -158335946, guid: db9b94c851a8fd045a81339ae518628b, type: 3}
+        - {fileID: -1736503106, guid: db9b94c851a8fd045a81339ae518628b, type: 3}
+        Sound:
+          rid: -2
+        HasRendererInSameObject: 1
+        Renderer: {fileID: 0}
+--- !u!212 &4475415407183250808
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4475415407183250810}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 15
+  m_Sprite: {fileID: -1736503106, guid: db9b94c851a8fd045a81339ae518628b, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 471686e0718d4132b8d81eb3088b8561, type: 3}
+  m_Name: Trace
+  m_EditorClassIdentifier: 
+  LocalizableName: Abilities/Trace
+  LocalizableDescription: Abilities/Trace/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Trace_(Ability)
+  AbilitiesImmuneTo: []
+  Status: {fileID: 11400000, guid: 0bd18c085cc01e54aa7e990a3f0b422e, type: 2}
+  UntraceableAbilities:
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: 668d81869efe9554e81aa84d336b607e, type: 2}
+  - {fileID: 11400000, guid: 5bfbb2c5605e83646908029da04c3c2f, type: 2}

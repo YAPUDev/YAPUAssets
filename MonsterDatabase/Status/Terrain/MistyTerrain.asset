@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de11c325877a4fa181d81ff78aeddc8a, type: 3}
+  m_Name: MistyTerrain
+  m_EditorClassIdentifier: 
+  LocalizableName: BattleTerrain/MistyTerrain
+  LocalizableDescription: NotUsed
+  LocalizationKey: BattleTerrain/MistyTerrain
+  StartLocalizationKey: BattleTerrain/MistyTerrain/Start
+  TickLocalizationKey: BattleTerrain/MistyTerrain/Tick
+  EndLocalizationKey: BattleTerrain/MistyTerrain/End
+  TypeDamageModifiersWhenUserIsAffected:
+    SerializedList: []
+  TypeDamageModifiersWhenTargetIsAffected:
+    SerializedList:
+    - Key: {fileID: 11400000, guid: a1bfd11213bfa2e4da0cdda42f233fc4, type: 2}
+      Value: 0.5
+  NaturePowerMove: {fileID: 11400000, guid: 960af443f4f791745b73158758e952c6, type: 2}
+  PreventedStatuses:
+  - {fileID: 11400000, guid: 7bf1c8974129afe41a903f8162524936, type: 2}
+  Sound:
+    Audio: Flash
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+  TonesPostProcessing: {fileID: 8682331034278282596, guid: edc3af05487ff9c44abc3bc018ba4103, type: 3}
+  Pink: {x: 0.85, y: 0, z: 1, w: 0}

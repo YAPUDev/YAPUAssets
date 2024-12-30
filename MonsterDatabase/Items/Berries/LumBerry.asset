@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9813b563d7c84584a5db1b1960435919, type: 3}
+  m_Name: LumBerry
+  m_EditorClassIdentifier: 
+  LocalizableName: Items/LumBerry
+  LocalizableDescription: Items/LumBerry/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Lum_Berry
+  ItemCategory: {fileID: 11400000, guid: a39f78ba045140749a2b6067617d0a31, type: 2}
+  Icon: {fileID: 21300000, guid: 1b20d3823d1110a468aedcd2c274ea67, type: 3}
+  DefaultPrice: 250
+  CanBeSold: 0
+  SellPercentage: 0.5
+  CanBeHeld: 1
+  FlingPower: 10
+  FlingHasAdditionalEffects: 1
+  FlingEffects:
+  - {fileID: 11400000, guid: d7f9ced57ddda6f439b699b4fa26274a, type: 2}
+  - {fileID: 11400000, guid: b3d31f159159be24ab461ca691297652, type: 2}
+  - {fileID: 11400000, guid: b0cd8ce723f824646ba7e1b34718f15e, type: 2}
+  - {fileID: 11400000, guid: 214e74b597bd8d049a4a213dbdc24fe7, type: 2}
+  - {fileID: 11400000, guid: 1f8eb9097fe1c7a4daab2923c00d4b03, type: 2}
+  - {fileID: 11400000, guid: 30568baef20e4484da417523514d2169, type: 2}
+  - {fileID: 11400000, guid: e6d8303f084cd9b43ab4a6d4594f3846, type: 2}
+  SharesXP: 0
+  OnItemMovedItemEffects: []
+  OnStatCalculationEffects: []
+  OnCalculateCriticalChanceItemEffects: []
+  OnCalculateAttackMultiplierOfTypesWhenDefendingItemEffects: []
+  OnMonsterEnteredBattleEffects: []
+  AfterActionCallbacks:
+  - {fileID: 11400000, guid: 679a6eac7eae5c14297f1a9e2b1bb1f1, type: 2}
+  - {fileID: 11400000, guid: 1dc6865fed36fb34b853cf26a48f0caa, type: 2}
+  - {fileID: 11400000, guid: ff2caac3e5707c34f8e2c35aec390111, type: 2}
+  - {fileID: 11400000, guid: 466e7a97dcee42e4c9e688a476aec498, type: 2}
+  - {fileID: 11400000, guid: 93a8d57e7e6dc4a479ba1b39faa1d6bf, type: 2}
+  - {fileID: 11400000, guid: 03a6995af4147f745b3b823091838363, type: 2}
+  - {fileID: 11400000, guid: f81ead013c572814381e0eced9967b3e, type: 2}
+  OnTerrainSetItemEffects: []
+  PostTurnCallbackItemEffects: []
+  OnCalculateAccuracyWhenUsingItemEffects: []
+  OnCalculateAccuracyWhenTargetedItemEffects: []
+  OnCheckGroundingItemEffects: []
+  OnCheckRunAwayItemEffects: []
+  OnCalculateMoveDamageItemEffects: []
+  HitByMoveCallbacks: []
+  AfterHitByMoveCallbacks: []
+  AfterHitByMultihitMoveCallbacks: []
+  ForceSurviveItemEffects: []
+  AfterUsingMoveCallbacks: []
+  OnDeterminePriorityInsideBracketCallbacks: []
+  OnCalculateDrainHPMultiplierEffects: []
+  OnCalculateXPYieldEffects: []
+  OnYieldEffects: []
+  OnCalculatePriceMoneyItemEffects: []
+  OnCalculateWeatherEffectDurationItemEffects: []
+  OnCalculateSideStatusEffectDurationItemEffects: []
+  OnCalculateVolatileStatusEffectDurationItemEffects: []
+  OnCalculateTerrainEffectDurationItemEffects: []
+  OnVolatileStatusAddedItemEffects: []
+  OnCalculateEncounterChanceItemEffects: []
+  AllowEvolutionItemEffects: []
+  OnCalculateNumberOfIVsToPassOnBreedingItemEffects: []
+  OnCalculateSpecificIVsToPassOnBreedingItemEffects: []
+  OnCalculateNatureToPassOnBreedingItemEffects: []
+  OnCalculateFormToPassOnBreedingItemEffects: []
+  OnAddExtraMovesToPassOnBreedingItemEffects: []
+  NeedsPanelAnimationInBagScreen: 0
+  RequiresUpdatingTheEntirePartyInBagScreen: 0
+  UseOnTargetEffects:
+  - {fileID: 11400000, guid: d7f9ced57ddda6f439b699b4fa26274a, type: 2}
+  - {fileID: 11400000, guid: b3d31f159159be24ab461ca691297652, type: 2}
+  - {fileID: 11400000, guid: b0cd8ce723f824646ba7e1b34718f15e, type: 2}
+  - {fileID: 11400000, guid: 214e74b597bd8d049a4a213dbdc24fe7, type: 2}
+  - {fileID: 11400000, guid: 1f8eb9097fe1c7a4daab2923c00d4b03, type: 2}
+  - {fileID: 11400000, guid: 30568baef20e4484da417523514d2169, type: 2}
+  - {fileID: 11400000, guid: e6d8303f084cd9b43ab4a6d4594f3846, type: 2}
+  UseOnTargetMoveEffects: []
+  UseOutOfBattleEffects: []
+  UseInBattleEffects: []
+  FlavourData:
+    SerializedList:
+    - Key: 0
+      Value: 10
+    - Key: 1
+      Value: 10
+    - Key: 2
+      Value: 10
+    - Key: 3
+      Value: 10
+    - Key: 4
+      Value: 0
+  GrowthData:
+    SerializedList:
+    - Key: 0
+      Value: 0
+    - Key: 1
+      Value: 12
+    - Key: 2
+      Value: 24
+    - Key: 3
+      Value: 36
+    - Key: 4
+      Value: 48
+  Smoothness: 20
+  Size: 3.4
+  Firmness: 4
+  NaturalGiftType: {fileID: 11400000, guid: e6912e7b469ab6544a853be403fe5bc7, type: 2}
+  NaturalGiftPower: 80
+  CudChewEffects:
+  - {fileID: 11400000, guid: d7f9ced57ddda6f439b699b4fa26274a, type: 2}
+  - {fileID: 11400000, guid: b3d31f159159be24ab461ca691297652, type: 2}
+  - {fileID: 11400000, guid: b0cd8ce723f824646ba7e1b34718f15e, type: 2}
+  - {fileID: 11400000, guid: 214e74b597bd8d049a4a213dbdc24fe7, type: 2}
+  - {fileID: 11400000, guid: 1f8eb9097fe1c7a4daab2923c00d4b03, type: 2}
+  - {fileID: 11400000, guid: 30568baef20e4484da417523514d2169, type: 2}
+  - {fileID: 11400000, guid: e6d8303f084cd9b43ab4a6d4594f3846, type: 2}

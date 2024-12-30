@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f3051e173284756b95a833102365cb6, type: 3}
+  m_Name: Amnesia
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/Amnesia
+  LocalizableDescription: Moves/Amnesia/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Amnesia_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 2d58a23f5902ddd488c3786e59fb9e95, type: 2}
+  MoveCategory: 2
+  BasePowerPoints: 20
+  MaxPowerPoints: 32
+  Priority: 0
+  MakesContact: 0
+  AffectedByProtect: 0
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 1
+  AffectedByMirror: 0
+  AffectedByKingsRock: 0
+  SoundBased: 0
+  InfiniteAccuracy: 1
+  Accuracy: 0
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 0
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 0
+  FallbackAnimation: {fileID: 0}
+  CanBeUsedOutsideBattle: 0
+  ChangeStats: 1
+  StatChanges:
+    SerializedList:
+    - Key: 4
+      Value: 2
+  ChangeBattleStats: 0
+  BattleStatChanges:
+    SerializedList: []
+  ChangeCritical: 0
+  CriticalChange: 0
+  AnimationPrefab: {fileID: 5013734717163951887, guid: 0d95d84b33d88134f912cf8b66cbbe1a, type: 3}
+  Audio:
+    Audio: Amnesia
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}

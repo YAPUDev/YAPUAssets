@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0aa85fffc28944ef9268f2b76fbf6167, type: 3}
+  m_Name: FirePunch
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/FirePunch
+  LocalizableDescription: Moves/FirePunch/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Fire_Punch_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 9006ef89f44a7724783c6f688db63b59, type: 2}
+  MoveCategory: 0
+  BasePowerPoints: 15
+  MaxPowerPoints: 24
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 1
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 0
+  DamageBypassesSubstitute: 0
+  SoundBased: 0
+  OverridesEffectiveness: 0
+  EffectivenessOverride:
+    SerializedList: []
+  InfiniteAccuracy: 0
+  BaseAccuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 0
+  FallbackAnimation: {fileID: 0}
+  CanBeUsedOutsideBattle: 0
+  Power: 75
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  IsPunchingMove: 1
+  StatusChance:
+    m_Keys:
+    - {fileID: 11400000, guid: 3ed6b95fb6837444b9fe9765ab8c6617, type: 2}
+    m_Values:
+    - 0.1
+  VolatileStatusChance:
+    m_Keys: []
+    m_Values: []
+  Sound:
+    Audio: Fire Punch
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+  PunchPrefab: {fileID: 2486145851572382156, guid: 465719b991b28f24aa51f56dee6dd59f, type: 3}
+  ExplosionFXPrefab: {fileID: 2927878538750410271, guid: 531449a1bf5d3584cb9bb8e39e4a3f97, type: 3}

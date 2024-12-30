@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: facb67d68aa1e574da85ce812dd98c6c, type: 3}
+  m_Name: BugBuzz
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/BugBuzz
+  LocalizableDescription: Moves/BugBuzz/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Bug_Buzz_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 8224339d425c323429f4f784f48fce81, type: 2}
+  MoveCategory: 1
+  BasePowerPoints: 10
+  MaxPowerPoints: 16
+  Priority: 0
+  MakesContact: 0
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 1
+  SoundBased: 1
+  InfiniteAccuracy: 0
+  Accuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 0
+  FallbackAnimation: {fileID: 0}
+  CanBeUsedOutsideBattle: 0
+  Power: 90
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  ChangeStats: 1
+  StatChangesAffectSelf: 0
+  StatChanges:
+    SerializedList:
+    - Key: 0.1
+      Value:
+        SerializedList:
+        - Key: 4
+          Value: -1
+  ChangeBattleStats: 0
+  BattleStatChanges:
+    SerializedList: []
+  ChangeCritical: 0
+  CriticalChange: 0
+  CriticalChance: 0
+  Sound:
+    Audio: Bug Buzz
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+  PulsePrefab: {fileID: 5484957469054519052, guid: 67dc2c579aa78064e9c9706d493f38dc, type: 3}

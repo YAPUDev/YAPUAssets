@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e01f5aea0f8b4431b5e1d3884de0346b, type: 3}
+  m_Name: Bounce
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/Bounce
+  LocalizableDescription: Moves/Bounce/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Bounce_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: e6912e7b469ab6544a853be403fe5bc7, type: 2}
+  MoveCategory: 0
+  BasePowerPoints: 5
+  MaxPowerPoints: 8
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 1
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 1
+  SoundBased: 0
+  OverridesEffectiveness: 0
+  EffectivenessOverride:
+    SerializedList: []
+  InfiniteAccuracy: 0
+  BaseAccuracy: 85
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 6
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses:
+  - {fileID: 11400000, guid: febe61d00229cca4988c0cd8d7e22db3, type: 2}
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: 4039903a1b013764d924db96b1763b58, type: 2}
+  CanBeUsedOutsideBattle: 0
+  Power: 85
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  BuildUpStatus: {fileID: 11400000, guid: 14e7909ea2f905148864a297f72ba2dd, type: 2}
+  WeatherByPasses: []
+  ConsumableItemByPasses:
+  - {fileID: 11400000, guid: 18e570dd277cfe84bafbf5ad43f4c176, type: 2}
+  SecondTurnFallbackAnimation: {fileID: 11400000, guid: 4039903a1b013764d924db96b1763b58, type: 2}
+  WeatherDamageMultipliers:
+    SerializedList: []
+  StatusChance:
+    m_Keys:
+    - {fileID: 11400000, guid: 382472642c5d62c498152f4beff0ea51, type: 2}
+    m_Values:
+    - 0.3
+  VolatileStatusChance:
+    m_Keys: []
+    m_Values: []

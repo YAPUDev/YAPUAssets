@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 433c40772635452794cafa1078eaa0a7, type: 3}
+  m_Name: AquaRing
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/AquaRing
+  LocalizableDescription: Moves/AquaRing/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Aqua_Ring_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 96acf51bdce11384d9b1ceb0369ace1e, type: 2}
+  MoveCategory: 2
+  BasePowerPoints: 20
+  MaxPowerPoints: 32
+  Priority: 0
+  MakesContact: 0
+  AffectedByProtect: 0
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 1
+  AffectedByMirror: 0
+  AffectedByKingsRock: 0
+  SoundBased: 0
+  InfiniteAccuracy: 1
+  Accuracy: 0
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 0
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 0
+  FallbackAnimation: {fileID: 0}
+  CanBeUsedOutsideBattle: 0
+  Status: {fileID: 11400000, guid: b561de2e5c430364586ef4d638c119e1, type: 2}
+  InfiniteDuration: 1
+  Sound:
+    Audio: Aqua Ring
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+  RingPrefab: {fileID: 5484957469054519052, guid: 2589fcda8c0e52844b57708de4df8886, type: 3}

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b3160b88bf344c9a0e0f143d19cb887, type: 3}
+  m_Name: DamageFutureSight
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/FutureSight
+  LocalizableDescription: Moves/FutureSight/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Future_Sight_(move)
+  ShouldIndex: 0
+  MoveType: {fileID: 11400000, guid: 2d58a23f5902ddd488c3786e59fb9e95, type: 2}
+  MoveCategory: 0
+  BasePowerPoints: 10
+  MaxPowerPoints: 16
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 0
+  AffectedByProtect: 0
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 0
+  AffectedByKingsRock: 0
+  SoundBased: 0
+  InfiniteAccuracy: 0
+  Accuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneTerrains: []
+  ShowUsedDialog: 0
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: 93f9f8aa4e3d8d2458a77b282f67d41a, type: 2}
+  CanBeUsedOutsideBattle: 0
+  Power: 120
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1

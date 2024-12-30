@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79d3dd158e084e1692ba3ff70a4bf28a, type: 3}
+  m_Name: SolarBeam
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/SolarBeam
+  LocalizableDescription: Moves/SolarBeam/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Solar_Beam_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 964c796fc7fc9fa4e8ebe2468b9fea61, type: 2}
+  MoveCategory: 1
+  BasePowerPoints: 10
+  MaxPowerPoints: 16
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 0
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 1
+  SoundBased: 0
+  OverridesEffectiveness: 0
+  EffectivenessOverride:
+    SerializedList: []
+  InfiniteAccuracy: 0
+  BaseAccuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 0
+  UsesFallbackAnimation: 0
+  FallbackAnimation: {fileID: 0}
+  CanBeUsedOutsideBattle: 0
+  Power: 120
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  BuildUpStatus: {fileID: 11400000, guid: 110b5c6cca129324b88857c23e8b1fe0, type: 2}
+  WeatherByPasses:
+  - {fileID: 11400000, guid: 0bb8ea1ddf9dfad468d6450d7b01becc, type: 2}
+  ConsumableItemByPasses:
+  - {fileID: 11400000, guid: 18e570dd277cfe84bafbf5ad43f4c176, type: 2}
+  SecondTurnFallbackAnimation: {fileID: 0}
+  WeatherDamageMultipliers:
+    SerializedList:
+    - Key: {fileID: 11400000, guid: daca1ab58da873b48abf91d50b3b5a80, type: 2}
+      Value: 0.5
+    - Key: {fileID: 11400000, guid: 52ce37f0f0d8e9847afe2ae18930052b, type: 2}
+      Value: 0.5
+    - Key: {fileID: 11400000, guid: ddfac60ef0939fd42abeb73f2b65a451, type: 2}
+      Value: 0.5
+    - Key: {fileID: 11400000, guid: 528d8290ae151a741870aa0a9324a438, type: 2}
+      Value: 0.5
+  ChargingAudio:
+    Audio: Solar Beam part 1
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+  ChargeSize:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.2
+      inSlope: -0.1
+      outSlope: -0.1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0.1
+      inSlope: -0.1
+      outSlope: -0.1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  BeamAudio:
+    Audio: Solar Beam part 2
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+  BeamSize:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.3
+      inSlope: 0.099999994
+      outSlope: 0.099999994
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0.4
+      inSlope: 0.099999994
+      outSlope: 0.099999994
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  BeamParticle: {fileID: 2800000, guid: 5d520176e56621f49be1fae9483e75a4, type: 3}
+  BackgroundLight: {fileID: 8682331034278282596, guid: 0fb1de7f61666c143a91502398cc0a54, type: 3}
+  NormalTone: 0
+  HightestTone: 0.2

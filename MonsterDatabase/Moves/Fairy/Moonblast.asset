@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b5f77549744442faa5414b7ad721935, type: 3}
+  m_Name: Moonblast
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/Moonblast
+  LocalizableDescription: Moves/Moonblast/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Moonblast_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 848b68aec4045eb488dbcd9561de1753, type: 2}
+  MoveCategory: 1
+  BasePowerPoints: 15
+  MaxPowerPoints: 24
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 0
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 1
+  SoundBased: 0
+  InfiniteAccuracy: 0
+  BaseAccuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: 8d0eb4a41f4d9664fbaef8afa3040b7a, type: 2}
+  CanBeUsedOutsideBattle: 0
+  Power: 95
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  ChangeStats: 1
+  StatChangesAffectSelf: 0
+  StatChanges:
+    SerializedList:
+    - Key: 0.3
+      Value:
+        SerializedList:
+        - Key: 3
+          Value: -1
+  ChangeBattleStats: 0
+  BattleStatChanges:
+    SerializedList: []
+  ChangeCritical: 0
+  CriticalChange: 0
+  CriticalChance: 0

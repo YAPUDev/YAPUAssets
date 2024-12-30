@@ -1,0 +1,2056 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27396d7d2c834324a39461e096b23b41, type: 3}
+  m_Name: MonsterCreationHelperConfig
+  m_EditorClassIdentifier: 
+  FrontMaterialsPath: Assets/YAPUAssets/Materials/Pokemon/Front
+  BackMaterialsPath: Assets/YAPUAssets/Materials/Pokemon/Back
+  FrontShinyMaterialsPath: Assets/YAPUAssets/Materials/Pokemon/FrontShiny
+  BackShinyMaterialsPath: Assets/YAPUAssets/Materials/Pokemon/BackShiny
+  FrontTexturesPath: Assets/YAPUAssets/Textures/Pokemon/Front
+  BackTexturesPath: Assets/YAPUAssets/Textures/Pokemon/Back
+  FrontShinyTexturesPath: Assets/YAPUAssets/Textures/Pokemon/FrontShiny
+  BackShinyTexturesPath: Assets/YAPUAssets/Textures/Pokemon/BackShiny
+  IconsPath: Assets/YAPUAssets/Textures/Pokemon/Icons
+  MaleIconsPath: Assets/YAPUAssets/Textures/Pokemon/Icons
+  ShinyIconsPath: Assets/YAPUAssets/Textures/Pokemon/IconsShiny
+  ShinyMaleIconsPath: Assets/YAPUAssets/Textures/Pokemon/IconsShiny
+  WorldPath: Assets/YAPUAssets/Textures/Pokemon/Followers
+  MaleWorldPath: Assets/YAPUAssets/Textures/Pokemon/Followers
+  ShinyWorldPath: Assets/YAPUAssets/Textures/Pokemon/FollowersShiny
+  ShinyMaleWorldPath: Assets/YAPUAssets/Textures/Pokemon/FollowersShiny
+  MaterialShader: {fileID: 4800000, guid: cd728531bb1fce840a446330fec53933, type: 3}
+  MonsterTexturePreset: {fileID: 2655988077585873504, guid: 29478e2119d59294ea036facd2e6d716, type: 2}
+  MonsterIconPreset: {fileID: 2655988077585873504, guid: b90a2f33d75359f4dbc5778f9dc68bcc, type: 2}
+  ShinyMonsterIconPreset: {fileID: 2655988077585873504, guid: c1105f41d1d3b674a83b7bfdea8f8159, type: 2}
+  MonsterWorldSpritesPreset: {fileID: 2655988077585873504, guid: 1b3b6a14cb53eab4882eb158d2bb6304, type: 2}
+  DefaultEggMaterial: {fileID: 2100000, guid: 3555f2d1d1af4d1419ae446ad6e018ed, type: 2}
+  DefaultEggIcon: {fileID: 1737343262, guid: a59a8f7b000340443a674b4377f079e6, type: 3}
+  FormSuffixes:
+    SerializedList:
+    - Key: {fileID: 11400000, guid: 0620979564f410844b9b3677a3c50444, type: 2}
+      Value: c
+    - Key: {fileID: 11400000, guid: d94eeeed7c5f5d34a8fd3feded83d5d2, type: 2}
+      Value: alolacap
+    - Key: {fileID: 11400000, guid: 9b48444d7598fb74392e5d394fde43dc, type: 2}
+      Value: belle
+    - Key: {fileID: 11400000, guid: 71c6761a70e2dd1498b28dfb4b9ab78e, type: 2}
+      Value: cosplay
+    - Key: {fileID: 11400000, guid: eeb2393004d9cda4da543164ef1934cd, type: 2}
+      Value: hoenncap
+    - Key: {fileID: 11400000, guid: 02887f2c0acb19d40b8c963f054f0fd8, type: 2}
+      Value: kaloscap
+    - Key: {fileID: 11400000, guid: d9bf43dacf672224b9f9232ca2d13186, type: 2}
+      Value: libre
+    - Key: {fileID: 11400000, guid: 1fe156de22bcfac46ae86bd86f132b3d, type: 2}
+      Value: originalcap
+    - Key: {fileID: 11400000, guid: 5da77316a0d3bd04ab8d7a22047b0fa0, type: 2}
+      Value: p
+    - Key: {fileID: 11400000, guid: 86c942274422f6b4192a3b4feca47426, type: 2}
+      Value: partnercap
+    - Key: {fileID: 11400000, guid: becd741f65d81294fbafac08687910de, type: 2}
+      Value: phd
+    - Key: {fileID: 11400000, guid: 3594a621269a9d345bd07e79a5f0c2ce, type: 2}
+      Value: popstar
+    - Key: {fileID: 11400000, guid: 8c316aa92da154a40abe35f288ec3081, type: 2}
+      Value: rockstar
+    - Key: {fileID: 11400000, guid: f1a8754c66b339e49a0ada9835f43bfc, type: 2}
+      Value: sinnohcap
+    - Key: {fileID: 11400000, guid: d759fcdd93f781142b6a0c586ecba08a, type: 2}
+      Value: unovacap
+    - Key: {fileID: 11400000, guid: 70048576d236122469d4163c9bd37d18, type: 2}
+      Value: worldcap
+    - Key: {fileID: 11400000, guid: 8d3612bc59553f14ca8afc64b7ec10eb, type: 2}
+      Value: pointyears
+    - Key: {fileID: 11400000, guid: c5cea95c9cb62ae4faa6073cabd32555, type: 2}
+      Value: a
+    - Key: {fileID: 11400000, guid: ea7f03f1f05b5fd4689351150e20232d, type: 2}
+      Value: m
+    - Key: {fileID: 11400000, guid: 4701c0312f1ab9743ac0dcfaab262323, type: 2}
+      Value: mx
+    - Key: {fileID: 11400000, guid: d5ae52fc5e73f8143aa02b55601440bf, type: 2}
+      Value: my
+    - Key: {fileID: 11400000, guid: 6dc6b91c0521dca41b3fc884c5a6fa9f, type: 2}
+      Value: 
+    - Key: {fileID: 11400000, guid: 86156081aebb737498e5b1bbfd88d78f, type: 2}
+      Value: g
+    - Key: {fileID: 11400000, guid: cfeec78da556b064997e1b4ad6719c26, type: 2}
+      Value: h
+    - Key: {fileID: 11400000, guid: 5c498eb577f4f194b925227722e2e84f, type: 2}
+      Value: aquabreed
+    - Key: {fileID: 11400000, guid: 1c3b7043b5522654cb410a908d86fc9c, type: 2}
+      Value: blazebreed
+    - Key: {fileID: 11400000, guid: 6428202e48882db4481eccd5ac6a167e, type: 2}
+      Value: combatbreed
+    - Key: {fileID: 11400000, guid: 3479278f73e6bdd4bb24301eb960820f, type: 2}
+      Value: p
+    - Key: {fileID: 11400000, guid: 3ceea78b481b06548aca0df5a8a12140, type: 2}
+      Value: a
+    - Key: {fileID: 11400000, guid: 226cc529a0bebe04c82ce4ad31648516, type: 2}
+      Value: b
+    - Key: {fileID: 11400000, guid: 1880eb6a8972c984e8904ccba29c57d4, type: 2}
+      Value: c
+    - Key: {fileID: 11400000, guid: 28b4039c6b4a27d46940ee021788bbc0, type: 2}
+      Value: d
+    - Key: {fileID: 11400000, guid: 45f3b50b19acf32469e2cd699d072e38, type: 2}
+      Value: e
+    - Key: {fileID: 11400000, guid: 300cba5baa795d349abe2240b4247347, type: 2}
+      Value: exclamation
+    - Key: {fileID: 11400000, guid: 0c12841d1c39bdd489b970c8c7e6b0d0, type: 2}
+      Value: f
+    - Key: {fileID: 11400000, guid: 11fc2b805e33ce547bc7212be435be55, type: 2}
+      Value: g
+    - Key: {fileID: 11400000, guid: c198f161f42010241ae4b8b1af2611de, type: 2}
+      Value: h
+    - Key: {fileID: 11400000, guid: 5a1b01b412e40dc448e521cb6f5c4e02, type: 2}
+      Value: i
+    - Key: {fileID: 11400000, guid: c85c1a5b9f0d7a14bac52a4e8f611710, type: 2}
+      Value: interrogation
+    - Key: {fileID: 11400000, guid: 27e27684764bc8c49bd506cb04761865, type: 2}
+      Value: j
+    - Key: {fileID: 11400000, guid: f351a419a520eff4ba1541886c874bb2, type: 2}
+      Value: k
+    - Key: {fileID: 11400000, guid: 8c8cb9c7538d1f9458b4fbb21eba6726, type: 2}
+      Value: l
+    - Key: {fileID: 11400000, guid: 9113780ee0bcb0f408b6a603de46a01f, type: 2}
+      Value: m
+    - Key: {fileID: 11400000, guid: 93ea8492d31722f41bb52d5fd01312c5, type: 2}
+      Value: n
+    - Key: {fileID: 11400000, guid: 1e9bc27b6fad4b846b2f184981883eea, type: 2}
+      Value: o
+    - Key: {fileID: 11400000, guid: 2dcf3bd7234f3d644be46f805c824aed, type: 2}
+      Value: p
+    - Key: {fileID: 11400000, guid: 59412a2c0684e1b458e90f65a7605ce4, type: 2}
+      Value: q
+    - Key: {fileID: 11400000, guid: 2c6d524036c006b4d9d0ba7426b05e17, type: 2}
+      Value: r
+    - Key: {fileID: 11400000, guid: 8cfa23cd0d8c21242bf1a366f1da3b04, type: 2}
+      Value: s
+    - Key: {fileID: 11400000, guid: 7cf2b1ae6b82a5a43a9dc75b1030d89d, type: 2}
+      Value: t
+    - Key: {fileID: 11400000, guid: db7bc3b1d49eeff4a80f370813619a7c, type: 2}
+      Value: u
+    - Key: {fileID: 11400000, guid: 42fe4d777576dc047806dad167bc5ba6, type: 2}
+      Value: v
+    - Key: {fileID: 11400000, guid: 65bc90c62410ced4aa684622a11435d4, type: 2}
+      Value: w
+    - Key: {fileID: 11400000, guid: fe48f48585c60e74298a0222d3c52a1e, type: 2}
+      Value: x
+    - Key: {fileID: 11400000, guid: 7acb10c6b5694af428c03355af57bf8d, type: 2}
+      Value: y
+    - Key: {fileID: 11400000, guid: 0740c92955383e04d89aac463b39e6b0, type: 2}
+      Value: z
+    - Key: {fileID: 11400000, guid: 846eaa31ed732ce40af88d9dedcc6055, type: 2}
+      Value: threes
+    - Key: {fileID: 11400000, guid: 75e8f249e94f5334bb9a013c2697b74e, type: 2}
+      Value: twos
+    - Key: {fileID: 11400000, guid: adca1fc2597a46e4b954d8f06f757b21, type: 2}
+      Value: b
+    - Key: {fileID: 11400000, guid: 7a3afcd3c11760e4a81b6b82c7bfa382, type: 2}
+      Value: rainy
+    - Key: {fileID: 11400000, guid: 4aaa1c6ea546b364883e5197bece63cd, type: 2}
+      Value: snowy
+    - Key: {fileID: 11400000, guid: 93c8d76aa39aa1e4c845e905c43fca0e, type: 2}
+      Value: sunny
+    - Key: {fileID: 11400000, guid: 5f9285ad73e2c524a9624f859a4aca0a, type: 2}
+      Value: primal
+    - Key: {fileID: 11400000, guid: 49d650d4f9a0d184dab0d23c5be9fc46, type: 2}
+      Value: attackforme
+    - Key: {fileID: 11400000, guid: 0e67802d9f8d5d14f99d87b8576b40f6, type: 2}
+      Value: defenseforme
+    - Key: {fileID: 11400000, guid: cfae7cb5a8bb23e4f8fdca83f83a5a07, type: 2}
+      Value: speedforme
+  TypeSuffixes:
+    SerializedList:
+    - Key: 0
+      Value: 
+    - Key: 1
+      Value: s
+    - Key: 2
+      Value: -male
+    - Key: 3
+      Value: s-male
+    - Key: 4
+      Value: b
+    - Key: 5
+      Value: bs
+    - Key: 6
+      Value: b-male
+    - Key: 7
+      Value: bs-male
+  IconSuffixes:
+    SerializedList:
+    - Key: 0
+      Value: 
+    - Key: 1
+      Value: -male
+    - Key: 2
+      Value: s
+    - Key: 3
+      Value: s-male
+  PokeAPILanguageToYAPULanguage:
+    SerializedList:
+    - Key: es-es
+      Value: Castillian
+    - Key: en-us
+      Value: English
+  PokeAPIGenusToYAPUSpeciesEquivalences:
+    SerializedList:
+    - Key: "Leaf Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 7b4e9ca2993532f40b9e917de522ae19, type: 2}
+    - Key: "Herb Pok\xE9mon"
+      Value: {fileID: 11400000, guid: e0acc671f9b5dd5439df10e7b16b6f5d, type: 2}
+    - Key: "Fire Mouse Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 9778c559e60c737488f71eb6c3c9d218, type: 2}
+    - Key: "Volcano Pok\xE9mon"
+      Value: {fileID: 11400000, guid: e171ce1d10bf6024d92802899fc05858, type: 2}
+    - Key: "Big Jaw Pok\xE9mon"
+      Value: {fileID: 11400000, guid: b6ff5b46439318545867752ac62a303d, type: 2}
+    - Key: "Scout Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 59ab91fa20594414590556bd492dedfa, type: 2}
+    - Key: "Long Body Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 4ca5fbe2abcd92d4083fe3992d3e40d1, type: 2}
+    - Key: "Owl Pok\xE9mon"
+      Value: {fileID: 11400000, guid: bcd4c1e83ae1b1b49857798fc3006714, type: 2}
+    - Key: "Five Star Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 80d3ed8c4e1d199409be5f835f5baa3c, type: 2}
+    - Key: "String Spit Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 64bd44209bee1574a9eaeda76e46f153, type: 2}
+    - Key: "Long Leg Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 4058f8d01a54de64fad5faa2442ce10a, type: 2}
+    - Key: "Angler Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 8f31a813f3250e7438c49eff4cb3d237, type: 2}
+    - Key: "Light Pok\xE9mon"
+      Value: {fileID: 11400000, guid: abc52844f932cf44b86ffaf87e9c0bdc, type: 2}
+    - Key: "Spike Ball Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 04b6332105de968499f5a1e468ce4210, type: 2}
+    - Key: "Happiness Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 9e9b8b913a4859947b550a3e05582b01, type: 2}
+    - Key: "Jubilee Pok\xE9mon"
+      Value: {fileID: 11400000, guid: f76cc42b03ae19f4abaccafa167f7937, type: 2}
+    - Key: "Tiny Bird Pok\xE9mon"
+      Value: {fileID: 11400000, guid: dc6f5b265305d8449a52b895a616979a, type: 2}
+    - Key: "Mystic Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 68b350942ae0e9c4c84b90df4f60eb80, type: 2}
+    - Key: "Wool Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 6e6fed73b7f786e4a9ef41a7038bb6fa, type: 2}
+    - Key: "Polka Dot Pok\xE9mon"
+      Value: {fileID: 11400000, guid: f12b643bc3feddd4eafd0d6f13fc2f34, type: 2}
+    - Key: "Aqua Mouse Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 6bb0ae44032b88a44a06feb05684b604, type: 2}
+    - Key: "Aqua Rabbit Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 44ebf771a841f1549bb981a9a41a43fb, type: 2}
+    - Key: "Bonsai Pok\xE9mon"
+      Value: {fileID: 11400000, guid: cb7b824d516ecd74aa5ebb7d89ccd564, type: 2}
+    - Key: "Imitation Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 685ef13690011b743bb5fe891bc1be3c, type: 2}
+    - Key: "Cottonweed Pok\xE9mon"
+      Value: {fileID: 11400000, guid: fc25a3a8bc5c5794c8908a6c6703bf77, type: 2}
+    - Key: "Long Tail Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 86858ed4d93b7d8438c7d872b014c9c3, type: 2}
+    - Key: "Seed Pok\xE9mon"
+      Value: {fileID: 11400000, guid: ee4aaa3be45276343a62ceb5d981088a, type: 2}
+    - Key: "Sun Pok\xE9mon"
+      Value: {fileID: 11400000, guid: c54a2cf2849d6c24d81b6421380a1e2d, type: 2}
+    - Key: "Clear Wing Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 06d7087d094bf6a4a9ab322630091e55, type: 2}
+    - Key: "Ogre Darner Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 482eb7d72b2b39040adeabadd1d07be8, type: 2}
+    - Key: "Water Fish Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 6058411313707864b89fcdfd124ee412, type: 2}
+    - Key: "Spiny Fish Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 833feec72f7e06640845a3fb71a49a38, type: 2}
+    - Key: "Darkness Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 6c01fc815640176429f6da735f25efc6, type: 2}
+    - Key: "Big Boss Pok\xE9mon"
+      Value: {fileID: 11400000, guid: e0cac7c74ce930f439e5b28e6c8bd3ce, type: 2}
+    - Key: "Screech Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 3ce25c8e6545d414e8c09cb89c69ae5b, type: 2}
+    - Key: "Magical Pok\xE9mon"
+      Value: {fileID: 11400000, guid: a5e5a611a281ab84ea51f564c7327fd5, type: 2}
+    - Key: "Symbol Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 76d7079a86acc964b9aa1b1392a52e5d, type: 2}
+    - Key: "Bright Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 12bf725b926e9c248bd4d16c9fa1ff3f, type: 2}
+    - Key: "Patient Pok\xE9mon"
+      Value: {fileID: 11400000, guid: d84d799dacaf8a543ad10bb8bb8fa428, type: 2}
+    - Key: "Long Neck Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 7aeb72804b3157e4a9da6ac717b2844e, type: 2}
+    - Key: "Bagworm Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 31e0dc628b1f20b439025cb5b3329494, type: 2}
+    - Key: "Land Snake Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 3c8ec18b2315d5a4a987343575a19c3f, type: 2}
+    - Key: "Fly Scorpion Pok\xE9mon"
+      Value: {fileID: 11400000, guid: b5d112c316fb6d747b417921e9597f1a, type: 2}
+    - Key: "Fang Scorpion Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 442f477f8474ef34abf85629db91417b, type: 2}
+    - Key: "Fairy Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 01946aeaa4adba84798e1524905f3746, type: 2}
+    - Key: "Balloon Pok\xE9mon"
+      Value: {fileID: 11400000, guid: afd76436d6bf6ac4c9f4b40c188ab437, type: 2}
+    - Key: "Pin Cluster Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 0f5c7f02f0e589a489c00b91fecb3335, type: 2}
+    - Key: "Mold Pok\xE9mon"
+      Value: {fileID: 11400000, guid: dca89d8260d1be448b2c4377ecdef348, type: 2}
+    - Key: "Single Horn Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 6218a1d58fd56c94bb9474953c496737, type: 2}
+    - Key: "Sharp Claw Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 50d7b72934ccaae40844272c3b2a0958, type: 2}
+    - Key: "Free Climb Pok\xE9mon"
+      Value: {fileID: 11400000, guid: ff57f2929c17d9f45a6f017fd435c1c1, type: 2}
+    - Key: "Little Bear Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 009153510e7e6be419083564b7138c31, type: 2}
+    - Key: "Hibernator Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 0bc9cad0d1e7330449b2981225250c36, type: 2}
+    - Key: "Peat Pok\xE9mon"
+      Value: {fileID: 11400000, guid: ab4a670dcaaabd346a60e0475f2f53af, type: 2}
+    - Key: "Lava Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 096f2861236a33945b470572dbbff9e7, type: 2}
+    - Key: "Pig Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 18373c172b89ba643ad083a79bde61bf, type: 2}
+    - Key: "Swine Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 7419c6e3afaa9264ba605063fb732a26, type: 2}
+    - Key: "Twin Tusk Pok\xE9mon"
+      Value: {fileID: 11400000, guid: c16aed9dd29a32749a5047d9d66dcb1d, type: 2}
+    - Key: "Delivery Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 6e266303a9f6cab42bdb8948cbd38d64, type: 2}
+    - Key: "Coral Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 538288dd16079d44cb7478e660c7022d, type: 2}
+    - Key: "Jet Pok\xE9mon"
+      Value: {fileID: 11400000, guid: b320ad4987ab39c45ab1e2ae878cbc16, type: 2}
+    - Key: "Armor Bird Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 47ef87cc554b6434aa3576409f447ebe, type: 2}
+    - Key: "Kite Pok\xE9mon"
+      Value: {fileID: 11400000, guid: c86541c22bdbd144b898f2555a342fa1, type: 2}
+    - Key: "Dark Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 71f39569f5f1344429d2f280ecaad5ba, type: 2}
+    - Key: "Long Nose Pok\xE9mon"
+      Value: {fileID: 11400000, guid: c004f9f3460ddcc4ea0e9605661ba6ec, type: 2}
+    - Key: "Armor Pok\xE9mon"
+      Value: {fileID: 11400000, guid: b402ed11645fc7b4b86d795efbb5b4ec, type: 2}
+    - Key: "Big Horn Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 403a68b08d0373148a01899f39288299, type: 2}
+    - Key: "Painter Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 9d50b46853bb6c5428189c66f06e6f6e, type: 2}
+    - Key: "Milk Cow Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 559cdec559b954941adac794219c5d8a, type: 2}
+    - Key: "Thunder Pok\xE9mon"
+      Value: {fileID: 11400000, guid: bef19f61c199c40448e270c1fa1da82e, type: 2}
+    - Key: "Aurora Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 0cf5e209839a0f64790e3bdfbee3c152, type: 2}
+    - Key: "Rock Skin Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 11d01929871fc164baa15813704d76af, type: 2}
+    - Key: "Hard Shell Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 76596adc120b07a44905d7e990c34b9e, type: 2}
+    - Key: "Diving Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 56f4a9f55dff8e746ac4d537a8f37653, type: 2}
+    - Key: "Rainbow Pok\xE9mon"
+      Value: {fileID: 11400000, guid: cc33f7242aa64e44e975ec80499737a9, type: 2}
+    - Key: "Time Travel Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 2a2b3e46f2ad07e4e9c022dd8695f248, type: 2}
+    - Key: "Wood Gecko Pok\xE9mon"
+      Value: {fileID: 11400000, guid: c9bcbc63fbc50c74aac78fdb82213b61, type: 2}
+    - Key: "Forest Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 8cd4fa030efa8234d9d25a37605ecf1e, type: 2}
+    - Key: "Chick Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 1c0206783e24e1e4cb4833806b6de5db, type: 2}
+    - Key: "Young Fowl Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 8e2df1b1739b6f149890599a323e7259, type: 2}
+    - Key: "Blaze Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 486496ff313e89c40a46842de6dcdb82, type: 2}
+    - Key: "Mud Fish Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 0b4cfcc412347ed41a6f585c06368d1a, type: 2}
+    - Key: "Bite Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 7a84b9e44ff13df4f82a55a143dadbaf, type: 2}
+    - Key: "Tiny Raccoon Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 66960491795819b41976f94609ac7d95, type: 2}
+    - Key: "Rushing Pok\xE9mon"
+      Value: {fileID: 11400000, guid: ef4a7b35ad5650345b0b6d21e23740e4, type: 2}
+    - Key: "Blocking Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 48cec30425e83c3469d7f246c4b979d2, type: 2}
+    - Key: "Worm Pok\xE9mon"
+      Value: {fileID: 11400000, guid: cb3e981e3d827584f9195eae2d4a8cdd, type: 2}
+    - Key: "Cocoon Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 26ae1d45148e3a34882fcdacc0e671c0, type: 2}
+    - Key: "Butterfly Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 6fa18f060aba7bb4f9d7dce9708a64f2, type: 2}
+    - Key: "Poison Moth Pok\xE9mon"
+      Value: {fileID: 11400000, guid: e9378754dd22880449270ead459fca1d, type: 2}
+    - Key: "Water Weed Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 10597e1803ba05f45bc98d92d52c5226, type: 2}
+    - Key: "Jolly Pok\xE9mon"
+      Value: {fileID: 11400000, guid: ae0e5f17b4ab7c944a20b96dfe9cc602, type: 2}
+    - Key: "Carefree Pok\xE9mon"
+      Value: {fileID: 11400000, guid: b3e80ccb87ba0c14e90556af88f942c3, type: 2}
+    - Key: "Acorn Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 7ec94abf8dd2c794ca363ab856bba4fa, type: 2}
+    - Key: "Wily Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 9817db5f9d20ddd44a50bacaa2c8bd73, type: 2}
+    - Key: "Wicked Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 04046dd759c227d438006edd280424b6, type: 2}
+    - Key: "Tiny Swallow Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 1d8f7e458d0fe004cb105ef81860eafd, type: 2}
+    - Key: "Swallow Pok\xE9mon"
+      Value: {fileID: 11400000, guid: cd359d309ac28174681c171e7ed29779, type: 2}
+    - Key: "Seagull Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 152692805d5d29d44aa57f5ef43f7167, type: 2}
+    - Key: "Water Bird Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 0434d446b1c8d5640878325a811f4180, type: 2}
+    - Key: "Feeling Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 94c2189657a13ed4196e18862ef9f12b, type: 2}
+    - Key: "Emotion Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 39935aa707652ba479ef08a982374c32, type: 2}
+    - Key: "Embrace Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 8210d666099b3764ca9d2cdfbbfedffc, type: 2}
+    - Key: "Blade Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 7455ce269e93fca4989e4dfd49541cf0, type: 2}
+    - Key: "Pond Skater Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 276c62bb23ed76b4c80d41b8507f2791, type: 2}
+    - Key: "Eyeball Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 06c5200b9fedb6945a1ad56409455740, type: 2}
+    - Key: "Mushroom Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 331150ac73938fd478290ebeaf7e309d, type: 2}
+    - Key: "Slacker Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 1fb7036aaf8bf4e41846acc56d538d5c, type: 2}
+    - Key: "Wild Monkey Pok\xE9mon"
+      Value: {fileID: 11400000, guid: d52f279f2c02db8439f3cbbac0586349, type: 2}
+    - Key: "Lazy Pok\xE9mon"
+      Value: {fileID: 11400000, guid: f76f7e8e1fddac64899d7f52489946d0, type: 2}
+    - Key: "Trainee Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 5684af837c0f87c41be1e43117cd6849, type: 2}
+    - Key: "Ninja Pok\xE9mon"
+      Value: {fileID: 11400000, guid: b30fa13eb48186847a0ca62eb591f94a, type: 2}
+    - Key: "Shed Pok\xE9mon"
+      Value: {fileID: 11400000, guid: b6aa05a9003694943ae9c952fd08649f, type: 2}
+    - Key: "Whisper Pok\xE9mon"
+      Value: {fileID: 11400000, guid: e84593f1d0b609c409ce28bb0a529521, type: 2}
+    - Key: "Big Voice Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 7442b9f563f440c47ab8349130819379, type: 2}
+    - Key: "Loud Noise Pok\xE9mon"
+      Value: {fileID: 11400000, guid: f747bc7c557e1614881f56284f781cdf, type: 2}
+    - Key: "Guts Pok\xE9mon"
+      Value: {fileID: 11400000, guid: ef4057bcefe98734ca713b4c75f8534a, type: 2}
+    - Key: "Arm Thrust Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 5ce4b957d60279047bd291a9c8ab6e2c, type: 2}
+    - Key: "Compass Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 3b78d62b9f382374085c4ed7ad3d1f3a, type: 2}
+    - Key: "Kitten Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 697917d36bf941740bd535a2776c8a9a, type: 2}
+    - Key: "Prim Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 44dd006624ed6a84899bb137b120bbd5, type: 2}
+    - Key: "Iron Armor Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 0ae3d27c70889df428a5db630fece94c, type: 2}
+    - Key: "Meditate Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 9060dff561b8400498bab36eec7bbd40, type: 2}
+    - Key: "Lightning Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 3e5184fda4d380e4cafe870d605062f8, type: 2}
+    - Key: "Discharge Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 9314b08711eb38f4fad08ce3146b6028, type: 2}
+    - Key: "Cheering Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 26e00e8921fcc8441a46d4e218c0093f, type: 2}
+    - Key: "Firefly Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 2acb8e004751197408f6c1f8053df082, type: 2}
+    - Key: "Bud Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 97946ede9149b3b45a9508924da5aae0, type: 2}
+    - Key: "Thorn Pok\xE9mon"
+      Value: {fileID: 11400000, guid: c779ee342a6f2cc4f9f422873ca1949a, type: 2}
+    - Key: "Bouquet Pok\xE9mon"
+      Value: {fileID: 11400000, guid: cee07411eee6b544e98808d4056a7daf, type: 2}
+    - Key: "Stomach Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 4d960300a80816c47b46a26b70a1212a, type: 2}
+    - Key: "Poison Bag Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 13dee8c842feb5947ae718ca2dc4f64e, type: 2}
+    - Key: "Savage Pok\xE9mon"
+      Value: {fileID: 11400000, guid: f4b53a1637cf6d249b6edb71bd45c4d7, type: 2}
+    - Key: "Brutal Pok\xE9mon"
+      Value: {fileID: 11400000, guid: d9a3e8109a3ec984a911660485233045, type: 2}
+    - Key: "Ball Whale Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 976990d2ed9f7f44d8df98b45fe2529c, type: 2}
+    - Key: "Float Whale Pok\xE9mon"
+      Value: {fileID: 11400000, guid: c60ad07f129370f46afafe0cc65ac2df, type: 2}
+    - Key: "Numb Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 8ce1d0190ba73f54d8264e772c10c70b, type: 2}
+    - Key: "Eruption Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 0ce7c63bfbfff4e4d84169a7e1a918e6, type: 2}
+    - Key: "Coal Pok\xE9mon"
+      Value: {fileID: 11400000, guid: ed75fa764e3b9184eb505b33c6a9800a, type: 2}
+    - Key: "Bounce Pok\xE9mon"
+      Value: {fileID: 11400000, guid: ca329fd5021c2ce45b546b4b45d9b76d, type: 2}
+    - Key: "Manipulate Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 8525d1ece5e5dd142945140cce6e6d67, type: 2}
+    - Key: "Spot Panda Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 5b98504032b98c34b8e6ff12508f3582, type: 2}
+    - Key: "Ant Pit Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 3e7e5b74ba8ebb441b91f76b2a1e112f, type: 2}
+    - Key: "Vibration Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 7ba775f85b6ad554ebef560474f8ca07, type: 2}
+    - Key: "Cactus Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 427ff181d2523ff46b61d569674c00ec, type: 2}
+    - Key: "Scarecrow Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 8ec08a3c7a56a2c4ab1329187fb63cc9, type: 2}
+    - Key: "Cotton Bird Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 26b5944755b8bb741b0fd7f2b352170f, type: 2}
+    - Key: "Humming Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 3324fd117adbaff40a87db12ea888fe9, type: 2}
+    - Key: "Cat Ferret Pok\xE9mon"
+      Value: {fileID: 11400000, guid: fc742aab134c3384fa1ec144024600df, type: 2}
+    - Key: "Fang Snake Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 4605c9bd9edb307409f9b4cb658f5171, type: 2}
+    - Key: "Meteorite Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 2f024e39e096d594ba1ab7cdd7c7b21e, type: 2}
+    - Key: "Whiskers Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 0017c80c3358a83469eb5d4a34195432, type: 2}
+    - Key: "Ruffian Pok\xE9mon"
+      Value: {fileID: 11400000, guid: dc278acea8f42c049844106486a4c67d, type: 2}
+    - Key: "Rogue Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 968043a2450b2bc4bbc5c83abc329810, type: 2}
+    - Key: "Clay Doll Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 27015e9b179d7294cb7ea447b53c76cc, type: 2}
+    - Key: "Sea Lily Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 6588ce5a458aaaa41a2f463276194cc1, type: 2}
+    - Key: "Barnacle Pok\xE9mon"
+      Value: {fileID: 11400000, guid: cf631dd64ee4d2f41b65e9c18d67d06e, type: 2}
+    - Key: "Old Shrimp Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 69c383851c6b2fa48ab1b3f2ab38e9c4, type: 2}
+    - Key: "Plate Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 6b28e3a92debab44baf5b80ecfeef540, type: 2}
+    - Key: "Fish Pok\xE9mon"
+      Value: {fileID: 11400000, guid: a4526b2cd04c0e34a88c287ab1a5d78c, type: 2}
+    - Key: "Tender Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 03b9a323fc3ebcc409c3cc348d2c33d8, type: 2}
+    - Key: "Puppet Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 7c6fd3b2ac6dfdc48b70a52e256b2013, type: 2}
+    - Key: "Marionette Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 87a72d5cd95b12f46b1de73e50b96ec5, type: 2}
+    - Key: "Weather Pok\xE9mon"
+      Value: {fileID: 11400000, guid: edd1face50655d64ca42b66585a23028, type: 2}
+    - Key: "Color Swap Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 0289bd962e538a540be3604624b36d4d, type: 2}
+    - Key: "Requiem Pok\xE9mon"
+      Value: {fileID: 11400000, guid: a1b7eb17b58fc3c4faf639a839c8e7d2, type: 2}
+    - Key: "Beckon Pok\xE9mon"
+      Value: {fileID: 11400000, guid: a9ca6d5dd01de034996a8e7d1603640b, type: 2}
+    - Key: "Gripper Pok\xE9mon"
+      Value: {fileID: 11400000, guid: d5f97cd95875ec645b2e5ac41e7517b6, type: 2}
+    - Key: "Fruit Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 21fccc368785d9444b541fd50456a9b7, type: 2}
+    - Key: "Bell Pok\xE9mon"
+      Value: {fileID: 11400000, guid: c6c99f39a01226f46bd8e8dbf02351f3, type: 2}
+    - Key: "Wind Chime Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 9fc86ed2169ed354487903062dd63adb, type: 2}
+    - Key: "Disaster Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 46cebdc21e4aba946a3b4b54a8f3f27c, type: 2}
+    - Key: "Snow Hat Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 5a24740cc258b5f4da6f9ce339f1293b, type: 2}
+    - Key: "Face Pok\xE9mon"
+      Value: {fileID: 11400000, guid: fbef6aacce4c79f49a509a84bb976cb8, type: 2}
+    - Key: "Snow Land Pok\xE9mon"
+      Value: {fileID: 11400000, guid: e001d4e6d67f1504c9f3e41ad5917496, type: 2}
+    - Key: "Clap Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 086898e9bcc4ecd42b54f7717a82518f, type: 2}
+    - Key: "Ball Roll Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 49ad2a1b0c455ca4f829917974ea647e, type: 2}
+    - Key: "Ice Break Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 5566ad19768421643be72d4290c86785, type: 2}
+    - Key: "Bivalve Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 81f30bc8ba484e94ba19838d6bcc9641, type: 2}
+    - Key: "Deep Sea Pok\xE9mon"
+      Value: {fileID: 11400000, guid: a4d3018bd9cf08a48a958fc2f173aa4b, type: 2}
+    - Key: "South Sea Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 712622247cb58b44e890a9989cc73d29, type: 2}
+    - Key: "Longevity Pok\xE9mon"
+      Value: {fileID: 11400000, guid: fbd45abb213d57c4eaf17d22311ea9af, type: 2}
+    - Key: "Rendezvous Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 3894fd6dee1510744847ab6657a90ee5, type: 2}
+    - Key: "Rock Head Pok\xE9mon"
+      Value: {fileID: 11400000, guid: f7eebd7271d69ac4b95bb8a9e17f5793, type: 2}
+    - Key: "Endurance Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 6bfefa39e4f825343be41bdfda769f34, type: 2}
+    - Key: "Dragon Pok\xE9mon"
+      Value: {fileID: 11400000, guid: c2ec074f14d91b04d92f5bfa15b6174c, type: 2}
+    - Key: "Iron Ball Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 271e3514a602dd348a62bf7305cdf0f3, type: 2}
+    - Key: "Iron Claw Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 29fcdbb543434914ab624ed834f75ed8, type: 2}
+    - Key: "Iron Leg Pok\xE9mon"
+      Value: {fileID: 11400000, guid: bcd3519f2af201443aeeee92880e190e, type: 2}
+    - Key: "Rock Peak Pok\xE9mon"
+      Value: {fileID: 11400000, guid: a8663525300fe2346b2f2104e591b864, type: 2}
+    - Key: "Iceberg Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 78ff8ac349e1f9b4394a35a973bfc0e4, type: 2}
+    - Key: "Iron Pok\xE9mon"
+      Value: {fileID: 11400000, guid: aaadeca7f17ae954c83c4afde6159f72, type: 2}
+    - Key: "Eon Pok\xE9mon"
+      Value: {fileID: 11400000, guid: b4b571fd9ce2e5940a5d9a26be53a8de, type: 2}
+    - Key: "Sea Basin Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 28032113d22baa74d991cbfe8aedaf22, type: 2}
+    - Key: "Continent Pok\xE9mon"
+      Value: {fileID: 11400000, guid: eefef8df970e94e4085a54e9bdc69aab, type: 2}
+    - Key: "Sky High Pok\xE9mon"
+      Value: {fileID: 11400000, guid: b9a81e8032f5c244fbb214496c6ac77c, type: 2}
+    - Key: "Wish Pok\xE9mon"
+      Value: {fileID: 11400000, guid: 1fe4bbeb08223fe488df0816155899a3, type: 2}
+    - Key: "DNA Pok\xE9mon"
+      Value: {fileID: 11400000, guid: edfe1b135a9ffa94e8e81edeed527a13, type: 2}
+  PokeAPINameToTypeEquivalences:
+    SerializedList:
+    - Key: grass
+      Value: {fileID: 11400000, guid: 964c796fc7fc9fa4e8ebe2468b9fea61, type: 2}
+    - Key: fire
+      Value: {fileID: 11400000, guid: 9006ef89f44a7724783c6f688db63b59, type: 2}
+    - Key: ghost
+      Value: {fileID: 11400000, guid: 573fce0976964da45b3feb13462250b2, type: 2}
+    - Key: water
+      Value: {fileID: 11400000, guid: 96acf51bdce11384d9b1ceb0369ace1e, type: 2}
+    - Key: normal
+      Value: {fileID: 11400000, guid: db89964f043f3cb4dbf78a05c8fd5d36, type: 2}
+    - Key: flying
+      Value: {fileID: 11400000, guid: e6912e7b469ab6544a853be403fe5bc7, type: 2}
+    - Key: bug
+      Value: {fileID: 11400000, guid: 8224339d425c323429f4f784f48fce81, type: 2}
+    - Key: poison
+      Value: {fileID: 11400000, guid: 3603fd3a7d985df4b9fe806e450268cf, type: 2}
+    - Key: electric
+      Value: {fileID: 11400000, guid: 3086e053111d18e46b8f75ab45b81207, type: 2}
+    - Key: fairy
+      Value: {fileID: 11400000, guid: 848b68aec4045eb488dbcd9561de1753, type: 2}
+    - Key: psychic
+      Value: {fileID: 11400000, guid: 2d58a23f5902ddd488c3786e59fb9e95, type: 2}
+    - Key: dragon
+      Value: {fileID: 11400000, guid: a1bfd11213bfa2e4da0cdda42f233fc4, type: 2}
+    - Key: rock
+      Value: {fileID: 11400000, guid: 4676cd353780d2144a0ef2ec68ca942b, type: 2}
+    - Key: ground
+      Value: {fileID: 11400000, guid: 29fa34924aa008b4fb68ad85c7244f9a, type: 2}
+    - Key: dark
+      Value: {fileID: 11400000, guid: b7224fcdaeff9e7439e1c77405022ad2, type: 2}
+    - Key: steel
+      Value: {fileID: 11400000, guid: beeedb36d3bb9aa438171119d70ee919, type: 2}
+    - Key: fighting
+      Value: {fileID: 11400000, guid: 47b4a39bedccc694899987d674f5cd05, type: 2}
+    - Key: ice
+      Value: {fileID: 11400000, guid: 5564f6595e7fcfd41971380624975935, type: 2}
+  PokeAPILevelUpMoveCategories:
+  - level-up
+  PokeAPIOnEvolutionMoveCategories: []
+  PokeAPIEggMoveCategories:
+  - egg
+  PokeAPIOtherMoveCategories:
+  - machine
+  - tutor
+  PokeAPINameToMoveEquivalences:
+    SerializedList:
+    - Key: vine-whip
+      Value: {fileID: 11400000, guid: e4b5766687b9ebb4fa3eef5cd367a55e, type: 2}
+    - Key: counter
+      Value: {fileID: 11400000, guid: ebbef767d2ba77943b1c8236fee3f8c0, type: 2}
+    - Key: flail
+      Value: {fileID: 11400000, guid: 54f552f4de0388443a894416f589fb3b, type: 2}
+    - Key: ancient-power
+      Value: {fileID: 11400000, guid: 7a43f5b8b5574764c8382d8d13a7a365, type: 2}
+    - Key: ingrain
+      Value: {fileID: 11400000, guid: 0014fdf1d73ddfc4fa4075ee1be690e7, type: 2}
+    - Key: heal-pulse
+      Value: {fileID: 11400000, guid: 690de7bb64ee3d1428b97edf1c7469cb, type: 2}
+    - Key: tackle
+      Value: {fileID: 11400000, guid: e62bb486865d24c47a9963c3de1de545, type: 2}
+    - Key: body-slam
+      Value: {fileID: 11400000, guid: c77fbb4cc9502e0449e385755e969eff, type: 2}
+    - Key: growl
+      Value: {fileID: 11400000, guid: 5598048d7175300478c3f4b6415d9763, type: 2}
+    - Key: leech-seed
+      Value: {fileID: 11400000, guid: 086bbeccb13d1c34ea2e92b75b8edf87, type: 2}
+    - Key: razor-leaf
+      Value: {fileID: 11400000, guid: a002f9e6cd34579469e21f81f11a1a72, type: 2}
+    - Key: solar-beam
+      Value: {fileID: 11400000, guid: 76504abe6f25f474eaa1fedd595f187d, type: 2}
+    - Key: poison-powder
+      Value: {fileID: 11400000, guid: 74b832d1f1d2e234096c1b94db216df3, type: 2}
+    - Key: light-screen
+      Value: {fileID: 11400000, guid: af5970a6e6aecf24c8100557cf5d9031, type: 2}
+    - Key: reflect
+      Value: {fileID: 11400000, guid: fce00b94e984b1245935e13ca9a33ce4, type: 2}
+    - Key: giga-drain
+      Value: {fileID: 11400000, guid: 31ecf672cca075045ba5c6eb396effa9, type: 2}
+    - Key: safeguard
+      Value: {fileID: 11400000, guid: eabf76b45702f9b43962b0fdc4391bbf, type: 2}
+    - Key: sweet-scent
+      Value: {fileID: 11400000, guid: bf444ede6ce51224e9fd9e521d6cbd95, type: 2}
+    - Key: synthesis
+      Value: {fileID: 11400000, guid: ab352987bc3c45245b67441ee266186b, type: 2}
+    - Key: magical-leaf
+      Value: {fileID: 11400000, guid: e996f995c30465046b6276715c1b5648, type: 2}
+    - Key: swords-dance
+      Value: {fileID: 11400000, guid: bed15e84a46d92642af3fa8993fe284b, type: 2}
+    - Key: take-down
+      Value: {fileID: 11400000, guid: 3aacefa16729459479f403ae35e7e9f8, type: 2}
+    - Key: double-edge
+      Value: {fileID: 11400000, guid: 46c97998864e5474384537181da04c5c, type: 2}
+    - Key: rest
+      Value: {fileID: 11400000, guid: 8e34492824f84924d8146813ad7c717f, type: 2}
+    - Key: substitute
+      Value: {fileID: 11400000, guid: 5cc5a1ab2e04da54d844b92701eefdad, type: 2}
+    - Key: curse
+      Value: {fileID: 11400000, guid: 31c9749f2fe6178479966b6a05264b5a, type: 2}
+    - Key: protect
+      Value: {fileID: 11400000, guid: 5fc72bc5d95c59545b52ef36c9273038, type: 2}
+    - Key: mud-slap
+      Value: {fileID: 11400000, guid: 0702bb9fc5f3e6c45b07a3d661cbaa70, type: 2}
+    - Key: endure
+      Value: {fileID: 11400000, guid: 4f4722360ba6c8c4988e4a413c456cdc, type: 2}
+    - Key: charm
+      Value: {fileID: 11400000, guid: 57e2c0ad3e8c1994ea437f388ad31820, type: 2}
+    - Key: sleep-talk
+      Value: {fileID: 11400000, guid: a83c00625d75ae2499aeeead27a10f6e, type: 2}
+    - Key: encore
+      Value: {fileID: 11400000, guid: 3f24e7956846f504e915bfde6f084c16, type: 2}
+    - Key: sunny-day
+      Value: {fileID: 11400000, guid: 60b600515fdb63d4da797b387590a719, type: 2}
+    - Key: facade
+      Value: {fileID: 11400000, guid: 492aeda0c3106ee419b64e33125b25c8, type: 2}
+    - Key: helping-hand
+      Value: {fileID: 11400000, guid: 1e6dae6b07ba4a34fb0a0645c2e40dc6, type: 2}
+    - Key: fake-tears
+      Value: {fileID: 11400000, guid: 56bb1275ba2eb66468fc9b558a69af7f, type: 2}
+    - Key: bullet-seed
+      Value: {fileID: 11400000, guid: bcd431d9c1932b941af46b1aca786f6b, type: 2}
+    - Key: seed-bomb
+      Value: {fileID: 11400000, guid: 3e2a142c5b4a1704585dcf38060c7da7, type: 2}
+    - Key: energy-ball
+      Value: {fileID: 11400000, guid: e657e5a94fa284c488fdf362ff5c9e1f, type: 2}
+    - Key: leaf-storm
+      Value: {fileID: 11400000, guid: 170d61da8ae2e5844a97830a034f7bae, type: 2}
+    - Key: grass-knot
+      Value: {fileID: 11400000, guid: 635131fa0f6a2dc4ebd71d4da293da91, type: 2}
+    - Key: grassy-terrain
+      Value: {fileID: 11400000, guid: 7693406a20d7dea479493de9fe998329, type: 2}
+    - Key: solar-blade
+      Value: {fileID: 11400000, guid: 9c2a08e57a2ae20448754582fc517d89, type: 2}
+    - Key: grassy-glide
+      Value: {fileID: 11400000, guid: 148f573a0af514a47bdcccb68b7a81d3, type: 2}
+    - Key: trailblaze
+      Value: {fileID: 11400000, guid: b59c0fe593a3972448beeae65427b5d4, type: 2}
+    - Key: knock-off
+      Value: {fileID: 11400000, guid: b8e15cab7d249d3439055f7dcd5a13e6, type: 2}
+    - Key: stomping-tantrum
+      Value: {fileID: 11400000, guid: aff234108ad2ff3449e7fcf8ecddd602, type: 2}
+    - Key: petal-dance
+      Value: {fileID: 11400000, guid: 856213a86f5b87c46a07784cbd67bdbd, type: 2}
+    - Key: petal-blizzard
+      Value: {fileID: 11400000, guid: 829f9487c51a75b45b4bfb84d83a0af1, type: 2}
+    - Key: hyper-beam
+      Value: {fileID: 11400000, guid: 46b41a674de7ee6488bfaf2c88e1f159, type: 2}
+    - Key: earthquake
+      Value: {fileID: 11400000, guid: e95cf23b96a12914db29aa5c2e54e459, type: 2}
+    - Key: outrage
+      Value: {fileID: 11400000, guid: c4daa47b5f30ca249a17bb16f56751dd, type: 2}
+    - Key: weather-ball
+      Value: {fileID: 11400000, guid: 0c2431d85b4ec7047b2f6265adb9b0c5, type: 2}
+    - Key: frenzy-plant
+      Value: {fileID: 11400000, guid: 8d4fb64b0a35b1543b2d60d1c63275fb, type: 2}
+    - Key: giga-impact
+      Value: {fileID: 11400000, guid: ded3e74ec196c9947b3fc392a09a66ed, type: 2}
+    - Key: zen-headbutt
+      Value: {fileID: 11400000, guid: 0f99789ad6fa7864c82563d7e9086207, type: 2}
+    - Key: bulldoze
+      Value: {fileID: 11400000, guid: dd13309afdc08724ab913a600462b46a, type: 2}
+    - Key: dragon-tail
+      Value: {fileID: 11400000, guid: 69bcdd15ee97cf14aa8b8ea9d6b1a1e0, type: 2}
+    - Key: body-press
+      Value: {fileID: 11400000, guid: 014abc09024f6004cbaf9724a9a8e454, type: 2}
+    - Key: endeavor
+      Value: {fileID: 11400000, guid: e72409f9da583b44cafc765cb657ed6c, type: 2}
+    - Key: double-kick
+      Value: {fileID: 11400000, guid: 0856861784815434e98b4118281c6aff, type: 2}
+    - Key: reversal
+      Value: {fileID: 11400000, guid: df96ef8a880b44f4896e75a0d90ec190, type: 2}
+    - Key: extrasensory
+      Value: {fileID: 11400000, guid: a6652db949dd460458dd2e3f649971a9, type: 2}
+    - Key: howl
+      Value: {fileID: 11400000, guid: 0f8d9bee2ca387140ac2ee7449c1b966, type: 2}
+    - Key: covet
+      Value: {fileID: 11400000, guid: 3200e2da5fc1c584b91f9db26a4e9eaa, type: 2}
+    - Key: leer
+      Value: {fileID: 11400000, guid: 621ef8c52b0ee9545897eeb75a47eebd, type: 2}
+    - Key: ember
+      Value: {fileID: 11400000, guid: 4fbdba9a04669fa4ab1c5a2bb952cdf5, type: 2}
+    - Key: flamethrower
+      Value: {fileID: 11400000, guid: a0a5bdbbc4f4a4847ba87caafe0fca59, type: 2}
+    - Key: quick-attack
+      Value: {fileID: 11400000, guid: e169a621da632e24eb04a88a27078963, type: 2}
+    - Key: smokescreen
+      Value: {fileID: 11400000, guid: 6cf6566764814094caa23609c06436b6, type: 2}
+    - Key: defense-curl
+      Value: {fileID: 11400000, guid: 3d42fbb3061fa4b409b4816636f5004e, type: 2}
+    - Key: swift
+      Value: {fileID: 11400000, guid: 7fa865e01b7362b408b613c63610f3de, type: 2}
+    - Key: flame-wheel
+      Value: {fileID: 11400000, guid: 93615b7d555359948ac193e68accff1e, type: 2}
+    - Key: rollout
+      Value: {fileID: 11400000, guid: 66f14ab64afddf1448675633bdb31845, type: 2}
+    - Key: overheat
+      Value: {fileID: 11400000, guid: 1a54bad162a7b154c8a99f0f7712c0b9, type: 2}
+    - Key: lava-plume
+      Value: {fileID: 11400000, guid: 4489acfce9dc46f4e96979c5a18a6327, type: 2}
+    - Key: flame-charge
+      Value: {fileID: 11400000, guid: 36983bff4c0f6a44ca89a300494bc520, type: 2}
+    - Key: inferno
+      Value: {fileID: 11400000, guid: b864dd4b469a8ac48afa71b52932c3c9, type: 2}
+    - Key: roar
+      Value: {fileID: 11400000, guid: 8346d0a3135235f4a8ecfa2e58cdd7bb, type: 2}
+    - Key: fire-spin
+      Value: {fileID: 11400000, guid: 5ec0c18d578dc3f41bd7a17865f330ea, type: 2}
+    - Key: dig
+      Value: {fileID: 11400000, guid: a4b799f59dbb0e94e9b3ad4c2bb5de2d, type: 2}
+    - Key: fire-blast
+      Value: {fileID: 11400000, guid: dd54baad72f20894a9d21b17d84be68d, type: 2}
+    - Key: heat-wave
+      Value: {fileID: 11400000, guid: 3c891141e65b1e04686a265b6a8359cc, type: 2}
+    - Key: will-o-wisp
+      Value: {fileID: 11400000, guid: 1045e0c483b6be140aa0a5ae97bdb8de, type: 2}
+    - Key: aerial-ace
+      Value: {fileID: 11400000, guid: 7a85fcd0a7371974784b84a985d5a376, type: 2}
+    - Key: flare-blitz
+      Value: {fileID: 11400000, guid: 8e65bc54221d27343861db7edecddb70, type: 2}
+    - Key: fire-fang
+      Value: {fileID: 11400000, guid: e3876065319fd2e439be94bcdff677dd, type: 2}
+    - Key: iron-head
+      Value: {fileID: 11400000, guid: 972e907e64036164fb0b807d4ebfd6dd, type: 2}
+    - Key: wild-charge
+      Value: {fileID: 11400000, guid: cc715a9618ef71842897003b292f4dec, type: 2}
+    - Key: play-rough
+      Value: {fileID: 11400000, guid: f7b403f70df26cc41b8a7ef8702c4cf7, type: 2}
+    - Key: burning-jealousy
+      Value: {fileID: 11400000, guid: 9cff8c71014d2784685651b54495f297, type: 2}
+    - Key: temper-flare
+      Value: {fileID: 11400000, guid: f45c93cc63b3f614ba62fade78c92aac, type: 2}
+    - Key: eruption
+      Value: {fileID: 11400000, guid: f24b97b0927e7d040a382f73d6dbfafe, type: 2}
+    - Key: brick-break
+      Value: {fileID: 11400000, guid: b672cb65ed0b5a54aae9b75b67bb5398, type: 2}
+    - Key: gyro-ball
+      Value: {fileID: 11400000, guid: 5f110802fba667642af1cd3094225b42, type: 2}
+    - Key: fire-punch
+      Value: {fileID: 11400000, guid: 0e23ae1aa2b778e4482eb8938f9ba66b, type: 2}
+    - Key: thunder-punch
+      Value: {fileID: 11400000, guid: 436c45320c9708449ba22fe3fab1f921, type: 2}
+    - Key: low-kick
+      Value: {fileID: 11400000, guid: e314955b821247b4c8828403011a3654, type: 2}
+    - Key: night-shade
+      Value: {fileID: 11400000, guid: 0e637e9351ffb5749ac9b256e79d20a5, type: 2}
+    - Key: confuse-ray
+      Value: {fileID: 11400000, guid: c88e20f6ccba1234ca6cb260b0968836, type: 2}
+    - Key: rock-slide
+      Value: {fileID: 11400000, guid: 6f92bdbf1de86844d814de4a09307fc7, type: 2}
+    - Key: spite
+      Value: {fileID: 11400000, guid: 6a24043e795b08e469eace7e535b92e1, type: 2}
+    - Key: shadow-ball
+      Value: {fileID: 11400000, guid: ce505b2af3d0279448423d4c2594fb77, type: 2}
+    - Key: focus-punch
+      Value: {fileID: 11400000, guid: e297e06c3e7cda54ea0d6f419e613da6, type: 2}
+    - Key: blast-burn
+      Value: {fileID: 11400000, guid: 42ae48baa8480554ca49627894cf06fc, type: 2}
+    - Key: rock-tomb
+      Value: {fileID: 11400000, guid: df7bd79fa33041942a7db43cad687e1d, type: 2}
+    - Key: calm-mind
+      Value: {fileID: 11400000, guid: de07ea6bb84f3bf4787db1fddc9e7795, type: 2}
+    - Key: fling
+      Value: {fileID: 11400000, guid: 66df5174765818a418797250e9fb9771, type: 2}
+    - Key: focus-blast
+      Value: {fileID: 11400000, guid: dcd990c2aa2f7ce4abeb009949a76c30, type: 2}
+    - Key: shadow-claw
+      Value: {fileID: 11400000, guid: 983ea66f6dc7d8546a4a3f5eabfb2cbb, type: 2}
+    - Key: hex
+      Value: {fileID: 11400000, guid: 9b48fca87dab129459958b7484b2d4ab, type: 2}
+    - Key: throat-chop
+      Value: {fileID: 11400000, guid: 42d17b14be152f345891bb4e73bcb9a0, type: 2}
+    - Key: poltergeist
+      Value: {fileID: 11400000, guid: 7f093fb4e06eb3b46a32ec25158b045b, type: 2}
+    - Key: scorching-sands
+      Value: {fileID: 11400000, guid: 6222794f477fa284ea1019562e90abea, type: 2}
+    - Key: infernal-parade
+      Value: {fileID: 11400000, guid: d2f3c3408ff60954db0478480deaa6d2, type: 2}
+    - Key: flatter
+      Value: {fileID: 11400000, guid: 4d16fdca73c48f540bc447d914809e3f, type: 2}
+    - Key: block
+      Value: {fileID: 11400000, guid: 1f13aa4edfcd7974eb6bb9447f094dd5, type: 2}
+    - Key: aqua-jet
+      Value: {fileID: 11400000, guid: 36aed63488cda9247a3b80192546fe75, type: 2}
+    - Key: scratch
+      Value: {fileID: 11400000, guid: 0f67991e3161c9b4487e2b118371e326, type: 2}
+    - Key: thrash
+      Value: {fileID: 11400000, guid: 485509a9ee15d7344b50ec94b451e6fc, type: 2}
+    - Key: bite
+      Value: {fileID: 11400000, guid: 804a3a7787b60c04b8ccc1c8e9f66f3e, type: 2}
+    - Key: water-gun
+      Value: {fileID: 11400000, guid: 51c2947f70a398a45898d3dc897d35a0, type: 2}
+    - Key: hydro-pump
+      Value: {fileID: 11400000, guid: 150b3786c46a9ba449a1ff5c21cef45e, type: 2}
+    - Key: screech
+      Value: {fileID: 11400000, guid: 55e81d366682f3e4f877ad637889898d, type: 2}
+    - Key: slash
+      Value: {fileID: 11400000, guid: 9a049f7bdeaa9f247ac513341e112289, type: 2}
+    - Key: scary-face
+      Value: {fileID: 11400000, guid: c80f9ac45edeea04fb452df7c8d3d8a2, type: 2}
+    - Key: crunch
+      Value: {fileID: 11400000, guid: d2eea68630744be429f824d6b9912379, type: 2}
+    - Key: superpower
+      Value: {fileID: 11400000, guid: 54fe82d2372c7c84d89e1198a6b7107d, type: 2}
+    - Key: aqua-tail
+      Value: {fileID: 11400000, guid: b2b2a34afbe5a534d9ad3f5b1adee807, type: 2}
+    - Key: ice-fang
+      Value: {fileID: 11400000, guid: b078967d75897fa49a335437bb46d6fc, type: 2}
+    - Key: ice-punch
+      Value: {fileID: 11400000, guid: 572c63a055e90c34285e9b8aefba2104, type: 2}
+    - Key: surf
+      Value: {fileID: 11400000, guid: 622d650fe4ebbfa40aaa9ecda3d781fb, type: 2}
+    - Key: ice-beam
+      Value: {fileID: 11400000, guid: 2040c3451bd53fb49a51d95a08002945, type: 2}
+    - Key: blizzard
+      Value: {fileID: 11400000, guid: d5d77347eede1d34385c33aca7f92e01, type: 2}
+    - Key: waterfall
+      Value: {fileID: 11400000, guid: 0a809af0fc7c3da47b8fd292c4469b6c, type: 2}
+    - Key: thief
+      Value: {fileID: 11400000, guid: b17466c2e0c5bdc4294079604a50c38c, type: 2}
+    - Key: icy-wind
+      Value: {fileID: 11400000, guid: 10e16d3770e60f346b1d021b8429f287, type: 2}
+    - Key: metal-claw
+      Value: {fileID: 11400000, guid: ce62cf34d5d815348a395551fec7ab80, type: 2}
+    - Key: rain-dance
+      Value: {fileID: 11400000, guid: d820b357e15cfac4c84b17fce2b0af2d, type: 2}
+    - Key: whirlpool
+      Value: {fileID: 11400000, guid: 4eb6597ce5dc8cc4caf734972f9898d2, type: 2}
+    - Key: uproar
+      Value: {fileID: 11400000, guid: c9782c5735ab0904da571be88bf73e24, type: 2}
+    - Key: muddy-water
+      Value: {fileID: 11400000, guid: f117e20af77449642821aed1c316c74a, type: 2}
+    - Key: dragon-claw
+      Value: {fileID: 11400000, guid: df2ee7bf54a1ec441bbeb8e5af8be890, type: 2}
+    - Key: dragon-dance
+      Value: {fileID: 11400000, guid: 478ec8b1c8be29143812be185b79eb46, type: 2}
+    - Key: water-pulse
+      Value: {fileID: 11400000, guid: fff88d645f13bdb49901c9b12d20d777, type: 2}
+    - Key: liquidation
+      Value: {fileID: 11400000, guid: f1868f1125a7d4245a10aa445aba68f6, type: 2}
+    - Key: breaking-swipe
+      Value: {fileID: 11400000, guid: 3adf86ec868fdc641af67e61ed975e28, type: 2}
+    - Key: flip-turn
+      Value: {fileID: 11400000, guid: f0ca84c254a82614b884d99bc52e04d7, type: 2}
+    - Key: chilling-water
+      Value: {fileID: 11400000, guid: 11592be67db4fd4459d0ba3094bef962, type: 2}
+    - Key: psychic-fangs
+      Value: {fileID: 11400000, guid: ef5638074039d694287c4c02fa0d21ee, type: 2}
+    - Key: agility
+      Value: {fileID: 11400000, guid: 981149f8136ee1e46bdb83a956d5757e, type: 2}
+    - Key: hydro-cannon
+      Value: {fileID: 11400000, guid: 381bb0e85f7e09449ac4981ecbea37c4, type: 2}
+    - Key: avalanche
+      Value: {fileID: 11400000, guid: db4cc3fa2565c4c428c0ed5d0b4e9e1b, type: 2}
+    - Key: snarl
+      Value: {fileID: 11400000, guid: 6d82aab375823a24784e621065e696b9, type: 2}
+    - Key: scale-shot
+      Value: {fileID: 11400000, guid: f287318f9991bab488aa0c5a92239a7b, type: 2}
+    - Key: lash-out
+      Value: {fileID: 11400000, guid: 52f8c9bd47e93b445a081c2e7c6c2e37, type: 2}
+    - Key: focus-energy
+      Value: {fileID: 11400000, guid: b88be8d50c407284fbee5d5c97415012, type: 2}
+    - Key: last-resort
+      Value: {fileID: 11400000, guid: f14ff021c2f88b2479a59d1da7930349, type: 2}
+    - Key: baby-doll-eyes
+      Value: {fileID: 11400000, guid: abe5f326e4bb6774a9f201ba7f5fc833, type: 2}
+    - Key: slam
+      Value: {fileID: 11400000, guid: faab4a5236846e3479010a5ba2ac6bee, type: 2}
+    - Key: amnesia
+      Value: {fileID: 11400000, guid: 1676ffc63949de941a8eb475f8958f96, type: 2}
+    - Key: fury-swipes
+      Value: {fileID: 11400000, guid: 14db07a11794c5743aa82f8ebe817cea, type: 2}
+    - Key: baton-pass
+      Value: {fileID: 11400000, guid: a8d7c86c63d5c6247a442331f4b6a0b9, type: 2}
+    - Key: follow-me
+      Value: {fileID: 11400000, guid: f855cbfa481a0cc448c3ea186b2fccce, type: 2}
+    - Key: hyper-voice
+      Value: {fileID: 11400000, guid: 107a645d94fd1d84382e0c2f4aaed80d, type: 2}
+    - Key: sucker-punch
+      Value: {fileID: 11400000, guid: bae6f1ee8b8e2d34495ceb5dc4848d27, type: 2}
+    - Key: thunderbolt
+      Value: {fileID: 11400000, guid: 090e1309cdc38124aa9e59d7615ad5ea, type: 2}
+    - Key: thunder
+      Value: {fileID: 11400000, guid: e7923e170cc959c4cb5a28f722934b65, type: 2}
+    - Key: super-fang
+      Value: {fileID: 11400000, guid: 6a89499ac887c2f439a971dbee39357a, type: 2}
+    - Key: trick
+      Value: {fileID: 11400000, guid: 8b23e103f51d1cc4288ef3873b8e39c6, type: 2}
+    - Key: u-turn
+      Value: {fileID: 11400000, guid: ff47a160cb21b5d4a9df6615bd0dfc50, type: 2}
+    - Key: charge-beam
+      Value: {fileID: 11400000, guid: 2f8d6713110dae74e8dc9f517ca606fa, type: 2}
+    - Key: tidy-up
+      Value: {fileID: 11400000, guid: 27c7c6e8256bd684391f25327f3cedce, type: 2}
+    - Key: coil
+      Value: {fileID: 11400000, guid: 7f6fa4f5b6406e54c91da9f4876c44f0, type: 2}
+    - Key: wing-attack
+      Value: {fileID: 11400000, guid: 85837b965f6e6954080792b3fb43f9d0, type: 2}
+    - Key: whirlwind
+      Value: {fileID: 11400000, guid: 07c734d7b4828c246b74d24b1783d13e, type: 2}
+    - Key: supersonic
+      Value: {fileID: 11400000, guid: 88fdd4847f2fdf144ac140e9b1ca499f, type: 2}
+    - Key: feather-dance
+      Value: {fileID: 11400000, guid: 1b0884429b888a440a2926d1a047ef9c, type: 2}
+    - Key: peck
+      Value: {fileID: 11400000, guid: bebf4aca215205c43859d14a1298e6b1, type: 2}
+    - Key: confusion
+      Value: {fileID: 11400000, guid: 045d952096724ec448a886dd502bef43, type: 2}
+    - Key: hypnosis
+      Value: {fileID: 11400000, guid: f9c3245a981bc024baae741b9422901e, type: 2}
+    - Key: dream-eater
+      Value: {fileID: 11400000, guid: f30a4eddcb7ecd649bbbccd9be97c987, type: 2}
+    - Key: roost
+      Value: {fileID: 11400000, guid: f87e03753d86eb8489ecf7f876652539, type: 2}
+    - Key: air-slash
+      Value: {fileID: 11400000, guid: a525fccb4c6041b4fb91705db98d26d1, type: 2}
+    - Key: defog
+      Value: {fileID: 11400000, guid: c99c534c1259e444da5d9fea3d9b3528, type: 2}
+    - Key: echoed-voice
+      Value: {fileID: 11400000, guid: d43d12aa41485484793150d3046e0b34, type: 2}
+    - Key: moonblast
+      Value: {fileID: 11400000, guid: 960af443f4f791745b73158758e952c6, type: 2}
+    - Key: fly
+      Value: {fileID: 11400000, guid: 4039903a1b013764d924db96b1763b58, type: 2}
+    - Key: psybeam
+      Value: {fileID: 11400000, guid: 0dd85a5e6b52e1643b0901fad36eb214, type: 2}
+    - Key: psychic
+      Value: {fileID: 11400000, guid: 93f9f8aa4e3d8d2458a77b282f67d41a, type: 2}
+    - Key: haze
+      Value: {fileID: 11400000, guid: 76dfa0bfea18dbc48904c468e495eb75, type: 2}
+    - Key: psych-up
+      Value: {fileID: 11400000, guid: f6b545cb0c0dd1d41a0c73f58786caad, type: 2}
+    - Key: skill-swap
+      Value: {fileID: 11400000, guid: d0d5810df33142d468c3286dd37240fd, type: 2}
+    - Key: imprison
+      Value: {fileID: 11400000, guid: 04da2ffcbcff3e34da6c757ccb6a23d6, type: 2}
+    - Key: air-cutter
+      Value: {fileID: 11400000, guid: 840d41afd0891ac4cb4602f3fc10496f, type: 2}
+    - Key: tailwind
+      Value: {fileID: 11400000, guid: a7b6cf13eafaae948aa13b1bf3464d5e, type: 2}
+    - Key: brave-bird
+      Value: {fileID: 11400000, guid: 82dae0c254ceaa54b9f42fae1087c39c, type: 2}
+    - Key: nasty-plot
+      Value: {fileID: 11400000, guid: 3cf75a0725ef78f4aaed03cf475d943a, type: 2}
+    - Key: stored-power
+      Value: {fileID: 11400000, guid: 62e1c2c923e8f894a8ee96d093b0f2dc, type: 2}
+    - Key: acrobatics
+      Value: {fileID: 11400000, guid: 5a259482cdc747d4384ce0a90b616c80, type: 2}
+    - Key: hurricane
+      Value: {fileID: 11400000, guid: 38a724dfefff9da41a62d69e54d1d96c, type: 2}
+    - Key: dual-wingbeat
+      Value: {fileID: 11400000, guid: cd129187275d8df4991624eb1f865669, type: 2}
+    - Key: sky-attack
+      Value: {fileID: 11400000, guid: e4a18422fa92c9643818fbf325fce1cf, type: 2}
+    - Key: future-sight
+      Value: {fileID: 11400000, guid: 138bb9e3ddf8222408b99be3a8d367bc, type: 2}
+    - Key: psychic-noise
+      Value: {fileID: 11400000, guid: a961f36ddfcf4174095acd2a6bbd936b, type: 2}
+    - Key: bug-bite
+      Value: {fileID: 11400000, guid: 61b18d2a06a29be4fad2db4dd4845952, type: 2}
+    - Key: mach-punch
+      Value: {fileID: 11400000, guid: 3872ff950b2da964793e54f733ef9c8b, type: 2}
+    - Key: bug-buzz
+      Value: {fileID: 11400000, guid: 0fe1ad93c1dba87459ee432447558884, type: 2}
+    - Key: struggle-bug
+      Value: {fileID: 11400000, guid: 079ce81bc46c8cd4ea1f59568688b108, type: 2}
+    - Key: double-team
+      Value: {fileID: 11400000, guid: 067cb3a41fec0c5438351d5264f4640d, type: 2}
+    - Key: flash
+      Value: {fileID: 11400000, guid: af188cbd6a3a1fe4e89d752bc35647e0, type: 2}
+    - Key: swagger
+      Value: {fileID: 11400000, guid: 1604747cb9766ce4686f34629db2696b, type: 2}
+    - Key: attract
+      Value: {fileID: 11400000, guid: 915cbc2aa02a170428b3ead36886cd69, type: 2}
+    - Key: drain-punch
+      Value: {fileID: 11400000, guid: 252ce7beb0bdc814c88fa06f0316a5e8, type: 2}
+    - Key: strength
+      Value: {fileID: 11400000, guid: 6f2b4c30c32585b4dbe8353b0b80dbed, type: 2}
+    - Key: rock-smash
+      Value: {fileID: 11400000, guid: 8324b44caef362e40a4f2bebcb537a89, type: 2}
+    - Key: disable
+      Value: {fileID: 11400000, guid: 96768706b6bac124e88472c07038a523, type: 2}
+    - Key: megahorn
+      Value: {fileID: 11400000, guid: fc152592d0699bf46ac0cbd5d19c6ae4, type: 2}
+    - Key: night-slash
+      Value: {fileID: 11400000, guid: 66ee57766b1ee824eb88be63ab3a3759, type: 2}
+    - Key: rage-powder
+      Value: {fileID: 11400000, guid: 2f8dfdea34891424baf470c09ab8630c, type: 2}
+    - Key: lunge
+      Value: {fileID: 11400000, guid: 0c4092906bf918c4080c1c8d8516073d, type: 2}
+    - Key: poison-sting
+      Value: {fileID: 11400000, guid: 4155d787e7605204883f39e46d709491, type: 2}
+    - Key: pin-missile
+      Value: {fileID: 11400000, guid: 36dde54558736e240b733ec228d5365d, type: 2}
+    - Key: absorb
+      Value: {fileID: 11400000, guid: 0281ae892a95aee4683028d25f3efa34, type: 2}
+    - Key: string-shot
+      Value: {fileID: 11400000, guid: e9e592c42c3e96146b6e186c9aa37994, type: 2}
+    - Key: poison-jab
+      Value: {fileID: 11400000, guid: 38eb9f291b70ac74bb0f3ec0f0faef1e, type: 2}
+    - Key: shadow-sneak
+      Value: {fileID: 11400000, guid: 5b6ca014426931c44994fb7795e6ad3e, type: 2}
+    - Key: cross-poison
+      Value: {fileID: 11400000, guid: 495c02eabccbd444182fd5fc99e95e64, type: 2}
+    - Key: toxic
+      Value: {fileID: 11400000, guid: d3f76277190b32e4ab8eb79016216948, type: 2}
+    - Key: leech-life
+      Value: {fileID: 11400000, guid: 7164561fae08a6e409dbcc6f40ba2779, type: 2}
+    - Key: sludge-bomb
+      Value: {fileID: 11400000, guid: b5a5a23dac02b5c42a9eef441d12bc1f, type: 2}
+    - Key: toxic-spikes
+      Value: {fileID: 11400000, guid: 74182bccd89bf1346a26922d2140dcfd, type: 2}
+    - Key: x-scissor
+      Value: {fileID: 11400000, guid: 315b896a7b8deaf479df0d120ce321a5, type: 2}
+    - Key: venoshock
+      Value: {fileID: 11400000, guid: decf9069fd8854e4f9e55ed5b9ea917e, type: 2}
+    - Key: sludge-wave
+      Value: {fileID: 11400000, guid: 0f645d3bf46164749a44479004cf1ccf, type: 2}
+    - Key: acid-spray
+      Value: {fileID: 11400000, guid: fafb44f4f5a52524aa63e8cac2424c53, type: 2}
+    - Key: foul-play
+      Value: {fileID: 11400000, guid: 573d12628b8736e41b466fefbffa690c, type: 2}
+    - Key: electroweb
+      Value: {fileID: 11400000, guid: 8de14c8ae27c52844aa104d34c10c1dd, type: 2}
+    - Key: skitter-smack
+      Value: {fileID: 11400000, guid: 304b06d3f36a5a0489eae93e695918a0, type: 2}
+    - Key: pounce
+      Value: {fileID: 11400000, guid: 4bf6d05444e5e9243aa49b426e96f24d, type: 2}
+    - Key: sticky-web
+      Value: {fileID: 11400000, guid: f5bb9d0f2bd93764da93e30a8a4b8e3b, type: 2}
+    - Key: infestation
+      Value: {fileID: 11400000, guid: c81f3db84f02d014a8e6348114018c15, type: 2}
+    - Key: toxic-thread
+      Value: {fileID: 11400000, guid: 6bc2d510194986a4090ffb6b76f16acd, type: 2}
+    - Key: fell-stinger
+      Value: {fileID: 11400000, guid: 78162fc2c52ce114db2bb2ffa47b4c1f, type: 2}
+    - Key: smart-strike
+      Value: {fileID: 11400000, guid: 3b7fb43be56983447b2866e2813fd9b6, type: 2}
+    - Key: mist
+      Value: {fileID: 11400000, guid: af5cc4fa8be452f4dadf7c58ce7d9366, type: 2}
+    - Key: soak
+      Value: {fileID: 11400000, guid: 8fc3c00939b5b6144a5900eab6a3b01f, type: 2}
+    - Key: bubble-beam
+      Value: {fileID: 11400000, guid: d28a8ba9dee7e3d44924eb34c4709d02, type: 2}
+    - Key: thunder-wave
+      Value: {fileID: 11400000, guid: 335dbae269c9ab54fb069de868a156d6, type: 2}
+    - Key: spark
+      Value: {fileID: 11400000, guid: 649695ca0a8179a4690f9a773d34fd74, type: 2}
+    - Key: charge
+      Value: {fileID: 11400000, guid: c6cb394adb1885c4c843ad3119c9c6fb, type: 2}
+    - Key: aqua-ring
+      Value: {fileID: 11400000, guid: c1e2fbcf34b8d004f94be414a18a23a0, type: 2}
+    - Key: discharge
+      Value: {fileID: 11400000, guid: ad84f5bf2c909c6488ffb3211ba8d933, type: 2}
+    - Key: electro-ball
+      Value: {fileID: 11400000, guid: 6588092aca3338643b8eddcb46bf5de3, type: 2}
+    - Key: scald
+      Value: {fileID: 11400000, guid: 9bb13f236d324a14bb41cfdb41bc09c2, type: 2}
+    - Key: volt-switch
+      Value: {fileID: 11400000, guid: 9d2db8297ec45d645ae9f3de97b18028, type: 2}
+    - Key: eerie-impulse
+      Value: {fileID: 11400000, guid: f8e3b020a79148441bbd3c0f8b0414b5, type: 2}
+    - Key: electric-terrain
+      Value: {fileID: 11400000, guid: 5f7d8bae76d56fe429b8f274c8c3cd27, type: 2}
+    - Key: dazzling-gleam
+      Value: {fileID: 11400000, guid: 8d0eb4a41f4d9664fbaef8afa3040b7a, type: 2}
+    - Key: stockpile
+      Value: {fileID: 11400000, guid: e52ab64c11e59614da212ef164d22e6e, type: 2}
+    - Key: spit-up
+      Value: {fileID: 11400000, guid: e38632a2c56dffe4d84cd353a26b4b17, type: 2}
+    - Key: swallow
+      Value: {fileID: 11400000, guid: d493bd8d0c1b071469b0c6b863211d91, type: 2}
+    - Key: present
+      Value: {fileID: 11400000, guid: 191396a0d62d6af4f921b5939b377769, type: 2}
+    - Key: morning-sun
+      Value: {fileID: 11400000, guid: 8bb0033b7330221458fb30d4d97a6e3d, type: 2}
+    - Key: psycho-shift
+      Value: {fileID: 11400000, guid: 986ebb46117316144b920c3ba0d522d3, type: 2}
+    - Key: pound
+      Value: {fileID: 11400000, guid: 7311bef4a8f5cd3448adc8bc112c0145, type: 2}
+    - Key: metronome
+      Value: {fileID: 11400000, guid: b80402025d1525943b99c9a38f836fcd, type: 2}
+    - Key: sweet-kiss
+      Value: {fileID: 11400000, guid: ebcb9aa90d753814e9cb9eec4d5fd91f, type: 2}
+    - Key: wish
+      Value: {fileID: 11400000, guid: 8f4a0bfe73d4c9f40b0ab6caa3ef6171, type: 2}
+    - Key: yawn
+      Value: {fileID: 11400000, guid: 13fe4c76e5e41a74dbd68af3a4cb94c7, type: 2}
+    - Key: after-you
+      Value: {fileID: 11400000, guid: 9dc0e7c32f12d5743a9ea190ef2b0324, type: 2}
+    - Key: life-dew
+      Value: {fileID: 11400000, guid: 8284ce7bb3b85d0499ddfaab80f61c2d, type: 2}
+    - Key: shock-wave
+      Value: {fileID: 11400000, guid: 26467dcd9f68b0d4ca00094de1166bbe, type: 2}
+    - Key: work-up
+      Value: {fileID: 11400000, guid: ccd4794739c18e5468d269d961e120a8, type: 2}
+    - Key: fairy-wind
+      Value: {fileID: 11400000, guid: 44e6dd02868da6f45929416505188fdd, type: 2}
+    - Key: steel-wing
+      Value: {fileID: 11400000, guid: 87b85807a11ec904eaee328d4f16bf2a, type: 2}
+    - Key: tri-attack
+      Value: {fileID: 11400000, guid: b3133be9fe895e8428d0c8243c023376, type: 2}
+    - Key: extreme-speed
+      Value: {fileID: 11400000, guid: 087d25a10e341c140978473d4fafea26, type: 2}
+    - Key: aura-sphere
+      Value: {fileID: 11400000, guid: e80933e5863bc4a4eadc478f1e4cf7fc, type: 2}
+    - Key: pluck
+      Value: {fileID: 11400000, guid: 585820b9ede865e499296f1a51d3b449, type: 2}
+    - Key: drill-peck
+      Value: {fileID: 11400000, guid: 754a896f6c21f1f41bd885c153d53a26, type: 2}
+    - Key: simple-beam
+      Value: {fileID: 11400000, guid: b53ced4eb3b82d343946c10a95ce179c, type: 2}
+    - Key: teleport
+      Value: {fileID: 11400000, guid: f05b678b7d586dd488ecb10dd4d0448e, type: 2}
+    - Key: power-swap
+      Value: {fileID: 11400000, guid: e4f978cea795adc479441ca9f86bc20b, type: 2}
+    - Key: guard-swap
+      Value: {fileID: 11400000, guid: 06e0bdb2b36b36e42b74889750b1ed22, type: 2}
+    - Key: trick-room
+      Value: {fileID: 11400000, guid: 35eb5a68cb4350c4291b17d1f4dd833d, type: 2}
+    - Key: thunder-shock
+      Value: {fileID: 11400000, guid: 3bcc7458c3ae7ea42b768be00b4580d6, type: 2}
+    - Key: power-gem
+      Value: {fileID: 11400000, guid: 4a7363b4fb4553e46880640bd98c2ecd, type: 2}
+    - Key: cotton-spore
+      Value: {fileID: 11400000, guid: 176ce2ead96b6f24691b88f39c1d9244, type: 2}
+    - Key: cotton-guard
+      Value: {fileID: 11400000, guid: 683639299e5048b48b7f67f7fa8128ec, type: 2}
+    - Key: zap-cannon
+      Value: {fileID: 11400000, guid: 5190137c6c3f8ec4ba2a75bdbc07cc56, type: 2}
+    - Key: dragon-pulse
+      Value: {fileID: 11400000, guid: e232d7ca0f4dddb44b09acf72abe84f2, type: 2}
+    - Key: magnetic-flux
+      Value: {fileID: 11400000, guid: c8f5665995e00ea4582b4837e46201f9, type: 2}
+    - Key: meteor-beam
+      Value: {fileID: 11400000, guid: a5d0b034cef4c9c4a81f85b67ddd401e, type: 2}
+    - Key: dragon-cheer
+      Value: {fileID: 11400000, guid: bb30c4c990ebda149ac941fb29baee6b, type: 2}
+    - Key: supercell-slam
+      Value: {fileID: 11400000, guid: 708b320acd9b0634b8af750042511b47, type: 2}
+    - Key: return
+      Value: {fileID: 11400000, guid: 4b8ef0b02bf385e4eb3cbd95d304d585, type: 2}
+    - Key: frustration
+      Value: {fileID: 11400000, guid: ed37570265048f74d81bcff01e8fcad6, type: 2}
+    - Key: hidden-power
+      Value: {fileID: 11400000, guid: 0fc743ba3a0c9bf4399212e3816018f1, type: 2}
+    - Key: round
+      Value: {fileID: 11400000, guid: c2a69c8cbb16a0c4aa6fd9720d26332d, type: 2}
+    - Key: confide
+      Value: {fileID: 11400000, guid: eaefbf1f703423a4798a3023126bbe31, type: 2}
+    - Key: brutal-swing
+      Value: {fileID: 11400000, guid: 963bd32ac34e040469bddd601376da0f, type: 2}
+    - Key: snore
+      Value: {fileID: 11400000, guid: 6c44bebd510340640a4be0424b62ed8b, type: 2}
+    - Key: heal-bell
+      Value: {fileID: 11400000, guid: f63cb057f5b801449aeed38a46476f8c, type: 2}
+    - Key: iron-tail
+      Value: {fileID: 11400000, guid: 810a7a1bc06663b4f8c4d05bcb99d75a, type: 2}
+    - Key: magnet-rise
+      Value: {fileID: 11400000, guid: 7623f89e476626f4cad9fab50c6adbf8, type: 2}
+    - Key: laser-focus
+      Value: {fileID: 11400000, guid: 7763cc60e90a2934d8bbe2a0aa0ba48f, type: 2}
+    - Key: sing
+      Value: {fileID: 11400000, guid: 9b34b8ca4bfeafe4fac2b949972aba67, type: 2}
+    - Key: belly-drum
+      Value: {fileID: 11400000, guid: 834f6a3fc6bffa540aba20311721e19b, type: 2}
+    - Key: perish-song
+      Value: {fileID: 11400000, guid: 38d1d51613501b04793f4bdda6f5921c, type: 2}
+    - Key: tickle
+      Value: {fileID: 11400000, guid: 249e5f32830998947bfa28e701eab271, type: 2}
+    - Key: copycat
+      Value: {fileID: 11400000, guid: 49f84e5d525e0674e984bd13578a33c1, type: 2}
+    - Key: tail-whip
+      Value: {fileID: 11400000, guid: becc7ceec489f4745a13245b484a54c3, type: 2}
+    - Key: splash
+      Value: {fileID: 11400000, guid: 0ba4d46a0c44bc24ea4ae1dde3e724bf, type: 2}
+    - Key: bounce
+      Value: {fileID: 11400000, guid: c6b3475f968e081478ff41acbafaa00c, type: 2}
+    - Key: mud-shot
+      Value: {fileID: 11400000, guid: 4aacfaeb640d196428dab583e605c941, type: 2}
+    - Key: draining-kiss
+      Value: {fileID: 11400000, guid: 74a224915c952c345becd6605f63dd76, type: 2}
+    - Key: alluring-voice
+      Value: {fileID: 11400000, guid: 705cf05768e33d0419ed8f0d1ba47592, type: 2}
+    - Key: disarming-voice
+      Value: {fileID: 11400000, guid: 20104ac84e52d4744acbb8d019621280, type: 2}
+    - Key: misty-terrain
+      Value: {fileID: 11400000, guid: f9b8b82f426ddb24e97904086ba262f8, type: 2}
+    - Key: misty-explosion
+      Value: {fileID: 11400000, guid: 7ec1503e969bbd044a37f6ba9ca51850, type: 2}
+    - Key: ice-spinner
+      Value: {fileID: 11400000, guid: 5e73f35ee5d7f5a428c7bed078ff7385, type: 2}
+    - Key: snowscape
+      Value: {fileID: 11400000, guid: b181c303beb702041bc5023990104fff, type: 2}
+    - Key: headbutt
+      Value: {fileID: 11400000, guid: 24e1bfcf25fbf264f986ff0258a73459, type: 2}
+    - Key: harden
+      Value: {fileID: 11400000, guid: 8cf179879f6ffb742a5664378bf30828, type: 2}
+    - Key: rock-polish
+      Value: {fileID: 11400000, guid: 21641b6c39219f349983c5dd6e3899bc, type: 2}
+    - Key: rock-throw
+      Value: {fileID: 11400000, guid: 85ae8d1c7628be944b858fd3b4339920, type: 2}
+    - Key: mimic
+      Value: {fileID: 11400000, guid: ea372ec453f93a7439d4c6253e06b444, type: 2}
+    - Key: spikes
+      Value: {fileID: 11400000, guid: 42430a43a4661da4d9dbf333f89fcc7d, type: 2}
+    - Key: sandstorm
+      Value: {fileID: 11400000, guid: 430a94b3016ce344394e61f278c7312a, type: 2}
+    - Key: sand-tomb
+      Value: {fileID: 11400000, guid: 20f056be1ce67464ab8f2a20da8e1c79, type: 2}
+    - Key: rock-blast
+      Value: {fileID: 11400000, guid: 3f8f1a3334c758843bac5600be5001a1, type: 2}
+    - Key: earth-power
+      Value: {fileID: 11400000, guid: 479ef2671620a844d89c018dca6baf89, type: 2}
+    - Key: stone-edge
+      Value: {fileID: 11400000, guid: c2fa8352315127f40bcf378139d1e29e, type: 2}
+    - Key: stealth-rock
+      Value: {fileID: 11400000, guid: ac4f2bb8758f78b41afbe25e2458cec4, type: 2}
+    - Key: smack-down
+      Value: {fileID: 11400000, guid: a24de43ab710e3a4ca2e8312a5d6dc13, type: 2}
+    - Key: tearful-look
+      Value: {fileID: 11400000, guid: 9c2ba691ce58f134dbd425c591e1fb1d, type: 2}
+    - Key: hammer-arm
+      Value: {fileID: 11400000, guid: ee9c4472a0373e945a20a622fb66a714, type: 2}
+    - Key: wood-hammer
+      Value: {fileID: 11400000, guid: f50392ea29bb1ab48b73fb52e275e87d, type: 2}
+    - Key: head-smash
+      Value: {fileID: 11400000, guid: 42959106eaf204b41a32743f7a2ca1c7, type: 2}
+    - Key: taunt
+      Value: {fileID: 11400000, guid: d0fb20f10bbd71740a389ba2e8672969, type: 2}
+    - Key: iron-defense
+      Value: {fileID: 11400000, guid: 8c09aab4e073cce408c823d844d4fa0e, type: 2}
+    - Key: low-sweep
+      Value: {fileID: 11400000, guid: db6c2d28e6ffce54fa5a1f5a0446b621, type: 2}
+    - Key: high-horsepower
+      Value: {fileID: 11400000, guid: 81bd3567ec5f8c34ea8ef0e724f91457, type: 2}
+    - Key: worry-seed
+      Value: {fileID: 11400000, guid: bde6fada0e534874dad06f77797e94e0, type: 2}
+    - Key: switcheroo
+      Value: {fileID: 11400000, guid: 4c96254aaf1e905478af994e622c88ba, type: 2}
+    - Key: strength-sap
+      Value: {fileID: 11400000, guid: f8f8864f960c73c4c8528418c85764fd, type: 2}
+    - Key: mega-drain
+      Value: {fileID: 11400000, guid: a015c97a4de88e74d91d1615ce4c6f99, type: 2}
+    - Key: stun-spore
+      Value: {fileID: 11400000, guid: 1eaf17ef2c06eda48bbf8428d5920f11, type: 2}
+    - Key: sleep-powder
+      Value: {fileID: 11400000, guid: 06d928ad2c5f9e249974e4363616b8ae, type: 2}
+    - Key: memento
+      Value: {fileID: 11400000, guid: 37c84ac513409404183bb80b0a830b92, type: 2}
+    - Key: pollen-puff
+      Value: {fileID: 11400000, guid: a5c9d6f93ffba8946be029229335a012, type: 2}
+    - Key: beat-up
+      Value: {fileID: 11400000, guid: c0dcad94d363ae64f97795c21340b807, type: 2}
+    - Key: fake-out
+      Value: {fileID: 11400000, guid: 280e96a87a2a772449b96372dbff5825, type: 2}
+    - Key: quick-guard
+      Value: {fileID: 11400000, guid: f9b8e7521b009e14cbf53388fe1eb6d7, type: 2}
+    - Key: sand-attack
+      Value: {fileID: 11400000, guid: 6b20a6ef649c93242a2022642939dcc2, type: 2}
+    - Key: astonish
+      Value: {fileID: 11400000, guid: c1cce7e55d8367942af7c8b65ef7888e, type: 2}
+    - Key: double-hit
+      Value: {fileID: 11400000, guid: 54c840ed0a135ce48b3a24b1a1ad2008, type: 2}
+    - Key: gunk-shot
+      Value: {fileID: 11400000, guid: f57837c312ca1d34fa475a6dbbe63798, type: 2}
+    - Key: upper-hand
+      Value: {fileID: 11400000, guid: 5b50670adf2014649908bda1df77a151, type: 2}
+    - Key: triple-axel
+      Value: {fileID: 11400000, guid: f190cf6465217ff45a2b329b3680c1f9, type: 2}
+    - Key: growth
+      Value: {fileID: 11400000, guid: dde3e9e893b0ec9499b06bb47404adec, type: 2}
+    - Key: feint
+      Value: {fileID: 11400000, guid: 85c4b23aebae713458c788aa2ea59630, type: 2}
+    - Key: detect
+      Value: {fileID: 11400000, guid: 511a73c747cab124b88de8e3bcca9fdb, type: 2}
+    - Key: recover
+      Value: {fileID: 11400000, guid: acdbad9efe8bc4e4c9a88d9c071ae31b, type: 2}
+    - Key: poison-tail
+      Value: {fileID: 11400000, guid: a9014697d3cf7894d83e8a231c9a3445, type: 2}
+    - Key: heavy-slam
+      Value: {fileID: 11400000, guid: 1598ad3f61af08a45aec7497c70131d0, type: 2}
+    - Key: gust
+      Value: {fileID: 11400000, guid: 23af5c5bea615914d993627fdb12fe31, type: 2}
+    - Key: mean-look
+      Value: {fileID: 11400000, guid: 554bca1a889b9d34db790475eaf93795, type: 2}
+    - Key: torment
+      Value: {fileID: 11400000, guid: d9f1710ed01fb6849b9b512aa94b52a1, type: 2}
+    - Key: assurance
+      Value: {fileID: 11400000, guid: e2bd8d9eb65452e4ba4b803c60e67631, type: 2}
+    - Key: quash
+      Value: {fileID: 11400000, guid: 94d0818d89d4a7c40831b39ce002ced7, type: 2}
+    - Key: dark-pulse
+      Value: {fileID: 11400000, guid: 28f0ab1c726aa2447ae8535e3bf21e1e, type: 2}
+    - Key: comeuppance
+      Value: {fileID: 11400000, guid: 28b0bfa552ab23d41b094aa158a8111c, type: 2}
+    - Key: destiny-bond
+      Value: {fileID: 11400000, guid: 6c139ee95e8a4ab4089ddbb6f356fbe2, type: 2}
+    - Key: wonder-room
+      Value: {fileID: 11400000, guid: d5c31d8277f841040991e752bbba1b84, type: 2}
+    - Key: pain-split
+      Value: {fileID: 11400000, guid: 1a53d442aa9518b46b2bd6d1d5419ea9, type: 2}
+    - Key: payback
+      Value: {fileID: 11400000, guid: 3ea0d3bf7a7c2ca45a020d405568aacc, type: 2}
+    - Key: psyshock
+      Value: {fileID: 11400000, guid: cb54921e436a1ed4c9aaa77b0744f0db, type: 2}
+    - Key: phantom-force
+      Value: {fileID: 11400000, guid: 9ab0a4eb0578fb043850f15e0a776346, type: 2}
+    - Key: mystical-fire
+      Value: {fileID: 11400000, guid: 5dea428563b7ac74ebd03624db0333bd, type: 2}
+    - Key: mirror-coat
+      Value: {fileID: 11400000, guid: 8bc7a7824855fcd4f91ecfc875e32942, type: 2}
+    - Key: stomp
+      Value: {fileID: 11400000, guid: dc92bfa70f58da940a9153843f34ea94, type: 2}
+    - Key: gravity
+      Value: {fileID: 11400000, guid: 5979401d81092f340b611c6f70eb5166, type: 2}
+    - Key: psychic-terrain
+      Value: {fileID: 11400000, guid: b6d75ba59be431a4584dcfbe14fbc167, type: 2}
+    - Key: expanding-force
+      Value: {fileID: 11400000, guid: 08d17153ad5f24d49b7b18761b2b2eba, type: 2}
+    - Key: twin-beam
+      Value: {fileID: 11400000, guid: b24b48018859a0746996f6780d24a275, type: 2}
+    - Key: power-trick
+      Value: {fileID: 11400000, guid: 887a8841899b61843a9d66c08e45d1dc, type: 2}
+    - Key: self-destruct
+      Value: {fileID: 11400000, guid: ed27b9d689de7844da02a065fae76644, type: 2}
+    - Key: explosion
+      Value: {fileID: 11400000, guid: d4bf428026948db428705025b451f4df, type: 2}
+    - Key: rapid-spin
+      Value: {fileID: 11400000, guid: 463f6e2b0cac1db4785633dd42cf18df, type: 2}
+    - Key: drill-run
+      Value: {fileID: 11400000, guid: e07b9f264c98f6840b8f678b397144c4, type: 2}
+    - Key: metal-sound
+      Value: {fileID: 11400000, guid: 40600772a4127ae4b838f9a554ad10c0, type: 2}
+    - Key: flash-cannon
+      Value: {fileID: 11400000, guid: 41d9576cf8b788f42854522e88ba3429, type: 2}
+    - Key: steel-beam
+      Value: {fileID: 11400000, guid: a3703eddb31a10f499b42162d88c9e9c, type: 2}
+    - Key: hard-press
+      Value: {fileID: 11400000, guid: a7e61cbea1c8fe6479c371f8a1362f3e, type: 2}
+    - Key: glare
+      Value: {fileID: 11400000, guid: 7e9b7aaf58fc64f4e9e1dd466de507dd, type: 2}
+    - Key: dragon-rush
+      Value: {fileID: 11400000, guid: 848abd4c1aa5d324bb54bb4b536b5da3, type: 2}
+    - Key: hyper-drill
+      Value: {fileID: 11400000, guid: 99c862b9019b8184da627467ae44f51b, type: 2}
+    - Key: boomburst
+      Value: {fileID: 11400000, guid: 610fcbe54312f9446abb24d793ea62ce, type: 2}
+    - Key: crabhammer
+      Value: {fileID: 11400000, guid: eaf4972e583d61f46854ba77c4d2ca68, type: 2}
+    - Key: fury-cutter
+      Value: {fileID: 11400000, guid: d108312fa0bb02b469cfb12ae5dc6f44, type: 2}
+    - Key: false-swipe
+      Value: {fileID: 11400000, guid: a097808b72051d2418e9a020d279c9a3, type: 2}
+    - Key: thunder-fang
+      Value: {fileID: 11400000, guid: 49823ef03b1aa9e4aa08952a4876b6f1, type: 2}
+    - Key: retaliate
+      Value: {fileID: 11400000, guid: 3affdb22cebfa14418ca06eaa0b3f602, type: 2}
+    - Key: lick
+      Value: {fileID: 11400000, guid: 8646a4423c3a5ed468114580f9662ccc, type: 2}
+    - Key: bulk-up
+      Value: {fileID: 11400000, guid: 117283046cf4e444f8837b04ce058051, type: 2}
+    - Key: close-combat
+      Value: {fileID: 11400000, guid: 275be9b2b8101b04fa493d4e964f1c0c, type: 2}
+    - Key: minimize
+      Value: {fileID: 11400000, guid: 7b5e5e7978425774daf312ef410c9515, type: 2}
+    - Key: brine
+      Value: {fileID: 11400000, guid: 90d172532a5da1044b48f2aa2515ebd7, type: 2}
+    - Key: acupressure
+      Value: {fileID: 11400000, guid: c83af492c838ddb4199dbf24b4672cc4, type: 2}
+    - Key: barb-barrage
+      Value: {fileID: 11400000, guid: ec5d802522713db46a1386d71530d9ad, type: 2}
+    - Key: acid
+      Value: {fileID: 11400000, guid: ca12884120f25af40a8b0c469687c791, type: 2}
+    - Key: final-gambit
+      Value: {fileID: 11400000, guid: 7d8a61972af9c55449943dc552d0caa3, type: 2}
+    - Key: wrap
+      Value: {fileID: 11400000, guid: 8e7e3d156c0bcea459d9483ebb16e915, type: 2}
+    - Key: withdraw
+      Value: {fileID: 11400000, guid: 0dd7bc5bc1da7dd4aa62bf90c9235a53, type: 2}
+    - Key: gastro-acid
+      Value: {fileID: 11400000, guid: 8fe1a0c37eda16e46a64e27731cce20b, type: 2}
+    - Key: guard-split
+      Value: {fileID: 11400000, guid: a4831ed358082de4382972fe9e615b39, type: 2}
+    - Key: power-split
+      Value: {fileID: 11400000, guid: 519f06eb37ef6274ea905cf1bd951229, type: 2}
+    - Key: shell-smash
+      Value: {fileID: 11400000, guid: bc60dbd965b35604f81066bf459ff0e3, type: 2}
+    - Key: seismic-toss
+      Value: {fileID: 11400000, guid: da8e96273c9a6b147808e30051e5c3c6, type: 2}
+    - Key: horn-attack
+      Value: {fileID: 11400000, guid: 8066d3c9f34867e478d3639c316cc0b0, type: 2}
+    - Key: fury-attack
+      Value: {fileID: 11400000, guid: d29e47160a540534a83fdf7dd7e1ab62, type: 2}
+    - Key: vacuum-wave
+      Value: {fileID: 11400000, guid: 93f817b99f2cf12408e187894d8eb9ae, type: 2}
+    - Key: coaching
+      Value: {fileID: 11400000, guid: f090cdd6abb25b14bbc724994dfd410b, type: 2}
+    - Key: arm-thrust
+      Value: {fileID: 11400000, guid: 44d3b90d94614714891bf4dde2b62904, type: 2}
+    - Key: pursuit
+      Value: {fileID: 11400000, guid: b43a7ee4cf003554a9966f83564a4a5c, type: 2}
+    - Key: revenge
+      Value: {fileID: 11400000, guid: b4a32d48f48148a44bd2725361c29b6e, type: 2}
+    - Key: ice-shard
+      Value: {fileID: 11400000, guid: 64008c1fb09ba9b4282df14690a370f5, type: 2}
+    - Key: icicle-crash
+      Value: {fileID: 11400000, guid: a6e0f8d8f0c66e645bdadae74369fb78, type: 2}
+    - Key: hone-claws
+      Value: {fileID: 11400000, guid: d6864d5a42498f844874aedd4a534e08, type: 2}
+    - Key: icicle-spear
+      Value: {fileID: 11400000, guid: 01d52f9f21db4e2478e89e5a570522f3, type: 2}
+    - Key: dire-claw
+      Value: {fileID: 11400000, guid: f7fae2bb17e744e40a70830d00f50c5e, type: 2}
+    - Key: cross-chop
+      Value: {fileID: 11400000, guid: 7d52c62a0bc6d184f9e97dc54e390614, type: 2}
+    - Key: play-nice
+      Value: {fileID: 11400000, guid: 98a23ff977c04da4da886c185499c385, type: 2}
+    - Key: headlong-rush
+      Value: {fileID: 11400000, guid: 4619a17805b233b419962e3ba7ec704e, type: 2}
+    - Key: moonlight
+      Value: {fileID: 11400000, guid: 6dc9c14829956bd4abbf2783e16647db, type: 2}
+    - Key: blood-moon
+      Value: {fileID: 11400000, guid: f5e546f994c096c4c954093a45128e8a, type: 2}
+    - Key: acid-armor
+      Value: {fileID: 11400000, guid: 19f8ee89b4cd8d14f9bea5abfb1358a5, type: 2}
+    - Key: smog
+      Value: {fileID: 11400000, guid: ded9d3ddb5f3743478ee74979acea6e9, type: 2}
+    - Key: clear-smog
+      Value: {fileID: 11400000, guid: 4f786242f41017c46a3c16d75e33d85c, type: 2}
+    - Key: incinerate
+      Value: {fileID: 11400000, guid: 2185c2824d51caf47b52a99061241a5f, type: 2}
+    - Key: heat-crash
+      Value: {fileID: 11400000, guid: bd26f3ed37df8f744b9f7a4a8173250d, type: 2}
+    - Key: fissure
+      Value: {fileID: 11400000, guid: bd7dadcc8f3ebf24ea9c6cf6170a70c1, type: 2}
+    - Key: freeze-dry
+      Value: {fileID: 11400000, guid: 021b2eacc7d2b2f4c82d6da43157e30f, type: 2}
+    - Key: powder-snow
+      Value: {fileID: 11400000, guid: 46d31bbe181c1c64988c03677cfcae82, type: 2}
+    - Key: aurora-beam
+      Value: {fileID: 11400000, guid: 7d7064e76e162bd488da45c89d2ccab0, type: 2}
+    - Key: aurora-veil
+      Value: {fileID: 11400000, guid: 3c6584b0c198ef84bb3b1a4a0b11906f, type: 2}
+    - Key: nature-power
+      Value: {fileID: 11400000, guid: 6659e4a71f0673f49954b1756b2be5fe, type: 2}
+    - Key: hail
+      Value: {fileID: 11400000, guid: b181c303beb702041bc5023990104fff, type: 2}
+    - Key: grudge
+      Value: {fileID: 11400000, guid: 9549bdb9d31859649bfa215faa343c6c, type: 2}
+    - Key: octazooka
+      Value: {fileID: 11400000, guid: fd9efae5e96741943a150a824b3eeccd, type: 2}
+    - Key: water-spout
+      Value: {fileID: 11400000, guid: 5cba934e979f5b94d89174defb3fc4f2, type: 2}
+    - Key: entrainment
+      Value: {fileID: 11400000, guid: bcfa3c1f6cbfea649ac903d926299dde, type: 2}
+    - Key: lock-on
+      Value: {fileID: 11400000, guid: 79d7d5c79b5e761458653b5d3a0d0d2f, type: 2}
+    - Key: twister
+      Value: {fileID: 11400000, guid: b0fc874d5b2d45b46ace742d7ba85dd1, type: 2}
+    - Key: wide-guard
+      Value: {fileID: 11400000, guid: a7327d5bc71e3c4409f1e929aa4a8784, type: 2}
+    - Key: psyshield-bash
+      Value: {fileID: 11400000, guid: 9e993b47db1264a4c93d4072c82fb22a, type: 2}
+    - Key: role-play
+      Value: {fileID: 11400000, guid: 1f200683fd550de42ab72dc35232eb7f, type: 2}
+    - Key: sketch
+      Value: {fileID: 11400000, guid: 166749376aa751348bbccb61f08d4d6a, type: 2}
+    - Key: belch
+      Value: {fileID: 11400000, guid: 606e6e81d3b38a9409d76eceb5d4f94c, type: 2}
+    - Key: milk-drink
+      Value: {fileID: 11400000, guid: bb7b41fb44d5c654a88e478d8789bee3, type: 2}
+    - Key: sacred-fire
+      Value: {fileID: 11400000, guid: acbef41dea78a3c4295c0aa3c9158846, type: 2}
+    - Key: sheer-cold
+      Value: {fileID: 11400000, guid: a5eab11b95b02be4e87e83714208bb92, type: 2}
+    - Key: aeroblast
+      Value: {fileID: 11400000, guid: 51e21789b57eef14daae08431701c247, type: 2}
+    - Key: healing-wish
+      Value: {fileID: 11400000, guid: 956c044e329a78945bfb1587895e2115, type: 2}
+    - Key: cut
+      Value: {fileID: 11400000, guid: a70349ac23335d449bde39b051f7be4d, type: 2}
+    - Key: dragon-breath
+      Value: {fileID: 11400000, guid: 41147c67452d1e7489ccee9ecdbcd2f3, type: 2}
+    - Key: leafage
+      Value: {fileID: 11400000, guid: 47b5feb5c340eff459e9534f63147a4b, type: 2}
+    - Key: leaf-blade
+      Value: {fileID: 11400000, guid: 3522b07c8f947244ab7c74091e4a9104, type: 2}
+    - Key: shed-tail
+      Value: {fileID: 11400000, guid: f4543b716b6f0dd499c8a0c4546794b3, type: 2}
+    - Key: crush-claw
+      Value: {fileID: 11400000, guid: 141ea6c5aaeca734e8c3679b6f12d56c, type: 2}
+    - Key: blaze-kick
+      Value: {fileID: 11400000, guid: acb02ea36b54744409bcc3cd46d055dd, type: 2}
+    - Key: sludge
+      Value: {fileID: 11400000, guid: c72ecf417e321654f94dacea886827f8, type: 2}
+    - Key: poison-fang
+      Value: {fileID: 11400000, guid: e33c2739af0eb624a808d464eaf8b12e, type: 2}
+    - Key: parting-shot
+      Value: {fileID: 11400000, guid: 8642d993feb9bab4890c81ae5fa57142, type: 2}
+    - Key: submission
+      Value: {fileID: 11400000, guid: 1261d507a0ca22246be252f25c9da2ca, type: 2}
+    - Key: mega-punch
+      Value: {fileID: 11400000, guid: 4ecfb5b8319b1df40994a09db44b1cac, type: 2}
+    - Key: mega-kick
+      Value: {fileID: 11400000, guid: 0d1f8bb499c6a2d43955b53749cd8626, type: 2}
+    - Key: obstruct
+      Value: {fileID: 11400000, guid: 30728455ee2d23f4db8dc199ec044b2c, type: 2}
+    - Key: quiver-dance
+      Value: {fileID: 11400000, guid: 250a640c0622ff7448dd1989e97aaa90, type: 2}
+    - Key: teeter-dance
+      Value: {fileID: 11400000, guid: 40db98ac433c47c43b4fe1d305a71a3a, type: 2}
+    - Key: psycho-cut
+      Value: {fileID: 11400000, guid: cd6495d5f7bd5a14eb0e275fb5740b0a, type: 2}
+    - Key: sacred-sword
+      Value: {fileID: 11400000, guid: c20b3f983f2ba02438a20a2bf8d4b64f, type: 2}
+    - Key: aqua-cutter
+      Value: {fileID: 11400000, guid: 35638540de7e2b946baf219741d0fb48, type: 2}
+    - Key: spore
+      Value: {fileID: 11400000, guid: 3b39a62cfaed27241bfa88618117b0ed, type: 2}
+    - Key: dynamic-punch
+      Value: {fileID: 11400000, guid: 1608a5e35cff1be4a9cf0ab6627f93d4, type: 2}
+    - Key: slack-off
+      Value: {fileID: 11400000, guid: 05427a38ec6fd5a4484ec443f94dfe95, type: 2}
+    - Key: mind-reader
+      Value: {fileID: 11400000, guid: e91e80a25a117bd4ba6eaf778d66c1f9, type: 2}
+    - Key: circle-throw
+      Value: {fileID: 11400000, guid: 1df4eb03b8a1f494db726da9687e54c3, type: 2}
+    - Key: rock-climb
+      Value: {fileID: 11400000, guid: a09a1607d543190419c7fc97a38b1fe4, type: 2}
+    - Key: bullet-punch
+      Value: {fileID: 11400000, guid: 1cff164e45ad4e741811b1b06e8c098c, type: 2}
+    - Key: cosmic-power
+      Value: {fileID: 11400000, guid: 7be51aefb4a53454d9558fc8678f1f40, type: 2}
+    - Key: metal-burst
+      Value: {fileID: 11400000, guid: 00b5d85193a6c9f4fb243a40697a77b0, type: 2}
+    - Key: power-up-punch
+      Value: {fileID: 11400000, guid: ddaa4aad339652f478fcb166cdbcf471, type: 2}
+    - Key: autotomize
+      Value: {fileID: 11400000, guid: 79660945d06da5e4ca05e342d7f1647e, type: 2}
+    - Key: high-jump-kick
+      Value: {fileID: 11400000, guid: b9184dc985f0fce4d8e295870244bf95, type: 2}
+    - Key: axe-kick
+      Value: {fileID: 11400000, guid: 20d135b64f6d2344e96d7b3b859d6e49, type: 2}
+    - Key: nuzzle
+      Value: {fileID: 11400000, guid: 2e1aecb1c36ac184c87f45c81cfc8971, type: 2}
+    - Key: tail-glow
+      Value: {fileID: 11400000, guid: 7ae4f7eeffa774040845e7ffb8394625, type: 2}
+    - Key: power-whip
+      Value: {fileID: 11400000, guid: 71692bc00943bc74983e54f1210f0bfd, type: 2}
+    - Key: aromatherapy
+      Value: {fileID: 11400000, guid: 2447a5e19dbb58849bf7e739b0df0f8f, type: 2}
+    - Key: venom-drench
+      Value: {fileID: 11400000, guid: 35bc8d343199ce343b8da7c3b4308bb0, type: 2}
+    - Key: stuff-cheeks
+      Value: {fileID: 11400000, guid: e53020629a737314cb2c697a50fb37db, type: 2}
+    - Key: poison-gas
+      Value: {fileID: 11400000, guid: 4d8152914598cd744b73d02ab2816b9e, type: 2}
+    - Key: dive
+      Value: {fileID: 11400000, guid: 6ca3b4594e277d446a5b8cf7444e32ed, type: 2}
+    - Key: noble-roar
+      Value: {fileID: 11400000, guid: 1aed96ddd90b7044c981a5e5261ce896, type: 2}
+    - Key: recycle
+      Value: {fileID: 11400000, guid: efc66f1bd267e58439abef5d518999f3, type: 2}
+    - Key: first-impression
+      Value: {fileID: 11400000, guid: 1066a2d3cb533da43a4742027ab7fd01, type: 2}
+    - Key: draco-meteor
+      Value: {fileID: 11400000, guid: 5e45b41d2b522e54b868b8ccfea08db9, type: 2}
+    - Key: power-trip
+      Value: {fileID: 11400000, guid: 20fb805c532dc1c408caca383ea66eeb, type: 2}
+    - Key: spiky-shield
+      Value: {fileID: 11400000, guid: c2b4edad84b087a4d9849d7e0e786097, type: 2}
+    - Key: magic-room
+      Value: {fileID: 11400000, guid: 5aae81b1994a1f941a221994b74512e5, type: 2}
+    - Key: guillotine
+      Value: {fileID: 11400000, guid: d3a5bbd273a844843a104fd357382f91, type: 2}
+    - Key: razor-shell
+      Value: {fileID: 11400000, guid: 25fee6cbfd181ac41bb691b7e5e4457d, type: 2}
+    - Key: bind
+      Value: {fileID: 11400000, guid: 4b62bf6f701877f47897a6f8edb60820, type: 2}
+    - Key: reflect-type
+      Value: {fileID: 11400000, guid: 7bb163026ea7011448a7428671049b62, type: 2}
+    - Key: magic-coat
+      Value: {fileID: 11400000, guid: 2769bd26828eaf749bcae15a35eb0e6e, type: 2}
+    - Key: shadow-punch
+      Value: {fileID: 11400000, guid: 080c4a5cf2a713b46b1f88ecc7e522d2, type: 2}
+    - Key: frost-breath
+      Value: {fileID: 11400000, guid: 85c9545b5a352cc4a8d7bc0fd27c1b6c, type: 2}
+    - Key: skull-bash
+      Value: {fileID: 11400000, guid: 51b1eb0d6d3af3641825c822d5eaa77b, type: 2}
+    - Key: meteor-mash
+      Value: {fileID: 11400000, guid: 77f9be59ad717c34b82285bc542a59fe, type: 2}
+    - Key: mist-ball
+      Value: {fileID: 11400000, guid: b9621869cab3bde4382192946f541876, type: 2}
+    - Key: luster-purge
+      Value: {fileID: 11400000, guid: f204e30b964325e43bc4c6ae340452b9, type: 2}
+    - Key: origin-pulse
+      Value: {fileID: 11400000, guid: d65d0ed442c33ac4ea60bf56fb8adacd, type: 2}
+    - Key: dragon-ascent
+      Value: {fileID: 11400000, guid: 7619f4454af25fd4297a11a94b95c33f, type: 2}
+    - Key: doom-desire
+      Value: {fileID: 11400000, guid: 0be3e4284c11b7648a881dca96a8a42c, type: 2}
+    - Key: psycho-boost
+      Value: {fileID: 11400000, guid: df36f88309e530d45ab9f8168f28c3d1, type: 2}
+  IgnoredPokeAPIMoves:
+  - grass-pledge
+  - tera-blast
+  - fire-pledge
+  - water-pledge
+  - ally-switch
+  - force-palm
+  PokeAPINameToAbilityEquivalences:
+    SerializedList:
+    - Key: overgrow
+      Value: {fileID: 11400000, guid: 35e4f0c9b2c8e7c4fa454e035bd70868, type: 2}
+    - Key: leaf-guard
+      Value: {fileID: 11400000, guid: b05e20b92d4985d42b77b11fa8a7033d, type: 2}
+    - Key: blaze
+      Value: {fileID: 11400000, guid: 20db7a24139edf44abf8694754b15b89, type: 2}
+    - Key: flash-fire
+      Value: {fileID: 11400000, guid: a19d85a7d4ab9f0479a8c5f55155030e, type: 2}
+    - Key: frisk
+      Value: {fileID: 11400000, guid: a7cbbb3d916b4c7449e4b64ae115f5ed, type: 2}
+    - Key: torrent
+      Value: {fileID: 11400000, guid: 18f271bd888b7994ca8182937c32f83d, type: 2}
+    - Key: sheer-force
+      Value: {fileID: 11400000, guid: f1f83070bea6f4e4d884fd069eb4646c, type: 2}
+    - Key: run-away
+      Value: {fileID: 11400000, guid: d99aae9f5b8ceff4d97bac5c5421ec85, type: 2}
+    - Key: keen-eye
+      Value: {fileID: 11400000, guid: f55011fc30e007a42915ec3ecf7b43dd, type: 2}
+    - Key: insomnia
+      Value: {fileID: 11400000, guid: 4f0922516efe5a54fb4ee18a0cc8bd26, type: 2}
+    - Key: tinted-lens
+      Value: {fileID: 11400000, guid: 6486ed502bfb03942afe861166c3321c, type: 2}
+    - Key: swarm
+      Value: {fileID: 11400000, guid: 80e4c32c01208d542af5534c07d0a3fc, type: 2}
+    - Key: early-bird
+      Value: {fileID: 11400000, guid: c34b9eae8b4e06540aebb2904591511b, type: 2}
+    - Key: rattled
+      Value: {fileID: 11400000, guid: 18be9b9507a693544a9fd28a45770227, type: 2}
+    - Key: iron-fist
+      Value: {fileID: 11400000, guid: d25c657ed5665534abb4887600c40f3f, type: 2}
+    - Key: sniper
+      Value: {fileID: 11400000, guid: e67b575fa51d74e46aef3b60d07458cf, type: 2}
+    - Key: volt-absorb
+      Value: {fileID: 11400000, guid: 535f8ae78f1d61041a6fbaaf2ccd2063, type: 2}
+    - Key: illuminate
+      Value: {fileID: 11400000, guid: 1108a99927bc1f247988d00c401b8821, type: 2}
+    - Key: water-absorb
+      Value: {fileID: 11400000, guid: cd4bbfab7bf6cd0439cf4d042d461cd8, type: 2}
+    - Key: hustle
+      Value: {fileID: 11400000, guid: 4e629be0a74b7f34295e4e3fdac9edd6, type: 2}
+    - Key: serene-grace
+      Value: {fileID: 11400000, guid: 87faf80c03d1d8c458ab9af53f67fc6f, type: 2}
+    - Key: super-luck
+      Value: {fileID: 11400000, guid: b273a5a742c7c5844b2a812bc4c29663, type: 2}
+    - Key: synchronize
+      Value: {fileID: 11400000, guid: 5141771c2c255674a8476fc8a458fec2, type: 2}
+    - Key: magic-bounce
+      Value: {fileID: 11400000, guid: f38487ba38deb1b47b9fe52746e72dfc, type: 2}
+    - Key: static
+      Value: {fileID: 11400000, guid: 894aaaef4a74ea4469912e72464c2bc2, type: 2}
+    - Key: plus
+      Value: {fileID: 11400000, guid: 247d9691cd73302499e551f03287ea20, type: 2}
+    - Key: mold-breaker
+      Value: {fileID: 11400000, guid: 163d0c742fc679048806d5c25e32706a, type: 2}
+    - Key: thick-fat
+      Value: {fileID: 11400000, guid: f62b264eb2d509d42be7c8a2672ff9cb, type: 2}
+    - Key: huge-power
+      Value: {fileID: 11400000, guid: 9cefa3551178f4648b297410e31bb561, type: 2}
+    - Key: sap-sipper
+      Value: {fileID: 11400000, guid: 6ca695fe6698baf418c1c99be7ff8868, type: 2}
+    - Key: sturdy
+      Value: {fileID: 11400000, guid: ccf405c5e36a127449c072175187a558, type: 2}
+    - Key: rock-head
+      Value: {fileID: 11400000, guid: 47a2c2ef41ebd3f49b29c17a45520083, type: 2}
+    - Key: chlorophyll
+      Value: {fileID: 11400000, guid: a8737be65d6c5ac42aa4482f7771c6d6, type: 2}
+    - Key: infiltrator
+      Value: {fileID: 11400000, guid: 77b5a17cdeb9c5346b44e54bd1b06815, type: 2}
+    - Key: pickup
+      Value: {fileID: 11400000, guid: ce4ef0b7569ed5a40ab068eede651593, type: 2}
+    - Key: skill-link
+      Value: {fileID: 11400000, guid: 2ddc380304eca5a40be36e25a64ed862, type: 2}
+    - Key: technician
+      Value: {fileID: 11400000, guid: 74372f08ac710fe4d9a12492ef5b4a26, type: 2}
+    - Key: solar-power
+      Value: {fileID: 11400000, guid: 11462de43c4b87047915085b66cfd2ed, type: 2}
+    - Key: speed-boost
+      Value: {fileID: 11400000, guid: 8c8e32eb6cec68d49aa33e0050289adc, type: 2}
+    - Key: compound-eyes
+      Value: {fileID: 11400000, guid: 546336757dc978d41bb1bcd2df78cbee, type: 2}
+    - Key: damp
+      Value: {fileID: 11400000, guid: b5b0f007663b5de499d91f20f521a1f0, type: 2}
+    - Key: unaware
+      Value: {fileID: 11400000, guid: e9183f340f88d4842b6be85ad54f2380, type: 2}
+    - Key: poison-point
+      Value: {fileID: 11400000, guid: f225d5b68faefdb43acb363e87550b48, type: 2}
+    - Key: prankster
+      Value: {fileID: 11400000, guid: dc6c825fbff5a2940abf414c62616013, type: 2}
+    - Key: moxie
+      Value: {fileID: 11400000, guid: 60d47e66fcfe970448a9a20149486a74, type: 2}
+    - Key: levitate
+      Value: {fileID: 11400000, guid: 96066d57d7a34964b8130fed4b3b162b, type: 2}
+    - Key: shadow-tag
+      Value: {fileID: 11400000, guid: 32712c3ee02c63d489aab3fc0c5a00b3, type: 2}
+    - Key: telepathy
+      Value: {fileID: 11400000, guid: cc8a676b9aedd4d429fa0d238c8f55ac, type: 2}
+    - Key: inner-focus
+      Value: {fileID: 11400000, guid: a618ea3c463dbcd4a83610b69d1bdffa, type: 2}
+    - Key: cud-chew
+      Value: {fileID: 11400000, guid: 25ce6cc6d270edb4faaf47e1edf03ecb, type: 2}
+    - Key: armor-tail
+      Value: {fileID: 11400000, guid: f7ad348ea2d88bc44ac767ace6013e52, type: 2}
+    - Key: overcoat
+      Value: {fileID: 11400000, guid: 1e0c889ea8c1f324081aa86b5dcbf258, type: 2}
+    - Key: hyper-cutter
+      Value: {fileID: 11400000, guid: 5ad85b15fa8e74d4ab344cb3cbe26126, type: 2}
+    - Key: sand-veil
+      Value: {fileID: 11400000, guid: eb8ae578663b2de4a9f1f49598015a43, type: 2}
+    - Key: immunity
+      Value: {fileID: 11400000, guid: 883dbfa7d132e8145bc85fb11deb677a, type: 2}
+    - Key: poison-heal
+      Value: {fileID: 11400000, guid: 2e031afa0008bb940a26428199e3ef5b, type: 2}
+    - Key: intimidate
+      Value: {fileID: 11400000, guid: ed166761473a1f44082211466f1df85e, type: 2}
+    - Key: quick-feet
+      Value: {fileID: 11400000, guid: c3ec4b77ae98a534d98a5d00ea578239, type: 2}
+    - Key: swift-swim
+      Value: {fileID: 11400000, guid: a83c9da11e7763341bb9b70c93f6d784, type: 2}
+    - Key: gluttony
+      Value: {fileID: 11400000, guid: 0d6e4f492819f1449aca022b27fbc8c4, type: 2}
+    - Key: contrary
+      Value: {fileID: 11400000, guid: a05bc003bc97a4944bcae40918e97bb0, type: 2}
+    - Key: guts
+      Value: {fileID: 11400000, guid: fc647fc6fb258ae449a0ccad6e7e92f6, type: 2}
+    - Key: pickpocket
+      Value: {fileID: 11400000, guid: 7fa3748432f7c7242b1945e121cace54, type: 2}
+    - Key: pressure
+      Value: {fileID: 11400000, guid: 44181b8655076a8419d1b193b993a33f, type: 2}
+    - Key: unburden
+      Value: {fileID: 11400000, guid: 518f1ce0784c99948abbb1733d8de89e, type: 2}
+    - Key: poison-touch
+      Value: {fileID: 11400000, guid: ba78fb25188cad14c85cce57ce2dfa5a, type: 2}
+    - Key: honey-gather
+      Value: {fileID: 11400000, guid: d50ae6e54c980e84d825088499b47fb5, type: 2}
+    - Key: unnerve
+      Value: {fileID: 11400000, guid: 0ec3a080de573cb429cf090bac0a81b1, type: 2}
+    - Key: bulletproof
+      Value: {fileID: 11400000, guid: ff1613595cab8d04fa4cfd043a8d65b7, type: 2}
+    - Key: minds-eye
+      Value: {fileID: 11400000, guid: ae4464632dc47e444a947a7fd3288c0a, type: 2}
+    - Key: magma-armor
+      Value: {fileID: 11400000, guid: 880e0b08f9eefd54b922165e899de29f, type: 2}
+    - Key: flame-body
+      Value: {fileID: 11400000, guid: b8cd4a1380e85784d96f3cd42796dd53, type: 2}
+    - Key: weak-armor
+      Value: {fileID: 11400000, guid: b7920e8cf68b10a4d83dcbc82d717102, type: 2}
+    - Key: oblivious
+      Value: {fileID: 11400000, guid: 957edf242a16c904aa4dc920e1af7ebf, type: 2}
+    - Key: snow-cloak
+      Value: {fileID: 11400000, guid: 2a7d70c37813a4e468e1d340374d1735, type: 2}
+    - Key: vital-spirit
+      Value: {fileID: 11400000, guid: f2e1b1e0942f3014b8fdfa7962f36bbe, type: 2}
+    - Key: natural-cure
+      Value: {fileID: 11400000, guid: 40cdf62b48a42084b8aba9e7b965d21b, type: 2}
+    - Key: regenerator
+      Value: {fileID: 11400000, guid: 68e86e334cd045a46bd75d1941565f86, type: 2}
+    - Key: cursed-body
+      Value: {fileID: 11400000, guid: ced6b849b9907d641bd91a79b316575f, type: 2}
+    - Key: perish-body
+      Value: {fileID: 11400000, guid: 0f4daaf345eb48749a030371cacffa7a, type: 2}
+    - Key: moody
+      Value: {fileID: 11400000, guid: f5353611e0d65db4797afbb7b603af8c, type: 2}
+    - Key: suction-cups
+      Value: {fileID: 11400000, guid: ef5223e1f64c94749b4f6621a22037ac, type: 2}
+    - Key: water-veil
+      Value: {fileID: 11400000, guid: 50b3f1d789cf5d54cb6cce1a58706863, type: 2}
+    - Key: own-tempo
+      Value: {fileID: 11400000, guid: 683dc7b011658c74db358ff23e5507a9, type: 2}
+    - Key: scrappy
+      Value: {fileID: 11400000, guid: da1e599408fee5e49a0cac001da91c4e, type: 2}
+    - Key: shed-skin
+      Value: {fileID: 11400000, guid: 86807fe25d3920e44941beeeeabe6606, type: 2}
+    - Key: sand-stream
+      Value: {fileID: 11400000, guid: 0153e000191c6d545b34452a7a5e6db8, type: 2}
+    - Key: multiscale
+      Value: {fileID: 11400000, guid: ba2708047fd009f419443925744266e6, type: 2}
+    - Key: reckless
+      Value: {fileID: 11400000, guid: 37988fa272f48044ab11024056ef330f, type: 2}
+    - Key: defiant
+      Value: {fileID: 11400000, guid: 28983211037e77a41b7a949cc10da582, type: 2}
+    - Key: shield-dust
+      Value: {fileID: 11400000, guid: 27a84f218d0079948a91c98b8ba1b093, type: 2}
+    - Key: rivalry
+      Value: {fileID: 11400000, guid: acdb4d5268d174b48a0e8cd43002c0ac, type: 2}
+    - Key: rain-dish
+      Value: {fileID: 11400000, guid: c8dacc70f1430c24799240d3c2ae189a, type: 2}
+    - Key: wind-rider
+      Value: {fileID: 11400000, guid: b3ae2433f42ae6741a53ee08d8793b82, type: 2}
+    - Key: hydration
+      Value: {fileID: 11400000, guid: 83c15686c9957cd408b21591b102dd8a, type: 2}
+    - Key: drizzle
+      Value: {fileID: 11400000, guid: f359356a59133df419e5cf8f15380873, type: 2}
+    - Key: trace
+      Value: {fileID: 11400000, guid: b69b549c92ab6e94d88b0842fa6d690e, type: 2}
+    - Key: steadfast
+      Value: {fileID: 11400000, guid: ad8f2f7135e22894dbeb04c6a711ec37, type: 2}
+    - Key: sharpness
+      Value: {fileID: 11400000, guid: f4d7538ca4e264f43b19afa2b126a216, type: 2}
+    - Key: justified
+      Value: {fileID: 11400000, guid: d68811620a80c6944b6296774b882388, type: 2}
+    - Key: effect-spore
+      Value: {fileID: 11400000, guid: 1bc12c8d93a51bd4cb9ff694871f58c7, type: 2}
+    - Key: truant
+      Value: {fileID: 11400000, guid: 2f01719727cfb464a997015bf208bf33, type: 2}
+    - Key: wonder-guard
+      Value: {fileID: 11400000, guid: 233a23d1d4aa65d4ea9dc205c7e49313, type: 2}
+    - Key: soundproof
+      Value: {fileID: 11400000, guid: b94a9be8cf920d6429e4483839f06f51, type: 2}
+    - Key: magnet-pull
+      Value: {fileID: 11400000, guid: 5054f3bf3ab1dfb4cba457d1cc5fbb9e, type: 2}
+    - Key: sand-force
+      Value: {fileID: 11400000, guid: a6fb8917287297a49bed073089109428, type: 2}
+    - Key: cute-charm
+      Value: {fileID: 11400000, guid: ded5dffec9d55434ba970d29a424dd10, type: 2}
+    - Key: normalize
+      Value: {fileID: 11400000, guid: 9d46512fa8f42874d80cf78ec3cecd09, type: 2}
+    - Key: wonder-skin
+      Value: {fileID: 11400000, guid: f752341577a9ceb49a5b0ef9fe7f4868, type: 2}
+    - Key: stall
+      Value: {fileID: 11400000, guid: 4801fa465e7bdb14d81b75d1a9395120, type: 2}
+    - Key: heavy-metal
+      Value: {fileID: 11400000, guid: ea4d386c0eb92bc459f2b921ee15f2a9, type: 2}
+    - Key: pure-power
+      Value: {fileID: 11400000, guid: 5443bc966db2dc14c83f3b4c77f020b7, type: 2}
+    - Key: lightning-rod
+      Value: {fileID: 11400000, guid: 3562105b58db69449861e2ebf4ed32fa, type: 2}
+    - Key: minus
+      Value: {fileID: 11400000, guid: 6b15e6b0183996e448d0c7369632dec6, type: 2}
+    - Key: liquid-ooze
+      Value: {fileID: 11400000, guid: 13c9a6f56cd20634ca3d17f7e8fde594, type: 2}
+    - Key: sticky-hold
+      Value: {fileID: 11400000, guid: 3d5f5fecf214da74a8526a009bfab04e, type: 2}
+    - Key: rough-skin
+      Value: {fileID: 11400000, guid: 1f73d295e674e3a41a710bc884f0ac33, type: 2}
+    - Key: simple
+      Value: {fileID: 11400000, guid: ba1371c23a937da4d941b6d1e15d6d00, type: 2}
+    - Key: solid-rock
+      Value: {fileID: 11400000, guid: 20232ddd3c9321b48b77ab139fb8bb1f, type: 2}
+    - Key: anger-point
+      Value: {fileID: 11400000, guid: 3adbf6a2a3b6c234abe54812de9e9672, type: 2}
+    - Key: white-smoke
+      Value: {fileID: 11400000, guid: f8d8dd11f4d3f944ca05b515d9e52cf0, type: 2}
+    - Key: drought
+      Value: {fileID: 11400000, guid: 508601d911c5e964ca47b84e7e756f4c, type: 2}
+    - Key: shell-armor
+      Value: {fileID: 11400000, guid: 3e252b6a3f8866446be1e4ae4508c8ec, type: 2}
+    - Key: tangled-feet
+      Value: {fileID: 11400000, guid: 9e24eb8b9559a624783758dfadad52d2, type: 2}
+    - Key: arena-trap
+      Value: {fileID: 11400000, guid: a3d895742189ffa4aba38865d0309f61, type: 2}
+    - Key: cloud-nine
+      Value: {fileID: 11400000, guid: c89779b571d779e4a9d65b81c31348ff, type: 2}
+    - Key: toxic-boost
+      Value: {fileID: 11400000, guid: d18cd6caa61728447b0bd3f0c0d39cea, type: 2}
+    - Key: anticipation
+      Value: {fileID: 11400000, guid: 4849edf3a9d66524c9df63f3696745ed, type: 2}
+    - Key: adaptability
+      Value: {fileID: 11400000, guid: 173ce0c7cdae7664e892881ab78bba2b, type: 2}
+    - Key: storm-drain
+      Value: {fileID: 11400000, guid: 0241569ac8aeb8f45973110bdd692a0c, type: 2}
+    - Key: battle-armor
+      Value: {fileID: 11400000, guid: 820a620b0c5980345bfd2e1ad3110e91, type: 2}
+    - Key: marvel-scale
+      Value: {fileID: 11400000, guid: 22782951a1d8212479ae13cd38bd9f83, type: 2}
+    - Key: competitive
+      Value: {fileID: 11400000, guid: df96f2abfd8001943a858fcc594708eb, type: 2}
+    - Key: forecast
+      Value: {fileID: 11400000, guid: c99f3b7115bc435498947b6693536f87, type: 2}
+    - Key: color-change
+      Value: {fileID: 11400000, guid: 724943e74b560e049aaec172a9e22d97, type: 2}
+    - Key: protean
+      Value: {fileID: 11400000, guid: 37ccaf98d203c2c4f9ee9cb73d89fc34, type: 2}
+    - Key: harvest
+      Value: {fileID: 11400000, guid: 82454b52c85e9194ea41e24d406b25e3, type: 2}
+    - Key: ice-body
+      Value: {fileID: 11400000, guid: ed1f1b17c7dc3a04b9ecc80206373384, type: 2}
+    - Key: clear-body
+      Value: {fileID: 11400000, guid: b73be53314332e14d87e21921a6fe865, type: 2}
+    - Key: light-metal
+      Value: {fileID: 11400000, guid: ae739c53a96056e4b8bbe3f77fed48b7, type: 2}
+    - Key: air-lock
+      Value: {fileID: 11400000, guid: 777d474e7f6e3cd45a206b5739207d27, type: 2}
+  PokeAPINameToGrowthRateEquivalences:
+    SerializedList:
+    - Key: medium-slow
+      Value: 3
+    - Key: medium
+      Value: 2
+    - Key: fast
+      Value: 1
+    - Key: slow
+      Value: 4
+    - Key: fast-then-very-slow
+      Value: 5
+    - Key: slow-then-very-fast
+      Value: 0
+  PokeAPINameToEggGroupEquivalences:
+    SerializedList:
+    - Key: monster
+      Value: {fileID: 11400000, guid: e338a8ac51fa17740bedd710f4dc6df0, type: 2}
+    - Key: plant
+      Value: {fileID: 11400000, guid: a32c857fbfbee0a4c9e8c642a3a2d6e6, type: 2}
+    - Key: ground
+      Value: {fileID: 11400000, guid: 84fe63a0802dac347b1a5207d5833849, type: 2}
+    - Key: water1
+      Value: {fileID: 11400000, guid: f6a82c8007a15424e86f018c20e47b69, type: 2}
+    - Key: flying
+      Value: {fileID: 11400000, guid: 09c071949232f154faae163f6862718d, type: 2}
+    - Key: bug
+      Value: {fileID: 11400000, guid: c3f10423ee485f9479a8b09f750ebf4f, type: 2}
+    - Key: water2
+      Value: {fileID: 11400000, guid: cd4fa0727c41c4d488fb0b185d72da8a, type: 2}
+    - Key: no-eggs
+      Value: {fileID: 11400000, guid: e29ad0f4095d03e4c915b4a417b01b80, type: 2}
+    - Key: fairy
+      Value: {fileID: 11400000, guid: 7edabbfc49a765d42a29dfd457238aaa, type: 2}
+    - Key: mineral
+      Value: {fileID: 11400000, guid: f481c22400465ae41932fc27088c69cb, type: 2}
+    - Key: indeterminate
+      Value: {fileID: 11400000, guid: dab3a9294113c474e9aa20de820f874e, type: 2}
+    - Key: water3
+      Value: {fileID: 11400000, guid: a461d92eeb6bdc6418d85f6ca35a6c06, type: 2}
+    - Key: dragon
+      Value: {fileID: 11400000, guid: 0acedea26ee68c744bf4b2266e969cd0, type: 2}
+    - Key: humanshape
+      Value: {fileID: 11400000, guid: 1fd1e7c172b172445aa33a828295ba4e, type: 2}
+  PokeAPINameToStatEquivalences:
+    SerializedList:
+    - Key: hp
+      Value: 0
+    - Key: attack
+      Value: 1
+    - Key: defense
+      Value: 2
+    - Key: special-attack
+      Value: 3
+    - Key: special-defense
+      Value: 4
+    - Key: speed
+      Value: 5

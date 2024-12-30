@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71e1d1d94c77b8447982a01ea14fa5f1, type: 3}
+  m_Name: RagePowderCenterOfAttention
+  m_EditorClassIdentifier: 
+  LocalizableNameKey: Status/Volatile/CenterOfAttention
+  LocalizableStatusStartKey: Status/Volatile/CenterOfAttention/Start
+  LocalizableStatusTickKey: NotUsed
+  LocalizableStatusEndKey: NotUsed
+  MinCountdown: 1000
+  MaxCountdown: 1000
+  ImmuneMoves: []
+  ImmuneItems:
+  - {fileID: 11400000, guid: 868bc6ea6ef537545891c30823ce08c4, type: 2}

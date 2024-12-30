@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83cb267f18334bfe94c365a229b40a74, type: 3}
+  m_Name: WaterGun
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/WaterGun
+  LocalizableDescription: Moves/WaterGun/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Water_Gun_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 96acf51bdce11384d9b1ceb0369ace1e, type: 2}
+  MoveCategory: 1
+  BasePowerPoints: 25
+  MaxPowerPoints: 40
+  Priority: 0
+  MakesContact: 0
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 1
+  SoundBased: 0
+  InfiniteAccuracy: 0
+  Accuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 0
+  FallbackAnimation: {fileID: 0}
+  CanBeUsedOutsideBattle: 0
+  Power: 40
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  Sound:
+    Audio: Water Gun
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+  BeamSize:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0.5
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  BeamParticle: {fileID: 2800000, guid: 834f663bc32384849966c1e3c8981dfa, type: 3}
+  VaporPrefab: {fileID: 2927878538750410271, guid: 580065d7553ce4c4dbba724ad299682c, type: 3}

@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18ddf3fe6e624dd98e2994e5c1693ae8, type: 3}
+  m_Name: Brine
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/Brine
+  LocalizableDescription: Moves/Brine/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Brine_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 96acf51bdce11384d9b1ceb0369ace1e, type: 2}
+  MoveCategory: 1
+  BasePowerPoints: 10
+  MaxPowerPoints: 16
+  Priority: 0
+  MakesContact: 0
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 1
+  SoundBased: 0
+  InfiniteAccuracy: 0
+  Accuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: 51c2947f70a398a45898d3dc897d35a0, type: 2}
+  CanBeUsedOutsideBattle: 0
+  Power: 65
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1

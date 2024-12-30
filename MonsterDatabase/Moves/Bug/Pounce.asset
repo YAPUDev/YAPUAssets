@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5629332123147ca876de62390765ab1, type: 3}
+  m_Name: Pounce
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/Pounce
+  LocalizableDescription: Moves/Pounce/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Pounce_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 8224339d425c323429f4f784f48fce81, type: 2}
+  MoveCategory: 0
+  BasePowerPoints: 20
+  MaxPowerPoints: 32
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 1
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 1
+  SoundBased: 0
+  OverridesEffectiveness: 0
+  EffectivenessOverride:
+    SerializedList: []
+  InfiniteAccuracy: 0
+  BaseAccuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: e62bb486865d24c47a9963c3de1de545, type: 2}
+  CanBeUsedOutsideBattle: 0
+  Power: 50
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  ChangeStats: 1
+  StatChangesAffectSelf: 0
+  StatChanges:
+    SerializedList:
+    - Key: 1
+      Value:
+        SerializedList:
+        - Key: 5
+          Value: -1
+  ChangeBattleStats: 0
+  BattleStatChanges:
+    SerializedList: []
+  ChangeCritical: 0
+  CriticalChange: 0
+  CriticalChance: 0

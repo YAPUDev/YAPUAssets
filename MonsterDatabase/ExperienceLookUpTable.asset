@@ -1,0 +1,1234 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc3a3a3349724edc88145a6b130926fe, type: 3}
+  m_Name: ExperienceLookUpTable
+  m_EditorClassIdentifier: 
+  CurrentExperienceTable:
+    SerializedList:
+    - Key: 0
+      Value:
+        SerializedList:
+        - Key: 1
+          Value: 0
+        - Key: 2
+          Value: 15
+        - Key: 3
+          Value: 52
+        - Key: 4
+          Value: 122
+        - Key: 5
+          Value: 237
+        - Key: 6
+          Value: 406
+        - Key: 7
+          Value: 637
+        - Key: 8
+          Value: 942
+        - Key: 9
+          Value: 1326
+        - Key: 10
+          Value: 1800
+        - Key: 11
+          Value: 2369
+        - Key: 12
+          Value: 3041
+        - Key: 13
+          Value: 3822
+        - Key: 14
+          Value: 4719
+        - Key: 15
+          Value: 5737
+        - Key: 16
+          Value: 6881
+        - Key: 17
+          Value: 8155
+        - Key: 18
+          Value: 9564
+        - Key: 19
+          Value: 11111
+        - Key: 20
+          Value: 12800
+        - Key: 21
+          Value: 14632
+        - Key: 22
+          Value: 16610
+        - Key: 23
+          Value: 18737
+        - Key: 24
+          Value: 21012
+        - Key: 25
+          Value: 23437
+        - Key: 26
+          Value: 26012
+        - Key: 27
+          Value: 28737
+        - Key: 28
+          Value: 31610
+        - Key: 29
+          Value: 34632
+        - Key: 30
+          Value: 37800
+        - Key: 31
+          Value: 41111
+        - Key: 32
+          Value: 44564
+        - Key: 33
+          Value: 48155
+        - Key: 34
+          Value: 51881
+        - Key: 35
+          Value: 55737
+        - Key: 36
+          Value: 59719
+        - Key: 37
+          Value: 63822
+        - Key: 38
+          Value: 68041
+        - Key: 39
+          Value: 72369
+        - Key: 40
+          Value: 76800
+        - Key: 41
+          Value: 81326
+        - Key: 42
+          Value: 85942
+        - Key: 43
+          Value: 90637
+        - Key: 44
+          Value: 95406
+        - Key: 45
+          Value: 100237
+        - Key: 46
+          Value: 105122
+        - Key: 47
+          Value: 110052
+        - Key: 48
+          Value: 115015
+        - Key: 49
+          Value: 120001
+        - Key: 50
+          Value: 125000
+        - Key: 51
+          Value: 131324
+        - Key: 52
+          Value: 137795
+        - Key: 53
+          Value: 144410
+        - Key: 54
+          Value: 151165
+        - Key: 55
+          Value: 158056
+        - Key: 56
+          Value: 165079
+        - Key: 57
+          Value: 172229
+        - Key: 58
+          Value: 179503
+        - Key: 59
+          Value: 186894
+        - Key: 60
+          Value: 194400
+        - Key: 61
+          Value: 202013
+        - Key: 62
+          Value: 209728
+        - Key: 63
+          Value: 217540
+        - Key: 64
+          Value: 225443
+        - Key: 65
+          Value: 233431
+        - Key: 66
+          Value: 241496
+        - Key: 67
+          Value: 249633
+        - Key: 68
+          Value: 257834
+        - Key: 69
+          Value: 267406
+        - Key: 70
+          Value: 276458
+        - Key: 71
+          Value: 286328
+        - Key: 72
+          Value: 296358
+        - Key: 73
+          Value: 305767
+        - Key: 74
+          Value: 316074
+        - Key: 75
+          Value: 326531
+        - Key: 76
+          Value: 336255
+        - Key: 77
+          Value: 346965
+        - Key: 78
+          Value: 357812
+        - Key: 79
+          Value: 367807
+        - Key: 80
+          Value: 378880
+        - Key: 81
+          Value: 390077
+        - Key: 82
+          Value: 400293
+        - Key: 83
+          Value: 411686
+        - Key: 84
+          Value: 423190
+        - Key: 85
+          Value: 433572
+        - Key: 86
+          Value: 445239
+        - Key: 87
+          Value: 457001
+        - Key: 88
+          Value: 467489
+        - Key: 89
+          Value: 479378
+        - Key: 90
+          Value: 491346
+        - Key: 91
+          Value: 501878
+        - Key: 92
+          Value: 513934
+        - Key: 93
+          Value: 526049
+        - Key: 94
+          Value: 536557
+        - Key: 95
+          Value: 548720
+        - Key: 96
+          Value: 560922
+        - Key: 97
+          Value: 571333
+        - Key: 98
+          Value: 583539
+        - Key: 99
+          Value: 591882
+        - Key: 100
+          Value: 600000
+    - Key: 1
+      Value:
+        SerializedList:
+        - Key: 1
+          Value: 0
+        - Key: 2
+          Value: 6
+        - Key: 3
+          Value: 21
+        - Key: 4
+          Value: 51
+        - Key: 5
+          Value: 100
+        - Key: 6
+          Value: 172
+        - Key: 7
+          Value: 274
+        - Key: 8
+          Value: 409
+        - Key: 9
+          Value: 583
+        - Key: 10
+          Value: 800
+        - Key: 11
+          Value: 1064
+        - Key: 12
+          Value: 1382
+        - Key: 13
+          Value: 1757
+        - Key: 14
+          Value: 2195
+        - Key: 15
+          Value: 2700
+        - Key: 16
+          Value: 3276
+        - Key: 17
+          Value: 3930
+        - Key: 18
+          Value: 4665
+        - Key: 19
+          Value: 5487
+        - Key: 20
+          Value: 6400
+        - Key: 21
+          Value: 7408
+        - Key: 22
+          Value: 8518
+        - Key: 23
+          Value: 9733
+        - Key: 24
+          Value: 11059
+        - Key: 25
+          Value: 12500
+        - Key: 26
+          Value: 14060
+        - Key: 27
+          Value: 15746
+        - Key: 28
+          Value: 17561
+        - Key: 29
+          Value: 19511
+        - Key: 30
+          Value: 21600
+        - Key: 31
+          Value: 23832
+        - Key: 32
+          Value: 26214
+        - Key: 33
+          Value: 28749
+        - Key: 34
+          Value: 31443
+        - Key: 35
+          Value: 34300
+        - Key: 36
+          Value: 37324
+        - Key: 37
+          Value: 40522
+        - Key: 38
+          Value: 43897
+        - Key: 39
+          Value: 47455
+        - Key: 40
+          Value: 51200
+        - Key: 41
+          Value: 55136
+        - Key: 42
+          Value: 59270
+        - Key: 43
+          Value: 63605
+        - Key: 44
+          Value: 68147
+        - Key: 45
+          Value: 72900
+        - Key: 46
+          Value: 77868
+        - Key: 47
+          Value: 83058
+        - Key: 48
+          Value: 88473
+        - Key: 49
+          Value: 94119
+        - Key: 50
+          Value: 100000
+        - Key: 51
+          Value: 106120
+        - Key: 52
+          Value: 112486
+        - Key: 53
+          Value: 119101
+        - Key: 54
+          Value: 125971
+        - Key: 55
+          Value: 133100
+        - Key: 56
+          Value: 140492
+        - Key: 57
+          Value: 148154
+        - Key: 58
+          Value: 156089
+        - Key: 59
+          Value: 164303
+        - Key: 60
+          Value: 172800
+        - Key: 61
+          Value: 181584
+        - Key: 62
+          Value: 190662
+        - Key: 63
+          Value: 200037
+        - Key: 64
+          Value: 209715
+        - Key: 65
+          Value: 219700
+        - Key: 66
+          Value: 229996
+        - Key: 67
+          Value: 240610
+        - Key: 68
+          Value: 251545
+        - Key: 69
+          Value: 262807
+        - Key: 70
+          Value: 274400
+        - Key: 71
+          Value: 286328
+        - Key: 72
+          Value: 298598
+        - Key: 73
+          Value: 311213
+        - Key: 74
+          Value: 324179
+        - Key: 75
+          Value: 337500
+        - Key: 76
+          Value: 351180
+        - Key: 77
+          Value: 365226
+        - Key: 78
+          Value: 379641
+        - Key: 79
+          Value: 394431
+        - Key: 80
+          Value: 409600
+        - Key: 81
+          Value: 425152
+        - Key: 82
+          Value: 441094
+        - Key: 83
+          Value: 457429
+        - Key: 84
+          Value: 474163
+        - Key: 85
+          Value: 491300
+        - Key: 86
+          Value: 508844
+        - Key: 87
+          Value: 526802
+        - Key: 88
+          Value: 545177
+        - Key: 89
+          Value: 563975
+        - Key: 90
+          Value: 583200
+        - Key: 91
+          Value: 602856
+        - Key: 92
+          Value: 622950
+        - Key: 93
+          Value: 643485
+        - Key: 94
+          Value: 664467
+        - Key: 95
+          Value: 685900
+        - Key: 96
+          Value: 707788
+        - Key: 97
+          Value: 730138
+        - Key: 98
+          Value: 752953
+        - Key: 99
+          Value: 776239
+        - Key: 100
+          Value: 800000
+    - Key: 2
+      Value:
+        SerializedList:
+        - Key: 1
+          Value: 0
+        - Key: 2
+          Value: 8
+        - Key: 3
+          Value: 27
+        - Key: 4
+          Value: 64
+        - Key: 5
+          Value: 125
+        - Key: 6
+          Value: 216
+        - Key: 7
+          Value: 343
+        - Key: 8
+          Value: 512
+        - Key: 9
+          Value: 729
+        - Key: 10
+          Value: 1000
+        - Key: 11
+          Value: 1331
+        - Key: 12
+          Value: 1728
+        - Key: 13
+          Value: 2197
+        - Key: 14
+          Value: 2744
+        - Key: 15
+          Value: 3375
+        - Key: 16
+          Value: 4096
+        - Key: 17
+          Value: 4913
+        - Key: 18
+          Value: 5832
+        - Key: 19
+          Value: 6859
+        - Key: 20
+          Value: 8000
+        - Key: 21
+          Value: 9261
+        - Key: 22
+          Value: 10648
+        - Key: 23
+          Value: 12167
+        - Key: 24
+          Value: 13824
+        - Key: 25
+          Value: 15625
+        - Key: 26
+          Value: 17576
+        - Key: 27
+          Value: 19683
+        - Key: 28
+          Value: 21952
+        - Key: 29
+          Value: 24389
+        - Key: 30
+          Value: 27000
+        - Key: 31
+          Value: 29791
+        - Key: 32
+          Value: 32768
+        - Key: 33
+          Value: 35937
+        - Key: 34
+          Value: 39304
+        - Key: 35
+          Value: 42875
+        - Key: 36
+          Value: 46656
+        - Key: 37
+          Value: 50653
+        - Key: 38
+          Value: 54872
+        - Key: 39
+          Value: 59319
+        - Key: 40
+          Value: 64000
+        - Key: 41
+          Value: 68921
+        - Key: 42
+          Value: 74088
+        - Key: 43
+          Value: 79507
+        - Key: 44
+          Value: 85184
+        - Key: 45
+          Value: 91125
+        - Key: 46
+          Value: 97336
+        - Key: 47
+          Value: 103823
+        - Key: 48
+          Value: 110592
+        - Key: 49
+          Value: 117649
+        - Key: 50
+          Value: 125000
+        - Key: 51
+          Value: 132651
+        - Key: 52
+          Value: 140608
+        - Key: 53
+          Value: 148877
+        - Key: 54
+          Value: 157464
+        - Key: 55
+          Value: 166375
+        - Key: 56
+          Value: 175616
+        - Key: 57
+          Value: 185193
+        - Key: 58
+          Value: 195112
+        - Key: 59
+          Value: 205379
+        - Key: 60
+          Value: 216000
+        - Key: 61
+          Value: 226981
+        - Key: 62
+          Value: 238328
+        - Key: 63
+          Value: 250047
+        - Key: 64
+          Value: 262144
+        - Key: 65
+          Value: 274625
+        - Key: 66
+          Value: 287496
+        - Key: 67
+          Value: 300763
+        - Key: 68
+          Value: 314432
+        - Key: 69
+          Value: 328509
+        - Key: 70
+          Value: 343000
+        - Key: 71
+          Value: 357911
+        - Key: 72
+          Value: 373248
+        - Key: 73
+          Value: 389017
+        - Key: 74
+          Value: 405224
+        - Key: 75
+          Value: 421875
+        - Key: 76
+          Value: 438976
+        - Key: 77
+          Value: 456533
+        - Key: 78
+          Value: 474552
+        - Key: 79
+          Value: 493039
+        - Key: 80
+          Value: 512000
+        - Key: 81
+          Value: 531441
+        - Key: 82
+          Value: 551368
+        - Key: 83
+          Value: 571787
+        - Key: 84
+          Value: 592704
+        - Key: 85
+          Value: 614125
+        - Key: 86
+          Value: 636056
+        - Key: 87
+          Value: 658503
+        - Key: 88
+          Value: 681472
+        - Key: 89
+          Value: 704969
+        - Key: 90
+          Value: 729000
+        - Key: 91
+          Value: 753571
+        - Key: 92
+          Value: 778688
+        - Key: 93
+          Value: 804357
+        - Key: 94
+          Value: 830584
+        - Key: 95
+          Value: 857375
+        - Key: 96
+          Value: 884736
+        - Key: 97
+          Value: 912673
+        - Key: 98
+          Value: 941192
+        - Key: 99
+          Value: 970299
+        - Key: 100
+          Value: 1000000
+    - Key: 3
+      Value:
+        SerializedList:
+        - Key: 1
+          Value: 0
+        - Key: 2
+          Value: 9
+        - Key: 3
+          Value: 57
+        - Key: 4
+          Value: 96
+        - Key: 5
+          Value: 135
+        - Key: 6
+          Value: 179
+        - Key: 7
+          Value: 236
+        - Key: 8
+          Value: 314
+        - Key: 9
+          Value: 419
+        - Key: 10
+          Value: 560
+        - Key: 11
+          Value: 742
+        - Key: 12
+          Value: 973
+        - Key: 13
+          Value: 1261
+        - Key: 14
+          Value: 1612
+        - Key: 15
+          Value: 2035
+        - Key: 16
+          Value: 2535
+        - Key: 17
+          Value: 3120
+        - Key: 18
+          Value: 3798
+        - Key: 19
+          Value: 4575
+        - Key: 20
+          Value: 5460
+        - Key: 21
+          Value: 6458
+        - Key: 22
+          Value: 7577
+        - Key: 23
+          Value: 8825
+        - Key: 24
+          Value: 10208
+        - Key: 25
+          Value: 11735
+        - Key: 26
+          Value: 13411
+        - Key: 27
+          Value: 15244
+        - Key: 28
+          Value: 17242
+        - Key: 29
+          Value: 19411
+        - Key: 30
+          Value: 21760
+        - Key: 31
+          Value: 24294
+        - Key: 32
+          Value: 27021
+        - Key: 33
+          Value: 29949
+        - Key: 34
+          Value: 33084
+        - Key: 35
+          Value: 36435
+        - Key: 36
+          Value: 40007
+        - Key: 37
+          Value: 43808
+        - Key: 38
+          Value: 47846
+        - Key: 39
+          Value: 52127
+        - Key: 40
+          Value: 56660
+        - Key: 41
+          Value: 61450
+        - Key: 42
+          Value: 66505
+        - Key: 43
+          Value: 71833
+        - Key: 44
+          Value: 77440
+        - Key: 45
+          Value: 83335
+        - Key: 46
+          Value: 89523
+        - Key: 47
+          Value: 96012
+        - Key: 48
+          Value: 102810
+        - Key: 49
+          Value: 109923
+        - Key: 50
+          Value: 117360
+        - Key: 51
+          Value: 125126
+        - Key: 52
+          Value: 133229
+        - Key: 53
+          Value: 141677
+        - Key: 54
+          Value: 150476
+        - Key: 55
+          Value: 159635
+        - Key: 56
+          Value: 169159
+        - Key: 57
+          Value: 179056
+        - Key: 58
+          Value: 189334
+        - Key: 59
+          Value: 199999
+        - Key: 60
+          Value: 211060
+        - Key: 61
+          Value: 222522
+        - Key: 62
+          Value: 234393
+        - Key: 63
+          Value: 246681
+        - Key: 64
+          Value: 259392
+        - Key: 65
+          Value: 272535
+        - Key: 66
+          Value: 286115
+        - Key: 67
+          Value: 300140
+        - Key: 68
+          Value: 314618
+        - Key: 69
+          Value: 329555
+        - Key: 70
+          Value: 344960
+        - Key: 71
+          Value: 360838
+        - Key: 72
+          Value: 377197
+        - Key: 73
+          Value: 394045
+        - Key: 74
+          Value: 411388
+        - Key: 75
+          Value: 429235
+        - Key: 76
+          Value: 447591
+        - Key: 77
+          Value: 466464
+        - Key: 78
+          Value: 485862
+        - Key: 79
+          Value: 505791
+        - Key: 80
+          Value: 526260
+        - Key: 81
+          Value: 547274
+        - Key: 82
+          Value: 568841
+        - Key: 83
+          Value: 590969
+        - Key: 84
+          Value: 613664
+        - Key: 85
+          Value: 636935
+        - Key: 86
+          Value: 660787
+        - Key: 87
+          Value: 685228
+        - Key: 88
+          Value: 710266
+        - Key: 89
+          Value: 735907
+        - Key: 90
+          Value: 762160
+        - Key: 91
+          Value: 789030
+        - Key: 92
+          Value: 816525
+        - Key: 93
+          Value: 844653
+        - Key: 94
+          Value: 873420
+        - Key: 95
+          Value: 902835
+        - Key: 96
+          Value: 932903
+        - Key: 97
+          Value: 963632
+        - Key: 98
+          Value: 995030
+        - Key: 99
+          Value: 1027103
+        - Key: 100
+          Value: 1059860
+    - Key: 4
+      Value:
+        SerializedList:
+        - Key: 1
+          Value: 0
+        - Key: 2
+          Value: 10
+        - Key: 3
+          Value: 33
+        - Key: 4
+          Value: 80
+        - Key: 5
+          Value: 156
+        - Key: 6
+          Value: 270
+        - Key: 7
+          Value: 428
+        - Key: 8
+          Value: 640
+        - Key: 9
+          Value: 911
+        - Key: 10
+          Value: 1250
+        - Key: 11
+          Value: 1663
+        - Key: 12
+          Value: 2160
+        - Key: 13
+          Value: 2746
+        - Key: 14
+          Value: 3430
+        - Key: 15
+          Value: 4218
+        - Key: 16
+          Value: 5120
+        - Key: 17
+          Value: 6141
+        - Key: 18
+          Value: 7290
+        - Key: 19
+          Value: 8573
+        - Key: 20
+          Value: 10000
+        - Key: 21
+          Value: 11576
+        - Key: 22
+          Value: 13310
+        - Key: 23
+          Value: 15208
+        - Key: 24
+          Value: 17280
+        - Key: 25
+          Value: 19531
+        - Key: 26
+          Value: 21970
+        - Key: 27
+          Value: 24603
+        - Key: 28
+          Value: 27440
+        - Key: 29
+          Value: 30486
+        - Key: 30
+          Value: 33750
+        - Key: 31
+          Value: 37238
+        - Key: 32
+          Value: 40960
+        - Key: 33
+          Value: 44921
+        - Key: 34
+          Value: 49130
+        - Key: 35
+          Value: 53593
+        - Key: 36
+          Value: 58320
+        - Key: 37
+          Value: 63316
+        - Key: 38
+          Value: 68590
+        - Key: 39
+          Value: 74148
+        - Key: 40
+          Value: 80000
+        - Key: 41
+          Value: 86151
+        - Key: 42
+          Value: 92610
+        - Key: 43
+          Value: 99383
+        - Key: 44
+          Value: 106480
+        - Key: 45
+          Value: 113906
+        - Key: 46
+          Value: 121670
+        - Key: 47
+          Value: 129778
+        - Key: 48
+          Value: 138240
+        - Key: 49
+          Value: 147061
+        - Key: 50
+          Value: 156250
+        - Key: 51
+          Value: 165813
+        - Key: 52
+          Value: 175760
+        - Key: 53
+          Value: 186096
+        - Key: 54
+          Value: 196830
+        - Key: 55
+          Value: 207968
+        - Key: 56
+          Value: 219520
+        - Key: 57
+          Value: 231491
+        - Key: 58
+          Value: 243890
+        - Key: 59
+          Value: 256723
+        - Key: 60
+          Value: 270000
+        - Key: 61
+          Value: 283726
+        - Key: 62
+          Value: 297910
+        - Key: 63
+          Value: 312558
+        - Key: 64
+          Value: 327680
+        - Key: 65
+          Value: 343281
+        - Key: 66
+          Value: 359370
+        - Key: 67
+          Value: 375953
+        - Key: 68
+          Value: 393040
+        - Key: 69
+          Value: 410636
+        - Key: 70
+          Value: 428750
+        - Key: 71
+          Value: 447388
+        - Key: 72
+          Value: 466560
+        - Key: 73
+          Value: 486271
+        - Key: 74
+          Value: 506530
+        - Key: 75
+          Value: 527343
+        - Key: 76
+          Value: 548720
+        - Key: 77
+          Value: 570666
+        - Key: 78
+          Value: 593190
+        - Key: 79
+          Value: 616298
+        - Key: 80
+          Value: 640000
+        - Key: 81
+          Value: 664301
+        - Key: 82
+          Value: 689210
+        - Key: 83
+          Value: 714733
+        - Key: 84
+          Value: 740880
+        - Key: 85
+          Value: 767656
+        - Key: 86
+          Value: 795070
+        - Key: 87
+          Value: 823128
+        - Key: 88
+          Value: 851840
+        - Key: 89
+          Value: 881211
+        - Key: 90
+          Value: 911250
+        - Key: 91
+          Value: 941963
+        - Key: 92
+          Value: 973360
+        - Key: 93
+          Value: 1005446
+        - Key: 94
+          Value: 1038230
+        - Key: 95
+          Value: 1071718
+        - Key: 96
+          Value: 1105920
+        - Key: 97
+          Value: 1140841
+        - Key: 98
+          Value: 1176490
+        - Key: 99
+          Value: 1212873
+        - Key: 100
+          Value: 1250000
+    - Key: 5
+      Value:
+        SerializedList:
+        - Key: 1
+          Value: 0
+        - Key: 2
+          Value: 4
+        - Key: 3
+          Value: 13
+        - Key: 4
+          Value: 32
+        - Key: 5
+          Value: 65
+        - Key: 6
+          Value: 112
+        - Key: 7
+          Value: 178
+        - Key: 8
+          Value: 276
+        - Key: 9
+          Value: 393
+        - Key: 10
+          Value: 540
+        - Key: 11
+          Value: 745
+        - Key: 12
+          Value: 967
+        - Key: 13
+          Value: 1230
+        - Key: 14
+          Value: 1591
+        - Key: 15
+          Value: 1957
+        - Key: 16
+          Value: 2457
+        - Key: 17
+          Value: 3046
+        - Key: 18
+          Value: 3732
+        - Key: 19
+          Value: 4526
+        - Key: 20
+          Value: 5440
+        - Key: 21
+          Value: 6482
+        - Key: 22
+          Value: 7666
+        - Key: 23
+          Value: 9003
+        - Key: 24
+          Value: 10506
+        - Key: 25
+          Value: 12187
+        - Key: 26
+          Value: 14060
+        - Key: 27
+          Value: 16140
+        - Key: 28
+          Value: 18439
+        - Key: 29
+          Value: 20974
+        - Key: 30
+          Value: 23760
+        - Key: 31
+          Value: 26811
+        - Key: 32
+          Value: 30146
+        - Key: 33
+          Value: 33780
+        - Key: 34
+          Value: 37731
+        - Key: 35
+          Value: 42017
+        - Key: 36
+          Value: 46656
+        - Key: 37
+          Value: 50653
+        - Key: 38
+          Value: 55969
+        - Key: 39
+          Value: 60505
+        - Key: 40
+          Value: 66560
+        - Key: 41
+          Value: 71677
+        - Key: 42
+          Value: 78533
+        - Key: 43
+          Value: 84277
+        - Key: 44
+          Value: 91998
+        - Key: 45
+          Value: 98415
+        - Key: 46
+          Value: 107069
+        - Key: 47
+          Value: 114205
+        - Key: 48
+          Value: 123863
+        - Key: 49
+          Value: 131766
+        - Key: 50
+          Value: 142500
+        - Key: 51
+          Value: 151222
+        - Key: 52
+          Value: 163105
+        - Key: 53
+          Value: 172697
+        - Key: 54
+          Value: 185807
+        - Key: 55
+          Value: 196322
+        - Key: 56
+          Value: 210739
+        - Key: 57
+          Value: 222231
+        - Key: 58
+          Value: 238036
+        - Key: 59
+          Value: 250562
+        - Key: 60
+          Value: 267840
+        - Key: 61
+          Value: 281456
+        - Key: 62
+          Value: 300293
+        - Key: 63
+          Value: 315059
+        - Key: 64
+          Value: 335544
+        - Key: 65
+          Value: 351520
+        - Key: 66
+          Value: 373744
+        - Key: 67
+          Value: 390991
+        - Key: 68
+          Value: 415050
+        - Key: 69
+          Value: 433631
+        - Key: 70
+          Value: 459620
+        - Key: 71
+          Value: 479600
+        - Key: 72
+          Value: 507617
+        - Key: 73
+          Value: 529063
+        - Key: 74
+          Value: 559209
+        - Key: 75
+          Value: 582187
+        - Key: 76
+          Value: 614566
+        - Key: 77
+          Value: 639146
+        - Key: 78
+          Value: 673863
+        - Key: 79
+          Value: 700115
+        - Key: 80
+          Value: 737280
+        - Key: 81
+          Value: 765275
+        - Key: 82
+          Value: 804997
+        - Key: 83
+          Value: 834809
+        - Key: 84
+          Value: 877201
+        - Key: 85
+          Value: 908905
+        - Key: 86
+          Value: 954084
+        - Key: 87
+          Value: 987754
+        - Key: 88
+          Value: 1035837
+        - Key: 89
+          Value: 1071552
+        - Key: 90
+          Value: 1122660
+        - Key: 91
+          Value: 1160499
+        - Key: 92
+          Value: 1214753
+        - Key: 93
+          Value: 1254796
+        - Key: 94
+          Value: 1312322
+        - Key: 95
+          Value: 1354652
+        - Key: 96
+          Value: 1415577
+        - Key: 97
+          Value: 1460276
+        - Key: 98
+          Value: 1524731
+        - Key: 99
+          Value: 1571884
+        - Key: 100
+          Value: 1640000

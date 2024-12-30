@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a63667887cc4aaaaafaca5b43128a5d, type: 3}
+  m_Name: SandstormWeather
+  m_EditorClassIdentifier: 
+  LocalizableName: Weather/SandstormWeather
+  LocalizableDescription: NotUsed
+  StartLocalizationKey: Weather/SandstormWeather/Start
+  TickLocalizationKey: Weather/SandstormWeather/Tick
+  EndLocalizationKey: Weather/SandstormWeather/End
+  TypeDamageModifiers:
+    SerializedList: []
+  StatModifiers:
+    SerializedList:
+    - Key: {fileID: 11400000, guid: 4676cd353780d2144a0ef2ec68ca942b, type: 2}
+      Value:
+        SerializedList:
+        - Key: 4
+          Value: 1.5
+  MoveAccuracyModifier: 1
+  PostPrefab: {fileID: 5606757391988912668, guid: edc3af05487ff9c44abc3bc018ba4103, type: 3}
+  RainFX: {fileID: 809551691672326051, guid: 512ac3d09f6e05e4da9ebe1eeddfd38b, type: 3}
+  Audio:
+    Audio: Sandstorm
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+  ColorValues: {x: 0.5, y: 0.5, z: 1, w: 0.2}
+  ImmuneTypes:
+  - {fileID: 11400000, guid: 4676cd353780d2144a0ef2ec68ca942b, type: 2}
+  - {fileID: 11400000, guid: beeedb36d3bb9aa438171119d70ee919, type: 2}
+  - {fileID: 11400000, guid: 29fa34924aa008b4fb68ad85c7244f9a, type: 2}
+  ImmuneAbilities:
+  - {fileID: 11400000, guid: eb8ae578663b2de4a9f1f49598015a43, type: 2}
+  - {fileID: 11400000, guid: a6fb8917287297a49bed073089109428, type: 2}
+  - {fileID: 11400000, guid: 1e0c889ea8c1f324081aa86b5dcbf258, type: 2}
+  ImmuneHeldItems:
+  - {fileID: 11400000, guid: 868bc6ea6ef537545891c30823ce08c4, type: 2}
+  HPDrain: 0.0625
+  DamageLocalizationKey: Weather/SandstormWeather/Damage

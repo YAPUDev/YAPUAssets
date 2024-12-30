@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 742ec7c2eac1429f96e423859987947d, type: 3}
+  m_Name: CosplayPikachuFormChangeEffect
+  m_EditorClassIdentifier: 
+  CompatibleMonster: {fileID: 11400000, guid: d93922510584d74408badafaabd180fe, type: 2}
+  CompatibleForms:
+  - {fileID: 11400000, guid: 71c6761a70e2dd1498b28dfb4b9ab78e, type: 2}
+  - {fileID: 11400000, guid: 8c316aa92da154a40abe35f288ec3081, type: 2}
+  - {fileID: 11400000, guid: 9b48444d7598fb74392e5d394fde43dc, type: 2}
+  - {fileID: 11400000, guid: 3594a621269a9d345bd07e79a5f0c2ce, type: 2}
+  - {fileID: 11400000, guid: becd741f65d81294fbafac08687910de, type: 2}
+  - {fileID: 11400000, guid: d9bf43dacf672224b9f9232ca2d13186, type: 2}
+  ShiniesAreCompatible: 1
+  TargetForms:
+  - {fileID: 11400000, guid: 71c6761a70e2dd1498b28dfb4b9ab78e, type: 2}
+  - {fileID: 11400000, guid: 8c316aa92da154a40abe35f288ec3081, type: 2}
+  - {fileID: 11400000, guid: 9b48444d7598fb74392e5d394fde43dc, type: 2}
+  - {fileID: 11400000, guid: 3594a621269a9d345bd07e79a5f0c2ce, type: 2}
+  - {fileID: 11400000, guid: becd741f65d81294fbafac08687910de, type: 2}
+  - {fileID: 11400000, guid: d9bf43dacf672224b9f9232ca2d13186, type: 2}
+  KeepShiny: 1

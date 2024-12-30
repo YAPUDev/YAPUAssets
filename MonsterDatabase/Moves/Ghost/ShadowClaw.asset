@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b90a0b63232446d89f9abbe93243ca12, type: 3}
+  m_Name: ShadowClaw
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/ShadowClaw
+  LocalizableDescription: Moves/ShadowClaw/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Shadow_Claw_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 573fce0976964da45b3feb13462250b2, type: 2}
+  MoveCategory: 0
+  BasePowerPoints: 15
+  MaxPowerPoints: 24
+  Priority: 0
+  MakesContact: 1
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 1
+  SoundBased: 0
+  InfiniteAccuracy: 0
+  Accuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 0
+  FallbackAnimation: {fileID: 11400000, guid: ce62cf34d5d815348a395551fec7ab80, type: 2}
+  CanBeUsedOutsideBattle: 0
+  Power: 70
+  CriticalStageModifier: 1
+  BurnEffectApplies: 1
+  Sound:
+    Audio: Shadow Claw
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+  AnimationPrefab: {fileID: 4245979811863995254, guid: a84ed6ec010ccdc49839b3335e5c6e10, type: 3}

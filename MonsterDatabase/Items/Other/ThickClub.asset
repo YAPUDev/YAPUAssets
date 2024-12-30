@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 391d6c85113540e1847420498af170bc, type: 3}
+  m_Name: ThickClub
+  m_EditorClassIdentifier: 
+  LocalizableName: Items/ThickClub
+  LocalizableDescription: Items/ThickClub/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Thick_Club
+  ItemCategory: {fileID: 11400000, guid: 06444bfad04c3194cb7b8c36babe4b80, type: 2}
+  Icon: {fileID: 21300000, guid: ed9c30367acf20743b97d43906f7feb0, type: 3}
+  DefaultPrice: 1000
+  CanBeSold: 1
+  SellPercentage: 0.5
+  CanBeHeld: 1
+  FlingPower: 90
+  FlingHasAdditionalEffects: 0
+  FlingEffects: []
+  SharesXP: 0
+  OnItemMovedItemEffects: []
+  OnStatCalculationEffects:
+  - {fileID: 11400000, guid: 6364f76e284e3e84da279ae5c5b0f4b5, type: 2}
+  - {fileID: 11400000, guid: 3d1d0e12d8156eb428b759407f263efa, type: 2}
+  OnCalculateCriticalChanceItemEffects: []
+  OnCalculateAttackMultiplierOfTypesWhenDefendingItemEffects: []
+  OnMonsterEnteredBattleEffects: []
+  AfterActionCallbacks: []
+  OnTerrainSetItemEffects: []
+  PostTurnCallbackItemEffects: []
+  OnCalculateAccuracyWhenTargetedItemEffects: []
+  OnCheckGroundingItemEffects: []
+  OnCheckRunAwayItemEffects: []
+  OnCalculateMoveDamageItemEffects: []
+  HitByMoveCallbacks: []
+  AfterHitByMoveCallbacks: []
+  AfterHitByMultihitMoveCallbacks: []
+  ForceSurviveItemEffects: []
+  AfterUsingMoveCallbacks: []
+  OnDeterminePriorityInsideBracketCallbacks: []
+  OnCalculateDrainHPMultiplierEffects: []
+  OnCalculateXPYieldEffects: []
+  OnYieldEffects: []
+  OnCalculatePriceMoneyItemEffects: []
+  OnCalculateWeatherEffectDurationItemEffects: []
+  OnCalculateSideStatusEffectDurationItemEffects: []
+  OnCalculateVolatileStatusEffectDurationItemEffects: []
+  OnCalculateTerrainEffectDurationItemEffects: []
+  OnVolatileStatusAddedItemEffects: []
+  OnCalculateEncounterChanceItemEffects: []
+  AllowEvolutionItemEffects: []
+  OnCalculateNumberOfIVsToPassOnBreedingItemEffects: []
+  OnCalculateSpecificIVsToPassOnBreedingItemEffects: []
+  OnCalculateNatureToPassOnBreedingItemEffects: []
+  OnCalculateFormToPassOnBreedingItemEffects: []
+  OnAddExtraMovesToPassOnBreedingItemEffects: []
+  NeedsPanelAnimationInBagScreen: 0
+  UseOnTargetEffects: []
+  UseOnTargetMoveEffects: []
+  UseOutOfBattleEffects: []
+  UseInBattleEffects: []

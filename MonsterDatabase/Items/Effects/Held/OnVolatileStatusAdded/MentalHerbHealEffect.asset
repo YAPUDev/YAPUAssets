@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 979551c70b444071b67944a7c279252d, type: 3}
+  m_Name: MentalHerbHealEffect
+  m_EditorClassIdentifier: 
+  StatusesToHeal:
+  - {fileID: 11400000, guid: 8b95d1745cde2cf449888e91a876c9fe, type: 2}
+  - {fileID: 11400000, guid: 28be910e4e9f9da46a15a12d4c690482, type: 2}
+  - {fileID: 11400000, guid: b6339e1224a861542a18e19fdd701329, type: 2}
+  - {fileID: 11400000, guid: f10492b67aa01414e8f6e5fefc52af00, type: 2}
+  - {fileID: 11400000, guid: 50633ffa90ff576419bc76bf3845831d, type: 2}
+  CustomMessage: Items/MentalHerb/HealMessage

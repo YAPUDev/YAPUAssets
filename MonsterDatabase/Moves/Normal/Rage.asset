@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6191b06f1db093c44b790b890a75d1cc, type: 3}
+  m_Name: Rage
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/Rage
+  LocalizableDescription: Moves/Rage/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Rage_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: db89964f043f3cb4dbf78a05c8fd5d36, type: 2}
+  MoveCategory: 0
+  BasePowerPoints: 20
+  MaxPowerPoints: 32
+  Priority: 0
+  MakesContact: 1
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 1
+  SoundBased: 0
+  InfiniteAccuracy: 0
+  Accuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: e62bb486865d24c47a9963c3de1de545, type: 2}
+  CanBeUsedOutsideBattle: 0
+  Power: 20
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  Status: {fileID: 11400000, guid: b8d8de52ee42a3f4ab12cf153569e90a, type: 2}
+  InfiniteDuration: 1
+  SetOnUser: 1

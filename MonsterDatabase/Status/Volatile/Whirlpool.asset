@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8a89ef7709c470dae5f2282918dfe58, type: 3}
+  m_Name: Whirlpool
+  m_EditorClassIdentifier: 
+  LocalizableNameKey: Status/Volatile/Whirlpool
+  LocalizableStatusStartKey: Status/Volatile/Whirlpool/Start
+  LocalizableStatusTickKey: Status/Volatile/Whirlpool/Tick
+  LocalizableStatusEndKey: Status/Volatile/Whirlpool/End
+  MinCountdown: 4
+  MaxCountdown: 5
+  CantSwitchMessage: Status/Volatile/Whirlpool/CantRun
+  SwitchBypassingItems:
+  - {fileID: 11400000, guid: 56d2b2adf85cd474f95c06e4c27f2336, type: 2}
+  HPDrain: 0.125
+  HPDrainIfAffectedByBindingBand: 0.16666667
+  Audio:
+    Audio: Whirlpool
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+  VortexPrefab: {fileID: 7292097991402732835, guid: a9ba232cae9e7574b90a2b3a87f1caaf, type: 3}

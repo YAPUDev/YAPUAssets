@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dac252374ca97241bdc944780e46a28, type: 3}
+  m_Name: BatonPass
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/BatonPass
+  LocalizableDescription: Moves/BatonPass/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Baton_Pass_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: db89964f043f3cb4dbf78a05c8fd5d36, type: 2}
+  MoveCategory: 2
+  BasePowerPoints: 40
+  MaxPowerPoints: 64
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 0
+  AffectedByProtect: 0
+  AffectedByMagicCoat: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 0
+  AffectedByKingsRock: 0
+  DamageBypassesSubstitute: 0
+  SoundBased: 0
+  IsBallMove: 0
+  IsWindMove: 0
+  OverridesEffectiveness: 0
+  EffectivenessOverride:
+    SerializedList: []
+  InfiniteAccuracy: 1
+  BaseAccuracy: 0
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 0
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneVolatileStatuses: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 0
+  FallbackAnimation: {fileID: 0}
+  CanBeUsedOutsideBattle: 0
+  PassableStatuses:
+  - {fileID: 11400000, guid: 7bf1c8974129afe41a903f8162524936, type: 2}
+  - {fileID: 11400000, guid: 8a42cbda9f114fe4c80313bf8e2206f4, type: 2}
+  - {fileID: 11400000, guid: 2bbccd6085fa7b44a896d2dc4ec8e18b, type: 2}
+  - {fileID: 11400000, guid: 0c5f9c7d3b5ecd54c9b0fa64d309fba1, type: 2}
+  - {fileID: 11400000, guid: b561de2e5c430364586ef4d638c119e1, type: 2}
+  - {fileID: 11400000, guid: 3efd1ed5ac11ce14fbb1236f2426a4bc, type: 2}
+  - {fileID: 11400000, guid: 9cbfff071f128c94fa64fe0b68630bd3, type: 2}
+  - {fileID: 11400000, guid: 659f37cb0125ff7478c4fd281d55e8f2, type: 2}
+  - {fileID: 11400000, guid: ed518ab626db82446b4e27e7ee3dea1c, type: 2}
+  - {fileID: 11400000, guid: 71ecb75954ae8fc4aa98ef86dc0a3539, type: 2}
+  - {fileID: 11400000, guid: 058a3c6e5471a9843aaffb6e3fac1b2b, type: 2}
+  - {fileID: 11400000, guid: 59e6f37de5b00864fab685bb616bd740, type: 2}
+  - {fileID: 11400000, guid: 9b1ae808a5103904eb1d200ba5033497, type: 2}
+  - {fileID: 11400000, guid: da336484afbd86e49921f304d6ad938d, type: 2}
+  - {fileID: 11400000, guid: de74e85322ec1b04f90ec3b0c5176bd7, type: 2}
+  - {fileID: 11400000, guid: e6d9bc5a3cf7b2847be2513318525e4e, type: 2}

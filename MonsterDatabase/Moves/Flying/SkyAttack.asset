@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d043baef21c440d8f9d1fa07268c307, type: 3}
+  m_Name: SkyAttack
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/SkyAttack
+  LocalizableDescription: Moves/SkyAttack/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Sky_Attack_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: e6912e7b469ab6544a853be403fe5bc7, type: 2}
+  MoveCategory: 0
+  BasePowerPoints: 5
+  MaxPowerPoints: 8
+  Priority: 0
+  MakesContact: 0
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 0
+  SoundBased: 0
+  InfiniteAccuracy: 0
+  Accuracy: 90
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 6
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ShowUsedDialog: 0
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: af188cbd6a3a1fe4e89d752bc35647e0, type: 2}
+  CanBeUsedOutsideBattle: 0
+  Power: 140
+  CriticalStageModifier: 1
+  BurnEffectApplies: 1
+  BuildUpStatus: {fileID: 11400000, guid: 844d535c9955b8e42ba7a37d39c3ee76, type: 2}
+  WeatherByPasses: []
+  ConsumableItemByPasses:
+  - {fileID: 11400000, guid: 18e570dd277cfe84bafbf5ad43f4c176, type: 2}
+  WeatherDamageMultipliers:
+    SerializedList: []
+  StatusChance:
+    m_Keys: []
+    m_Values: []
+  VolatileStatusChance:
+    m_Keys:
+    - 0.3
+    m_Values:
+    - m_Keys:
+      - {fileID: 11400000, guid: 5f391451ff480f54f8176edaa46e0d5d, type: 2}
+      m_Values: 01000000
+  SecondTurnFallback: {fileID: 11400000, guid: 85837b965f6e6954080792b3fb43f9d0, type: 2}

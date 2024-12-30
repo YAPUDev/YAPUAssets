@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92bd2022333a4d8ab45c09c9645fe524, type: 3}
+  m_Name: ChangePikachuToOriginalCap
+  m_EditorClassIdentifier: 
+  CompatibleMonster: {fileID: 11400000, guid: d93922510584d74408badafaabd180fe, type: 2}
+  CompatibleForm: {fileID: 11400000, guid: 6dc6b91c0521dca41b3fc884c5a6fa9f, type: 2}
+  CheckGender: 1
+  CompatibleGender: 1
+  ShiniesAreCompatible: 1
+  TargetForm: {fileID: 11400000, guid: 1fe156de22bcfac46ae86bd86f132b3d, type: 2}
+  KeepShiny: 1

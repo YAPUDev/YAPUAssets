@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36f5ee552e0148b08f2f6bec0a2e6d06, type: 3}
+  m_Name: Static
+  m_EditorClassIdentifier: 
+  LocalizableName: Abilities/Static
+  LocalizableDescription: Abilities/Static/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Static_(Ability)
+  AbilitiesImmuneTo: []
+  StatusChances:
+    m_Keys:
+    - {fileID: 11400000, guid: 382472642c5d62c498152f4beff0ea51, type: 2}
+    m_Values:
+    - 0.3
+  ElectricType: {fileID: 11400000, guid: 3086e053111d18e46b8f75ab45b81207, type: 2}

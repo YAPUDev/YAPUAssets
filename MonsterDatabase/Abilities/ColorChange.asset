@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea2240949f254e67837c41f9bcbaa83b, type: 3}
+  m_Name: ColorChange
+  m_EditorClassIdentifier: 
+  LocalizableName: Abilities/ColorChange
+  LocalizableDescription: Abilities/ColorChange/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Color_Change_(Ability)
+  AbilitiesImmuneTo: []
+  IsIgnorable: 0
+  StatusChances:
+    m_Keys:
+    - {fileID: 11400000, guid: 61ff16f6c26e04944a8aa0bd8022c097, type: 2}
+    m_Values:
+    - 1
+  ImmuneTypes: []
+  ImmuneItems: []
+  InfiniteDuration: 1
+  SetStatusOnSelf: 1
+  OnlyContactMoves: 0

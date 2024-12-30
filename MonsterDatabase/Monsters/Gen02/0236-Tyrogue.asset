@@ -1,0 +1,210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4009b35cc32e4dd99674f0a8e451f232, type: 3}
+  m_Name: 0236-Tyrogue
+  m_EditorClassIdentifier: 
+  LocalizableName: Monsters/Tyrogue
+  LocalizableDescription: Monsters/Tyrogue/Description
+  DocsURL: https://pokemondb.net/pokedex/tyrogue
+  DexNumber: 236
+  AvailableForms:
+  - {fileID: 11400000, guid: 6dc6b91c0521dca41b3fc884c5a6fa9f, type: 2}
+  DataByForm:
+  - Form: {fileID: 11400000, guid: 6dc6b91c0521dca41b3fc884c5a6fa9f, type: 2}
+    DeveloperComments: Moves based on SV + BDSP.
+    HasMaleMaterialOverride: 0
+    Front: {fileID: 2100000, guid: 445fa89d37cb4444cabc99f167617794, type: 2}
+    Back: {fileID: 2100000, guid: 710e194288706b241b685ecff4ffbea7, type: 2}
+    FrontMale: {fileID: 0}
+    BackMale: {fileID: 0}
+    FrontShiny: {fileID: 2100000, guid: ecb5602abb481814ea577a3eea5c2f8a, type: 2}
+    BackShiny: {fileID: 2100000, guid: 872c2d548d114e54c85083bcc2cd5ea8, type: 2}
+    FrontShinyMale: {fileID: 0}
+    BackShinyMale: {fileID: 0}
+    Icon: {fileID: 1737343262, guid: 0b02c83392569da4f8ac5a492fffe69b, type: 3}
+    IconShiny: {fileID: 2088024106, guid: 128ccdb41804d63428d20f7f2b446477, type: 3}
+    IconMale: {fileID: 0}
+    IconShinyMale: {fileID: 0}
+    EggMaterial: {fileID: 2100000, guid: 3555f2d1d1af4d1419ae446ad6e018ed, type: 2}
+    EggIcon: {fileID: 1737343262, guid: a59a8f7b000340443a674b4377f079e6, type: 3}
+    HasWorldSprites: 1
+    WorldIdleSpriteDown: {fileID: 570336734, guid: 2b0bcc2ac527bfe4b9ac7ee20173bce3, type: 3}
+    WorldIdleSpriteUp: {fileID: 1781232063, guid: 2b0bcc2ac527bfe4b9ac7ee20173bce3, type: 3}
+    WorldIdleSpriteLeft: {fileID: 790261300, guid: 2b0bcc2ac527bfe4b9ac7ee20173bce3, type: 3}
+    WorldIdleSpriteRight: {fileID: 1061457719, guid: 2b0bcc2ac527bfe4b9ac7ee20173bce3, type: 3}
+    WorldIdleSpriteDownMale: {fileID: 0}
+    WorldIdleSpriteUpMale: {fileID: 0}
+    WorldIdleSpriteLeftMale: {fileID: 0}
+    WorldIdleSpriteRightMale: {fileID: 0}
+    WorldWalkingSpriteDown:
+    - {fileID: -784984716, guid: 2b0bcc2ac527bfe4b9ac7ee20173bce3, type: 3}
+    - {fileID: -428899575, guid: 2b0bcc2ac527bfe4b9ac7ee20173bce3, type: 3}
+    WorldWalkingSpriteUp:
+    - {fileID: -1924296053, guid: 2b0bcc2ac527bfe4b9ac7ee20173bce3, type: 3}
+    - {fileID: 1126907919, guid: 2b0bcc2ac527bfe4b9ac7ee20173bce3, type: 3}
+    WorldWalkingSpriteLeft:
+    - {fileID: 880654485, guid: 2b0bcc2ac527bfe4b9ac7ee20173bce3, type: 3}
+    - {fileID: -145472501, guid: 2b0bcc2ac527bfe4b9ac7ee20173bce3, type: 3}
+    WorldWalkingSpriteRight:
+    - {fileID: 1854071217, guid: 2b0bcc2ac527bfe4b9ac7ee20173bce3, type: 3}
+    - {fileID: -1759447056, guid: 2b0bcc2ac527bfe4b9ac7ee20173bce3, type: 3}
+    WorldWalkingSpriteDownMale: []
+    WorldWalkingSpriteUpMale: []
+    WorldWalkingSpriteLeftMale: []
+    WorldWalkingSpriteRightMale: []
+    WorldIdleShinySpriteDown: {fileID: 570336734, guid: 94e8c5789bf13764caef199718add905, type: 3}
+    WorldIdleShinySpriteUp: {fileID: 1781232063, guid: 94e8c5789bf13764caef199718add905, type: 3}
+    WorldIdleShinySpriteLeft: {fileID: 790261300, guid: 94e8c5789bf13764caef199718add905, type: 3}
+    WorldIdleShinySpriteRight: {fileID: 1061457719, guid: 94e8c5789bf13764caef199718add905, type: 3}
+    WorldIdleShinySpriteDownMale: {fileID: 0}
+    WorldIdleShinySpriteUpMale: {fileID: 0}
+    WorldIdleShinySpriteLeftMale: {fileID: 0}
+    WorldIdleShinySpriteRightMale: {fileID: 0}
+    WorldWalkingShinySpriteDown:
+    - {fileID: -784984716, guid: 94e8c5789bf13764caef199718add905, type: 3}
+    - {fileID: -428899575, guid: 94e8c5789bf13764caef199718add905, type: 3}
+    WorldWalkingShinySpriteUp:
+    - {fileID: -1924296053, guid: 94e8c5789bf13764caef199718add905, type: 3}
+    - {fileID: 1126907919, guid: 94e8c5789bf13764caef199718add905, type: 3}
+    WorldWalkingShinySpriteLeft:
+    - {fileID: 880654485, guid: 94e8c5789bf13764caef199718add905, type: 3}
+    - {fileID: -145472501, guid: 94e8c5789bf13764caef199718add905, type: 3}
+    WorldWalkingShinySpriteRight:
+    - {fileID: 1854071217, guid: 94e8c5789bf13764caef199718add905, type: 3}
+    - {fileID: -1759447056, guid: 94e8c5789bf13764caef199718add905, type: 3}
+    WorldWalkingShinySpriteDownMale: []
+    WorldWalkingShinySpriteUpMale: []
+    WorldWalkingShinySpriteLeftMale: []
+    WorldWalkingShinySpriteRightMale: []
+    FirstType: {fileID: 11400000, guid: 47b4a39bedccc694899987d674f5cd05, type: 2}
+    SecondType: {fileID: 0}
+    DexDescriptionKey: Monsters/Tyrogue/Normal
+    Species: {fileID: 11400000, guid: 9c8af871047ed224db1fc6eaf6361c44, type: 2}
+    Height: 0.7
+    Weight: 21
+    Cry:
+      Audio: TYROGUE
+      AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+    Abilities:
+    - {fileID: 11400000, guid: fc647fc6fb258ae449a0ccad6e7e92f6, type: 2}
+    - {fileID: 11400000, guid: ad8f2f7135e22894dbeb04c6a711ec37, type: 2}
+    HiddenAbilities:
+    - {fileID: 11400000, guid: f2e1b1e0942f3014b8fdfa7962f36bbe, type: 2}
+    EVYield:
+    - Stat: 1
+      Value: 1
+    CatchRate: 75
+    BaseFriendship: 50
+    BaseExperience: 42
+    GrowthRate: 2
+    EggGroups:
+    - {fileID: 11400000, guid: e29ad0f4095d03e4c915b4a417b01b80, type: 2}
+    EggCycles: 25
+    BreedingData: []
+    HasBinaryGender: 1
+    FemaleRatio: 0
+    WildRunChance: 0
+    WildHeldItems:
+      SerializedList: []
+    MovesByLevel:
+    - Move: {fileID: 11400000, guid: 280e96a87a2a772449b96372dbff5825, type: 2}
+      Level: 1
+    - Move: {fileID: 11400000, guid: b88be8d50c407284fbee5d5c97415012, type: 2}
+      Level: 1
+    - Move: {fileID: 11400000, guid: 1e6dae6b07ba4a34fb0a0645c2e40dc6, type: 2}
+      Level: 1
+    - Move: {fileID: 11400000, guid: e62bb486865d24c47a9963c3de1de545, type: 2}
+      Level: 1
+    OnEvolutionMoves: []
+    EggMoves:
+    - {fileID: 11400000, guid: 1cff164e45ad4e741811b1b06e8c098c, type: 2}
+    - {fileID: 11400000, guid: ebbef767d2ba77943b1c8236fee3f8c0, type: 2}
+    - {fileID: 11400000, guid: 85c4b23aebae713458c788aa2ea59630, type: 2}
+    - {fileID: 11400000, guid: b9184dc985f0fce4d8e295870244bf95, type: 2}
+    - {fileID: 11400000, guid: 3872ff950b2da964793e54f733ef9c8b, type: 2}
+    - {fileID: 11400000, guid: 463f6e2b0cac1db4785633dd42cf18df, type: 2}
+    - {fileID: 11400000, guid: 93f817b99f2cf12408e187894d8eb9ae, type: 2}
+    - {fileID: 11400000, guid: e91e80a25a117bd4ba6eaf778d66c1f9, type: 2}
+    OtherLearnMoves:
+    - {fileID: 11400000, guid: 3aacefa16729459479f403ae35e7e9f8, type: 2}
+    - {fileID: 11400000, guid: 5fc72bc5d95c59545b52ef36c9273038, type: 2}
+    - {fileID: 11400000, guid: e314955b821247b4c8828403011a3654, type: 2}
+    - {fileID: 11400000, guid: b17466c2e0c5bdc4294079604a50c38c, type: 2}
+    - {fileID: 11400000, guid: 492aeda0c3106ee419b64e33125b25c8, type: 2}
+    - {fileID: 11400000, guid: dd13309afdc08724ab913a600462b46a, type: 2}
+    - {fileID: 11400000, guid: 7fa865e01b7362b408b613c63610f3de, type: 2}
+    - {fileID: 11400000, guid: db6c2d28e6ffce54fa5a1f5a0446b621, type: 2}
+    - {fileID: 11400000, guid: 4f4722360ba6c8c4988e4a413c456cdc, type: 2}
+    - {fileID: 11400000, guid: 60b600515fdb63d4da797b387590a719, type: 2}
+    - {fileID: 11400000, guid: d820b357e15cfac4c84b17fce2b0af2d, type: 2}
+    - {fileID: 11400000, guid: b672cb65ed0b5a54aae9b75b67bb5398, type: 2}
+    - {fileID: 11400000, guid: 117283046cf4e444f8837b04ce058051, type: 2}
+    - {fileID: 11400000, guid: c77fbb4cc9502e0449e385755e969eff, type: 2}
+    - {fileID: 11400000, guid: a83c00625d75ae2499aeeead27a10f6e, type: 2}
+    - {fileID: 11400000, guid: 8e34492824f84924d8146813ad7c717f, type: 2}
+    - {fileID: 11400000, guid: 6f92bdbf1de86844d814de4a09307fc7, type: 2}
+    - {fileID: 11400000, guid: 5cc5a1ab2e04da54d844b92701eefdad, type: 2}
+    - {fileID: 11400000, guid: c9782c5735ab0904da571be88bf73e24, type: 2}
+    - {fileID: 11400000, guid: 5b50670adf2014649908bda1df77a151, type: 2}
+    - {fileID: 11400000, guid: e95cf23b96a12914db29aa5c2e54e459, type: 2}
+    - {fileID: 11400000, guid: 067cb3a41fec0c5438351d5264f4640d, type: 2}
+    - {fileID: 11400000, guid: 915cbc2aa02a170428b3ead36886cd69, type: 2}
+    - {fileID: 11400000, guid: 1604747cb9766ce4686f34629db2696b, type: 2}
+    - {fileID: 11400000, guid: 6f2b4c30c32585b4dbe8353b0b80dbed, type: 2}
+    - {fileID: 11400000, guid: 8324b44caef362e40a4f2bebcb537a89, type: 2}
+    BaseStats:
+      SerializedList:
+      - Key: 0
+        Value: 35
+      - Key: 1
+        Value: 35
+      - Key: 2
+        Value: 35
+      - Key: 3
+        Value: 35
+      - Key: 4
+        Value: 35
+      - Key: 5
+        Value: 35
+    Evolutions:
+    - rid: 1266369168087711830
+    - rid: 1266369168087711831
+    - rid: 1266369168087711832
+    MegaEvolutions:
+      SerializedList: []
+    IsUltraBeast: 0
+    IsLegendary: 0
+    IsMythical: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 1266369168087711830
+      type: {class: EvolveByLevelWhenAttackIsHigherThanDefense, ns: Varguiniano.YAPU.Runtime.Monster.Evolution, asm: Varguiniano.YAPU.Runtime}
+      data:
+        TargetSpecies: {fileID: 11400000, guid: 3aa19e470f5ebe3408f58afa3bd49f45, type: 2}
+        TargetForm: {fileID: 11400000, guid: 6dc6b91c0521dca41b3fc884c5a6fa9f, type: 2}
+        KeepShinyIfItIs: 1
+        TargetLevel: 20
+    - rid: 1266369168087711831
+      type: {class: EvolveByLevelWhenDefenseIsHigherThanAttack, ns: Varguiniano.YAPU.Runtime.Monster.Evolution, asm: Varguiniano.YAPU.Runtime}
+      data:
+        TargetSpecies: {fileID: 11400000, guid: 46a5619a75143f847bbfc505a34bc38f, type: 2}
+        TargetForm: {fileID: 11400000, guid: 6dc6b91c0521dca41b3fc884c5a6fa9f, type: 2}
+        KeepShinyIfItIs: 1
+        TargetLevel: 20
+    - rid: 1266369168087711832
+      type: {class: EvolveByLevelWhenAttackEqualsDefense, ns: Varguiniano.YAPU.Runtime.Monster.Evolution, asm: Varguiniano.YAPU.Runtime}
+      data:
+        TargetSpecies: {fileID: 11400000, guid: 994556ed842332640938472a966d41e5, type: 2}
+        TargetForm: {fileID: 11400000, guid: 6dc6b91c0521dca41b3fc884c5a6fa9f, type: 2}
+        KeepShinyIfItIs: 1
+        TargetLevel: 20

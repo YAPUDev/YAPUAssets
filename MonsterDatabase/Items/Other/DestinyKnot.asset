@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 391d6c85113540e1847420498af170bc, type: 3}
+  m_Name: DestinyKnot
+  m_EditorClassIdentifier: 
+  LocalizableName: Items/DestinyKnot
+  LocalizableDescription: Items/DestinyKnot/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Destiny_Knot
+  ItemCategory: {fileID: 11400000, guid: 06444bfad04c3194cb7b8c36babe4b80, type: 2}
+  Icon: {fileID: 21300000, guid: d79de228b3915fe4c9237aaf2b2bb060, type: 3}
+  DefaultPrice: 20000
+  CanBeSold: 1
+  SellPercentage: 0.25
+  CanBeHeld: 1
+  FlingPower: 10
+  FlingHasAdditionalEffects: 0
+  FlingEffects: []
+  SharesXP: 0
+  OnItemMovedItemEffects: []
+  OnStatCalculationEffects: []
+  OnCalculateAttackMultiplierOfTypesWhenDefendingItemEffects: []
+  OnMonsterEnteredBattleEffects: []
+  AfterActionCallbacks: []
+  OnTerrainSetItemEffects: []
+  PostTurnCallbackItemEffects: []
+  OnCalculateAccuracyWhenTargetedItemEffects: []
+  OnCheckGroundingItemEffects: []
+  OnCheckRunAwayItemEffects: []
+  OnCalculateMoveDamageItemEffects: []
+  HitByMoveCallbacks: []
+  AfterHitByMoveCallbacks: []
+  AfterHitByMultihitMoveCallbacks: []
+  AfterUsingMoveCallbacks: []
+  OnDeterminePriorityInsideBracketCallbacks: []
+  OnCalculateDrainHPMultiplierEffects: []
+  OnCalculateXPYieldEffects: []
+  OnYieldEffects: []
+  OnCalculatePriceMoneyItemEffects: []
+  OnCalculateWeatherEffectDurationItemEffects: []
+  OnCalculateSideStatusEffectDurationItemEffects: []
+  OnCalculateVolatileStatusEffectDurationItemEffects: []
+  OnCalculateTerrainEffectDurationItemEffects: []
+  OnVolatileStatusAddedItemEffects:
+  - {fileID: 11400000, guid: 517515300820a0b469fb87dacf1c8177, type: 2}
+  OnCalculateEncounterChanceItemEffects: []
+  OnCalculateNumberOfIVsToPassOnBreedingItemEffects:
+  - {fileID: 11400000, guid: 07ffe3a1cfd678946a39a48eff4a61f0, type: 2}
+  NeedsPanelAnimationInBagScreen: 0
+  UseOnTargetEffects: []
+  UseOnTargetMoveEffects: []
+  UseOutOfBattleEffects: []
+  UseInBattleEffects: []

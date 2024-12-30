@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbbb41454ceb4cd7a4fefbcf01e4b9a3, type: 3}
+  m_Name: Cut
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/Cut
+  LocalizableDescription: Moves/Cut/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Cut_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: db89964f043f3cb4dbf78a05c8fd5d36, type: 2}
+  MoveCategory: 0
+  BasePowerPoints: 30
+  MaxPowerPoints: 48
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 1
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 1
+  DamageBypassesSubstitute: 0
+  SoundBased: 0
+  OverridesEffectiveness: 0
+  EffectivenessOverride:
+    SerializedList: []
+  InfiniteAccuracy: 0
+  BaseAccuracy: 95
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 0
+  FallbackAnimation: {fileID: 0}
+  CanBeUsedOutsideBattle: 1
+  Power: 70
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  IsPunchingMove: 0
+  IsSlicingMove: 1
+  AnimationPrefab: {fileID: 468851038046536984, guid: 1dc760149d4b42e4689470a3cdcfc642, type: 3}
+  Audio:
+    Audio: Cut
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}

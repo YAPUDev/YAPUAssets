@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4df723b93124adbabe8ea30847866fd, type: 3}
+  m_Name: Burn
+  m_EditorClassIdentifier: 
+  LocalizableName: Status/Burn
+  LocalizableDescription: Status/Burn/Description
+  LocalizableStatusStartKey: Status/Burn/Start
+  LocalizableStatusTickKey: Status/Burn/Tick
+  LocalizableStatusEndKey: Status/Burn/End
+  ImmuneWeathers: []
+  ImmuneTerrains: []
+  ImmuneTypes:
+  - {fileID: 11400000, guid: 9006ef89f44a7724783c6f688db63b59, type: 2}
+  ImmuneAbilities:
+  - {fileID: 11400000, guid: 50b3f1d789cf5d54cb6cce1a58706863, type: 2}
+  ImmuneHeldItems: []
+  CatchMultiplier: 1.5
+  OutOfBattleDefault: {fileID: 11400000}
+  Icon: {fileID: 21300000, guid: bf1f6eea1bedbde40a1d9e5dfa0268e6, type: 3}
+  HPReduction: 0.0625
+  AnimationPrefab: {fileID: 5484957469054519052, guid: 109107f6fc91f6e45afb52ad0187724d, type: 3}
+  Audio:
+    Audio: Burn
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}

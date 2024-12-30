@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d56efafbd5104976a1a57347c7d34ff1, type: 3}
+  m_Name: Incinerate
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/Incinerate
+  LocalizableDescription: Moves/Incinerate/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Incinerate_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 9006ef89f44a7724783c6f688db63b59, type: 2}
+  MoveCategory: 1
+  BasePowerPoints: 15
+  MaxPowerPoints: 24
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 0
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 1
+  DamageBypassesSubstitute: 0
+  SoundBased: 0
+  OverridesEffectiveness: 0
+  EffectivenessOverride:
+    SerializedList: []
+  InfiniteAccuracy: 0
+  BaseAccuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 1
+  MovePossibleTargets: 5
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: b864dd4b469a8ac48afa71b52932c3c9, type: 2}
+  CanBeUsedOutsideBattle: 0
+  Power: 60
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  DestroyableItems:
+  - {fileID: 11400000, guid: b3ed2d1ada5661748a30435470191cd4, type: 2}
+  - {fileID: 11400000, guid: 0cc7f03d262b2af4d80648e094c989db, type: 2}
+  - {fileID: 11400000, guid: 0de9ef88dddd78d4290f63e5cd1f8247, type: 2}
+  - {fileID: 11400000, guid: 5a706d01d21fd864ab0eba42094a8e6f, type: 2}
+  - {fileID: 11400000, guid: 711b080fc12e6514b83383d4ef9428f0, type: 2}
+  - {fileID: 11400000, guid: 1651368540db3fa42bb1c829c58521ec, type: 2}
+  - {fileID: 11400000, guid: fd38218714a38424ba660cf097e9b84f, type: 2}
+  - {fileID: 11400000, guid: 2dfd0940ed847274f93b3f124abe4d3d, type: 2}
+  - {fileID: 11400000, guid: b7ca7dd415ec0fc45ac7ef4fec426618, type: 2}
+  - {fileID: 11400000, guid: 6efcfd8b8a7417447a04b8b2ed100bd0, type: 2}
+  - {fileID: 11400000, guid: fe8e0f4a3186d39499932b3414c1d3c9, type: 2}
+  - {fileID: 11400000, guid: cd0dc062d9a919f4192452f44f5fafc1, type: 2}
+  - {fileID: 11400000, guid: 439519dcb34af454a87a8e4962d9c7ea, type: 2}
+  - {fileID: 11400000, guid: 78abc2c6768ce8342b4849bcdae132ab, type: 2}
+  - {fileID: 11400000, guid: 4660645c1630b1d45bfdc232797ffa3c, type: 2}
+  - {fileID: 11400000, guid: 6f673fdeebd14e44f916211280b12b13, type: 2}
+  - {fileID: 11400000, guid: dbd59ba2a886783498e59b06236ba01c, type: 2}
+  - {fileID: 11400000, guid: e738df0413198f242920094bfd6e19fd, type: 2}
+  StealImmuneAbilities:
+  - {fileID: 11400000, guid: 3d5f5fecf214da74a8526a009bfab04e, type: 2}

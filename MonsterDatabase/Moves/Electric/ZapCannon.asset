@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280dd3f1266482e981201babb955157, type: 3}
+  m_Name: ZapCannon
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/ZapCannon
+  LocalizableDescription: Moves/ZapCannon/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Zap_Cannon_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 3086e053111d18e46b8f75ab45b81207, type: 2}
+  MoveCategory: 1
+  BasePowerPoints: 5
+  MaxPowerPoints: 8
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 0
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 0
+  DamageBypassesSubstitute: 0
+  SoundBased: 0
+  IsBallMove: 1
+  OverridesEffectiveness: 0
+  EffectivenessOverride:
+    SerializedList: []
+  InfiniteAccuracy: 0
+  BaseAccuracy: 50
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneVolatileStatuses: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: 090e1309cdc38124aa9e59d7615ad5ea, type: 2}
+  CanBeUsedOutsideBattle: 0
+  Power: 120
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  IsSlicingMove: 0
+  IsPunchingMove: 0
+  StatusChance:
+    m_Keys:
+    - {fileID: 11400000, guid: 382472642c5d62c498152f4beff0ea51, type: 2}
+    m_Values:
+    - 1
+  VolatileStatusChance:
+    m_Keys: []
+    m_Values: []

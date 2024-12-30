@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9012e29e4064fb3b77cd8ece61155f5, type: 3}
+  m_Name: Oblivious
+  m_EditorClassIdentifier: 
+  LocalizableName: Abilities/Oblivious
+  LocalizableDescription: Abilities/Oblivious/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Oblivious_(Ability)
+  AbilitiesImmuneTo:
+  - {fileID: 11400000, guid: ed166761473a1f44082211466f1df85e, type: 2}
+  - {fileID: 11400000, guid: ded5dffec9d55434ba970d29a424dd10, type: 2}
+  IsIgnorable: 1
+  AfterActionCuredEffects:
+  - {fileID: 11400000, guid: 8b95d1745cde2cf449888e91a876c9fe, type: 2}
+  - {fileID: 11400000, guid: 28be910e4e9f9da46a15a12d4c690482, type: 2}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e9f0cafa60d4a278929320109dd8693, type: 3}
+  m_Name: Berserk
+  m_EditorClassIdentifier: 
+  LocalizableName: Abilities/Berserk
+  LocalizableDescription: Abilities/Berserk/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Berserk_(Ability)
+  AbilitiesImmuneTo: []
+  IsIgnorable: 0
+  Threshold: 0.5
+  StatChanges:
+    SerializedList:
+    - Key: 3
+      Value: 1

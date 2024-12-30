@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43539c51e19f4d31a2fcfeee0ef88d7b, type: 3}
+  m_Name: Mimic
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/Mimic
+  LocalizableDescription: Moves/Mimic/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Mimic_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: db89964f043f3cb4dbf78a05c8fd5d36, type: 2}
+  MoveCategory: 2
+  BasePowerPoints: 10
+  MaxPowerPoints: 16
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 0
+  AffectedByProtect: 0
+  AffectedByMagicCoat: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 0
+  AffectedByKingsRock: 0
+  DamageBypassesSubstitute: 0
+  SoundBased: 0
+  IsBallMove: 0
+  IsWindMove: 0
+  OverridesEffectiveness: 0
+  EffectivenessOverride:
+    SerializedList: []
+  InfiniteAccuracy: 1
+  BaseAccuracy: 0
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneVolatileStatuses: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 0
+  FallbackAnimation: {fileID: 0}
+  CanBeUsedOutsideBattle: 0
+  ImmuneMoves:
+  - {fileID: 11400000, guid: 154b2afb2e9a2984ea5e23633bce7c9c, type: 2}
+  - {fileID: 11400000, guid: b80402025d1525943b99c9a38f836fcd, type: 2}
+  - {fileID: 11400000, guid: a83c00625d75ae2499aeeead27a10f6e, type: 2}
+  - {fileID: 11400000, guid: 3e84d9bc41a40b148bb3510f6522abbc, type: 2}
+  - {fileID: 11400000, guid: 166749376aa751348bbccb61f08d4d6a, type: 2}
+  - {fileID: 11400000}

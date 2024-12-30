@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d8cfdb4559f4e72bc8746c392bd2d2e, type: 3}
+  m_Name: MegaKick
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/MegaKick
+  LocalizableDescription: Moves/MegaKick/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Mega_Kick_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: db89964f043f3cb4dbf78a05c8fd5d36, type: 2}
+  MoveCategory: 0
+  BasePowerPoints: 5
+  MaxPowerPoints: 8
+  Priority: 0
+  MakesContact: 1
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 1
+  SoundBased: 0
+  InfiniteAccuracy: 0
+  Accuracy: 75
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 0
+  FallbackAnimation: {fileID: 0}
+  CanBeUsedOutsideBattle: 0
+  Power: 120
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  Sound:
+    Audio: Focus Punch part 2
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+  KickPrefab: {fileID: 2486145851572382156, guid: ce57f8faba43b8b41a281fe99b48abd7, type: 3}

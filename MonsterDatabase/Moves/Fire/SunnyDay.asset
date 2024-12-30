@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7b74a0488144b4c8865fe8ae051c64f, type: 3}
+  m_Name: SunnyDay
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/SunnyDay
+  LocalizableDescription: Moves/SunnyDay/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Sunny_Day_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 9006ef89f44a7724783c6f688db63b59, type: 2}
+  MoveCategory: 2
+  BasePowerPoints: 5
+  MaxPowerPoints: 8
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 0
+  AffectedByProtect: 0
+  AffectedByMagicCoat: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 0
+  AffectedByKingsRock: 0
+  DamageBypassesSubstitute: 0
+  SoundBased: 0
+  IsBallMove: 0
+  IsWindMove: 0
+  OverridesEffectiveness: 0
+  EffectivenessOverride:
+    SerializedList: []
+  InfiniteAccuracy: 1
+  BaseAccuracy: 0
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 0
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneVolatileStatuses: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 0
+  FallbackAnimation: {fileID: 0}
+  CanBeUsedOutsideBattle: 1
+  WeatherToSet: {fileID: 11400000, guid: 0bb8ea1ddf9dfad468d6450d7b01becc, type: 2}
+  Countdown: 5
+  IncompatibleWeathers:
+  - {fileID: 11400000, guid: c87e264988c4f834db1011eb4249ca56, type: 2}
+  - {fileID: 11400000, guid: 5fabdaa0808507547b32ba6dd9cb7758, type: 2}
+  - {fileID: 11400000, guid: c4f817be4dba60d4793d7d00b064cdab, type: 2}
+  OutOfBattleWeatherToSet: {fileID: 11400000, guid: 95dc2c2d1bb261d47b608e4cc74741ab, type: 2}

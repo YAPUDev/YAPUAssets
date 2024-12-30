@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9241cee3be749f6ac19e719cbab28c7, type: 3}
+  m_Name: SheerCold
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/SheerCold
+  LocalizableDescription: Moves/SheerCold/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Sheer_Cold_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 5564f6595e7fcfd41971380624975935, type: 2}
+  MoveCategory: 1
+  BasePowerPoints: 5
+  MaxPowerPoints: 8
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 0
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 0
+  AffectedByKingsRock: 0
+  DamageBypassesSubstitute: 0
+  SoundBased: 0
+  OverridesEffectiveness: 0
+  EffectivenessOverride:
+    SerializedList: []
+  InfiniteAccuracy: 0
+  BaseAccuracy: 20
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes:
+  - {fileID: 11400000, guid: 5564f6595e7fcfd41971380624975935, type: 2}
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: d5d77347eede1d34385c33aca7f92e01, type: 2}
+  CanBeUsedOutsideBattle: 0
+  Power: -1
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  TypesWithDifferentBaseAccuracy:
+    SerializedList:
+    - Key: {fileID: 11400000, guid: 5564f6595e7fcfd41971380624975935, type: 2}
+      Value: 30

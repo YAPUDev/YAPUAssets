@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fa0f8bf58794906b1377f6eef318a36, type: 3}
+  m_Name: Poltergeist
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/Poltergeist
+  LocalizableDescription: Moves/Poltergeist/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Poltergeist_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 573fce0976964da45b3feb13462250b2, type: 2}
+  MoveCategory: 0
+  BasePowerPoints: 5
+  MaxPowerPoints: 8
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 0
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 1
+  DamageBypassesSubstitute: 0
+  SoundBased: 0
+  OverridesEffectiveness: 0
+  EffectivenessOverride:
+    SerializedList: []
+  InfiniteAccuracy: 0
+  BaseAccuracy: 90
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: ce505b2af3d0279448423d4c2594fb77, type: 2}
+  CanBeUsedOutsideBattle: 0
+  Power: 110
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1

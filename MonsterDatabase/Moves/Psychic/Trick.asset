@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 883bf56bf1724daba994d8e353adb58d, type: 3}
+  m_Name: Trick
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/Trick
+  LocalizableDescription: Moves/Trick/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Trick_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 2d58a23f5902ddd488c3786e59fb9e95, type: 2}
+  MoveCategory: 2
+  BasePowerPoints: 10
+  MaxPowerPoints: 16
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 1
+  AffectedByProtect: 0
+  AffectedByMagicCoat: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 0
+  DamageBypassesSubstitute: 0
+  SoundBased: 0
+  OverridesEffectiveness: 0
+  EffectivenessOverride:
+    SerializedList: []
+  InfiniteAccuracy: 0
+  BaseAccuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 0
+  FallbackAnimation: {fileID: 0}
+  CanBeUsedOutsideBattle: 0
+  StealImmuneItems: []
+  StealImmuneAbilities:
+  - {fileID: 11400000, guid: 3d5f5fecf214da74a8526a009bfab04e, type: 2}
+  ImmuneItemMonsterCombinations:
+    m_Keys: []
+  ImmuneItemAbilityCombinations:
+    m_Keys: []
+  Sound:
+    Audio: Fling
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+  ItemPrefab: {fileID: 4260231409944469379, guid: c505a1aed6d75a440b8d96a3194e2e5e, type: 3}

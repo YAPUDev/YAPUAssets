@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dd2ef90a10a44bf9a2a79ad7d58832e, type: 3}
+  m_Name: MistBall
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/MistBall
+  LocalizableDescription: Moves/MistBall/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Mist_Ball_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 2d58a23f5902ddd488c3786e59fb9e95, type: 2}
+  MoveCategory: 1
+  BasePowerPoints: 5
+  MaxPowerPoints: 8
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 0
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 0
+  DamageBypassesSubstitute: 0
+  SoundBased: 0
+  IsBallMove: 1
+  IsWindMove: 0
+  OverridesEffectiveness: 0
+  EffectivenessOverride:
+    SerializedList: []
+  InfiniteAccuracy: 0
+  BaseAccuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneVolatileStatuses: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: 0c2431d85b4ec7047b2f6265adb9b0c5, type: 2}
+  CanBeUsedOutsideBattle: 0
+  Power: 95
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  IsSlicingMove: 0
+  IsPunchingMove: 0
+  IsBitingMove: 0
+  ChangeStats: 1
+  StatChangesAffectSelf: 0
+  StatChanges:
+    SerializedList:
+    - Key: 0.5
+      Value:
+        SerializedList:
+        - Key: 3
+          Value: -1
+  ChangeBattleStats: 0
+  BattleStatChanges:
+    SerializedList: []
+  ChangeCritical: 0
+  CriticalChange: 0
+  CriticalChance: 0

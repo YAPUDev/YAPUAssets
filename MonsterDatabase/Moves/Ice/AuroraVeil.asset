@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4071a51f8524b2780936aad1e5b6677, type: 3}
+  m_Name: AuroraVeil
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/AuroraVeil
+  LocalizableDescription: Moves/AuroraVeil/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Aurora_Veil_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 5564f6595e7fcfd41971380624975935, type: 2}
+  MoveCategory: 2
+  BasePowerPoints: 20
+  MaxPowerPoints: 32
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 0
+  AffectedByProtect: 0
+  AffectedByMagicCoat: 0
+  AffectedBySnatch: 1
+  AffectedByMirror: 0
+  AffectedByKingsRock: 0
+  DamageBypassesSubstitute: 0
+  SoundBased: 0
+  IsBallMove: 0
+  IsWindMove: 0
+  OverridesEffectiveness: 0
+  EffectivenessOverride:
+    SerializedList: []
+  InfiniteAccuracy: 0
+  BaseAccuracy: 0
+  WeatherCanModifyAccuracy: 1
+  WeatherAccuracyModifiers:
+    SerializedList:
+    - Key: {fileID: 11400000, guid: 52ce37f0f0d8e9847afe2ae18930052b, type: 2}
+      Value: -1
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 0
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities:
+  - {fileID: 11400000, guid: 777d474e7f6e3cd45a206b5739207d27, type: 2}
+  ImmuneHeldItems: []
+  ImmuneVolatileStatuses: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 0
+  FallbackAnimation: {fileID: 0}
+  CanBeUsedOutsideBattle: 0
+  Status: {fileID: 11400000, guid: 22d5be61952b23f4491faac654c65d5e, type: 2}
+  Turns: 5
+  AnimationPrefab: {fileID: 4561423282077475525, guid: a41e3242eeef80c40b8b1a358664811a, type: 3}
+  EnemyPosition: {x: -0.1, y: 0.5, z: 0}
+  EnemyPriority: 2
+  AllyPosition: {x: 0.1, y: 0.5, z: 0}
+  AllyPriority: -1
+  Audio:
+    Audio: Light Screen
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}

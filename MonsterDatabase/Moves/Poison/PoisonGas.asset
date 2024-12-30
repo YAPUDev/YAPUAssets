@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 839e5e42d1a64e5bafd0afa527643f57, type: 3}
+  m_Name: PoisonGas
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/PoisonGas
+  LocalizableDescription: Moves/PoisonGas/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Poison_Gas_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 3603fd3a7d985df4b9fe806e450268cf, type: 2}
+  MoveCategory: 2
+  BasePowerPoints: 40
+  MaxPowerPoints: 64
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 0
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 1
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 0
+  DamageBypassesSubstitute: 0
+  SoundBased: 0
+  OverridesEffectiveness: 0
+  EffectivenessOverride:
+    SerializedList: []
+  InfiniteAccuracy: 0
+  BaseAccuracy: 90
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 1
+  MovePossibleTargets: 5
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: 74b832d1f1d2e234096c1b94db216df3, type: 2}
+  CanBeUsedOutsideBattle: 0
+  Status: {fileID: 11400000, guid: 98c1d698c87382041a9a14a84d06a289, type: 2}

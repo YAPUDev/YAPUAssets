@@ -1,0 +1,866 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &228760592136932231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 228760592136932232}
+  - component: {fileID: 228760592136932234}
+  - component: {fileID: 228760592136932233}
+  m_Layer: 0
+  m_Name: Popup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &228760592136932232
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228760592136932231}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.2, z: 0}
+  m_LocalScale: {x: 1, y: 0, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2872404556951633598}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &228760592136932234
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228760592136932231}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 100
+  m_Sprite: {fileID: 21300000, guid: 1ac46bb61b3dc59449a1ec8796fc1a25, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &228760592136932233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228760592136932231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1abc705841d643b79c0b79440d2d709d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Exclamation: {fileID: 21300000, guid: 1ac46bb61b3dc59449a1ec8796fc1a25, type: 3}
+  ExclamationAudio:
+    Audio: Exclamation
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+--- !u!1 &2872404555732899278
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2872404555732899277}
+  - component: {fileID: 2872404555732899276}
+  m_Layer: 0
+  m_Name: Shadow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2872404555732899277
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2872404555732899278}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.4, z: 0}
+  m_LocalScale: {x: 0.75, y: 0.5, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2872404557091840549}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &2872404555732899276
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2872404555732899278}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 15
+  m_Sprite: {fileID: 21300000, guid: 5d520176e56621f49be1fae9483e75a4, type: 3}
+  m_Color: {r: 0.5019608, g: 0.5019608, b: 0.53333336, a: 0.7058824}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &2872404556455697070
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2872404556455697069}
+  - component: {fileID: 2872404556455697068}
+  - component: {fileID: 1099891769092395411}
+  m_Layer: 0
+  m_Name: Reflection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2872404556455697069
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2872404556455697070}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.2, z: 0}
+  m_LocalScale: {x: 1, y: -1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2872404556951633598}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &2872404556455697068
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2872404556455697070}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: -782116332, guid: eb4c07aa8cd4be84d91cfaf4f383aba6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.49019608}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &1099891769092395411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2872404556455697070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ea24108f9e74f4d8d642a20f72091cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaveDuration: 1
+  MinMax: {x: 0.85, y: 1}
+--- !u!1 &2872404556460790412
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2872404556460790403}
+  - component: {fileID: 2872404556460790402}
+  m_Layer: 0
+  m_Name: Body
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2872404556460790403
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2872404556460790412}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2872404556951633598}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &2872404556460790402
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2872404556460790412}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 20
+  m_Sprite: {fileID: -782116332, guid: eb4c07aa8cd4be84d91cfaf4f383aba6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &2872404556951633599
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2872404556951633598}
+  m_Layer: 0
+  m_Name: Pivot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2872404556951633598
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2872404556951633599}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2872404556455697069}
+  - {fileID: 2872404556460790403}
+  - {fileID: 2872404557052005184}
+  - {fileID: 228760592136932232}
+  m_Father: {fileID: 2872404557091840549}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2872404557052005185
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2872404557052005184}
+  - component: {fileID: 2872404557052005191}
+  m_Layer: 0
+  m_Name: Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2872404557052005184
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2872404557052005185}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2872404556951633598}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &2872404557052005191
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2872404557052005185}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: c700745531b1e324ea5ab3f6eeb541dc, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 45
+  m_Sprite: {fileID: -782116332, guid: eb4c07aa8cd4be84d91cfaf4f383aba6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.96, y: 0.96}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &2872404557091840544
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2872404557091840549}
+  - component: {fileID: 5918200173837656220}
+  - component: {fileID: 2872404557091840551}
+  m_Layer: 0
+  m_Name: GymLeader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2872404557091840549
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2872404557091840544}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6, y: 5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2872404555732899277}
+  - {fileID: 2872404556951633598}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5918200173837656220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2872404557091840544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5d8179cd9234fb0ac296709dd7a15b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnEnableCommandGraph:
+    rid: -2
+  RunLoopOnEnable: 0
+  LoopCommandGraph:
+    rid: -2
+  PlayerInteractsWhenOnTop: 0
+  InteractCommandGraph:
+    rid: 6376674979993878652
+  OnDemandCommandGraph0:
+    rid: -2
+  OnDemandCommandGraph1:
+    rid: -2
+  OnDemandCommandGraph2:
+    rid: -2
+  OnDemandCommandGraph3:
+    rid: -2
+  RunningCommands: 0
+  GlobalGridManager: {fileID: 0}
+  LoopRunning: 0
+  ShouldLoop: 0
+  CanSpotPlayer: 0
+  SpotRange: 5
+  SpotPlayerCommandGraph:
+    rid: -2
+  Popup: {fileID: 228760592136932233}
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 6376674979993878652
+      type: {class: ActorCommandGraph, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph, asm: Varguiniano.YAPU.Runtime}
+      data:
+        RootNode:
+          rid: 6376674979993878653
+        Nodes:
+        - rid: 6376674979993878653
+        - rid: 6376674979993878656
+        - rid: 6376674979993878658
+        - rid: 6376674979993878660
+        - rid: 6376674979993878662
+        - rid: 6376674979993878664
+        - rid: 6376674979993878666
+        - rid: 6376674979993878668
+        - rid: 6376674979993878670
+        - rid: 6376674979993878672
+        - rid: 6376674979993878674
+        - rid: 6376674979993878676
+        - rid: 6376674979993878678
+        - rid: 6376674979993878680
+        - rid: 6376674979993878682
+        - rid: 6376674979993878684
+        - rid: 6376674979993878686
+        - rid: 6376674979993878688
+    - rid: 6376674979993878653
+      type: {class: RootNode, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: RootNode
+        GUID: 7b0cb76003c3819408e0c83f91e8b3eb
+        Position: {x: 0, y: 0}
+        NextCommand:
+          rid: 6376674979993878656
+    - rid: 6376674979993878656
+      type: {class: PlaySound, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Sounds, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: PlaySound
+        GUID: d917f68a06e6f6b46ad45db1092abce8
+        Position: {x: 537, y: 0}
+        NextCommand:
+          rid: 6376674979993878658
+        Sound:
+          Audio: Select
+          AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+        Loop: 0
+        Pitch: 1
+        Volume: 1
+        FadeInTime: 0
+        PreventDuplicates: 0
+    - rid: 6376674979993878658
+      type: {class: LookAtPlayer, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Animations, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: LookAtPlayer
+        GUID: 16c2cbd7bb5827e46a093d02d184f588
+        Position: {x: 1068, y: 0}
+        NextCommand:
+          rid: 6376674979993878660
+    - rid: 6376674979993878660
+      type: {class: IfPlayerHasBadge, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Badges, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: IfPlayerHasBadge
+        GUID: 0f11fe9ef46338d44b777341a4d583d4
+        Position: {x: 1645, y: 0}
+        True:
+          rid: 6376674979993878662
+        False:
+          rid: 6376674979993878664
+        Badge: {fileID: 11400000, guid: 5ea8c1e6368338a4aafa58605cb1db01, type: 2}
+    - rid: 6376674979993878662
+      type: {class: ShowDialog, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Dialogs, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: ShowDialog
+        GUID: 9e6b9400fb0f92a4c98ea7f39b56897b
+        Position: {x: 9115, y: -74.5}
+        NextCommand:
+          rid: -2
+        DialogLocalizationKey: Dialogs/Demo/StartingVillage/Brock/0
+        ShowCharacterNameIfAvailable: 1
+        OwnCharacter: 1
+        PlayerCharacter: 0
+        OtherCharacter: {fileID: 0}
+    - rid: 6376674979993878664
+      type: {class: ShowDialog, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Dialogs, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: ShowDialog
+        GUID: e53d1c48d6ec1224eb413e7c6245dfab
+        Position: {x: 2239, y: 118.24999}
+        NextCommand:
+          rid: 6376674979993878666
+        DialogLocalizationKey: Dialogs/Demo/StartingVillage/Brock/1
+        ShowCharacterNameIfAvailable: 1
+        OwnCharacter: 1
+        PlayerCharacter: 0
+        OtherCharacter: {fileID: 0}
+    - rid: 6376674979993878666
+      type: {class: ShowDialog, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Dialogs, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: ShowDialog
+        GUID: 7cf5cc24d27ecbb4e8853c7259e44981
+        Position: {x: 2798.85, y: 117.99994}
+        NextCommand:
+          rid: 6376674979993878668
+        DialogLocalizationKey: Dialogs/Demo/StartingVillage/Brock/2
+        ShowCharacterNameIfAvailable: 1
+        OwnCharacter: 1
+        PlayerCharacter: 0
+        OtherCharacter: {fileID: 0}
+    - rid: 6376674979993878668
+      type: {class: ShowDialog, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Dialogs, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: ShowDialog
+        GUID: 229106f3f5d0c94408668c23109a5894
+        Position: {x: 3323.3005, y: 118.00003}
+        NextCommand:
+          rid: 6376674979993878670
+        DialogLocalizationKey: Dialogs/Demo/StartingVillage/Brock/3
+        ShowCharacterNameIfAvailable: 1
+        OwnCharacter: 1
+        PlayerCharacter: 0
+        OtherCharacter: {fileID: 0}
+    - rid: 6376674979993878670
+      type: {class: SingleTrainerFight, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Battles, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: SingleTrainerFight
+        GUID: 11b07c11aef484142a9ab924faded994
+        Position: {x: 3874, y: 118}
+        NextCommand:
+          rid: 6376674979993878672
+        Roster: {fileID: 11400000, guid: fa18b43d1efa95f4d8b205cf7efbc959, type: 2}
+        Bag: {fileID: 11400000, guid: f3a225e5892e3fa4aafb27ac561613d7, type: 2}
+        EncounterType: 0
+        DefeatLocalizationKey: Dialogs/Demo/StartingVillage/Brock/4
+        RespawnThePlayerIfTheyLose: 1
+        OnWin:
+          rid: -2
+        OnLost:
+          rid: -2
+    - rid: 6376674979993878672
+      type: {class: ShowDialog, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Dialogs, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: ShowDialog
+        GUID: 3183a1d9aa0e4044d95d310d03e63103
+        Position: {x: 4388.4, y: 118.00001}
+        NextCommand:
+          rid: 6376674979993878674
+        DialogLocalizationKey: Dialogs/Demo/StartingVillage/Brock/5
+        ShowCharacterNameIfAvailable: 1
+        OwnCharacter: 1
+        PlayerCharacter: 0
+        OtherCharacter: {fileID: 0}
+    - rid: 6376674979993878674
+      type: {class: GiveBadge, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Badges, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: GiveBadge
+        GUID: ec250eeedd3a3d741a11793c3eca4495
+        Position: {x: 4895.5005, y: 118.00001}
+        NextCommand:
+          rid: 6376674979993878676
+        Badge: {fileID: 11400000, guid: 5ea8c1e6368338a4aafa58605cb1db01, type: 2}
+    - rid: 6376674979993878676
+      type: {class: GiveBadge, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Badges, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: GiveBadge
+        GUID: 389649f3866c26b49ba5a199452b1802
+        Position: {x: 5433.8003, y: 118.00001}
+        NextCommand:
+          rid: 6376674979993878678
+        Badge: {fileID: 11400000, guid: 08934d7537ff8b94baafe71cf7bb8d50, type: 2}
+    - rid: 6376674979993878678
+      type: {class: GiveBadge, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Badges, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: GiveBadge
+        GUID: 99612feeef24f4e4faebe7646aa54c46
+        Position: {x: 5965.4517, y: 118.00001}
+        NextCommand:
+          rid: 6376674979993878680
+        Badge: {fileID: 11400000, guid: 612a0ea89dee6c24eb766a1a171a8fa2, type: 2}
+    - rid: 6376674979993878680
+      type: {class: GiveBadge, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Badges, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: GiveBadge
+        GUID: e1ffed52b10a92846a688aa8c5786c5d
+        Position: {x: 6476.7017, y: 118.00004}
+        NextCommand:
+          rid: 6376674979993878682
+        Badge: {fileID: 11400000, guid: 6429b07ec68a2c04fb1be7e974ce8c1f, type: 2}
+    - rid: 6376674979993878682
+      type: {class: GiveBadge, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Badges, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: GiveBadge
+        GUID: 3e11d9d46078758418e44a0442109078
+        Position: {x: 6956.05, y: 118.000015}
+        NextCommand:
+          rid: 6376674979993878684
+        Badge: {fileID: 11400000, guid: 45dfaca5cfd944c45801664f78e2f081, type: 2}
+    - rid: 6376674979993878684
+      type: {class: GiveBadge, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Badges, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: GiveBadge
+        GUID: 006463d4823cf53439b28f9728a07383
+        Position: {x: 7434.6514, y: 118.00002}
+        NextCommand:
+          rid: 6376674979993878686
+        Badge: {fileID: 11400000, guid: 4ab6075a88b99b74397a8a2d60b8978f, type: 2}
+    - rid: 6376674979993878686
+      type: {class: ShowDialog, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Dialogs, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: ShowDialog
+        GUID: e03787566c201ae4bba3d69313a930f8
+        Position: {x: 7948, y: 118}
+        NextCommand:
+          rid: 6376674979993878688
+        DialogLocalizationKey: Dialogs/Demo/StartingVillage/Brock/6
+        ShowCharacterNameIfAvailable: 1
+        OwnCharacter: 1
+        PlayerCharacter: 0
+        OtherCharacter: {fileID: 0}
+    - rid: 6376674979993878688
+      type: {class: GivePlayerItem, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Items, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: GivePlayerItem
+        GUID: 25f3a549543dca449bffa3ce88f9c779
+        Position: {x: 8494, y: 118}
+        NextCommand:
+          rid: 6376674979993878662
+        Mode: 1
+        Item: {fileID: 11400000, guid: 3ee62f05ad545be4885519c693f9c037, type: 2}
+        Amount: 1
+        MessageType: 1
+        GiveItemAudio:
+          Audio: Tutututi
+          AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+--- !u!114 &2872404557091840551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2872404557091840544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a44aa4ca2654938b83930e22e58d39a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mode: 0
+  Character: {fileID: 11400000, guid: f530472fbefcacc408e578f8568a5517, type: 2}
+  MonsterRoster: {fileID: 0}
+  IsPlayer: 0
+  InitOnEnable: 1
+  Speed: 0.25
+  NormalShadowSortOrder: 15
+  NormalBodySortOrder: 20
+  NormalHeadSortOrder: 30
+  OverBridgeShadowSortOrder: 35
+  OverBridgeBodySortOrder: 40
+  OverBridgeHeadSortOrder: 45
+  MakeSound: 1
+  JumpAudio:
+    Audio: jump
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+  HideSortOrder: -100
+  FallAnimationSortOrder: 100
+  FallAnimationYPosition: 15
+  FallAudio:
+    Audio: Fall
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+  FloorHitAudio:
+    Audio: FloorHit
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+  SpriteRenderers:
+  - {fileID: 2872404556460790402}
+  - {fileID: 2872404557052005191}
+  - {fileID: 2872404556455697068}
+  ShadowRenderers:
+  - {fileID: 2872404555732899276}
+  BodyRenderers:
+  - {fileID: 2872404556460790402}
+  HeadRenderers:
+  - {fileID: 2872404557052005191}
+  BodyPivot: {fileID: 2872404556951633598}
+  CurrentDirection: 1
+  IsRunning: 0
+  IsBiking: 0
+  IsFishing: 0
+  IsSwimming: 0
+  CurrentGrid: {fileID: 0}

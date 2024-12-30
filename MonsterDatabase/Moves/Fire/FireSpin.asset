@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c7ddfd362db4fc0ad6276f776a1da06, type: 3}
+  m_Name: FireSpin
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/FireSpin
+  LocalizableDescription: Moves/FireSpin/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Fire_Spin_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 9006ef89f44a7724783c6f688db63b59, type: 2}
+  MoveCategory: 1
+  BasePowerPoints: 15
+  MaxPowerPoints: 24
+  Priority: 0
+  MakesContact: 0
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 1
+  SoundBased: 0
+  InfiniteAccuracy: 0
+  Accuracy: 85
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 0
+  FallbackAnimation: {fileID: 0}
+  CanBeUsedOutsideBattle: 0
+  Power: 35
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  Status: {fileID: 11400000, guid: ab4b30de275c2d54e92e0f98f9da0234, type: 2}
+  InfiniteDuration: 0
+  SetOnUser: 0
+  BindingBand: {fileID: 11400000, guid: 65e349930e9405d43a652189e0887674, type: 2}
+  Audio:
+    Audio: Fire Spin
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+  VortexPrefab: {fileID: 7292097991402732835, guid: 062670b5cff80a3489f8dafaf6b4ec6d, type: 3}

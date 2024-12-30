@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61772823376245d3998139e6be76a63b, type: 3}
+  m_Name: BlastBurn
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/BlastBurn
+  LocalizableDescription: Moves/BlastBurn/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Blast_Burn_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 9006ef89f44a7724783c6f688db63b59, type: 2}
+  MoveCategory: 1
+  BasePowerPoints: 5
+  MaxPowerPoints: 8
+  Priority: 0
+  MakesContact: 0
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 1
+  SoundBased: 0
+  InfiniteAccuracy: 0
+  Accuracy: 90
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: b864dd4b469a8ac48afa71b52932c3c9, type: 2}
+  CanBeUsedOutsideBattle: 0
+  Power: 150
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  Status: {fileID: 11400000, guid: aa73ab37555c04e4a88b51f74d29ae42, type: 2}
+  InfiniteDuration: 0
+  SetOnUser: 1

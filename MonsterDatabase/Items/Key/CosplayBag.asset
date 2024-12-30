@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79a84605f09c43bcab098570a6d26d3d, type: 3}
+  m_Name: CosplayBag
+  m_EditorClassIdentifier: 
+  LocalizableName: Items/CosplayBag
+  LocalizableDescription: Items/CosplayBag/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Pikachu_(Pok%C3%A9mon)#Cosplay_Pikachu_2
+  ItemCategory: {fileID: 11400000, guid: 24e0bd2c530d36a44bc77246ec530a47, type: 2}
+  Icon: {fileID: 21300000, guid: 864ee7c2d1c00f4448ea6cc1274d831c, type: 3}
+  DefaultPrice: 10000
+  CanBeSold: 0
+  SellPercentage: 0.5
+  CanBeHeld: 0
+  FlingPower: 30
+  FlingHasAdditionalEffects: 0
+  FlingEffects: []
+  SharesXP: 0
+  OnItemMovedItemEffects: []
+  OnStatCalculationEffects: []
+  OnCalculateAttackMultiplierOfTypesWhenDefendingItemEffects: []
+  OnMonsterEnteredBattleEffects: []
+  AfterActionCallbacks: []
+  OnTerrainSetItemEffects: []
+  PostTurnCallbackItemEffects: []
+  OnCalculateAccuracyWhenTargetedItemEffects: []
+  OnCheckGroundingItemEffects: []
+  OnCheckRunAwayItemEffects: []
+  OnCalculateMoveDamageItemEffects: []
+  HitByMoveCallbacks: []
+  AfterHitByMoveCallbacks: []
+  AfterHitByMultihitMoveCallbacks: []
+  AfterUsingMoveCallbacks: []
+  OnDeterminePriorityInsideBracketCallbacks: []
+  OnCalculateDrainHPMultiplierEffects: []
+  OnCalculateXPYieldEffects: []
+  OnYieldEffects: []
+  OnCalculatePriceMoneyItemEffects: []
+  OnCalculateWeatherEffectDurationItemEffects: []
+  OnCalculateSideStatusEffectDurationItemEffects: []
+  OnCalculateVolatileStatusEffectDurationItemEffects: []
+  OnCalculateTerrainEffectDurationItemEffects: []
+  OnVolatileStatusAddedItemEffects: []
+  OnCalculateEncounterChanceItemEffects: []
+  AllowEvolutionItemEffects: []
+  OnCalculateNumberOfIVsToPassOnBreedingItemEffects: []
+  OnCalculateSpecificIVsToPassOnBreedingItemEffects: []
+  OnCalculateNatureToPassOnBreedingItemEffects: []
+  OnCalculateFormToPassOnBreedingItemEffects: []
+  NeedsPanelAnimationInBagScreen: 0
+  UseOnTargetEffects:
+  - {fileID: 11400000, guid: 25c3e950d3d6a784498bae4981f04abd, type: 2}
+  UseOnTargetMoveEffects: []
+  UseOutOfBattleEffects: []
+  UseInBattleEffects: []

@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4d78f7332a64cd6b1961e7182330925, type: 3}
+  m_Name: PsychicNoise
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/PsychicNoise
+  LocalizableDescription: Moves/PsychicNoise/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Psychic_Noise_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 2d58a23f5902ddd488c3786e59fb9e95, type: 2}
+  MoveCategory: 1
+  BasePowerPoints: 10
+  MaxPowerPoints: 16
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 0
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 1
+  DamageBypassesSubstitute: 0
+  SoundBased: 1
+  OverridesEffectiveness: 0
+  EffectivenessOverride:
+    SerializedList: []
+  InfiniteAccuracy: 0
+  BaseAccuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: 93f9f8aa4e3d8d2458a77b282f67d41a, type: 2}
+  CanBeUsedOutsideBattle: 0
+  Power: 75
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  Status: {fileID: 11400000, guid: da336484afbd86e49921f304d6ad938d, type: 2}
+  InfiniteDuration: 0
+  SetOnUser: 0

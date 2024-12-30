@@ -1,0 +1,1280 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2094660101096033563
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2094660101096033566}
+  - component: {fileID: 7560634795807526823}
+  - component: {fileID: 2094660101096033564}
+  m_Layer: 0
+  m_Name: PokeCenterHealingBalls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2094660101096033566
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094660101096033563}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.5, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2094660101918112502}
+  - {fileID: 2094660101246800261}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7560634795807526823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094660101096033563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5d8179cd9234fb0ac296709dd7a15b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnEnableCommands: []
+  OnEnableCommandGraph:
+    rid: -2
+  RunLoopOnEnable: 0
+  LoopCommands: []
+  LoopCommandGraph:
+    rid: -2
+  PlayerInteractsWhenOnTop: 0
+  InteractCommands: []
+  InteractCommandGraph:
+    rid: -2
+  OnDemandCommands0:
+  - rid: 7491443410804408392
+  - rid: 7491443410804408410
+  - rid: 7491443410804408405
+  OnDemandCommands1: []
+  OnDemandCommands2: []
+  OnDemandCommands3: []
+  OnDemandCommandGraph0:
+    rid: 7393535654474023036
+  OnDemandCommandGraph1:
+    rid: -2
+  OnDemandCommandGraph2:
+    rid: -2
+  OnDemandCommandGraph3:
+    rid: -2
+  RunningCommands: 0
+  GlobalGridManager: {fileID: 0}
+  LoopRunning: 0
+  ShouldLoop: 0
+  CanSpotPlayer: 0
+  SpotRange: 5
+  SpotPlayerCommands: []
+  SpotPlayerCommandGraph:
+    rid: -2
+  Popup: {fileID: 4170850513547519154}
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 7393535654474023036
+      type: {class: ActorCommandGraph, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph, asm: Varguiniano.YAPU.Runtime}
+      data:
+        RootNode:
+          rid: 7393535654474023037
+        Nodes:
+        - rid: 7393535654474023037
+        - rid: 7393535654474023040
+        - rid: 7393535654474023048
+        - rid: 7393535654474023050
+        - rid: 7393535654474023052
+        - rid: 7393535654474023054
+        - rid: 7393535654474023056
+        - rid: 7393535654474023058
+        - rid: 7393535654474023060
+        - rid: 7393535654474023062
+        - rid: 7393535654474023064
+        - rid: 7393535654474023066
+        - rid: 7393535654474023068
+        - rid: 7393535654474023070
+        - rid: 7393535654474023072
+        - rid: 7393535654474023074
+        - rid: 7393535654474023076
+        - rid: 7393535654474023078
+        - rid: 7393535654474023080
+        - rid: 7393535654474023082
+        - rid: 7393535654474023084
+        - rid: 7393535654474023086
+        - rid: 7393535654474023088
+    - rid: 7393535654474023037
+      type: {class: RootNode, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: RootNode
+        GUID: cfb73f4d53bfea94b98feb073dec6dd5
+        Position: {x: -1184, y: 2445.2908}
+        NextCommand:
+          rid: 7393535654474023040
+    - rid: 7393535654474023040
+      type: {class: PokeCenterHealingBallsAnimation, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Animations, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: PokeCenterHealingBallsAnimation
+        GUID: bbb48b3cb9c62c445971a59fc56a9c93
+        Position: {x: -691, y: 2453.2908}
+        NextCommand:
+          rid: 7393535654474023086
+        BallPlaceAnimations:
+        - rid: 7393535654474023048
+        - rid: 7393535654474023052
+        - rid: 7393535654474023056
+        - rid: 7393535654474023060
+        - rid: 7393535654474023064
+        - rid: 7393535654474023068
+        BallHealAnimations:
+        - rid: 7393535654474023072
+        - rid: 7393535654474023074
+        - rid: 7393535654474023076
+        - rid: 7393535654474023078
+        - rid: 7393535654474023080
+        - rid: 7393535654474023082
+        PlayHealingSound:
+          rid: 7393535654474023084
+    - rid: 7393535654474023048
+      type: {class: CharacterSpriteChangeAnimation, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Animations, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: CharacterSpriteChangeAnimation
+        GUID: 2eb764101aa55b844a0b2670b398b14a
+        Position: {x: 1024, y: 52}
+        NextCommand:
+          rid: -2
+        Interval: 0.3
+        Sprites:
+        - {fileID: -11902140, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        Sound:
+          rid: 7393535654474023050
+    - rid: 7393535654474023050
+      type: {class: PlaySound, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Sounds, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: PlaySound
+        GUID: 91539140960872a40a73f448c8e9426b
+        Position: {x: 1464, y: 78}
+        NextCommand:
+          rid: -2
+        Sound:
+          Audio: Bump
+          AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+        Loop: 0
+        Pitch: 1.5
+        Volume: 0.6
+        FadeInTime: 0
+        PreventDuplicates: 0
+    - rid: 7393535654474023052
+      type: {class: CharacterSpriteChangeAnimation, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Animations, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: CharacterSpriteChangeAnimation
+        GUID: d0c3120c6e2d4a24a971727d1c969e16
+        Position: {x: 1023, y: 338.5}
+        NextCommand:
+          rid: -2
+        Interval: 0.3
+        Sprites:
+        - {fileID: -11902140, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        - {fileID: 1823487667, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        Sound:
+          rid: 7393535654474023054
+    - rid: 7393535654474023054
+      type: {class: PlaySound, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Sounds, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: PlaySound
+        GUID: ad2b674550c46dd468011e3714897a84
+        Position: {x: 1463, y: 389}
+        NextCommand:
+          rid: -2
+        Sound:
+          Audio: Bump
+          AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+        Loop: 0
+        Pitch: 1.5
+        Volume: 0.6
+        FadeInTime: 0
+        PreventDuplicates: 0
+    - rid: 7393535654474023056
+      type: {class: CharacterSpriteChangeAnimation, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Animations, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: CharacterSpriteChangeAnimation
+        GUID: bc2474490cf835446b49da62d946d581
+        Position: {x: 1020, y: 686}
+        NextCommand:
+          rid: -2
+        Interval: 0.3
+        Sprites:
+        - {fileID: -11902140, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        - {fileID: 1823487667, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        - {fileID: 1687758343, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        Sound:
+          rid: 7393535654474023058
+    - rid: 7393535654474023058
+      type: {class: PlaySound, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Sounds, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: PlaySound
+        GUID: 4d731ee4ab3545a41a9694cfbd76d8c6
+        Position: {x: 1461, y: 737}
+        NextCommand:
+          rid: -2
+        Sound:
+          Audio: Bump
+          AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+        Loop: 0
+        Pitch: 1.5
+        Volume: 0.6
+        FadeInTime: 0
+        PreventDuplicates: 0
+    - rid: 7393535654474023060
+      type: {class: CharacterSpriteChangeAnimation, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Animations, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: CharacterSpriteChangeAnimation
+        GUID: fbb442d861a8dd94890dbd50248dd09a
+        Position: {x: 1028.0002, y: 1087.5001}
+        NextCommand:
+          rid: -2
+        Interval: 0.3
+        Sprites:
+        - {fileID: -11902140, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        - {fileID: 1823487667, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        - {fileID: 1687758343, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        - {fileID: 405530664, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+        Sound:
+          rid: 7393535654474023062
+    - rid: 7393535654474023062
+      type: {class: PlaySound, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Sounds, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: PlaySound
+        GUID: 9e982c2a4593775479fee06c2ae8d3a5
+        Position: {x: 1469, y: 1115.4004}
+        NextCommand:
+          rid: -2
+        Sound:
+          Audio: Bump
+          AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+        Loop: 0
+        Pitch: 1.5
+        Volume: 0.6
+        FadeInTime: 0
+        PreventDuplicates: 0
+    - rid: 7393535654474023064
+      type: {class: CharacterSpriteChangeAnimation, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Animations, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: CharacterSpriteChangeAnimation
+        GUID: 4a6671a57e2967b4cab9609c42dc02cb
+        Position: {x: 1018.6502, y: 1532.6003}
+        NextCommand:
+          rid: -2
+        Interval: 0.3
+        Sprites:
+        - {fileID: -11902140, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        - {fileID: 1823487667, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        - {fileID: 1687758343, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        - {fileID: 405530664, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+        - {fileID: 415418675, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+        Sound:
+          rid: 7393535654474023066
+    - rid: 7393535654474023066
+      type: {class: PlaySound, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Sounds, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: PlaySound
+        GUID: a7888eea8cd23d54da9187b449bc3468
+        Position: {x: 1469.0001, y: 1559.4004}
+        NextCommand:
+          rid: -2
+        Sound:
+          Audio: Bump
+          AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+        Loop: 0
+        Pitch: 1.5
+        Volume: 0.6
+        FadeInTime: 0
+        PreventDuplicates: 0
+    - rid: 7393535654474023068
+      type: {class: CharacterSpriteChangeAnimation, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Animations, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: CharacterSpriteChangeAnimation
+        GUID: 42cbcbf48e56fde45a53c9e871c3b550
+        Position: {x: 1014.61774, y: 2079.2305}
+        NextCommand:
+          rid: -2
+        Interval: 0.3
+        Sprites:
+        - {fileID: -11902140, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        - {fileID: 1823487667, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        - {fileID: 1687758343, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        - {fileID: 405530664, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+        - {fileID: 415418675, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+        - {fileID: 344100896, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+        Sound:
+          rid: 7393535654474023070
+    - rid: 7393535654474023070
+      type: {class: PlaySound, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Sounds, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: PlaySound
+        GUID: 86164aec9b31527448932be5091c75eb
+        Position: {x: 1477, y: 2101.39}
+        NextCommand:
+          rid: -2
+        Sound:
+          Audio: Bump
+          AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+        Loop: 0
+        Pitch: 1.5
+        Volume: 0.6
+        FadeInTime: 0
+        PreventDuplicates: 0
+    - rid: 7393535654474023072
+      type: {class: CharacterSpriteChangeAnimation, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Animations, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: CharacterSpriteChangeAnimation
+        GUID: 0dbf744f89d0905459f1467105ad33c8
+        Position: {x: 1009.9625, y: 2606.0005}
+        NextCommand:
+          rid: -2
+        Interval: 0.1
+        Sprites:
+        - {fileID: -11902140, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        - {fileID: -96281117, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        - {fileID: 1492406534, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        - {fileID: -616238105, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        - {fileID: 1492406534, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        - {fileID: -96281117, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        - {fileID: -11902140, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        Sound:
+          rid: -2
+    - rid: 7393535654474023074
+      type: {class: CharacterSpriteChangeAnimation, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Animations, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: CharacterSpriteChangeAnimation
+        GUID: 05bb2e217e89d8e40b032a1b2111d2c4
+        Position: {x: 1006.68256, y: 3199.2651}
+        NextCommand:
+          rid: -2
+        Interval: 0.1
+        Sprites:
+        - {fileID: 1823487667, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        - {fileID: -1674082559, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        - {fileID: -217467580, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        - {fileID: 1824170731, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        - {fileID: -217467580, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        - {fileID: -1674082559, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        - {fileID: 1823487667, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        Sound:
+          rid: -2
+    - rid: 7393535654474023076
+      type: {class: CharacterSpriteChangeAnimation, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Animations, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: CharacterSpriteChangeAnimation
+        GUID: 1503f8e3cbabd4e4abf33b83f4b2328e
+        Position: {x: 1003.4251, y: 3803.5874}
+        NextCommand:
+          rid: -2
+        Interval: 0.1
+        Sprites:
+        - {fileID: 1687758343, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        - {fileID: 1637320721, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        - {fileID: 427210778, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        - {fileID: 1275151652, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        - {fileID: 427210778, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        - {fileID: 1637320721, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        - {fileID: 1687758343, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+        Sound:
+          rid: -2
+    - rid: 7393535654474023078
+      type: {class: CharacterSpriteChangeAnimation, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Animations, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: CharacterSpriteChangeAnimation
+        GUID: 3257170cf450488448466e27c734225b
+        Position: {x: 995.79663, y: 4396.0757}
+        NextCommand:
+          rid: -2
+        Interval: 0.1
+        Sprites:
+        - {fileID: 405530664, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+        - {fileID: 135082969, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+        - {fileID: 274327494, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+        - {fileID: -323455023, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+        - {fileID: 274327494, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+        - {fileID: 135082969, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+        - {fileID: 405530664, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+        Sound:
+          rid: -2
+    - rid: 7393535654474023080
+      type: {class: CharacterSpriteChangeAnimation, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Animations, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: CharacterSpriteChangeAnimation
+        GUID: 85f2a49032d90e141a50d073e5e940fa
+        Position: {x: 987.8086, y: 4999.5615}
+        NextCommand:
+          rid: -2
+        Interval: 0.1
+        Sprites:
+        - {fileID: 415418675, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+        - {fileID: 260458266, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+        - {fileID: 1128487792, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+        - {fileID: -339397363, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+        - {fileID: 1128487792, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+        - {fileID: 260458266, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+        - {fileID: 415418675, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+        Sound:
+          rid: -2
+    - rid: 7393535654474023082
+      type: {class: CharacterSpriteChangeAnimation, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Animations, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: CharacterSpriteChangeAnimation
+        GUID: db7d711c6fbe99b4da83f4703efe4d2a
+        Position: {x: 996.00006, y: 5602.914}
+        NextCommand:
+          rid: -2
+        Interval: 0.1
+        Sprites:
+        - {fileID: 344100896, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+        - {fileID: -834861529, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+        - {fileID: -542243380, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+        - {fileID: -504356065, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+        - {fileID: -542243380, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+        - {fileID: -834861529, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+        - {fileID: 344100896, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+        Sound:
+          rid: -2
+    - rid: 7393535654474023084
+      type: {class: PlaySound, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Sounds, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: PlaySound
+        GUID: 4f316e2e4a08a224c9809420b57e5a05
+        Position: {x: 996, y: 6207}
+        NextCommand:
+          rid: -2
+        Sound:
+          Audio: PokemonHealing
+          AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+        Loop: 0
+        Pitch: 1
+        Volume: 1
+        FadeInTime: 0
+        PreventDuplicates: 0
+    - rid: 7393535654474023086
+      type: {class: WaitTime, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Utils, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: WaitTime
+        GUID: a0308e48da659dd4ab4cdde0e804e0ee
+        Position: {x: 1020, y: -252}
+        NextCommand:
+          rid: 7393535654474023088
+        Time: 0
+        Seconds: 0.1
+        MinWait: 1
+        MaxWait: 2
+    - rid: 7393535654474023088
+      type: {class: Look, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Animations, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: Look
+        GUID: a4379b2a001049b41bf79b42bdc44843
+        Position: {x: 1512, y: -244}
+        NextCommand:
+          rid: -2
+        Direction: 1
+        Random: 0
+        OwnCharacter: 1
+        TargetCharacter: {fileID: 0}
+    - rid: 7491443410804408392
+      type: {class: PokeCenterHealingBallsAnimation, ns: Varguiniano.YAPU.Runtime.Actors.Commands.Animations, asm: Varguiniano.YAPU.Runtime}
+      data:
+        BallPlaceAnimations:
+        - Interval: 0.3
+          Sprites:
+          - {fileID: -11902140, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          PlaySound: 1
+          Sound:
+            Sound:
+              Audio: Bump
+              AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+            Loop: 0
+            Pitch: 1.5
+            Volume: 0.6
+            FadeInTime: 0
+            PreventDuplicates: 0
+        - Interval: 0.3
+          Sprites:
+          - {fileID: -11902140, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          - {fileID: 1823487667, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          PlaySound: 1
+          Sound:
+            Sound:
+              Audio: Bump
+              AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+            Loop: 0
+            Pitch: 1.5
+            Volume: 0.6
+            FadeInTime: 0
+            PreventDuplicates: 0
+        - Interval: 0.3
+          Sprites:
+          - {fileID: -11902140, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          - {fileID: 1823487667, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          - {fileID: 1687758343, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          PlaySound: 1
+          Sound:
+            Sound:
+              Audio: Bump
+              AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+            Loop: 0
+            Pitch: 1.5
+            Volume: 0.6
+            FadeInTime: 0
+            PreventDuplicates: 0
+        - Interval: 0.3
+          Sprites:
+          - {fileID: -11902140, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          - {fileID: 1823487667, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          - {fileID: 1687758343, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          - {fileID: 405530664, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+          PlaySound: 1
+          Sound:
+            Sound:
+              Audio: Bump
+              AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+            Loop: 0
+            Pitch: 1.5
+            Volume: 0.6
+            FadeInTime: 0
+            PreventDuplicates: 0
+        - Interval: 0.3
+          Sprites:
+          - {fileID: -11902140, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          - {fileID: 1823487667, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          - {fileID: 1687758343, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          - {fileID: 405530664, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+          - {fileID: 415418675, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+          PlaySound: 1
+          Sound:
+            Sound:
+              Audio: Bump
+              AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+            Loop: 0
+            Pitch: 1.5
+            Volume: 0.6
+            FadeInTime: 0
+            PreventDuplicates: 0
+        - Interval: 0.3
+          Sprites:
+          - {fileID: -11902140, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          - {fileID: 1823487667, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          - {fileID: 1687758343, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          - {fileID: 405530664, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+          - {fileID: 415418675, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+          - {fileID: 344100896, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+          PlaySound: 1
+          Sound:
+            Sound:
+              Audio: Bump
+              AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+            Loop: 0
+            Pitch: 1.5
+            Volume: 0.6
+            FadeInTime: 0
+            PreventDuplicates: 0
+        BallHealAnimations:
+        - Interval: 0.1
+          Sprites:
+          - {fileID: -11902140, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          - {fileID: -96281117, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          - {fileID: 1492406534, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          - {fileID: -616238105, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          - {fileID: 1492406534, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          - {fileID: -96281117, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          - {fileID: -11902140, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          PlaySound: 0
+          Sound:
+            Sound:
+              Audio: 
+              AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+            Loop: 0
+            Pitch: 1
+            Volume: 1
+            FadeInTime: 0
+            PreventDuplicates: 0
+        - Interval: 0.1
+          Sprites:
+          - {fileID: 1823487667, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          - {fileID: -1674082559, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          - {fileID: -217467580, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          - {fileID: 1824170731, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          - {fileID: -217467580, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          - {fileID: -1674082559, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          - {fileID: 1823487667, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          PlaySound: 0
+          Sound:
+            Sound:
+              Audio: 
+              AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+            Loop: 0
+            Pitch: 1
+            Volume: 1
+            FadeInTime: 0
+            PreventDuplicates: 0
+        - Interval: 0.1
+          Sprites:
+          - {fileID: 1687758343, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          - {fileID: 1637320721, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          - {fileID: 427210778, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          - {fileID: 1275151652, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          - {fileID: 427210778, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          - {fileID: 1637320721, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          - {fileID: 1687758343, guid: 1fe7f6461787aa046b2e1883167d597d, type: 3}
+          PlaySound: 0
+          Sound:
+            Sound:
+              Audio: 
+              AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+            Loop: 0
+            Pitch: 1
+            Volume: 1
+            FadeInTime: 0
+            PreventDuplicates: 0
+        - Interval: 0.1
+          Sprites:
+          - {fileID: 405530664, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+          - {fileID: 135082969, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+          - {fileID: 274327494, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+          - {fileID: -323455023, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+          - {fileID: 274327494, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+          - {fileID: 135082969, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+          - {fileID: 405530664, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+          PlaySound: 0
+          Sound:
+            Sound:
+              Audio: 
+              AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+            Loop: 0
+            Pitch: 1
+            Volume: 1
+            FadeInTime: 0
+            PreventDuplicates: 0
+        - Interval: 0.1
+          Sprites:
+          - {fileID: 415418675, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+          - {fileID: 260458266, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+          - {fileID: 1128487792, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+          - {fileID: -339397363, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+          - {fileID: 1128487792, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+          - {fileID: 260458266, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+          - {fileID: 415418675, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+          PlaySound: 0
+          Sound:
+            Sound:
+              Audio: 
+              AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+            Loop: 0
+            Pitch: 1
+            Volume: 1
+            FadeInTime: 0
+            PreventDuplicates: 0
+        - Interval: 0.1
+          Sprites:
+          - {fileID: 344100896, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+          - {fileID: -834861529, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+          - {fileID: -542243380, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+          - {fileID: -504356065, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+          - {fileID: -542243380, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+          - {fileID: -834861529, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+          - {fileID: 344100896, guid: f94b67ec08a48284093121d218e805fa, type: 3}
+          PlaySound: 0
+          Sound:
+            Sound:
+              Audio: 
+              AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+            Loop: 0
+            Pitch: 1
+            Volume: 1
+            FadeInTime: 0
+            PreventDuplicates: 0
+        PlayHealingSound:
+          Sound:
+            Audio: PokemonHealing
+            AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+          Loop: 0
+          Pitch: 1
+          Volume: 1
+          FadeInTime: 0
+          PreventDuplicates: 0
+    - rid: 7491443410804408405
+      type: {class: Look, ns: Varguiniano.YAPU.Runtime.Actors.Commands.Animations, asm: Varguiniano.YAPU.Runtime}
+      data:
+        Direction: 1
+        Random: 0
+        OwnCharacter: 1
+        TargetCharacter: {fileID: 0}
+    - rid: 7491443410804408410
+      type: {class: WaitTime, ns: Varguiniano.YAPU.Runtime.Actors.Commands.Utils, asm: Varguiniano.YAPU.Runtime}
+      data:
+        Time: 0
+        Seconds: 0.1
+        MinWait: 1
+        MaxWait: 2
+--- !u!114 &2094660101096033564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094660101096033563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a44aa4ca2654938b83930e22e58d39a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mode: 2
+  Character: {fileID: 11400000, guid: 5e152495c5b070948af7d3dc374efd9d, type: 2}
+  MonsterRoster: {fileID: 0}
+  IsPlayer: 0
+  InitOnEnable: 1
+  Speed: 0.25
+  NormalShadowSortOrder: 35
+  NormalBodySortOrder: 40
+  NormalHeadSortOrder: 45
+  OverBridgeShadowSortOrder: 35
+  OverBridgeBodySortOrder: 40
+  OverBridgeHeadSortOrder: 45
+  MakeSound: 0
+  JumpAudio:
+    Audio: jump
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+  HideSortOrder: -100
+  FallAnimationSortOrder: 100
+  FallAnimationYPosition: 15
+  FallAudio:
+    Audio: Fall
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+  FloorHitAudio:
+    Audio: FloorHit
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+  SpriteRenderers:
+  - {fileID: 2094660102800833977}
+  - {fileID: 2094660101144257660}
+  - {fileID: 2094660102814315927}
+  ShadowRenderers:
+  - {fileID: 2094660101918112503}
+  BodyRenderers:
+  - {fileID: 2094660102800833977}
+  HeadRenderers:
+  - {fileID: 2094660101144257660}
+  BodyPivot: {fileID: 2094660101246800261}
+  CurrentDirection: 1
+  IsRunning: 0
+  IsBiking: 0
+  IsFishing: 0
+  IsSwimming: 0
+  CurrentGrid: {fileID: 0}
+--- !u!1 &2094660101144257658
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2094660101144257659}
+  - component: {fileID: 2094660101144257660}
+  m_Layer: 0
+  m_Name: Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2094660101144257659
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094660101144257658}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2094660101246800261}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &2094660101144257660
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094660101144257658}
+  m_Enabled: 0
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: c700745531b1e324ea5ab3f6eeb541dc, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 45
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2, y: 2}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 0
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &2094660101246800260
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2094660101246800261}
+  m_Layer: 0
+  m_Name: Pivot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2094660101246800261
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094660101246800260}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2094660102814315926}
+  - {fileID: 2094660102800833976}
+  - {fileID: 2094660101144257659}
+  - {fileID: 4170850513547519155}
+  m_Father: {fileID: 2094660101096033566}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2094660101918112501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2094660101918112502}
+  - component: {fileID: 2094660101918112503}
+  m_Layer: 0
+  m_Name: Shadow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2094660101918112502
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094660101918112501}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.4, z: 0}
+  m_LocalScale: {x: 0.75, y: 0.5, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2094660101096033566}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &2094660101918112503
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094660101918112501}
+  m_Enabled: 0
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 15
+  m_Sprite: {fileID: 21300000, guid: 5d520176e56621f49be1fae9483e75a4, type: 3}
+  m_Color: {r: 0.5019608, g: 0.5019608, b: 0.53333336, a: 0.7058824}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &2094660102800833975
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2094660102800833976}
+  - component: {fileID: 2094660102800833977}
+  m_Layer: 0
+  m_Name: Body
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2094660102800833976
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094660102800833975}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2094660101246800261}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &2094660102800833977
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094660102800833975}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 40
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 0
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &2094660102814315925
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2094660102814315926}
+  - component: {fileID: 2094660102814315927}
+  - component: {fileID: 3859293814003842728}
+  m_Layer: 0
+  m_Name: Reflection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2094660102814315926
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094660102814315925}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.2, z: 0}
+  m_LocalScale: {x: 1, y: -1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2094660101246800261}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &2094660102814315927
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094660102814315925}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.49019608}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2, y: 2}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 0
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &3859293814003842728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094660102814315925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ea24108f9e74f4d8d642a20f72091cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WaveDuration: 1
+  MinMax: {x: 0.85, y: 1}
+--- !u!1 &4170850513547519164
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4170850513547519155}
+  - component: {fileID: 4170850513547519153}
+  - component: {fileID: 4170850513547519154}
+  m_Layer: 0
+  m_Name: Popup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4170850513547519155
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4170850513547519164}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.2, z: 0}
+  m_LocalScale: {x: 1, y: 0, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2094660101246800261}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &4170850513547519153
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4170850513547519164}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 100
+  m_Sprite: {fileID: 21300000, guid: 1ac46bb61b3dc59449a1ec8796fc1a25, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &4170850513547519154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4170850513547519164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1abc705841d643b79c0b79440d2d709d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Exclamation: {fileID: 21300000, guid: 1ac46bb61b3dc59449a1ec8796fc1a25, type: 3}
+  ExclamationAudio:
+    Audio: Exclamation
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}

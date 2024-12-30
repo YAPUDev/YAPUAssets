@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e35be1f4fd340ecb948bdd0157f06d6, type: 3}
+  m_Name: Damp
+  m_EditorClassIdentifier: 
+  LocalizableName: Abilities/Damp
+  LocalizableDescription: Abilities/Damp/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Damp_(Ability)
+  AbilitiesImmuneTo:
+  - {fileID: 11400000, guid: c6633af671805b64a9e7471365207d17, type: 2}
+  IsIgnorable: 1
+  PreventedMoves:
+  - {fileID: 11400000, guid: 7ec1503e969bbd044a37f6ba9ca51850, type: 2}
+  - {fileID: 11400000, guid: ed27b9d689de7844da02a065fae76644, type: 2}
+  - {fileID: 11400000, guid: d4bf428026948db428705025b451f4df, type: 2}

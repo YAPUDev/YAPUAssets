@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b198cea72cf84434bbe4d06f5b0d3c30, type: 3}
+  m_Name: LeafStone
+  m_EditorClassIdentifier: 
+  LocalizableName: Items/LeafStone
+  LocalizableDescription: Items/LeafStone/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Leaf_Stone
+  ItemCategory: {fileID: 11400000, guid: 06444bfad04c3194cb7b8c36babe4b80, type: 2}
+  Icon: {fileID: 21300000, guid: 86c68852918840c4cba88da99903133f, type: 3}
+  DefaultPrice: 3000
+  CanBeSold: 1
+  SellPercentage: 0.25
+  CanBeHeld: 1
+  FlingPower: 30
+  FlingHasAdditionalEffects: 0
+  FlingEffects: []
+  SharesXP: 0
+  OnItemMovedItemEffects: []
+  OnStatCalculationEffects: []
+  OnCalculateAttackMultiplierOfTypesWhenDefendingItemEffects: []
+  OnMonsterEnteredBattleEffects: []
+  AfterActionCallbacks: []
+  OnTerrainSetItemEffects: []
+  PostTurnCallbackItemEffects: []
+  OnCalculateAccuracyWhenTargetedItemEffects: []
+  OnCheckGroundingItemEffects: []
+  OnCheckRunAwayItemEffects: []
+  OnCalculateMoveDamageItemEffects: []
+  HitByMoveCallbacks: []
+  AfterHitByMoveCallbacks: []
+  AfterHitByMultihitMoveCallbacks: []
+  AfterUsingMoveCallbacks: []
+  OnDeterminePriorityInsideBracketCallbacks: []
+  OnCalculateDrainHPMultiplierEffects: []
+  OnCalculateXPYieldEffects: []
+  OnYieldEffects: []
+  OnCalculatePriceMoneyItemEffects: []
+  OnCalculateWeatherEffectDurationItemEffects: []
+  OnCalculateSideStatusEffectDurationItemEffects: []
+  OnCalculateVolatileStatusEffectDurationItemEffects: []
+  OnCalculateTerrainEffectDurationItemEffects: []
+  OnVolatileStatusAddedItemEffects: []
+  OnCalculateEncounterChanceItemEffects: []
+  AllowEvolutionItemEffects: []
+  OnCalculateNumberOfIVsToPassOnBreedingItemEffects: []
+  OnCalculateSpecificIVsToPassOnBreedingItemEffects: []
+  OnCalculateNatureToPassOnBreedingItemEffects: []
+  OnCalculateFormToPassOnBreedingItemEffects: []
+  OnAddExtraMovesToPassOnBreedingItemEffects: []
+  NeedsPanelAnimationInBagScreen: 0
+  UseOnTargetEffects:
+  - {fileID: 11400000, guid: d48bafbe61ffa684d95e136c63af20bb, type: 2}
+  UseOnTargetMoveEffects: []
+  UseOutOfBattleEffects: []
+  UseInBattleEffects: []

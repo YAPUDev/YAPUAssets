@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30fb5650d8e540888b5a658ddb5c1eb0, type: 3}
+  m_Name: CloseCombat
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/CloseCombat
+  LocalizableDescription: Moves/CloseCombat/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Close_Combat_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 47b4a39bedccc694899987d674f5cd05, type: 2}
+  MoveCategory: 0
+  BasePowerPoints: 5
+  MaxPowerPoints: 8
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 1
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 1
+  SoundBased: 0
+  OverridesEffectiveness: 0
+  EffectivenessOverride:
+    SerializedList: []
+  InfiniteAccuracy: 0
+  BaseAccuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: e297e06c3e7cda54ea0d6f419e613da6, type: 2}
+  CanBeUsedOutsideBattle: 0
+  Power: 120
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  ChangeStats: 1
+  StatChangesAffectSelf: 1
+  StatChanges:
+    SerializedList:
+    - Key: 1
+      Value:
+        SerializedList:
+        - Key: 2
+          Value: -1
+        - Key: 4
+          Value: -1
+  ChangeBattleStats: 0
+  BattleStatChanges:
+    SerializedList: []
+  ChangeCritical: 0
+  CriticalChange: 0
+  CriticalChance: 0

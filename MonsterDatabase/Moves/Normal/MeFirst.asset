@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5191504d3a7e4e68977177eea85a0011, type: 3}
+  m_Name: MeFirst
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/MeFirst
+  LocalizableDescription: Moves/MeFirst/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Me_First_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: db89964f043f3cb4dbf78a05c8fd5d36, type: 2}
+  MoveCategory: 2
+  BasePowerPoints: 20
+  MaxPowerPoints: 32
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 0
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 0
+  AffectedByKingsRock: 0
+  SoundBased: 0
+  InfiniteAccuracy: 1
+  BaseAccuracy: 0
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 5
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 0
+  FallbackAnimation: {fileID: 0}
+  CanBeUsedOutsideBattle: 0
+  IncompatibleMoves:
+  - {fileID: 11400000, guid: ebbef767d2ba77943b1c8236fee3f8c0, type: 2}
+  - {fileID: 11400000, guid: e297e06c3e7cda54ea0d6f419e613da6, type: 2}
+  - {fileID: 11400000, guid: 8bc7a7824855fcd4f91ecfc875e32942, type: 2}
+  - {fileID: 11400000, guid: 154b2afb2e9a2984ea5e23633bce7c9c, type: 2}
+  - {fileID: 11400000, guid: b17466c2e0c5bdc4294079604a50c38c, type: 2}
+  - {fileID: 11400000, guid: 606e6e81d3b38a9409d76eceb5d4f94c, type: 2}
+  - {fileID: 11400000, guid: 3200e2da5fc1c584b91f9db26a4e9eaa, type: 2}
+  - {fileID: 11400000, guid: 00b5d85193a6c9f4fb243a40697a77b0, type: 2}

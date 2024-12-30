@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be45eb875e12465b872803afdcca93c0, type: 3}
+  m_Name: Autotomize
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/Autotomize
+  LocalizableDescription: Moves/Autotomize/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Autotomize_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: beeedb36d3bb9aa438171119d70ee919, type: 2}
+  MoveCategory: 2
+  BasePowerPoints: 15
+  MaxPowerPoints: 24
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 0
+  AffectedByProtect: 0
+  AffectedByMagicCoat: 0
+  AffectedBySnatch: 1
+  AffectedByMirror: 0
+  AffectedByKingsRock: 0
+  DamageBypassesSubstitute: 0
+  SoundBased: 0
+  OverridesEffectiveness: 0
+  EffectivenessOverride:
+    SerializedList: []
+  InfiniteAccuracy: 1
+  BaseAccuracy: 0
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 0
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: 067cb3a41fec0c5438351d5264f4640d, type: 2}
+  CanBeUsedOutsideBattle: 0
+  BypassesSubstitute: 0
+  ChangeStats: 1
+  StatChanges:
+    SerializedList:
+    - Key: 5
+      Value: 2
+  ChangeBattleStats: 0
+  BattleStatChanges:
+    SerializedList: []
+  ChangeCritical: 0
+  CriticalChange: 0
+  Status: {fileID: 11400000, guid: a2a77f58aea83604e9681de8fb792bc8, type: 2}
+  InfiniteDuration: 1

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6848002701b044d5860c7aae7400a12d, type: 3}
+  m_Name: QuickGuard
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/QuickGuard
+  LocalizableDescription: Moves/QuickGuard/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Quick_Guard_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 47b4a39bedccc694899987d674f5cd05, type: 2}
+  MoveCategory: 2
+  BasePowerPoints: 15
+  MaxPowerPoints: 24
+  Priority: 3
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 0
+  AffectedByProtect: 0
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 1
+  AffectedByMirror: 0
+  AffectedByKingsRock: 0
+  SoundBased: 0
+  OverridesEffectiveness: 0
+  EffectivenessOverride:
+    SerializedList: []
+  InfiniteAccuracy: 1
+  BaseAccuracy: 0
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 0
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: 5fc72bc5d95c59545b52ef36c9273038, type: 2}
+  CanBeUsedOutsideBattle: 0
+  Status: {fileID: 11400000, guid: 095a8da2751b3b743820a30104723813, type: 2}
+  Turns: 1

@@ -1,0 +1,433 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1517761980768399674
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7555350543929026987}
+  - component: {fileID: 4077485695699523434}
+  m_Layer: 0
+  m_Name: ElevatorButtons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7555350543929026987
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517761980768399674}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4077485695699523434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517761980768399674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6168104b7344f1998c55a0673f8bf07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnEnableCommands: []
+  OnEnableCommandGraph:
+    rid: -2
+  RunLoopOnEnable: 0
+  LoopCommands: []
+  LoopCommandGraph:
+    rid: -2
+  PlayerInteractsWhenOnTop: 0
+  InteractCommands:
+  - rid: 5563359949732446221
+  - rid: 5563359949732446211
+  InteractCommandGraph:
+    rid: 7393535741129654877
+  OnDemandCommands0: []
+  OnDemandCommands1: []
+  OnDemandCommands2: []
+  OnDemandCommands3: []
+  OnDemandCommandGraph0:
+    rid: 7393535741129654906
+  OnDemandCommandGraph1:
+    rid: -2
+  OnDemandCommandGraph2:
+    rid: -2
+  OnDemandCommandGraph3:
+    rid: -2
+  RunningCommands: 0
+  GlobalGridManager: {fileID: 0}
+  LoopRunning: 0
+  ShouldLoop: 0
+  CurrentGrid: {fileID: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 1266369629730373727
+      type: {class: SetTemporalIntVariable, ns: Varguiniano.YAPU.Runtime.Actors.Commands.Variables, asm: Varguiniano.YAPU.Runtime}
+      data:
+        Name: NewFloor
+        Value: 0
+    - rid: 1266369629730373728
+      type: {class: SetTemporalIntVariable, ns: Varguiniano.YAPU.Runtime.Actors.Commands.Variables, asm: Varguiniano.YAPU.Runtime}
+      data:
+        Name: NewFloor
+        Value: 1
+    - rid: 5563359949732446211
+      type: {class: ShowChoiceDialog, ns: Varguiniano.YAPU.Runtime.Actors.Commands.Dialogs, asm: Varguiniano.YAPU.Runtime}
+      data:
+        DialogLocalizationKey: Elevator/ChooseFloor
+        ShowCharacterNameIfAvailable: 0
+        OwnCharacter: 1
+        PlayerCharacter: 0
+        OtherCharacter: {fileID: 0}
+        Choices:
+        - Choice: Elevator/0F
+          Commands:
+          - rid: 1266369629730373727
+          - rid: 5563359949732446225
+          - rid: 5563359949732446213
+        - Choice: Elevator/Rooftop
+          Commands:
+          - rid: 1266369629730373728
+          - rid: 5563359949732446226
+          - rid: 5563359949732446214
+        - Choice: Common/Exit
+          Commands: []
+        PressingBackWorksAsLastOption: 1
+    - rid: 5563359949732446213
+      type: {class: SetIntVariable, ns: Varguiniano.YAPU.Runtime.Actors.Commands.Variables, asm: Varguiniano.YAPU.Runtime}
+      data:
+        Variable:
+          VariableHolder: {fileID: 11400000, guid: bd6f015eaefad0645978c13d409018c1, type: 2}
+          VariableType: System.Int32
+          VariableName: Floor
+        Value: 0
+    - rid: 5563359949732446214
+      type: {class: SetIntVariable, ns: Varguiniano.YAPU.Runtime.Actors.Commands.Variables, asm: Varguiniano.YAPU.Runtime}
+      data:
+        Variable:
+          VariableHolder: {fileID: 11400000, guid: bd6f015eaefad0645978c13d409018c1, type: 2}
+          VariableType: System.Int32
+          VariableName: Floor
+        Value: 1
+    - rid: 5563359949732446215
+      type: {class: RunOnDemand, ns: Varguiniano.YAPU.Runtime.Actors.Commands.Utils, asm: Varguiniano.YAPU.Runtime}
+      data:
+        TargetThemselves: 1
+        Target: {fileID: 0}
+        OnDemandCommandListIndex: 0
+    - rid: 5563359949732446216
+      type: {class: RunOnDemand, ns: Varguiniano.YAPU.Runtime.Actors.Commands.Utils, asm: Varguiniano.YAPU.Runtime}
+      data:
+        TargetThemselves: 1
+        Target: {fileID: 0}
+        OnDemandCommandListIndex: 0
+    - rid: 5563359949732446221
+      type: {class: PlaySound, ns: Varguiniano.YAPU.Runtime.Actors.Commands.Sounds, asm: Varguiniano.YAPU.Runtime}
+      data:
+        Sound:
+          Audio: Select
+          AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+        Loop: 0
+        Pitch: 1
+        Volume: 1
+        FadeInTime: 0
+        PreventDuplicates: 0
+    - rid: 5563359949732446225
+      type: {class: IfIntEquals, ns: Varguiniano.YAPU.Runtime.Actors.Commands.Variables, asm: Varguiniano.YAPU.Runtime}
+      data:
+        Variable:
+          VariableHolder: {fileID: 11400000, guid: bd6f015eaefad0645978c13d409018c1, type: 2}
+          VariableType: System.Int32
+          VariableName: Floor
+        True: []
+        False:
+        - rid: 5563359949732446215
+        Value: 0
+    - rid: 5563359949732446226
+      type: {class: IfIntEquals, ns: Varguiniano.YAPU.Runtime.Actors.Commands.Variables, asm: Varguiniano.YAPU.Runtime}
+      data:
+        Variable:
+          VariableHolder: {fileID: 11400000, guid: bd6f015eaefad0645978c13d409018c1, type: 2}
+          VariableType: System.Int32
+          VariableName: Floor
+        True: []
+        False:
+        - rid: 5563359949732446216
+        Value: 1
+    - rid: 7393535741129654877
+      type: {class: ActorCommandGraph, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph, asm: Varguiniano.YAPU.Runtime}
+      data:
+        RootNode:
+          rid: 7393535741129654878
+        Nodes:
+        - rid: 7393535741129654878
+        - rid: 7393535741129654881
+        - rid: 7393535741129654883
+        - rid: 7393535741129654891
+        - rid: 7393535741129654893
+        - rid: 7393535741129654895
+        - rid: 7393535741129654897
+        - rid: 7393535741129654899
+        - rid: 7393535741129654901
+        - rid: 7393535741129654903
+        - rid: 7393535741129654905
+    - rid: 7393535741129654878
+      type: {class: RootNode, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: RootNode
+        GUID: b87d3b883c7ae084ab0111a1fd826e5c
+        Position: {x: 0, y: 0}
+        NextCommand:
+          rid: 7393535741129654881
+    - rid: 7393535741129654881
+      type: {class: PlaySound, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Sounds, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: PlaySound
+        GUID: 4a0b79fada7b6844e8eda84eb5d24f61
+        Position: {x: 460, y: -7.5}
+        NextCommand:
+          rid: 7393535741129654883
+        Sound:
+          Audio: Select
+          AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+        Loop: 0
+        Pitch: 1
+        Volume: 1
+        FadeInTime: 0
+        PreventDuplicates: 0
+    - rid: 7393535741129654883
+      type: {class: ShowChoiceDialog, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Dialogs, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: ShowChoiceDialog
+        GUID: d875beb20bf79ec408fe600c06696a7a
+        Position: {x: 1011, y: -1}
+        DialogLocalizationKey: Elevator/ChooseFloor
+        ShowCharacterNameIfAvailable: 0
+        OwnCharacter: 1
+        PlayerCharacter: 0
+        OtherCharacter: {fileID: 0}
+        Choices:
+        - Elevator/0F
+        - Elevator/Rooftop
+        - Common/Exit
+        ChoiceCommands:
+        - rid: 7393535741129654891
+        - rid: 7393535741129654899
+        - rid: -2
+        PressingBackWorksAsLastOption: 1
+    - rid: 7393535741129654891
+      type: {class: SetTemporalIntVariable, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Variables, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: SetTemporalIntVariable
+        GUID: e0437c0bbf205fa46a3679c56f3d08e7
+        Position: {x: 1510, y: -150}
+        NextCommand:
+          rid: 7393535741129654893
+        Name: NewFloor
+        Value: 0
+    - rid: 7393535741129654893
+      type: {class: IfIntEquals, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Variables, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: IfIntEquals
+        GUID: 441cce160ae6af647af46bcf9b92ad27
+        Position: {x: 1973, y: -159}
+        True:
+          rid: 7393535741129654897
+        False:
+          rid: 7393535741129654895
+        Variable:
+          VariableHolder: {fileID: 11400000, guid: bd6f015eaefad0645978c13d409018c1, type: 2}
+          VariableType: System.Int32
+          VariableName: Floor
+        Value: 0
+    - rid: 7393535741129654895
+      type: {class: RunOnDemand, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Utils, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: RunOnDemand
+        GUID: 28473fffa1aac1c4980e4bd590458b0a
+        Position: {x: 2483, y: -77.5}
+        NextCommand:
+          rid: 7393535741129654897
+        TargetThemselves: 1
+        Target: {fileID: 0}
+        OnDemandCommandListIndex: 0
+    - rid: 7393535741129654897
+      type: {class: SetIntVariable, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Variables, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: SetIntVariable
+        GUID: e5da4321101121e46a91f9d33314a415
+        Position: {x: 2949, y: -171}
+        Variable:
+          VariableHolder: {fileID: 11400000, guid: bd6f015eaefad0645978c13d409018c1, type: 2}
+          VariableType: System.Int32
+          VariableName: Floor
+        Value: 0
+        NextCommand:
+          rid: -2
+    - rid: 7393535741129654899
+      type: {class: SetTemporalIntVariable, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Variables, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: SetTemporalIntVariable
+        GUID: cd59bd13954ca04418a6c48f61435bd4
+        Position: {x: 1506.4503, y: 173.8}
+        NextCommand:
+          rid: 7393535741129654901
+        Name: NewFloor
+        Value: 1
+    - rid: 7393535741129654901
+      type: {class: IfIntEquals, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Variables, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: IfIntEquals
+        GUID: 9f11fb59953c0a94f9df385102c96f6a
+        Position: {x: 1961.4004, y: 171}
+        True:
+          rid: 7393535741129654905
+        False:
+          rid: 7393535741129654903
+        Variable:
+          VariableHolder: {fileID: 11400000, guid: bd6f015eaefad0645978c13d409018c1, type: 2}
+          VariableType: System.Int32
+          VariableName: Floor
+        Value: 1
+    - rid: 7393535741129654903
+      type: {class: RunOnDemand, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Utils, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: RunOnDemand
+        GUID: 230b2862613184d49b1bf5e6b7f7d294
+        Position: {x: 2491.0005, y: 268.9999}
+        NextCommand:
+          rid: 7393535741129654905
+        TargetThemselves: 1
+        Target: {fileID: 0}
+        OnDemandCommandListIndex: 0
+    - rid: 7393535741129654905
+      type: {class: SetIntVariable, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Variables, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: SetIntVariable
+        GUID: b91cdd7fd8d8a354799bcf451e5aa515
+        Position: {x: 2957.0002, y: 169.49998}
+        Variable:
+          VariableHolder: {fileID: 11400000, guid: bd6f015eaefad0645978c13d409018c1, type: 2}
+          VariableType: System.Int32
+          VariableName: Floor
+        Value: 1
+        NextCommand:
+          rid: -2
+    - rid: 7393535741129654906
+      type: {class: ActorCommandGraph, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph, asm: Varguiniano.YAPU.Runtime}
+      data:
+        RootNode:
+          rid: 7393535741129654907
+        Nodes:
+        - rid: 7393535741129654907
+        - rid: 7393535741129654910
+        - rid: 7393535741129654912
+        - rid: 7393535741129654914
+        - rid: 7393535741129654916
+        - rid: 7393535741129654918
+    - rid: 7393535741129654907
+      type: {class: RootNode, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: RootNode
+        GUID: 689f4f5909c5e4948983a5c2a3b4046a
+        Position: {x: -61.000004, y: -12.700003}
+        NextCommand:
+          rid: 7393535741129654910
+    - rid: 7393535741129654910
+      type: {class: PlaySound, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Sounds, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: PlaySound
+        GUID: 81268a2cf0178204da258ca2e946af26
+        Position: {x: 436.7501, y: -7.499981}
+        NextCommand:
+          rid: 7393535741129654912
+        Sound:
+          Audio: ElevatorMoving
+          AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+        Loop: 0
+        Pitch: 1
+        Volume: 1
+        FadeInTime: 0
+        PreventDuplicates: 0
+    - rid: 7393535741129654912
+      type: {class: IfCompareTemporalIntAndInt, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Variables, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: IfCompareTemporalIntAndInt
+        GUID: cca0ea33242b33e48bff75093d81f714
+        Position: {x: 1035.2001, y: -5.0000124}
+        True:
+          rid: 7393535741129654914
+        False:
+          rid: 7393535741129654916
+        TemporalInt: NewFloor
+        IntVariable:
+          VariableHolder: {fileID: 11400000, guid: bd6f015eaefad0645978c13d409018c1, type: 2}
+          VariableType: System.Int32
+          VariableName: Floor
+        Mode: 1
+    - rid: 7393535741129654914
+      type: {class: RunMultipleOnDemand, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Utils, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: RunMultipleOnDemand
+        GUID: cdebcb3c1723904449fa04dfab284222
+        Position: {x: 1561.9001, y: -227.0001}
+        NextCommand:
+          rid: 7393535741129654918
+        Targets:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        OnDemandCommandListIndex: 0
+    - rid: 7393535741129654916
+      type: {class: RunMultipleOnDemand, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Utils, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: RunMultipleOnDemand
+        GUID: d09348913e5bc1f44a4f9273399a7cb3
+        Position: {x: 1558.4502, y: 155.40001}
+        NextCommand:
+          rid: 7393535741129654918
+        Targets:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        OnDemandCommandListIndex: 1
+    - rid: 7393535741129654918
+      type: {class: PlaySound, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Sounds, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: PlaySound
+        GUID: 8b5c71e728d48f441a3d0d8e7fda1340
+        Position: {x: 2157.4, y: 23.650005}
+        NextCommand:
+          rid: -2
+        Sound:
+          Audio: ElevatorDing
+          AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+        Loop: 0
+        Pitch: 1
+        Volume: 1
+        FadeInTime: 0
+        PreventDuplicates: 0

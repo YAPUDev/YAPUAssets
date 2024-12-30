@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 297e04dca49f4d3abb7fbce1c2dfd00d, type: 3}
+  m_Name: Wrap
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/Wrap
+  LocalizableDescription: Moves/Wrap/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Wrap_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: db89964f043f3cb4dbf78a05c8fd5d36, type: 2}
+  MoveCategory: 0
+  BasePowerPoints: 20
+  MaxPowerPoints: 32
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 1
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 1
+  SoundBased: 0
+  InfiniteAccuracy: 0
+  Accuracy: 90
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 0
+  FallbackAnimation: {fileID: 0}
+  CanBeUsedOutsideBattle: 0
+  Power: 15
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  Status: {fileID: 11400000, guid: e9009feace047b74bb9ae9ed84047b35, type: 2}
+  InfiniteDuration: 0
+  SetOnUser: 0
+  BindingBand: {fileID: 11400000, guid: 65e349930e9405d43a652189e0887674, type: 2}
+  Audio:
+    Audio: Wrap
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+  AnimationPrefab: {fileID: 8502127192471211818, guid: 17b085f818802c94dadd189997b7a4ea, type: 3}

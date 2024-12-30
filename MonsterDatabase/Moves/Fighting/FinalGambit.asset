@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e550d3c6229b480f8a1de68615fe4a68, type: 3}
+  m_Name: FinalGambit
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/FinalGambit
+  LocalizableDescription: Moves/FinalGambit/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Final_Gambit_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 47b4a39bedccc694899987d674f5cd05, type: 2}
+  MoveCategory: 1
+  BasePowerPoints: 5
+  MaxPowerPoints: 8
+  Priority: 0
+  MakesContact: 0
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 0
+  AffectedByKingsRock: 1
+  SoundBased: 0
+  InfiniteAccuracy: 0
+  Accuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: 46b41a674de7ee6488bfaf2c88e1f159, type: 2}
+  CanBeUsedOutsideBattle: 0
+  Power: -1
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1

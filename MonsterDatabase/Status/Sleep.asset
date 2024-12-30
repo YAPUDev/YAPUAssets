@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f8432575f784d3695c48e2a6744f277, type: 3}
+  m_Name: Sleep
+  m_EditorClassIdentifier: 
+  LocalizableName: Status/Sleep
+  LocalizableDescription: Status/Sleep/Description
+  LocalizableStatusStartKey: Status/Sleep/Start
+  LocalizableStatusTickKey: Status/Sleep/Tick
+  LocalizableStatusEndKey: Status/Sleep/End
+  ImmuneWeathers: []
+  ImmuneTerrains:
+  - {fileID: 11400000, guid: e0ae10442d911394aa8e78fc666792d7, type: 2}
+  ImmuneTypes: []
+  ImmuneAbilities:
+  - {fileID: 11400000, guid: 4f0922516efe5a54fb4ee18a0cc8bd26, type: 2}
+  - {fileID: 11400000, guid: f2e1b1e0942f3014b8fdfa7962f36bbe, type: 2}
+  ImmuneHeldItems: []
+  CatchMultiplier: 2.5
+  OutOfBattleDefault: {fileID: 11400000}
+  Icon: {fileID: 21300000, guid: 31d23d426fe10384d9c3f23985f8f9d7, type: 3}
+  AnimationPrefab: {fileID: 5013734717163951887, guid: e0b0e8b7d534cf146a63fb9790e3f522, type: 3}
+  Audio:
+    Audio: Status Sleep
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+  MinTurns: 1
+  MaxTurns: 3
+  BypassMoves:
+  - {fileID: 11400000, guid: 6c44bebd510340640a4be0424b62ed8b, type: 2}
+  - {fileID: 11400000, guid: a83c00625d75ae2499aeeead27a10f6e, type: 2}

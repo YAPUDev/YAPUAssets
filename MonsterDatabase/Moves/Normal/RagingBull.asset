@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 766d4a3015e34a4dbffd1e47e07c20bd, type: 3}
+  m_Name: RagingBull
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/RagingBull
+  LocalizableDescription: Moves/RagingBull/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Raging_Bull_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: db89964f043f3cb4dbf78a05c8fd5d36, type: 2}
+  MoveCategory: 0
+  BasePowerPoints: 10
+  MaxPowerPoints: 16
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 1
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 1
+  DamageBypassesSubstitute: 0
+  SoundBased: 0
+  OverridesEffectiveness: 0
+  EffectivenessOverride:
+    SerializedList: []
+  InfiniteAccuracy: 0
+  BaseAccuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: e62bb486865d24c47a9963c3de1de545, type: 2}
+  CanBeUsedOutsideBattle: 0
+  Power: 90
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  IsPunchingMove: 0
+  IsSlicingMove: 0
+  ChangeStats: 0
+  StatChangesAffectSelf: 0
+  StatChanges:
+    SerializedList: []
+  ChangeBattleStats: 0
+  BattleStatChanges:
+    SerializedList: []
+  ChangeCritical: 0
+  CriticalChange: 0
+  CriticalChance: 0
+  RemoveVolatileStatusOnOwnSide: 0
+  RemovableVolatileStatuses: []
+  RemoveSideStatusOnOwnSide: 0
+  RemovableSideStatuses:
+  - {fileID: 11400000, guid: b145dc7a724b73f41b19afe7535eadc0, type: 2}
+  - {fileID: 11400000, guid: abdbcfd903b1ff649944e6b9f5c9b351, type: 2}
+  - {fileID: 11400000, guid: 22d5be61952b23f4491faac654c65d5e, type: 2}
+  TypesPerForm:
+    SerializedList:
+    - Key: {fileID: 11400000, guid: 6428202e48882db4481eccd5ac6a167e, type: 2}
+      Value: {fileID: 11400000, guid: 47b4a39bedccc694899987d674f5cd05, type: 2}
+    - Key: {fileID: 11400000, guid: 65077e64b1cb47b4db9b5f137e614c1d, type: 2}
+      Value: {fileID: 11400000, guid: 47b4a39bedccc694899987d674f5cd05, type: 2}
+    - Key: {fileID: 11400000, guid: 1c3b7043b5522654cb410a908d86fc9c, type: 2}
+      Value: {fileID: 11400000, guid: 9006ef89f44a7724783c6f688db63b59, type: 2}
+    - Key: {fileID: 11400000, guid: a82fb825e5552bf4b821a3e49e2f3762, type: 2}
+      Value: {fileID: 11400000, guid: 9006ef89f44a7724783c6f688db63b59, type: 2}
+    - Key: {fileID: 11400000, guid: 5c498eb577f4f194b925227722e2e84f, type: 2}
+      Value: {fileID: 11400000, guid: 96acf51bdce11384d9b1ceb0369ace1e, type: 2}
+    - Key: {fileID: 11400000, guid: 4b92ccac2149080459999d3cab52b602, type: 2}
+      Value: {fileID: 11400000, guid: 96acf51bdce11384d9b1ceb0369ace1e, type: 2}

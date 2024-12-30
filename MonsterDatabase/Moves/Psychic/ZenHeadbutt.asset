@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16797c18527644bd8accf00c45f0fa81, type: 3}
+  m_Name: ZenHeadbutt
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/ZenHeadbutt
+  LocalizableDescription: Moves/ZenHeadbutt/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Zen_Headbutt_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 2d58a23f5902ddd488c3786e59fb9e95, type: 2}
+  MoveCategory: 0
+  BasePowerPoints: 15
+  MaxPowerPoints: 24
+  Priority: 0
+  MakesContact: 1
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 0
+  SoundBased: 0
+  InfiniteAccuracy: 0
+  Accuracy: 90
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 0
+  FallbackAnimation: {fileID: 0}
+  CanBeUsedOutsideBattle: 0
+  Power: 80
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  StatusChance:
+    m_Keys: []
+    m_Values: []
+  VolatileStatusChance:
+    m_Keys:
+    - 0.2
+    m_Values:
+    - m_Keys:
+      - {fileID: 11400000, guid: 5f391451ff480f54f8176edaa46e0d5d, type: 2}
+      m_Values: 01000000
+  Sound:
+    Audio: Zen Headbutt
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+  ParticlesPrefab: {fileID: 2927878538750410271, guid: 77555c9fc2d3c0e45b2d24fcddbdda31, type: 3}
+  TackleMove: {fileID: 11400000, guid: e62bb486865d24c47a9963c3de1de545, type: 2}

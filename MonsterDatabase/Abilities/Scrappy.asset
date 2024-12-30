@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5243f09dde642e68b5eb7fd5df5a29d, type: 3}
+  m_Name: Scrappy
+  m_EditorClassIdentifier: 
+  LocalizableName: Abilities/Scrappy
+  LocalizableDescription: Abilities/Scrappy/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Scrappy_(Ability)
+  AbilitiesImmuneTo:
+  - {fileID: 11400000, guid: ed166761473a1f44082211466f1df85e, type: 2}
+  AffectedTypes:
+    SerializedList:
+    - Key: {fileID: 11400000, guid: 573fce0976964da45b3feb13462250b2, type: 2}
+      Value:
+      - {fileID: 11400000, guid: 47b4a39bedccc694899987d674f5cd05, type: 2}
+      - {fileID: 11400000, guid: db89964f043f3cb4dbf78a05c8fd5d36, type: 2}

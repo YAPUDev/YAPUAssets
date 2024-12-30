@@ -1,0 +1,446 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7560119374522569145
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7560119374522569144}
+  - component: {fileID: 7560119374522569147}
+  m_Layer: 0
+  m_Name: Shadow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7560119374522569144
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7560119374522569145}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.24, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.33333334, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7560119375216653455}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &7560119374522569147
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7560119374522569145}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 15
+  m_Sprite: {fileID: 21300000, guid: 5d520176e56621f49be1fae9483e75a4, type: 3}
+  m_Color: {r: 0.5019608, g: 0.5019608, b: 0.53333336, a: 0.7058824}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &7560119374768683993
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7560119374768683995}
+  - component: {fileID: 7560119374768683992}
+  m_Layer: 0
+  m_Name: Item
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7560119374768683995
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7560119374768683993}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.14, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7560119375216653455}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &7560119374768683992
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7560119374768683993}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 19
+  m_Sprite: {fileID: 21300000, guid: bc45a7e4a415b304aad5340588c80ff6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.48, y: 0.48}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &7560119375216653453
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7560119375216653455}
+  - component: {fileID: 7560119375216653452}
+  m_Layer: 0
+  m_Name: StarterMon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7560119375216653455
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7560119375216653453}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2, y: 12, z: 0}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7560119374522569144}
+  - {fileID: 7560119374768683995}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7560119375216653452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7560119375216653453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd391d58a3cd4962bfda12c5c70537a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnEnableCommandGraph:
+    rid: 7393535410086871277
+  RunLoopOnEnable: 0
+  LoopCommandGraph:
+    rid: -2
+  PlayerInteractsWhenOnTop: 0
+  InteractCommandGraph:
+    rid: 7393535410086871284
+  OnDemandCommandGraph0:
+    rid: -2
+  OnDemandCommandGraph1:
+    rid: -2
+  OnDemandCommandGraph2:
+    rid: -2
+  OnDemandCommandGraph3:
+    rid: -2
+  RunningCommands: 0
+  GlobalGridManager: {fileID: 0}
+  LoopRunning: 0
+  ShouldLoop: 0
+  CurrentGrid: {fileID: 0}
+  Item: {fileID: 11400000, guid: af8564b2b62bad8478a6d36498082800, type: 2}
+  Sprite: {fileID: 7560119374768683992}
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 7393535410086871277
+      type: {class: ActorCommandGraph, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph, asm: Varguiniano.YAPU.Runtime}
+      data:
+        RootNode:
+          rid: 7393535410086871278
+        Nodes:
+        - rid: 7393535410086871278
+        - rid: 7393535410086871281
+        - rid: 7393535410086871283
+    - rid: 7393535410086871278
+      type: {class: RootNode, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: RootNode
+        GUID: 3f7c42958f0a5c2479d7f1e0763567a3
+        Position: {x: 0, y: 0}
+        NextCommand:
+          rid: 7393535410086871281
+    - rid: 7393535410086871281
+      type: {class: IfIntEquals, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Variables, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: IfIntEquals
+        GUID: 78fd45cc2c5ab994f93eabdbe680b1a4
+        Position: {x: 551, y: -22}
+        True:
+          rid: 7393535410086871283
+        False:
+          rid: -2
+        Variable:
+          VariableHolder: {fileID: 11400000, guid: 82f2ba21767e2d744b122ad4eb14df7e, type: 2}
+          VariableType: System.Int32
+          VariableName: StarterChosen
+        Value: 0
+    - rid: 7393535410086871283
+      type: {class: AutoDestroy, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Utils, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: AutoDestroy
+        GUID: ed6a4a22e470d664f8a0e26efa8b6dc9
+        Position: {x: 1026, y: -5}
+        NextCommand:
+          rid: -2
+        UnlockInputBeforeDestroying: 0
+        UnlockOtherActorsBeforeDestroying: 0
+    - rid: 7393535410086871284
+      type: {class: ActorCommandGraph, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph, asm: Varguiniano.YAPU.Runtime}
+      data:
+        RootNode:
+          rid: 7393535410086871285
+        Nodes:
+        - rid: 7393535410086871285
+        - rid: 7393535410086871288
+        - rid: 7393535410086871290
+        - rid: 7393535410086871292
+        - rid: 7393535410086871294
+        - rid: 7393535410086871310
+        - rid: 7393535410086871314
+        - rid: 7393535410086871316
+        - rid: 7393535410086871318
+        - rid: 7393535410086871646
+    - rid: 7393535410086871285
+      type: {class: RootNode, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: RootNode
+        GUID: f001739bdc4de3c49adec7a261d4c234
+        Position: {x: -12.650003, y: -81.000015}
+        NextCommand:
+          rid: 7393535410086871288
+    - rid: 7393535410086871288
+      type: {class: PlaySound, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Sounds, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: PlaySound
+        GUID: 8c1ddb454a15a864687dcfdc85d8536a
+        Position: {x: 507.4501, y: -81.000015}
+        NextCommand:
+          rid: 7393535410086871290
+        Sound:
+          Audio: Select
+          AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+        Loop: 0
+        Pitch: 1
+        Volume: 1
+        FadeInTime: 0
+        PreventDuplicates: 0
+    - rid: 7393535410086871290
+      type: {class: IfIntEquals, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Variables, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: IfIntEquals
+        GUID: c7e3140410eca844ea76931ac65e0369
+        Position: {x: 1088.1002, y: -81.00005}
+        True:
+          rid: 7393535410086871294
+        False:
+          rid: 7393535410086871292
+        Variable:
+          VariableHolder: {fileID: 11400000, guid: 82f2ba21767e2d744b122ad4eb14df7e, type: 2}
+          VariableType: System.Int32
+          VariableName: StarterChosen
+        Value: -1
+    - rid: 7393535410086871292
+      type: {class: ShowDialog, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Dialogs, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: ShowDialog
+        GUID: e5d2284c68a6dd14087e8af44654a1f7
+        Position: {x: 1612, y: 284}
+        NextCommand:
+          rid: -2
+        DialogLocalizationKey: Dialogs/Demo/Lab/Starter/AlreadyChosen
+        ShowCharacterNameIfAvailable: 0
+        OwnCharacter: 1
+        PlayerCharacter: 0
+        OtherCharacter: {fileID: 0}
+    - rid: 7393535410086871294
+      type: {class: ShowChoiceDialog, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Dialogs, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: ShowChoiceDialog
+        GUID: 2b5ee5838b6e13e419410698fb1f1709
+        Position: {x: 1616.0504, y: -80.70001}
+        DialogLocalizationKey: Dialogs/Demo/Lab/Starter/0
+        ShowCharacterNameIfAvailable: 0
+        OwnCharacter: 1
+        PlayerCharacter: 0
+        OtherCharacter: {fileID: 0}
+        Choices:
+        - Common/True
+        - Common/False
+        ChoiceCommands:
+        - rid: 7393535410086871310
+        - rid: -2
+        PressingBackWorksAsLastOption: 1
+    - rid: 7393535410086871310
+      type: {class: DisableActorItemSprite, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Animations, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: DisableActorItemSprite
+        GUID: e3c5348028023004bbf9be1e93253cbb
+        Position: {x: 2127, y: -81}
+        NextCommand:
+          rid: 7393535410086871646
+        OwnActor: 1
+        Target: {fileID: 0}
+    - rid: 7393535410086871314
+      type: {class: SetIntVariable, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Variables, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: SetIntVariable
+        GUID: 15ed8d43d3a68ee4fa62f1c932f53565
+        Position: {x: 3181.7, y: -80.99999}
+        Variable:
+          VariableHolder: {fileID: 11400000, guid: 82f2ba21767e2d744b122ad4eb14df7e, type: 2}
+          VariableType: System.Int32
+          VariableName: StarterChosen
+        Value: 0
+        NextCommand:
+          rid: 7393535410086871316
+    - rid: 7393535410086871316
+      type: {class: CompleteQuest, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Quests, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: CompleteQuest
+        GUID: 0988051aa3073c7459b1e689f2331201
+        Position: {x: 3694.65, y: -80.99999}
+        NextCommand:
+          rid: 7393535410086871318
+        Quest: {fileID: 11400000, guid: 6569f2f3b5c665d4ab56d3ec32360d01, type: 2}
+    - rid: 7393535410086871318
+      type: {class: AutoDestroy, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Utils, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: AutoDestroy
+        GUID: debdd02a56af75e4a9ceb1fadf80d100
+        Position: {x: 4222.35, y: -80.99999}
+        NextCommand:
+          rid: -2
+        UnlockInputBeforeDestroying: 1
+        UnlockOtherActorsBeforeDestroying: 1
+    - rid: 7393535410086871646
+      type: {class: GiveMonsters, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Monsters, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: GiveMonsters
+        GUID: e2fdeec9992de3142ae351c353e213dc
+        Position: {x: 2634.45, y: -80.99999}
+        NextCommand:
+          rid: 7393535410086871314
+        GiveMode: 0
+        Species: {fileID: 11400000, guid: 2b1e25ec85a1f6e4287b239e0565eda8, type: 2}
+        Form: {fileID: 11400000, guid: 6dc6b91c0521dca41b3fc884c5a6fa9f, type: 2}
+        Level: 5
+        CanBeShinny: 1
+        OriginData:
+          Game: Fire Red
+          Region: Kanto
+          Location: Pallet Town
+          Trainer: Oak
+          OriginalLevel: 1
+          OriginType: 1
+          IsAlpha: 0
+          Ball: {fileID: 11400000, guid: af8564b2b62bad8478a6d36498082800, type: 2}
+        Roster: {fileID: 0}
+        ObtainedSound:
+          Audio: Tutututi
+          AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4312ab1ddba4f6a96aa0b29f760da99, type: 3}
+  m_Name: Curse
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/Curse
+  LocalizableDescription: Moves/Curse/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Curse_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 573fce0976964da45b3feb13462250b2, type: 2}
+  MoveCategory: 2
+  BasePowerPoints: 10
+  MaxPowerPoints: 16
+  Priority: 0
+  MakesContact: 0
+  AffectedByProtect: 0
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 0
+  AffectedByKingsRock: 0
+  SoundBased: 0
+  InfiniteAccuracy: 1
+  Accuracy: 0
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 0
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 0
+  FallbackAnimation: {fileID: 0}
+  CanBeUsedOutsideBattle: 0
+  MovesPerType:
+    SerializedList:
+    - Key: {fileID: 11400000, guid: 573fce0976964da45b3feb13462250b2, type: 2}
+      Value: {fileID: 11400000, guid: 0e2b0f56246dddc4594a00a0bfd8cc20, type: 2}
+  DefaultMove: {fileID: 11400000, guid: 53f7ebbb578001f46b46db1baf946160, type: 2}

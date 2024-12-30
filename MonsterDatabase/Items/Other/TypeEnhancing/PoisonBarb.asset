@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 391d6c85113540e1847420498af170bc, type: 3}
+  m_Name: PoisonBarb
+  m_EditorClassIdentifier: 
+  LocalizableName: Items/PoisonBarb
+  LocalizableDescription: Items/PoisonBarb/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Poison_Barb
+  ItemCategory: {fileID: 11400000, guid: 06444bfad04c3194cb7b8c36babe4b80, type: 2}
+  Icon: {fileID: 21300000, guid: e54fab56d8dd28a48bc7608b03ad608e, type: 3}
+  DefaultPrice: 3000
+  CanBeSold: 1
+  SellPercentage: 0.2
+  CanBeHeld: 1
+  FlingPower: 70
+  FlingHasAdditionalEffects: 1
+  FlingEffects:
+  - {fileID: 11400000, guid: da9b3eb55b39eb543bbc2cebb32cab6d, type: 2}
+  SharesXP: 0
+  OnItemMovedItemEffects: []
+  OnStatCalculationEffects: []
+  AfterActionCallbacks: []
+  PostTurnCallbackItemEffects: []
+  OnCalculateAccuracyWhenTargetedItemEffects: []
+  OnCalculateMoveDamageItemEffects:
+  - {fileID: 11400000, guid: 61ddc51306ac7244b93f0243f17b12aa, type: 2}
+  HitByMoveCallbacks: []
+  AfterHitByMoveCallbacks: []
+  OnDeterminePriorityInsideBracketCallbacks: []
+  OnCalculateXPYieldEffects: []
+  OnYieldEffects: []
+  OnCalculatePriceMoneyItemEffects: []
+  OnCalculateWeatherEffectDurationItemEffects: []
+  OnCalculateTerrainEffectDurationItemEffects: []
+  OnCalculateEncounterChanceItemEffects: []
+  NeedsPanelAnimationInBagScreen: 0
+  UseOnTargetEffects: []
+  UseOnTargetMoveEffects: []
+  UseOutOfBattleEffects: []
+  UseInBattleEffects: []

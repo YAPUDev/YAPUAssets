@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2689626143602363584
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7361147462133608589}
+  - component: {fileID: 2131850688730003030}
+  m_Layer: 0
+  m_Name: ProjectContext
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7361147462133608589
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2689626143602363584}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2131850688730003030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2689626143602363584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4e6589720da476459dc6dd71624b071, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scriptableObjectInstallers:
+  - {fileID: 11400000, guid: 5f336dc09554ef148a9fd0e17f95dedd, type: 2}
+  - {fileID: 11400000, guid: d3835dc19be91204282fc48c876cc0b1, type: 2}
+  - {fileID: 11400000, guid: e8ba39ef0d6f76041b163c828708841b, type: 2}
+  - {fileID: 11400000, guid: 62acd8300a1568849a6cc3112d650772, type: 2}
+  - {fileID: 11400000, guid: 13451d863d496464680405c2ae9755f3, type: 2}
+  - {fileID: 11400000, guid: b2243c90ca7cf364aadbcdc6cc642a81, type: 2}
+  - {fileID: 11400000, guid: e1a1ce6a35ca79247a8eec3758f3c121, type: 2}
+  - {fileID: 11400000, guid: d2089e0f67d81104682a7a94ff9a6746, type: 2}
+  - {fileID: 11400000, guid: 221621aab015bd84da4abe4659d41073, type: 2}
+  - {fileID: 11400000, guid: b565e9ba414d4704dbdf0400fac8b2e2, type: 2}
+  - {fileID: 11400000, guid: 04663f49d1e642d4e9443ee988df01b5, type: 2}
+  - {fileID: 11400000, guid: 703b8b14eeeac88479bf9289207cf5d2, type: 2}
+  - {fileID: 11400000, guid: 99ba4856302608b44996663f2bc4c096, type: 2}
+  - {fileID: 11400000, guid: e33ada4d538e9074ca181739bcceff6e, type: 2}
+  - {fileID: 11400000, guid: 39b46bd834fda7342a3418487d5fecf8, type: 2}
+  - {fileID: 11400000, guid: a9f523b8e10136e488514e229499e1ba, type: 2}
+  - {fileID: 11400000, guid: 66db4fed6ffc05941ae79ae9a0bf00d0, type: 2}
+  - {fileID: 11400000, guid: 27e073aecfdca8d448e22f902cd1802a, type: 2}
+  - {fileID: 11400000, guid: 1713872711201314682ba337f86f1632, type: 2}
+  - {fileID: 11400000, guid: 669d9e95a1f4f304c95a2527cb727607, type: 2}
+  - {fileID: 11400000, guid: 8aa4cc9b0b5ee7b4bab6269c5921a430, type: 2}
+  - {fileID: 11400000, guid: 1c38c94cdac5b9846be912b7a2a7ce6c, type: 2}
+  - {fileID: 11400000, guid: 16ef455fcf15a1c4998822f6296c6266, type: 2}
+  - {fileID: 11400000, guid: 27ad30c6c3836b946ac16d2785144665, type: 2}
+  - {fileID: 11400000, guid: 65d8e0d8f2384ce428904bd0f3cda87a, type: 2}
+  _monoInstallers: []
+  _installerPrefabs: []
+  _parentNewObjectsUnderContext: 1
+  _editorReflectionBakingCoverageMode: 0
+  _buildsReflectionBakingCoverageMode: 0
+  _settings:
+    _ensureDeterministicDestructionOrderOnApplicationQuit: 0
+    _displayWarningWhenResolvingDuringInstall: 1
+    _validationRootResolveMethod: 0
+    _validationErrorResponse: 0
+    _signalSettings:
+      _defaultSyncMode: 0
+      _missingHandlerDefaultResponse: 2
+      _requireStrictUnsubscribe: 0
+      _defaultAsyncTickPriority: 1

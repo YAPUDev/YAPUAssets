@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15de4ea5fcbe46e4a6c3dbd49fd260cd, type: 3}
+  m_Name: DamageDoomDesire
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/DamageDoomDesire
+  LocalizableDescription: Moves/DamageDoomDesire/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Doom_Desire_(move)
+  ShouldIndex: 0
+  MoveType: {fileID: 11400000, guid: beeedb36d3bb9aa438171119d70ee919, type: 2}
+  MoveCategory: 1
+  BasePowerPoints: 5
+  MaxPowerPoints: 8
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 0
+  AffectedByProtect: 0
+  AffectedByMagicCoat: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 0
+  AffectedByKingsRock: 0
+  DamageBypassesSubstitute: 0
+  SoundBased: 0
+  IsBallMove: 0
+  IsWindMove: 0
+  OverridesEffectiveness: 0
+  EffectivenessOverride:
+    SerializedList: []
+  InfiniteAccuracy: 0
+  BaseAccuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneVolatileStatuses: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 0
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: 93f9f8aa4e3d8d2458a77b282f67d41a, type: 2}
+  CanBeUsedOutsideBattle: 0
+  Power: 140
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  IsSlicingMove: 0
+  IsPunchingMove: 0
+  IsBitingMove: 0

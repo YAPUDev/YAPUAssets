@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bd9e7a28f9c418e8dca83fe9a4fa63a, type: 3}
+  m_Name: NetBall
+  m_EditorClassIdentifier: 
+  LocalizableName: Items/NetBall
+  LocalizableDescription: Items/NetBall/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Net_Ball
+  ItemCategory: {fileID: 11400000, guid: 2767bef9ebfc42a4094aa8c50cd8c077, type: 2}
+  Icon: {fileID: 21300000, guid: 5553bb8ef01b1d14690c554c92d97437, type: 3}
+  DefaultPrice: 1000
+  CanBeSold: 1
+  SellPercentage: 0.5
+  CanBeHeld: 1
+  FlingPower: -1
+  FlingHasAdditionalEffects: 0
+  FlingEffects: []
+  SharesXP: 0
+  OnItemMovedItemEffects: []
+  OnStatCalculationEffects: []
+  AfterActionCallbacks: []
+  PostTurnCallbackItemEffects: []
+  OnCalculateAccuracyWhenTargetedItemEffects: []
+  OnCalculateMoveDamageItemEffects: []
+  HitByMoveCallbacks: []
+  AfterHitByMoveCallbacks: []
+  OnDeterminePriorityInsideBracketCallbacks: []
+  OnCalculateXPYieldEffects: []
+  OnYieldEffects: []
+  OnCalculatePriceMoneyItemEffects: []
+  OnCalculateWeatherEffectDurationItemEffects: []
+  OnCalculateTerrainEffectDurationItemEffects: []
+  OnCalculateEncounterChanceItemEffects: []
+  NeedsPanelAnimationInBagScreen: 0
+  UseOnTargetEffects: []
+  UseOnTargetMoveEffects: []
+  UseOutOfBattleEffects: []
+  UseInBattleEffects:
+  - {fileID: 11400000, guid: 0adc7f7a5f3896745906c126d485a69c, type: 2}
+  AnimationFlipBook: {fileID: 2100000, guid: f0b91aae136a4134faa6bbc55638774f, type: 2}
+  NeverFails: 0
+  BasicCatchMultiplier: 1
+  UltraBeastMultiplier: 0.1
+  FriendshipIncreaseModifier: 0
+  MultipliersByType:
+    SerializedList:
+    - Key: {fileID: 11400000, guid: 8224339d425c323429f4f784f48fce81, type: 2}
+      Value: 3.5
+    - Key: {fileID: 11400000, guid: 96acf51bdce11384d9b1ceb0369ace1e, type: 2}
+      Value: 3.5

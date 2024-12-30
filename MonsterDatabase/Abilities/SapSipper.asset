@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 638d7203c35241ab997da364478868c1, type: 3}
+  m_Name: SapSipper
+  m_EditorClassIdentifier: 
+  LocalizableName: Abilities/SapSipper
+  LocalizableDescription: Abilities/SapSipper/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Sap_Sipper_(Ability)
+  AbilitiesImmuneTo: []
+  IsIgnorable: 1
+  AbsorbedType: {fileID: 11400000, guid: 964c796fc7fc9fa4e8ebe2468b9fea61, type: 2}
+  StatsToRaise:
+    SerializedList:
+    - Key: 1
+      Value: 1

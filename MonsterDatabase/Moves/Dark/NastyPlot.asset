@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 323b3f20792547a49e4540e02f4cf038, type: 3}
+  m_Name: NastyPlot
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/NastyPlot
+  LocalizableDescription: Moves/NastyPlot/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Nasty_Plot_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: b7224fcdaeff9e7439e1c77405022ad2, type: 2}
+  MoveCategory: 2
+  BasePowerPoints: 20
+  MaxPowerPoints: 32
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 0
+  AffectedByProtect: 0
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 1
+  AffectedByMirror: 0
+  AffectedByKingsRock: 0
+  SoundBased: 0
+  InfiniteAccuracy: 1
+  Accuracy: 0
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 0
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: 6a24043e795b08e469eace7e535b92e1, type: 2}
+  CanBeUsedOutsideBattle: 0
+  ChangeStats: 1
+  StatChanges:
+    SerializedList:
+    - Key: 3
+      Value: 2
+  ChangeBattleStats: 0
+  BattleStatChanges:
+    SerializedList: []
+  ChangeCritical: 0
+  CriticalChange: 0

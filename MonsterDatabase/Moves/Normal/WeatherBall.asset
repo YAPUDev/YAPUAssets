@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caa3ad259dbb4b939d4c181a27453b8a, type: 3}
+  m_Name: WeatherBall
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/WeatherBall
+  LocalizableDescription: Moves/WeatherBall/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Weather_Ball_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: db89964f043f3cb4dbf78a05c8fd5d36, type: 2}
+  MoveCategory: 1
+  BasePowerPoints: 10
+  MaxPowerPoints: 16
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 0
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 1
+  DamageBypassesSubstitute: 0
+  SoundBased: 0
+  IsBallMove: 1
+  OverridesEffectiveness: 0
+  EffectivenessOverride:
+    SerializedList: []
+  InfiniteAccuracy: 0
+  BaseAccuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneVolatileStatuses: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 0
+  FallbackAnimation: {fileID: 0}
+  CanBeUsedOutsideBattle: 0
+  Power: 50
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  IsSlicingMove: 0
+  IsPunchingMove: 0
+  WeatherTypeOverrides:
+    SerializedList:
+    - Key: {fileID: 11400000, guid: 0bb8ea1ddf9dfad468d6450d7b01becc, type: 2}
+      Value: {fileID: 11400000, guid: 9006ef89f44a7724783c6f688db63b59, type: 2}
+    - Key: {fileID: 11400000, guid: 52ce37f0f0d8e9847afe2ae18930052b, type: 2}
+      Value: {fileID: 11400000, guid: 5564f6595e7fcfd41971380624975935, type: 2}
+    - Key: {fileID: 11400000, guid: 528d8290ae151a741870aa0a9324a438, type: 2}
+      Value: {fileID: 11400000, guid: 96acf51bdce11384d9b1ceb0369ace1e, type: 2}
+    - Key: {fileID: 11400000, guid: daca1ab58da873b48abf91d50b3b5a80, type: 2}
+      Value: {fileID: 11400000, guid: 4676cd353780d2144a0ef2ec68ca942b, type: 2}
+    - Key: {fileID: 11400000, guid: ddfac60ef0939fd42abeb73f2b65a451, type: 2}
+      Value: {fileID: 11400000, guid: db89964f043f3cb4dbf78a05c8fd5d36, type: 2}
+  BallPrefab: {fileID: 1159660114520877295, guid: a07d2feb6ac639e4680a9c8df7dfa5c7, type: 3}
+  Audio:
+    Audio: Weather Ball
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}

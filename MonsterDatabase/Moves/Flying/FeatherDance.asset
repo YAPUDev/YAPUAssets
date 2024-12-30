@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 830b8ba0ec8945baac9273a9d66afa73, type: 3}
+  m_Name: FeatherDance
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/FeatherDance
+  LocalizableDescription: Moves/FeatherDance/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Feather_Dance_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: e6912e7b469ab6544a853be403fe5bc7, type: 2}
+  MoveCategory: 2
+  BasePowerPoints: 15
+  MaxPowerPoints: 24
+  Priority: 0
+  MakesContact: 0
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 1
+  AffectedByMagicBounce: 1
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 0
+  SoundBased: 0
+  InfiniteAccuracy: 0
+  Accuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 0
+  FallbackAnimation: {fileID: 0}
+  CanBeUsedOutsideBattle: 0
+  ChangeStats: 1
+  StatChanges:
+    SerializedList:
+    - Key: 1
+      Value: -2
+  ChangeBattleStats: 0
+  BattleStatChanges:
+    SerializedList: []
+  ChangeCritical: 0
+  CriticalChange: 0
+  Feather: {fileID: 2800000, guid: 311beea1ea07ff849b231a6acfa15105, type: 3}
+  Audio:
+    Audio: Petal Dance
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}

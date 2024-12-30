@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9e25175ee644fe5b7d9f122ead75fc4, type: 3}
+  m_Name: FlameCharge
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/FlameCharge
+  LocalizableDescription: Moves/FlameCharge/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Flame_Charge_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 9006ef89f44a7724783c6f688db63b59, type: 2}
+  MoveCategory: 0
+  BasePowerPoints: 20
+  MaxPowerPoints: 32
+  Priority: 0
+  MakesContact: 1
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 1
+  SoundBased: 0
+  InfiniteAccuracy: 0
+  Accuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 0
+  FallbackAnimation: {fileID: 0}
+  CanBeUsedOutsideBattle: 0
+  Power: 50
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  ChangeStats: 1
+  StatChangesAffectSelf: 1
+  StatChanges:
+    SerializedList:
+    - Key: 1
+      Value:
+        SerializedList:
+        - Key: 5
+          Value: 1
+  ChangeBattleStats: 0
+  BattleStatChanges:
+    SerializedList: []
+  ChangeCritical: 0
+  CriticalChange: 0
+  CriticalChance: 0
+  Sound:
+    Audio: Flame Charge
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+  HitPrefab: {fileID: 8502127192471211818, guid: 160c3b2e0e2d98944a5b0e3f566d4d8d, type: 3}
+  UserMove: {x: 0.25, y: 0, z: 0}
+  BigFlamesPrefab: {fileID: 4555166371875710403, guid: e43a30b55c6b68a41b49a4ddf520ed5e, type: 3}

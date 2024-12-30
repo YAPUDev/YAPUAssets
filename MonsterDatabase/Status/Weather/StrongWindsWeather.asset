@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91de6879c34345bf99720b0fc587e293, type: 3}
+  m_Name: StrongWindsWeather
+  m_EditorClassIdentifier: 
+  LocalizableName: Weather/StrongWindsWeather
+  LocalizableDescription: Weather/StrongWindsWeather/Description
+  StartLocalizationKey: Weather/StrongWindsWeather/Start
+  TickLocalizationKey: Weather/StrongWindsWeather/Tick
+  EndLocalizationKey: Weather/StrongWindsWeather/End
+  TypeDamageModifiers:
+    SerializedList: []
+  StatModifiers:
+    SerializedList: []
+  MoveAccuracyModifier: 1
+  ProtectedType: {fileID: 11400000, guid: e6912e7b469ab6544a853be403fe5bc7, type: 2}

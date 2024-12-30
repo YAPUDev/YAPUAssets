@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a75f4c9e640ea34498f92d1767400df, type: 3}
+  m_Name: RepeatBall
+  m_EditorClassIdentifier: 
+  LocalizableName: Items/RepeatBall
+  LocalizableDescription: Items/RepeatBall/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Repeat_Ball
+  ItemCategory: {fileID: 11400000, guid: 2767bef9ebfc42a4094aa8c50cd8c077, type: 2}
+  Icon: {fileID: 21300000, guid: 1c373372b8d6ff0439072f4a26d092c1, type: 3}
+  DefaultPrice: 1000
+  CanBeSold: 1
+  SellPercentage: 0.25
+  CanBeHeld: 1
+  FlingPower: -1
+  FlingHasAdditionalEffects: 0
+  FlingEffects: []
+  SharesXP: 0
+  OnItemMovedItemEffects: []
+  OnStatCalculationEffects: []
+  OnCalculateAttackMultiplierOfTypesWhenDefendingItemEffects: []
+  OnMonsterEnteredBattleEffects: []
+  AfterActionCallbacks: []
+  OnTerrainSetItemEffects: []
+  PostTurnCallbackItemEffects: []
+  OnCalculateAccuracyWhenTargetedItemEffects: []
+  OnCheckGroundingItemEffects: []
+  OnCheckRunAwayItemEffects: []
+  OnCalculateMoveDamageItemEffects: []
+  HitByMoveCallbacks: []
+  AfterHitByMoveCallbacks: []
+  AfterHitByMultihitMoveCallbacks: []
+  AfterUsingMoveCallbacks: []
+  OnDeterminePriorityInsideBracketCallbacks: []
+  OnCalculateDrainHPMultiplierEffects: []
+  OnCalculateXPYieldEffects: []
+  OnYieldEffects: []
+  OnCalculatePriceMoneyItemEffects: []
+  OnCalculateWeatherEffectDurationItemEffects: []
+  OnCalculateSideStatusEffectDurationItemEffects: []
+  OnCalculateVolatileStatusEffectDurationItemEffects: []
+  OnCalculateTerrainEffectDurationItemEffects: []
+  OnVolatileStatusAddedItemEffects: []
+  OnCalculateEncounterChanceItemEffects: []
+  AllowEvolutionItemEffects: []
+  OnCalculateNumberOfIVsToPassOnBreedingItemEffects: []
+  OnCalculateSpecificIVsToPassOnBreedingItemEffects: []
+  OnCalculateNatureToPassOnBreedingItemEffects: []
+  OnCalculateFormToPassOnBreedingItemEffects: []
+  NeedsPanelAnimationInBagScreen: 0
+  UseOnTargetEffects: []
+  UseOnTargetMoveEffects: []
+  UseOutOfBattleEffects: []
+  UseInBattleEffects:
+  - {fileID: 11400000, guid: 0adc7f7a5f3896745906c126d485a69c, type: 2}
+  AnimationFlipBook: {fileID: 2100000, guid: fe4e4b47e6daa4942a2d93f4f397f631, type: 2}
+  NeverFails: 0
+  BasicCatchMultiplier: 1
+  UltraBeastMultiplier: 0.1
+  FriendshipIncreaseModifier: 0
+  CaughtMultiplier: 3.5

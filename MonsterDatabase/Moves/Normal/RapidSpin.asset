@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c478b6da91cf46d29475a8420c248d2e, type: 3}
+  m_Name: RapidSpin
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/RapidSpin
+  LocalizableDescription: Moves/RapidSpin/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Rapid_Spin_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: db89964f043f3cb4dbf78a05c8fd5d36, type: 2}
+  MoveCategory: 0
+  BasePowerPoints: 40
+  MaxPowerPoints: 64
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 1
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 1
+  DamageBypassesSubstitute: 0
+  SoundBased: 0
+  IsBallMove: 0
+  IsWindMove: 0
+  OverridesEffectiveness: 0
+  EffectivenessOverride:
+    SerializedList: []
+  InfiniteAccuracy: 0
+  BaseAccuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneVolatileStatuses: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: e62bb486865d24c47a9963c3de1de545, type: 2}
+  CanBeUsedOutsideBattle: 0
+  Power: 50
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  IsSlicingMove: 0
+  IsPunchingMove: 0
+  IsBitingMove: 0
+  ChangeStats: 1
+  StatChangesAffectSelf: 1
+  StatChanges:
+    SerializedList:
+    - Key: 1
+      Value:
+        SerializedList:
+        - Key: 5
+          Value: 1
+  ChangeBattleStats: 0
+  BattleStatChanges:
+    SerializedList: []
+  ChangeCritical: 0
+  CriticalChange: 0
+  CriticalChance: 0
+  RemoveVolatileStatusOnOwnSide: 1
+  RemovableVolatileStatuses:
+  - {fileID: 11400000, guid: ab4b30de275c2d54e92e0f98f9da0234, type: 2}
+  - {fileID: 11400000, guid: 8a42cbda9f114fe4c80313bf8e2206f4, type: 2}
+  - {fileID: 11400000, guid: bdd7c9f7a4ab1d54f95f74706419805c, type: 2}
+  - {fileID: 11400000, guid: e9009feace047b74bb9ae9ed84047b35, type: 2}
+  - {fileID: 11400000, guid: e7f6a4a9d61a77b4e91ff4fb4129f80e, type: 2}
+  - {fileID: 11400000, guid: e9009feace047b74bb9ae9ed84047b35, type: 2}
+  - {fileID: 11400000, guid: 71d3f3c4adce51642a5ad17d6f14d247, type: 2}
+  - {fileID: 11400000, guid: 7dcc757cebb38464e8c823a3c4cb920d, type: 2}
+  RemoveSideStatusOnOwnSide: 1
+  RemovableSideStatuses:
+  - {fileID: 11400000, guid: cd6520ccf30f7584fa5d64367b2bb8db, type: 2}
+  - {fileID: 11400000, guid: ed4c35befd945df49a80d243a4f4fb4d, type: 2}
+  - {fileID: 11400000, guid: 67635c12c274a4a46bd1b88282b9a47d, type: 2}
+  - {fileID: 11400000, guid: 3d3de412951207b4680a78b2b8dd6949, type: 2}

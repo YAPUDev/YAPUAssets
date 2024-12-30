@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9813b563d7c84584a5db1b1960435919, type: 3}
+  m_Name: PechaBerry
+  m_EditorClassIdentifier: 
+  LocalizableName: Items/PechaBerry
+  LocalizableDescription: Items/PechaBerry/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Pecha_Berry
+  ItemCategory: {fileID: 11400000, guid: a39f78ba045140749a2b6067617d0a31, type: 2}
+  Icon: {fileID: 21300000, guid: 622c07b765e118c4e9181af239bd3ca4, type: 3}
+  DefaultPrice: 250
+  CanBeSold: 0
+  SellPercentage: 0.5
+  CanBeHeld: 1
+  FlingPower: 10
+  FlingHasAdditionalEffects: 1
+  FlingEffects:
+  - {fileID: 11400000, guid: d7f9ced57ddda6f439b699b4fa26274a, type: 2}
+  - {fileID: 11400000, guid: 1f8eb9097fe1c7a4daab2923c00d4b03, type: 2}
+  SharesXP: 0
+  OnItemMovedItemEffects: []
+  OnStatCalculationEffects: []
+  OnCalculateCriticalChanceItemEffects: []
+  OnCalculateAttackMultiplierOfTypesWhenDefendingItemEffects: []
+  OnMonsterEnteredBattleEffects: []
+  AfterActionCallbacks:
+  - {fileID: 11400000, guid: 679a6eac7eae5c14297f1a9e2b1bb1f1, type: 2}
+  - {fileID: 11400000, guid: 93a8d57e7e6dc4a479ba1b39faa1d6bf, type: 2}
+  OnTerrainSetItemEffects: []
+  PostTurnCallbackItemEffects: []
+  OnCalculateAccuracyWhenUsingItemEffects: []
+  OnCalculateAccuracyWhenTargetedItemEffects: []
+  OnCheckGroundingItemEffects: []
+  OnCheckRunAwayItemEffects: []
+  OnCalculateMoveDamageItemEffects: []
+  HitByMoveCallbacks: []
+  AfterHitByMoveCallbacks: []
+  AfterHitByMultihitMoveCallbacks: []
+  ForceSurviveItemEffects: []
+  AfterUsingMoveCallbacks: []
+  OnDeterminePriorityInsideBracketCallbacks: []
+  OnCalculateDrainHPMultiplierEffects: []
+  OnCalculateXPYieldEffects: []
+  OnYieldEffects: []
+  OnCalculatePriceMoneyItemEffects: []
+  OnCalculateWeatherEffectDurationItemEffects: []
+  OnCalculateSideStatusEffectDurationItemEffects: []
+  OnCalculateVolatileStatusEffectDurationItemEffects: []
+  OnCalculateTerrainEffectDurationItemEffects: []
+  OnVolatileStatusAddedItemEffects: []
+  OnCalculateEncounterChanceItemEffects: []
+  AllowEvolutionItemEffects: []
+  OnCalculateNumberOfIVsToPassOnBreedingItemEffects: []
+  OnCalculateSpecificIVsToPassOnBreedingItemEffects: []
+  OnCalculateNatureToPassOnBreedingItemEffects: []
+  OnCalculateFormToPassOnBreedingItemEffects: []
+  OnAddExtraMovesToPassOnBreedingItemEffects: []
+  NeedsPanelAnimationInBagScreen: 0
+  RequiresUpdatingTheEntirePartyInBagScreen: 0
+  UseOnTargetEffects:
+  - {fileID: 11400000, guid: d7f9ced57ddda6f439b699b4fa26274a, type: 2}
+  - {fileID: 11400000, guid: 1f8eb9097fe1c7a4daab2923c00d4b03, type: 2}
+  UseOnTargetMoveEffects: []
+  UseOutOfBattleEffects: []
+  UseInBattleEffects: []
+  FlavourData:
+    SerializedList:
+    - Key: 0
+      Value: 0
+    - Key: 1
+      Value: 0
+    - Key: 2
+      Value: 10
+    - Key: 3
+      Value: 0
+    - Key: 4
+      Value: 0
+  GrowthData:
+    SerializedList:
+    - Key: 0
+      Value: 0
+    - Key: 1
+      Value: 3
+    - Key: 2
+      Value: 6
+    - Key: 3
+      Value: 9
+    - Key: 4
+      Value: 12
+  Smoothness: 25
+  Size: 4
+  Firmness: 0
+  NaturalGiftType: {fileID: 11400000, guid: 3086e053111d18e46b8f75ab45b81207, type: 2}
+  NaturalGiftPower: 80
+  CudChewEffects:
+  - {fileID: 11400000, guid: d7f9ced57ddda6f439b699b4fa26274a, type: 2}
+  - {fileID: 11400000, guid: 1f8eb9097fe1c7a4daab2923c00d4b03, type: 2}

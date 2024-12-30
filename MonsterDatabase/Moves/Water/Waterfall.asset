@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bf01e69524944b4a17667b27dde9e5d, type: 3}
+  m_Name: Waterfall
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/Waterfall
+  LocalizableDescription: Moves/Waterfall/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Waterfall_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 96acf51bdce11384d9b1ceb0369ace1e, type: 2}
+  MoveCategory: 0
+  BasePowerPoints: 15
+  MaxPowerPoints: 24
+  Priority: 0
+  MakesContact: 1
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 0
+  SoundBased: 0
+  InfiniteAccuracy: 0
+  Accuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: 36aed63488cda9247a3b80192546fe75, type: 2}
+  CanBeUsedOutsideBattle: 1
+  Power: 80
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  StatusChance:
+    m_Keys: []
+    m_Values: []
+  VolatileStatusChance:
+    m_Keys:
+    - 0.2
+    m_Values:
+    - m_Keys:
+      - {fileID: 11400000, guid: 5f391451ff480f54f8176edaa46e0d5d, type: 2}
+      m_Values: 01000000

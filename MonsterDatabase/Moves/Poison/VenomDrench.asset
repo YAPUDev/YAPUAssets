@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3ef9c9fbadc42ceadb3379152b0d520, type: 3}
+  m_Name: VenomDrench
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/VenomDrench
+  LocalizableDescription: Moves/VenomDrench/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Venom_Drench_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 3603fd3a7d985df4b9fe806e450268cf, type: 2}
+  MoveCategory: 2
+  BasePowerPoints: 20
+  MaxPowerPoints: 32
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 0
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 1
+  AffectedByMagicBounce: 1
+  AffectedBySnatch: 0
+  AffectedByMirror: 0
+  AffectedByKingsRock: 0
+  SoundBased: 0
+  InfiniteAccuracy: 0
+  Accuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 1
+  MovePossibleTargets: 5
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneTerrains: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: decf9069fd8854e4f9e55ed5b9ea917e, type: 2}
+  CanBeUsedOutsideBattle: 0
+  BypassesSubstitute: 0
+  ChangeStats: 1
+  StatChanges:
+    SerializedList:
+    - Key: 1
+      Value: -1
+    - Key: 3
+      Value: -1
+    - Key: 5
+      Value: -1
+  ChangeBattleStats: 0
+  BattleStatChanges:
+    SerializedList: []
+  ChangeCritical: 0
+  CriticalChange: 0
+  PoisonStatuses:
+  - {fileID: 11400000, guid: 98c1d698c87382041a9a14a84d06a289, type: 2}
+  - {fileID: 11400000, guid: b03d1064228bbf44494d9b6828c1f613, type: 2}

@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6209085229313855623
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2854050900353192584}
+  - component: {fileID: 1049056329692862354}
+  m_Layer: 0
+  m_Name: LadderUp
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2854050900353192584
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6209085229313855623}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 19, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1049056329692862354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6209085229313855623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1863631827a74043b89600abdd3ca131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnEnableCommands: []
+  OnEnableCommandGraph:
+    rid: -2
+  RunLoopOnEnable: 0
+  LoopCommands: []
+  LoopCommandGraph:
+    rid: -2
+  PlayerInteractsWhenOnTop: 0
+  InteractCommands: []
+  InteractCommandGraph:
+    rid: -2
+  OnDemandCommands0: []
+  OnDemandCommands1: []
+  OnDemandCommands2: []
+  OnDemandCommands3: []
+  OnDemandCommandGraph0:
+    rid: -2
+  OnDemandCommandGraph1:
+    rid: -2
+  OnDemandCommandGraph2:
+    rid: -2
+  OnDemandCommandGraph3:
+    rid: -2
+  RunningCommands: 0
+  GlobalGridManager: {fileID: 0}
+  LoopRunning: 0
+  ShouldLoop: 0
+  CurrentGrid: {fileID: 0}
+  OnPlayerAboutToEnter: []
+  OnPlayerAboutToEnterCommandGraph:
+    rid: -2
+  OnPlayerEntered: []
+  OnPlayerEnteredCommandGraph:
+    rid: 7393535695417507896
+  OnPlayerAboutToBeTeleported: []
+  OnPlayerAboutToBeTeleportedCommandGraph:
+    rid: -2
+  OnPlayerTeleported: []
+  OnPlayerTeleportedCommandGraph:
+    rid: -2
+  OnActorPushedInside: []
+  OnActorPushedInsideCommandGraph:
+    rid: -2
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 7393535695417507896
+      type: {class: ActorCommandGraph, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph, asm: Varguiniano.YAPU.Runtime}
+      data:
+        RootNode:
+          rid: 7393535695417507897
+        Nodes:
+        - rid: 7393535695417507897
+        - rid: 7393535695417507900
+        - rid: 7393535695417507902
+        - rid: 7393535695417507904
+    - rid: 7393535695417507897
+      type: {class: RootNode, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: RootNode
+        GUID: 77bdd37b89948874ab1ee91fd6421561
+        Position: {x: 0, y: 0}
+        NextCommand:
+          rid: 7393535695417507900
+    - rid: 7393535695417507900
+      type: {class: PlaySound, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Sounds, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: PlaySound
+        GUID: 41c91bcab9dbd1b419ba13dfa130acc4
+        Position: {x: 538, y: -16}
+        NextCommand:
+          rid: 7393535695417507902
+        Sound:
+          Audio: Exit Door
+          AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+        Loop: 0
+        Pitch: 1
+        Volume: 1
+        FadeInTime: 0
+        PreventDuplicates: 0
+    - rid: 7393535695417507902
+      type: {class: WaitTime, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Utils, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: WaitTime
+        GUID: 6682641f39ff99e49bdd0b39c380dffb
+        Position: {x: 1096, y: -8}
+        NextCommand:
+          rid: 7393535695417507904
+        Time: 0
+        Seconds: 0.2
+        MinWait: 1
+        MaxWait: 2
+    - rid: 7393535695417507904
+      type: {class: TeleportPlayer, ns: Varguiniano.YAPU.Runtime.Actors.CommandGraph.Utils, asm: Varguiniano.YAPU.Runtime}
+      data:
+        name: TeleportPlayer
+        GUID: 0336b4a097050f94993508a3a7bb794e
+        Position: {x: 1589, y: 0}
+        NextCommand:
+          rid: -2
+        SceneLocation:
+          Scene: {fileID: 11400000, guid: a6cae7ec0ee7d74418d25842115fc80d, type: 2}
+          Location: {x: 13, y: -14}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d4cd2e8cb0444098370f7bb87fc5623, type: 3}
+  m_Name: Pickpocket
+  m_EditorClassIdentifier: 
+  LocalizableName: Abilities/Pickpocket
+  LocalizableDescription: Abilities/Pickpocket/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Pickpocket_(Ability)
+  AbilitiesImmuneTo: []
+  IsIgnorable: 0
+  StealImmuneItems: []
+  StealImmuneAbilities:
+  - {fileID: 11400000, guid: 3d5f5fecf214da74a8526a009bfab04e, type: 2}
+  ImmuneItemMonsterCombinations:
+    m_Keys: []
+  ImmuneItemAbilityCombinations:
+    m_Keys: []

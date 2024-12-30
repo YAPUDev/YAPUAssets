@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81a32da6512443179aece343ca03e577, type: 3}
+  m_Name: Endure
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/Endure
+  LocalizableDescription: Moves/Endure/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Endure_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: db89964f043f3cb4dbf78a05c8fd5d36, type: 2}
+  MoveCategory: 2
+  BasePowerPoints: 10
+  MaxPowerPoints: 16
+  Priority: 4
+  MakesContact: 0
+  AffectedByProtect: 0
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 0
+  AffectedByKingsRock: 0
+  SoundBased: 0
+  InfiniteAccuracy: 1
+  Accuracy: 0
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 0
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 0
+  FallbackAnimation: {fileID: 0}
+  CanBeUsedOutsideBattle: 0
+  Status: {fileID: 11400000, guid: 31467b192ea2a154bb341080e4b63f15, type: 2}
+  InfiniteDuration: 0
+  AnimationPrefab: {fileID: 0}
+  BarrierColor: {r: 0, g: 0, b: 0, a: 0}
+  EnemyPosition: {x: 0, y: 0, z: 0}
+  EnemyPriority: 0
+  AllyPosition: {x: 0, y: 0, z: 0}
+  AllyPriority: 0
+  Audio:
+    Audio: Endure
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}

@@ -1,0 +1,235 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4009b35cc32e4dd99674f0a8e451f232, type: 3}
+  m_Name: 0139-Omastar
+  m_EditorClassIdentifier: 
+  LocalizableName: Monsters/Omastar
+  LocalizableDescription: Monsters/Omastar/Description
+  DocsURL: https://pokemondb.net/pokedex/omastar
+  DexNumber: 139
+  AvailableForms:
+  - {fileID: 11400000, guid: 6dc6b91c0521dca41b3fc884c5a6fa9f, type: 2}
+  DataByForm:
+  - Form: {fileID: 11400000, guid: 6dc6b91c0521dca41b3fc884c5a6fa9f, type: 2}
+    DeveloperComments: Moves based on SwSh + BDSP.
+    HasMaleMaterialOverride: 0
+    Front: {fileID: 2100000, guid: 97deae7800d988244a487d2a2634f0b0, type: 2}
+    Back: {fileID: 2100000, guid: fb6ca2e38c330ff44a9b45102f32931c, type: 2}
+    FrontMale: {fileID: 0}
+    BackMale: {fileID: 0}
+    FrontShiny: {fileID: 2100000, guid: 1126aa81c215f5d4b902376b44661ab7, type: 2}
+    BackShiny: {fileID: 2100000, guid: f653c76cb493598439d44931c1421a5e, type: 2}
+    FrontShinyMale: {fileID: 0}
+    BackShinyMale: {fileID: 0}
+    Icon: {fileID: 1737343262, guid: b8a8cff93ac4217428b55f51afb8972a, type: 3}
+    IconShiny: {fileID: 2088024106, guid: 66b070583aafbab45a45eafe66d6a8ea, type: 3}
+    IconMale: {fileID: 0}
+    IconShinyMale: {fileID: 0}
+    EggMaterial: {fileID: 2100000, guid: 3555f2d1d1af4d1419ae446ad6e018ed, type: 2}
+    EggIcon: {fileID: 1737343262, guid: a59a8f7b000340443a674b4377f079e6, type: 3}
+    HasWorldSprites: 1
+    WorldIdleSpriteDown: {fileID: 570336734, guid: 69e126b3d21998847b82694433ff6cb9, type: 3}
+    WorldIdleSpriteUp: {fileID: 1781232063, guid: 69e126b3d21998847b82694433ff6cb9, type: 3}
+    WorldIdleSpriteLeft: {fileID: 790261300, guid: 69e126b3d21998847b82694433ff6cb9, type: 3}
+    WorldIdleSpriteRight: {fileID: 1061457719, guid: 69e126b3d21998847b82694433ff6cb9, type: 3}
+    WorldIdleSpriteDownMale: {fileID: 0}
+    WorldIdleSpriteUpMale: {fileID: 0}
+    WorldIdleSpriteLeftMale: {fileID: 0}
+    WorldIdleSpriteRightMale: {fileID: 0}
+    WorldWalkingSpriteDown:
+    - {fileID: -784984716, guid: 69e126b3d21998847b82694433ff6cb9, type: 3}
+    - {fileID: -428899575, guid: 69e126b3d21998847b82694433ff6cb9, type: 3}
+    WorldWalkingSpriteUp:
+    - {fileID: -1924296053, guid: 69e126b3d21998847b82694433ff6cb9, type: 3}
+    - {fileID: 1126907919, guid: 69e126b3d21998847b82694433ff6cb9, type: 3}
+    WorldWalkingSpriteLeft:
+    - {fileID: 880654485, guid: 69e126b3d21998847b82694433ff6cb9, type: 3}
+    - {fileID: -145472501, guid: 69e126b3d21998847b82694433ff6cb9, type: 3}
+    WorldWalkingSpriteRight:
+    - {fileID: 1854071217, guid: 69e126b3d21998847b82694433ff6cb9, type: 3}
+    - {fileID: -1759447056, guid: 69e126b3d21998847b82694433ff6cb9, type: 3}
+    WorldWalkingSpriteDownMale: []
+    WorldWalkingSpriteUpMale: []
+    WorldWalkingSpriteLeftMale: []
+    WorldWalkingSpriteRightMale: []
+    WorldIdleShinySpriteDown: {fileID: 570336734, guid: 52a945b4bcb8cb842b6f4e70286cb08f, type: 3}
+    WorldIdleShinySpriteUp: {fileID: 1781232063, guid: 52a945b4bcb8cb842b6f4e70286cb08f, type: 3}
+    WorldIdleShinySpriteLeft: {fileID: 790261300, guid: 52a945b4bcb8cb842b6f4e70286cb08f, type: 3}
+    WorldIdleShinySpriteRight: {fileID: 1061457719, guid: 52a945b4bcb8cb842b6f4e70286cb08f, type: 3}
+    WorldIdleShinySpriteDownMale: {fileID: 0}
+    WorldIdleShinySpriteUpMale: {fileID: 0}
+    WorldIdleShinySpriteLeftMale: {fileID: 0}
+    WorldIdleShinySpriteRightMale: {fileID: 0}
+    WorldWalkingShinySpriteDown:
+    - {fileID: -784984716, guid: 52a945b4bcb8cb842b6f4e70286cb08f, type: 3}
+    - {fileID: -428899575, guid: 52a945b4bcb8cb842b6f4e70286cb08f, type: 3}
+    WorldWalkingShinySpriteUp:
+    - {fileID: -1924296053, guid: 52a945b4bcb8cb842b6f4e70286cb08f, type: 3}
+    - {fileID: 1126907919, guid: 52a945b4bcb8cb842b6f4e70286cb08f, type: 3}
+    WorldWalkingShinySpriteLeft:
+    - {fileID: 880654485, guid: 52a945b4bcb8cb842b6f4e70286cb08f, type: 3}
+    - {fileID: -145472501, guid: 52a945b4bcb8cb842b6f4e70286cb08f, type: 3}
+    WorldWalkingShinySpriteRight:
+    - {fileID: 1854071217, guid: 52a945b4bcb8cb842b6f4e70286cb08f, type: 3}
+    - {fileID: -1759447056, guid: 52a945b4bcb8cb842b6f4e70286cb08f, type: 3}
+    WorldWalkingShinySpriteDownMale: []
+    WorldWalkingShinySpriteUpMale: []
+    WorldWalkingShinySpriteLeftMale: []
+    WorldWalkingShinySpriteRightMale: []
+    FirstType: {fileID: 11400000, guid: 4676cd353780d2144a0ef2ec68ca942b, type: 2}
+    SecondType: {fileID: 11400000, guid: 96acf51bdce11384d9b1ceb0369ace1e, type: 2}
+    DexDescriptionKey: Monsters/Omastar/Normal
+    Species: {fileID: 11400000, guid: f55aab720fcea1d48b35e5f2ba99561b, type: 2}
+    Height: 1
+    Weight: 35
+    Cry:
+      Audio: OMASTAR
+      AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+    Abilities:
+    - {fileID: 11400000, guid: a83c9da11e7763341bb9b70c93f6d784, type: 2}
+    - {fileID: 11400000, guid: 3e252b6a3f8866446be1e4ae4508c8ec, type: 2}
+    HiddenAbilities:
+    - {fileID: 11400000, guid: b7920e8cf68b10a4d83dcbc82d717102, type: 2}
+    EVYield:
+    - Stat: 2
+      Value: 2
+    CatchRate: 45
+    BaseFriendship: 50
+    BaseExperience: 173
+    GrowthRate: 2
+    EggGroups:
+    - {fileID: 11400000, guid: f6a82c8007a15424e86f018c20e47b69, type: 2}
+    - {fileID: 11400000, guid: a461d92eeb6bdc6418d85f6ca35a6c06, type: 2}
+    EggCycles: 30
+    BreedingData:
+    - rid: 1266369485746995202
+    HasBinaryGender: 1
+    FemaleRatio: 0.125
+    WildRunChance: 0
+    WildHeldItems:
+      SerializedList: []
+    MovesByLevel:
+    - Move: {fileID: 11400000, guid: 4b62bf6f701877f47897a6f8edb60820, type: 2}
+      Level: 1
+    - Move: {fileID: 11400000, guid: d2eea68630744be429f824d6b9912379, type: 2}
+      Level: 1
+    - Move: {fileID: 11400000, guid: 66f14ab64afddf1448675633bdb31845, type: 2}
+      Level: 1
+    - Move: {fileID: 11400000, guid: 6b20a6ef649c93242a2022642939dcc2, type: 2}
+      Level: 1
+    - Move: {fileID: 11400000, guid: 0dd7bc5bc1da7dd4aa62bf90c9235a53, type: 2}
+      Level: 1
+    - Move: {fileID: 11400000, guid: 51c2947f70a398a45898d3dc897d35a0, type: 2}
+      Level: 15
+    - Move: {fileID: 11400000, guid: 621ef8c52b0ee9545897eeb75a47eebd, type: 2}
+      Level: 20
+    - Move: {fileID: 11400000, guid: 4aacfaeb640d196428dab583e605c941, type: 2}
+      Level: 25
+    - Move: {fileID: 11400000, guid: 7a43f5b8b5574764c8382d8d13a7a365, type: 2}
+      Level: 30
+    - Move: {fileID: 11400000, guid: 90d172532a5da1044b48f2aa2515ebd7, type: 2}
+      Level: 35
+    - Move: {fileID: 11400000, guid: 5fc72bc5d95c59545b52ef36c9273038, type: 2}
+      Level: 43
+    - Move: {fileID: 11400000, guid: 3f8f1a3334c758843bac5600be5001a1, type: 2}
+      Level: 49
+    - Move: {fileID: 11400000, guid: 622d650fe4ebbfa40aaa9ecda3d781fb, type: 2}
+      Level: 56
+    - Move: {fileID: 11400000, guid: bc60dbd965b35604f81066bf459ff0e3, type: 2}
+      Level: 63
+    - Move: {fileID: 11400000, guid: 150b3786c46a9ba449a1ff5c21cef45e, type: 2}
+      Level: 70
+    OnEvolutionMoves:
+    - {fileID: 11400000, guid: d2eea68630744be429f824d6b9912379, type: 2}
+    EggMoves:
+    - {fileID: 11400000, guid: 7d7064e76e162bd488da45c89d2ccab0, type: 2}
+    - {fileID: 11400000, guid: 804a3a7787b60c04b8ccc1c8e9f66f3e, type: 2}
+    - {fileID: 11400000, guid: d28a8ba9dee7e3d44924eb34c4709d02, type: 2}
+    - {fileID: 11400000, guid: 76dfa0bfea18dbc48904c468e495eb75, type: 2}
+    - {fileID: 11400000, guid: b8e15cab7d249d3439055f7dcd5a13e6, type: 2}
+    - {fileID: 11400000, guid: f117e20af77449642821aed1c316c74a, type: 2}
+    - {fileID: 11400000, guid: 7bb163026ea7011448a7428671049b62, type: 2}
+    - {fileID: 11400000, guid: faab4a5236846e3479010a5ba2ac6bee, type: 2}
+    - {fileID: 11400000, guid: 88fdd4847f2fdf144ac140e9b1ca499f, type: 2}
+    - {fileID: 11400000, guid: 249e5f32830998947bfa28e701eab271, type: 2}
+    - {fileID: 11400000, guid: 74182bccd89bf1346a26922d2140dcfd, type: 2}
+    - {fileID: 11400000, guid: 4eb6597ce5dc8cc4caf734972f9898d2, type: 2}
+    OtherLearnMoves:
+    - {fileID: 11400000, guid: fff88d645f13bdb49901c9b12d20d777, type: 2}
+    - {fileID: 11400000, guid: b181c303beb702041bc5023990104fff, type: 2}
+    - {fileID: 11400000, guid: 2040c3451bd53fb49a51d95a08002945, type: 2}
+    - {fileID: 11400000, guid: d5d77347eede1d34385c33aca7f92e01, type: 2}
+    - {fileID: 11400000, guid: 46b41a674de7ee6488bfaf2c88e1f159, type: 2}
+    - {fileID: 11400000, guid: d820b357e15cfac4c84b17fce2b0af2d, type: 2}
+    - {fileID: 11400000, guid: 067cb3a41fec0c5438351d5264f4640d, type: 2}
+    - {fileID: 11400000, guid: 430a94b3016ce344394e61f278c7312a, type: 2}
+    - {fileID: 11400000, guid: df7bd79fa33041942a7db43cad687e1d, type: 2}
+    - {fileID: 11400000, guid: 492aeda0c3106ee419b64e33125b25c8, type: 2}
+    - {fileID: 11400000, guid: 8e34492824f84924d8146813ad7c717f, type: 2}
+    - {fileID: 11400000, guid: 915cbc2aa02a170428b3ead36886cd69, type: 2}
+    - {fileID: 11400000, guid: b17466c2e0c5bdc4294079604a50c38c, type: 2}
+    - {fileID: 11400000, guid: 9bb13f236d324a14bb41cfdb41bc09c2, type: 2}
+    - {fileID: 11400000, guid: 4f4722360ba6c8c4988e4a413c456cdc, type: 2}
+    - {fileID: 11400000, guid: ded3e74ec196c9947b3fc392a09a66ed, type: 2}
+    - {fileID: 11400000, guid: 21641b6c39219f349983c5dd6e3899bc, type: 2}
+    - {fileID: 11400000, guid: c2fa8352315127f40bcf378139d1e29e, type: 2}
+    - {fileID: 11400000, guid: 5f110802fba667642af1cd3094225b42, type: 2}
+    - {fileID: 11400000, guid: ac4f2bb8758f78b41afbe25e2458cec4, type: 2}
+    - {fileID: 11400000, guid: 6f92bdbf1de86844d814de4a09307fc7, type: 2}
+    - {fileID: 11400000, guid: a83c00625d75ae2499aeeead27a10f6e, type: 2}
+    - {fileID: 11400000, guid: 1604747cb9766ce4686f34629db2696b, type: 2}
+    - {fileID: 11400000, guid: 5cc5a1ab2e04da54d844b92701eefdad, type: 2}
+    - {fileID: 11400000, guid: 8324b44caef362e40a4f2bebcb537a89, type: 2}
+    - {fileID: 11400000, guid: 0a809af0fc7c3da47b8fd292c4469b6c, type: 2}
+    - {fileID: 11400000, guid: a09a1607d543190419c7fc97a38b1fe4, type: 2}
+    - {fileID: 11400000, guid: 36dde54558736e240b733ec228d5365d, type: 2}
+    - {fileID: 11400000, guid: 6c44bebd510340640a4be0424b62ed8b, type: 2}
+    - {fileID: 11400000, guid: 10e16d3770e60f346b1d021b8429f287, type: 2}
+    - {fileID: 11400000, guid: 6ca3b4594e277d446a5b8cf7444e32ed, type: 2}
+    - {fileID: 11400000, guid: c2a69c8cbb16a0c4aa6fd9720d26332d, type: 2}
+    - {fileID: 11400000, guid: 42430a43a4661da4d9dbf333f89fcc7d, type: 2}
+    - {fileID: 11400000, guid: 8c09aab4e073cce408c823d844d4fa0e, type: 2}
+    - {fileID: 11400000, guid: 479ef2671620a844d89c018dca6baf89, type: 2}
+    - {fileID: 11400000, guid: f1868f1125a7d4245a10aa445aba68f6, type: 2}
+    - {fileID: 11400000, guid: a5d0b034cef4c9c4a81f85b67ddd401e, type: 2}
+    - {fileID: 11400000, guid: a70349ac23335d449bde39b051f7be4d, type: 2}
+    - {fileID: 11400000, guid: 6f2b4c30c32585b4dbe8353b0b80dbed, type: 2}
+    BaseStats:
+      SerializedList:
+      - Key: 0
+        Value: 70
+      - Key: 1
+        Value: 60
+      - Key: 2
+        Value: 125
+      - Key: 3
+        Value: 115
+      - Key: 4
+        Value: 70
+      - Key: 5
+        Value: 55
+    Evolutions: []
+    MegaEvolutions:
+      SerializedList: []
+    IsUltraBeast: 0
+    IsLegendary: 0
+    IsMythical: 0
+    CanLearnAnyMove: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 1266369485746995202
+      type: {class: SingleOffspringBreeding, ns: Varguiniano.YAPU.Runtime.Monster.Breeding, asm: Varguiniano.YAPU.Runtime}
+      data:
+        OffspringSpecies: {fileID: 11400000, guid: fdc970cf7b337df4286047e1c56d889e, type: 2}
+        PossibleForms:
+        - {fileID: 11400000, guid: 6dc6b91c0521dca41b3fc884c5a6fa9f, type: 2}

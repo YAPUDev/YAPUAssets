@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d2863e76f216de4bafe3e55fe544fcb, type: 3}
+  m_Name: UTurn
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/UTurn
+  LocalizableDescription: Moves/UTurn/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/U-turn_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 8224339d425c323429f4f784f48fce81, type: 2}
+  MoveCategory: 0
+  BasePowerPoints: 20
+  MaxPowerPoints: 32
+  Priority: 0
+  MakesContact: 1
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 1
+  SoundBased: 0
+  InfiniteAccuracy: 0
+  Accuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: e62bb486865d24c47a9963c3de1de545, type: 2}
+  CanBeUsedOutsideBattle: 0
+  Power: 70
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  OwnHeldItemsThatPreventSwitching:
+  - {fileID: 11400000, guid: b994546744b38004f82067d8bbbb314f, type: 2}
+  TargetHeldItemsThatPreventSwitching:
+  - {fileID: 11400000, guid: 23968d13acae95149a8e2b4ebf024205, type: 2}

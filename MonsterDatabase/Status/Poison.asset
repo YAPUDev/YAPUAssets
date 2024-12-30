@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a83cda4a961f4f488274ce68e2564f67, type: 3}
+  m_Name: Poison
+  m_EditorClassIdentifier: 
+  LocalizableName: Status/Poison
+  LocalizableDescription: Status/Poison/Description
+  LocalizableStatusStartKey: Status/Poison/Start
+  LocalizableStatusTickKey: Status/Poison/Tick
+  LocalizableStatusEndKey: Status/Poison/End
+  ImmuneWeathers: []
+  ImmuneTerrains: []
+  ImmuneTypes:
+  - {fileID: 11400000, guid: beeedb36d3bb9aa438171119d70ee919, type: 2}
+  - {fileID: 11400000, guid: 3603fd3a7d985df4b9fe806e450268cf, type: 2}
+  ImmuneAbilities:
+  - {fileID: 11400000, guid: 818beba0793584f43807f0185dd9b2ff, type: 2}
+  - {fileID: 11400000, guid: 883dbfa7d132e8145bc85fb11deb677a, type: 2}
+  ImmuneHeldItems: []
+  CatchMultiplier: 1.5
+  OutOfBattleDefault: {fileID: 11400000}
+  Icon: {fileID: 21300000, guid: 102263eeee9fe1e4486f3e4da1b3e5e1, type: 3}
+  HPReduction: 0.125
+  AnimationPrefab: {fileID: 468851038046536984, guid: 5c1d79fafe9cf0542a5393f5c156acfb, type: 3}
+  Audio:
+    Audio: Poison
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}

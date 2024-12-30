@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6875bac59dab4940a1104e1f480909e, type: 3}
+  m_Name: Thief
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/Thief
+  LocalizableDescription: Moves/Thief/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Thief_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: b7224fcdaeff9e7439e1c77405022ad2, type: 2}
+  MoveCategory: 0
+  BasePowerPoints: 25
+  MaxPowerPoints: 50
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 1
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 1
+  DamageBypassesSubstitute: 0
+  SoundBased: 0
+  OverridesEffectiveness: 0
+  EffectivenessOverride:
+    SerializedList: []
+  InfiniteAccuracy: 0
+  BaseAccuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: c0dcad94d363ae64f97795c21340b807, type: 2}
+  CanBeUsedOutsideBattle: 0
+  Power: 60
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  StealItem: 1
+  StealImmuneItems: []
+  StealImmuneAbilities:
+  - {fileID: 11400000, guid: 3d5f5fecf214da74a8526a009bfab04e, type: 2}
+  ImmuneItemMonsterCombinations:
+    m_Keys: []
+  ImmuneItemAbilityCombinations:
+    m_Keys: []

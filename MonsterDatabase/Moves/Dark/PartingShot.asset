@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c32efc7a9b4f50bb3fc406e4fc5038, type: 3}
+  m_Name: PartingShot
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/PartingShot
+  LocalizableDescription: Moves/PartingShot/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Parting_Shot_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: b7224fcdaeff9e7439e1c77405022ad2, type: 2}
+  MoveCategory: 2
+  BasePowerPoints: 20
+  MaxPowerPoints: 32
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 0
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 1
+  AffectedByMagicBounce: 1
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 0
+  SoundBased: 1
+  OverridesEffectiveness: 0
+  EffectivenessOverride:
+    SerializedList: []
+  InfiniteAccuracy: 0
+  BaseAccuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: d0fb20f10bbd71740a389ba2e8672969, type: 2}
+  CanBeUsedOutsideBattle: 0
+  BypassesSubstitute: 0
+  ChangeStats: 1
+  StatChanges:
+    SerializedList:
+    - Key: 1
+      Value: -1
+    - Key: 3
+      Value: -1
+  ChangeBattleStats: 0
+  BattleStatChanges:
+    SerializedList: []
+  ChangeCritical: 0
+  CriticalChange: 0
+  OwnHeldItemsThatPreventSwitching:
+  - {fileID: 11400000, guid: b994546744b38004f82067d8bbbb314f, type: 2}
+  TargetHeldItemsThatPreventSwitching:
+  - {fileID: 11400000, guid: 23968d13acae95149a8e2b4ebf024205, type: 2}

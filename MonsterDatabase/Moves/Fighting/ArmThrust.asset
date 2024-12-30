@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4f38973958e4585bccb04de70a08715, type: 3}
+  m_Name: ArmThrust
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/ArmThrust
+  LocalizableDescription: Moves/ArmThrust/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Arm_Thrust_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 47b4a39bedccc694899987d674f5cd05, type: 2}
+  MoveCategory: 0
+  BasePowerPoints: 20
+  MaxPowerPoints: 32
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 1
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 1
+  DamageBypassesSubstitute: 0
+  SoundBased: 0
+  OverridesEffectiveness: 0
+  EffectivenessOverride:
+    SerializedList: []
+  InfiniteAccuracy: 0
+  BaseAccuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 1
+  HitChances:
+    SerializedList:
+    - Key: 0.35
+      Value: 2
+    - Key: 0.7
+      Value: 3
+    - Key: 0.85
+      Value: 4
+    - Key: 1
+      Value: 5
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneVolatileStatuses: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: c0dcad94d363ae64f97795c21340b807, type: 2}
+  CanBeUsedOutsideBattle: 0
+  Power: 15
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  IsPunchingMove: 0
+  IsSlicingMove: 0

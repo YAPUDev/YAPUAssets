@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c96bb9861384b82986b14bc87a25146, type: 3}
+  m_Name: WorrySeedStatus
+  m_EditorClassIdentifier: 
+  LocalizableNameKey: Status/Volatile/WorrySeedStatus
+  LocalizableStatusStartKey: Status/Volatile/WorrySeedStatus/Start
+  LocalizableStatusTickKey: Status/Volatile/WorrySeedStatus/Tick
+  LocalizableStatusEndKey: Status/Volatile/WorrySeedStatus/End
+  MinCountdown: 2
+  MaxCountdown: 5
+  PersistsWhenSwitching: 0
+  RemovedOnFormChange: 0
+  GetFromExtraData: 0
+  Override: {fileID: 11400000, guid: 4f0922516efe5a54fb4ee18a0cc8bd26, type: 2}
+  ShowDialogs: 1

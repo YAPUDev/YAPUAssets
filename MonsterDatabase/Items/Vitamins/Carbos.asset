@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b198cea72cf84434bbe4d06f5b0d3c30, type: 3}
+  m_Name: Carbos
+  m_EditorClassIdentifier: 
+  LocalizableName: Items/Carbos
+  LocalizableDescription: Items/Carbos/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Carbos
+  ItemCategory: {fileID: 11400000, guid: 06444bfad04c3194cb7b8c36babe4b80, type: 2}
+  Icon: {fileID: 21300000, guid: defa68513917f8845a10f2d9cea20051, type: 3}
+  DefaultPrice: 10000
+  CanBeSold: 1
+  SellPercentage: 0.5
+  CanBeHeld: 1
+  FlingPower: 30
+  FlingHasAdditionalEffects: 0
+  FlingEffects: []
+  SharesXP: 0
+  OnItemMovedItemEffects: []
+  OnStatCalculationEffects: []
+  AfterActionCallbacks: []
+  PostTurnCallbackItemEffects: []
+  OnCalculateAccuracyWhenTargetedItemEffects: []
+  OnCalculateMoveDamageItemEffects: []
+  HitByMoveCallbacks: []
+  AfterHitByMoveCallbacks: []
+  OnDeterminePriorityInsideBracketCallbacks: []
+  OnCalculateXPYieldEffects: []
+  OnYieldEffects: []
+  OnCalculatePriceMoneyItemEffects: []
+  OnCalculateWeatherEffectDurationItemEffects: []
+  OnCalculateTerrainEffectDurationItemEffects: []
+  OnCalculateEncounterChanceItemEffects: []
+  NeedsPanelAnimationInBagScreen: 0
+  UseOnTargetEffects:
+  - {fileID: 11400000, guid: 5034bcfdfdacc83459d5b4df890e93d8, type: 2}
+  - {fileID: 11400000, guid: bf67f2402e609794baccc264e008c3cd, type: 2}
+  UseOnTargetMoveEffects: []
+  UseOutOfBattleEffects: []
+  UseInBattleEffects: []

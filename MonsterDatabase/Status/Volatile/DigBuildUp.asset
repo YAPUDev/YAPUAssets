@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e81061776e2744d797fb132a5c3dc061, type: 3}
+  m_Name: DigBuildUp
+  m_EditorClassIdentifier: 
+  LocalizableNameKey: Status/Volatile/DigBuildUp
+  LocalizableStatusStartKey: Status/Volatile/DigBuildUp/Start
+  LocalizableStatusTickKey: NotUsed
+  LocalizableStatusEndKey: NotUsed
+  MinCountdown: 2
+  MaxCountdown: 2
+  Move: {fileID: 11400000, guid: a4b799f59dbb0e94e9b3ad4c2bb5de2d, type: 2}
+  BypassingMoves:
+    SerializedList:
+    - Key: {fileID: 11400000, guid: e95cf23b96a12914db29aa5c2e54e459, type: 2}
+      Value: 2
+    - Key: {fileID: 11400000, guid: bd7dadcc8f3ebf24ea9c6cf6170a70c1, type: 2}
+      Value: 1
+  BypassingAbilities:
+    SerializedList:
+    - Key: {fileID: 11400000, guid: 48c6323fd0bcbe240a9f20cdba6f0ee3, type: 2}
+      Value: 1

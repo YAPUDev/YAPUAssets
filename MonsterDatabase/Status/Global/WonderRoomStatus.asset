@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 348ebee29082492e8144fcf9ee4cbc2b, type: 3}
+  m_Name: WonderRoomStatus
+  m_EditorClassIdentifier: 
+  LocalizableName: Status/Global/WonderRoomStatus
+  LocalizableDescription: NotUsed
+  LocalizableStatusStartKey: Status/Global/WonderRoomStatus/Start
+  LocalizableStatusTickKey: NotUsed
+  LocalizableStatusEndKey: Status/Global/WonderRoomStatus/End
+  StatReplacements:
+    SerializedList:
+    - Key: 2
+      Value: 4
+    - Key: 4
+      Value: 2

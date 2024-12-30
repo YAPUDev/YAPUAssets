@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2781413e0105439e919e63d56ec6da83, type: 3}
+  m_Name: Venoshock
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/Venoshock
+  LocalizableDescription: Moves/Venoshock/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Venoshock_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 3603fd3a7d985df4b9fe806e450268cf, type: 2}
+  MoveCategory: 1
+  BasePowerPoints: 15
+  MaxPowerPoints: 24
+  Priority: 0
+  MakesContact: 0
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 1
+  SoundBased: 0
+  InfiniteAccuracy: 0
+  Accuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 0
+  FallbackAnimation: {fileID: 0}
+  CanBeUsedOutsideBattle: 0
+  Power: 65
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  TargetStatusPowerModifiers:
+    SerializedList:
+    - Key: {fileID: 11400000, guid: b03d1064228bbf44494d9b6828c1f613, type: 2}
+      Value: 2
+    - Key: {fileID: 11400000, guid: 98c1d698c87382041a9a14a84d06a289, type: 2}
+      Value: 2
+  AnimationPrefab: {fileID: 6973020531115982496, guid: 172eb0ea29f9ac24b93e0c92f54279cd, type: 3}
+  HitPrefab: {fileID: 7396138073313182406, guid: d2e08547488e8394b9bdd3c9d5a19530, type: 3}
+  Audio:
+    Audio: Venoshock
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}

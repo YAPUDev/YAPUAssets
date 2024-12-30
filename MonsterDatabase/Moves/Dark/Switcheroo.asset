@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15f0c3e84eb2464b93f5ddd271f3e164, type: 3}
+  m_Name: Switcheroo
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/Switcheroo
+  LocalizableDescription: Moves/Switcheroo/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Switcheroo_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: b7224fcdaeff9e7439e1c77405022ad2, type: 2}
+  MoveCategory: 2
+  BasePowerPoints: 10
+  MaxPowerPoints: 16
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 0
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 0
+  DamageBypassesSubstitute: 0
+  SoundBased: 0
+  OverridesEffectiveness: 0
+  EffectivenessOverride:
+    SerializedList: []
+  InfiniteAccuracy: 0
+  BaseAccuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 0
+  FallbackAnimation: {fileID: 11400000, guid: 154b2afb2e9a2984ea5e23633bce7c9c, type: 2}
+  CanBeUsedOutsideBattle: 0
+  StealImmuneItems: []
+  StealImmuneAbilities:
+  - {fileID: 11400000, guid: 3d5f5fecf214da74a8526a009bfab04e, type: 2}
+  ImmuneItemMonsterCombinations:
+    m_Keys: []
+  ImmuneItemAbilityCombinations:
+    m_Keys: []
+  Sound:
+    Audio: Fling
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+  ItemPrefab: {fileID: 4260231409944469379, guid: c505a1aed6d75a440b8d96a3194e2e5e, type: 3}

@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42305340d41445c3b6dc218bcfa3652f, type: 3}
+  m_Name: ThunderShock
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/ThunderShock
+  LocalizableDescription: Moves/ThunderShock/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Thunder_Shock_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 3086e053111d18e46b8f75ab45b81207, type: 2}
+  MoveCategory: 1
+  BasePowerPoints: 30
+  MaxPowerPoints: 48
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 0
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 0
+  SoundBased: 0
+  InfiniteAccuracy: 0
+  Accuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: 090e1309cdc38124aa9e59d7615ad5ea, type: 2}
+  CanBeUsedOutsideBattle: 0
+  Power: 40
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  StatusChance:
+    m_Keys:
+    - {fileID: 11400000, guid: 382472642c5d62c498152f4beff0ea51, type: 2}
+    m_Values:
+    - 0.1
+  VolatileStatusChance:
+    m_Keys: []
+    m_Values: []

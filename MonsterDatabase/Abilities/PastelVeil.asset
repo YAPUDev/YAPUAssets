@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a2606152214a42ad9e93212ba0e3e1, type: 3}
+  m_Name: PastelVeil
+  m_EditorClassIdentifier: 
+  LocalizableName: Abilities/PastelVeil
+  LocalizableDescription: Abilities/PastelVeil/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Pastel_Veil_(Ability)
+  AbilitiesImmuneTo: []
+  IsIgnorable: 1
+  PreventedStatuses:
+  - {fileID: 11400000, guid: b03d1064228bbf44494d9b6828c1f613, type: 2}
+  - {fileID: 11400000, guid: 98c1d698c87382041a9a14a84d06a289, type: 2}

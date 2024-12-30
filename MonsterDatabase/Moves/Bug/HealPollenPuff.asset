@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccd1dc572a465a348bfeb076c6171e10, type: 3}
+  m_Name: HealPollenPuff
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/PollenPuff
+  LocalizableDescription: Moves/PollenPuff/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Pollen_Puff_(move)
+  ShouldIndex: 0
+  MoveType: {fileID: 11400000, guid: 8224339d425c323429f4f784f48fce81, type: 2}
+  MoveCategory: 1
+  BasePowerPoints: 15
+  MaxPowerPoints: 24
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 1
+  AffectedByProtect: 0
+  AffectedByMagicCoat: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 1
+  DamageBypassesSubstitute: 0
+  SoundBased: 0
+  IsBallMove: 1
+  OverridesEffectiveness: 0
+  EffectivenessOverride:
+    SerializedList: []
+  InfiniteAccuracy: 0
+  BaseAccuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneVolatileStatuses: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: 06d928ad2c5f9e249974e4363616b8ae, type: 2}
+  CanBeUsedOutsideBattle: 0
+  Status: {fileID: 0}
+  InfiniteDuration: 0
+  SetStatusOnSelf: 0

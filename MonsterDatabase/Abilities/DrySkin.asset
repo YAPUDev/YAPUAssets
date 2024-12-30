@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46baa9ba484b4c4db878847ef69399b3, type: 3}
+  m_Name: DrySkin
+  m_EditorClassIdentifier: 
+  LocalizableName: Abilities/DrySkin
+  LocalizableDescription: Abilities/DrySkin/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Dry_Skin_(Ability)
+  AbilitiesImmuneTo: []
+  IsIgnorable: 1
+  HPHealingTypes:
+    SerializedList:
+    - Key: {fileID: 11400000, guid: 96acf51bdce11384d9b1ceb0369ace1e, type: 2}
+      Value: 0.25
+  IncreasedDamageTypes:
+    SerializedList:
+    - Key: {fileID: 11400000, guid: 9006ef89f44a7724783c6f688db63b59, type: 2}
+      Value: 1.25
+  WeatherHPIncrements:
+    SerializedList:
+    - Key: {fileID: 11400000, guid: 528d8290ae151a741870aa0a9324a438, type: 2}
+      Value: 0.125
+    - Key: {fileID: 11400000, guid: c87e264988c4f834db1011eb4249ca56, type: 2}
+      Value: 0.125
+  WeathersThatDamage:
+    SerializedList:
+    - Key: {fileID: 11400000, guid: 0bb8ea1ddf9dfad468d6450d7b01becc, type: 2}
+      Value: 0.125
+    - Key: {fileID: 11400000, guid: 5fabdaa0808507547b32ba6dd9cb7758, type: 2}
+      Value: 0.125

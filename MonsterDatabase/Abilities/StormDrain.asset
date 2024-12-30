@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0a4db55da914a2abd2cca2dc8c14b1b, type: 3}
+  m_Name: StormDrain
+  m_EditorClassIdentifier: 
+  LocalizableName: Abilities/StormDrain
+  LocalizableDescription: Abilities/StormDrain/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Storm_Drain_(Ability)
+  AbilitiesImmuneTo: []
+  IsIgnorable: 1
+  AttractedType: {fileID: 11400000, guid: 96acf51bdce11384d9b1ceb0369ace1e, type: 2}
+  StatsToRaise:
+    SerializedList:
+    - Key: 3
+      Value: 1

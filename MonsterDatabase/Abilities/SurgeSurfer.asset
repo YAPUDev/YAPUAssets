@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 964f00d81bc04a838be20c38c156c6c3, type: 3}
+  m_Name: SurgeSurfer
+  m_EditorClassIdentifier: 
+  LocalizableName: Abilities/SurgeSurfer
+  LocalizableDescription: Abilities/SurgeSurfer/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Surge_Surfer_(Ability)
+  ImmuneAbilities: []
+  Multipliers:
+    SerializedList:
+    - Key: {fileID: 11400000, guid: e0ae10442d911394aa8e78fc666792d7, type: 2}
+      Value:
+        SerializedList:
+        - Key: 5
+          Value: 2

@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 000515d4af74498989daaa908a3ed7a8, type: 3}
+  m_Name: Man 7
+  m_EditorClassIdentifier: 
+  LocalizableName: Characters/Type/Man
+  PriceMoney: 72
+  FriendshipBoostWhenBattled: 0
+  FrontSprite: {fileID: 21300000, guid: e7611e03ff069ca49ae365caa9acc630, type: 3}
+  BackSprite: {fileID: 2100000, guid: 191b7ef83898ac0438a59f53b4a353cf, type: 2}
+  WorldSprites:
+    LookingDown: {fileID: -1543299561, guid: 92a3bc34cde4d3e4fb9ca912497686b4, type: 3}
+    LookingUp: {fileID: 1518004867, guid: 92a3bc34cde4d3e4fb9ca912497686b4, type: 3}
+    LookingLeft: {fileID: 339759165, guid: 92a3bc34cde4d3e4fb9ca912497686b4, type: 3}
+    LookingRight: {fileID: 1294653193, guid: 92a3bc34cde4d3e4fb9ca912497686b4, type: 3}
+    LookingDownRunning: {fileID: -176424934, guid: 416db2d6fc91ed7419f909ff4fa094bb, type: 3}
+    LookingUpRunning: {fileID: 857481030, guid: 416db2d6fc91ed7419f909ff4fa094bb, type: 3}
+    LookingLeftRunning: {fileID: 486415083, guid: 416db2d6fc91ed7419f909ff4fa094bb, type: 3}
+    LookingRightRunning: {fileID: 550408109, guid: 416db2d6fc91ed7419f909ff4fa094bb, type: 3}
+    WalkingDown:
+    - {fileID: 1085377555, guid: 92a3bc34cde4d3e4fb9ca912497686b4, type: 3}
+    - {fileID: 2005628364, guid: 92a3bc34cde4d3e4fb9ca912497686b4, type: 3}
+    WalkingUp:
+    - {fileID: -47604039, guid: 92a3bc34cde4d3e4fb9ca912497686b4, type: 3}
+    - {fileID: 1568814301, guid: 92a3bc34cde4d3e4fb9ca912497686b4, type: 3}
+    WalkingLeft:
+    - {fileID: -427956644, guid: 92a3bc34cde4d3e4fb9ca912497686b4, type: 3}
+    - {fileID: -695946950, guid: 92a3bc34cde4d3e4fb9ca912497686b4, type: 3}
+    WalkingRight:
+    - {fileID: -101067780, guid: 92a3bc34cde4d3e4fb9ca912497686b4, type: 3}
+    - {fileID: -406276008, guid: 92a3bc34cde4d3e4fb9ca912497686b4, type: 3}
+    RunningDown:
+    - {fileID: -1557832770, guid: 416db2d6fc91ed7419f909ff4fa094bb, type: 3}
+    - {fileID: -1042860349, guid: 416db2d6fc91ed7419f909ff4fa094bb, type: 3}
+    RunningUp:
+    - {fileID: 1218720618, guid: 416db2d6fc91ed7419f909ff4fa094bb, type: 3}
+    - {fileID: -1615167516, guid: 416db2d6fc91ed7419f909ff4fa094bb, type: 3}
+    RunningLeft:
+    - {fileID: 2034251716, guid: 416db2d6fc91ed7419f909ff4fa094bb, type: 3}
+    - {fileID: -870625579, guid: 416db2d6fc91ed7419f909ff4fa094bb, type: 3}
+    RunningRight:
+    - {fileID: 59015481, guid: 416db2d6fc91ed7419f909ff4fa094bb, type: 3}
+    - {fileID: 2025357952, guid: 416db2d6fc91ed7419f909ff4fa094bb, type: 3}
+    LookingDownBiking: {fileID: 981764723, guid: 3ab9a1c07fdbe564a8537e86de8e862b, type: 3}
+    LookingUpBiking: {fileID: 1163343631, guid: 3ab9a1c07fdbe564a8537e86de8e862b, type: 3}
+    LookingLeftBiking: {fileID: -1038495702, guid: 3ab9a1c07fdbe564a8537e86de8e862b, type: 3}
+    LookingRightBiking: {fileID: -1293267897, guid: 3ab9a1c07fdbe564a8537e86de8e862b, type: 3}
+    BikingDown:
+    - {fileID: -166565172, guid: 3ab9a1c07fdbe564a8537e86de8e862b, type: 3}
+    - {fileID: 1927553630, guid: 3ab9a1c07fdbe564a8537e86de8e862b, type: 3}
+    BikingUp:
+    - {fileID: 647911409, guid: 3ab9a1c07fdbe564a8537e86de8e862b, type: 3}
+    - {fileID: 63006275, guid: 3ab9a1c07fdbe564a8537e86de8e862b, type: 3}
+    BikingLeft:
+    - {fileID: -1791435971, guid: 3ab9a1c07fdbe564a8537e86de8e862b, type: 3}
+    - {fileID: -1187297101, guid: 3ab9a1c07fdbe564a8537e86de8e862b, type: 3}
+    BikingRight:
+    - {fileID: -1960393244, guid: 3ab9a1c07fdbe564a8537e86de8e862b, type: 3}
+    - {fileID: 1854922721, guid: 3ab9a1c07fdbe564a8537e86de8e862b, type: 3}
+    LookingDownSwimming: {fileID: 1923344282, guid: adfddc08a83ea69469fdc96b8cfd33a3, type: 3}
+    LookingUpSwimming: {fileID: -1886178366, guid: adfddc08a83ea69469fdc96b8cfd33a3, type: 3}
+    LookingLeftSwimming: {fileID: 2124501190, guid: adfddc08a83ea69469fdc96b8cfd33a3, type: 3}
+    LookingRightSwimming: {fileID: -858955637, guid: adfddc08a83ea69469fdc96b8cfd33a3, type: 3}
+    WalkingDownSwimming:
+    - {fileID: -104550888, guid: adfddc08a83ea69469fdc96b8cfd33a3, type: 3}
+    - {fileID: -535688847, guid: adfddc08a83ea69469fdc96b8cfd33a3, type: 3}
+    WalkingUpSwimming:
+    - {fileID: -1922180719, guid: adfddc08a83ea69469fdc96b8cfd33a3, type: 3}
+    - {fileID: 1364134160, guid: adfddc08a83ea69469fdc96b8cfd33a3, type: 3}
+    WalkingLeftSwimming:
+    - {fileID: 2124501190, guid: adfddc08a83ea69469fdc96b8cfd33a3, type: 3}
+    - {fileID: -939404629, guid: adfddc08a83ea69469fdc96b8cfd33a3, type: 3}
+    WalkingRightSwimming:
+    - {fileID: -858955637, guid: adfddc08a83ea69469fdc96b8cfd33a3, type: 3}
+    - {fileID: -291917538, guid: adfddc08a83ea69469fdc96b8cfd33a3, type: 3}
+  MapIcon: {fileID: 21300000, guid: deb12c3d541fb3d44b2ee2ba66cfa566, type: 3}

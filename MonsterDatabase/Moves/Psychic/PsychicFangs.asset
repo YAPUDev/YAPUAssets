@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a474073416434fda834d9282a8e12a4d, type: 3}
+  m_Name: PsychicFangs
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/PsychicFangs
+  LocalizableDescription: Moves/PsychicFangs/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Psychic_Fangs_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 2d58a23f5902ddd488c3786e59fb9e95, type: 2}
+  MoveCategory: 0
+  BasePowerPoints: 10
+  MaxPowerPoints: 16
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 1
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 1
+  DamageBypassesSubstitute: 0
+  SoundBased: 0
+  IsBallMove: 0
+  IsWindMove: 0
+  OverridesEffectiveness: 0
+  EffectivenessOverride:
+    SerializedList: []
+  InfiniteAccuracy: 0
+  BaseAccuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneVolatileStatuses: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: 804a3a7787b60c04b8ccc1c8e9f66f3e, type: 2}
+  CanBeUsedOutsideBattle: 0
+  Power: 85
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  IsSlicingMove: 0
+  IsPunchingMove: 0
+  IsBitingMove: 1
+  ChangeStats: 0
+  StatChangesAffectSelf: 0
+  StatChanges:
+    SerializedList: []
+  ChangeBattleStats: 0
+  BattleStatChanges:
+    SerializedList: []
+  ChangeCritical: 0
+  CriticalChange: 0
+  CriticalChance: 0
+  RemoveVolatileStatusOnOwnSide: 0
+  RemovableVolatileStatuses: []
+  RemoveSideStatusOnOwnSide: 0
+  RemovableSideStatuses:
+  - {fileID: 11400000, guid: b145dc7a724b73f41b19afe7535eadc0, type: 2}
+  - {fileID: 11400000, guid: abdbcfd903b1ff649944e6b9f5c9b351, type: 2}
+  - {fileID: 11400000, guid: 22d5be61952b23f4491faac654c65d5e, type: 2}

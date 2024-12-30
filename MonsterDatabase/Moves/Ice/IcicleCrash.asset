@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7d9396376a345638bb105415d75a184, type: 3}
+  m_Name: IcicleCrash
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/IcicleCrash
+  LocalizableDescription: Moves/IcicleCrash/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Icicle_Crash_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 5564f6595e7fcfd41971380624975935, type: 2}
+  MoveCategory: 0
+  BasePowerPoints: 10
+  MaxPowerPoints: 16
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 0
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 0
+  SoundBased: 0
+  InfiniteAccuracy: 0
+  Accuracy: 90
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneTerrains: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 0
+  FallbackAnimation: {fileID: 0}
+  CanBeUsedOutsideBattle: 0
+  Power: 85
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  StatusChance:
+    m_Keys: []
+    m_Values: []
+  VolatileStatusChance:
+    m_Keys:
+    - 0.3
+    m_Values:
+    - m_Keys:
+      - {fileID: 11400000, guid: 5f391451ff480f54f8176edaa46e0d5d, type: 2}
+      m_Values: 01000000
+  Audio:
+    Audio: Icicle Crash
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+  IciclePrefab: {fileID: 7337108439352881735, guid: 67d2e9627ed7cc649b8fb5d8251aaab7, type: 3}
+  IcePrefab: {fileID: 6856476278806334103, guid: 0826d4bdfe27c8444b15fe3bdc2e82a1, type: 3}

@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bc5b427bc8f47ca95ef508f99711cf3, type: 3}
+  m_Name: Fly
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/Fly
+  LocalizableDescription: Moves/Fly/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Fly_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: e6912e7b469ab6544a853be403fe5bc7, type: 2}
+  MoveCategory: 0
+  BasePowerPoints: 15
+  MaxPowerPoints: 24
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 1
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 1
+  SoundBased: 0
+  InfiniteAccuracy: 0
+  BaseAccuracy: 95
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 6
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses:
+  - {fileID: 11400000, guid: febe61d00229cca4988c0cd8d7e22db3, type: 2}
+  ShowUsedDialog: 0
+  UsesFallbackAnimation: 0
+  FallbackAnimation: {fileID: 0}
+  CanBeUsedOutsideBattle: 1
+  Power: 90
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  BuildUpStatus: {fileID: 11400000, guid: 5f132494f1c516446839e9f2f5914966, type: 2}
+  WeatherByPasses: []
+  ConsumableItemByPasses:
+  - {fileID: 11400000, guid: 18e570dd277cfe84bafbf5ad43f4c176, type: 2}
+  WeatherDamageMultipliers:
+    SerializedList: []
+  PartOneAudio:
+    Audio: Fly part 1
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+  PartTwoAudio:
+    Audio: Fly part 2
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+  HitPrefab: {fileID: 8502127192471211818, guid: 160c3b2e0e2d98944a5b0e3f566d4d8d, type: 3}

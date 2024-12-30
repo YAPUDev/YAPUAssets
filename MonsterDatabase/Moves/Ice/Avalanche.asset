@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 221fb2327639480d96e644547b3ceae1, type: 3}
+  m_Name: Avalanche
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/Avalanche
+  LocalizableDescription: Moves/Avalanche/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Avalanche_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 5564f6595e7fcfd41971380624975935, type: 2}
+  MoveCategory: 0
+  BasePowerPoints: 10
+  MaxPowerPoints: 16
+  Priority: -4
+  MakesContact: 1
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 1
+  SoundBased: 0
+  InfiniteAccuracy: 0
+  Accuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: d5d77347eede1d34385c33aca7f92e01, type: 2}
+  CanBeUsedOutsideBattle: 0
+  Power: 60
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1

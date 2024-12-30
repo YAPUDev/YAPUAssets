@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 000515d4af74498989daaa908a3ed7a8, type: 3}
+  m_Name: AromaLady
+  m_EditorClassIdentifier: 
+  LocalizableName: Characters/Type/AromaLady
+  PriceMoney: 40
+  FriendshipBoostWhenBattled: 0
+  FrontSprite: {fileID: 21300000, guid: 759d573575cc99f46a568a8645c2cf60, type: 3}
+  BackSprite: {fileID: 2100000, guid: 5f5e104effc9c0241830b109a2979ac7, type: 2}
+  WorldSprites:
+    LookingDown: {fileID: 2125079556, guid: d52f27ed33729dd4b953e31c7998b970, type: 3}
+    LookingUp: {fileID: 681897011, guid: d52f27ed33729dd4b953e31c7998b970, type: 3}
+    LookingLeft: {fileID: -2045056213, guid: d52f27ed33729dd4b953e31c7998b970, type: 3}
+    LookingRight: {fileID: 1785394321, guid: d52f27ed33729dd4b953e31c7998b970, type: 3}
+    LookingDownRunning: {fileID: -974924700, guid: 011db2b9992ba77428b39d5b6bd56b18, type: 3}
+    LookingUpRunning: {fileID: 147974525, guid: 011db2b9992ba77428b39d5b6bd56b18, type: 3}
+    LookingLeftRunning: {fileID: -997706440, guid: 011db2b9992ba77428b39d5b6bd56b18, type: 3}
+    LookingRightRunning: {fileID: 395681649, guid: 011db2b9992ba77428b39d5b6bd56b18, type: 3}
+    WalkingDown:
+    - {fileID: 92120313, guid: d52f27ed33729dd4b953e31c7998b970, type: 3}
+    - {fileID: 946153781, guid: d52f27ed33729dd4b953e31c7998b970, type: 3}
+    WalkingUp:
+    - {fileID: -1644345705, guid: d52f27ed33729dd4b953e31c7998b970, type: 3}
+    - {fileID: 424192906, guid: d52f27ed33729dd4b953e31c7998b970, type: 3}
+    WalkingLeft:
+    - {fileID: 157458709, guid: d52f27ed33729dd4b953e31c7998b970, type: 3}
+    - {fileID: -911118485, guid: d52f27ed33729dd4b953e31c7998b970, type: 3}
+    WalkingRight:
+    - {fileID: 1069324413, guid: d52f27ed33729dd4b953e31c7998b970, type: 3}
+    - {fileID: -658383268, guid: d52f27ed33729dd4b953e31c7998b970, type: 3}
+    RunningDown:
+    - {fileID: -172641294, guid: 011db2b9992ba77428b39d5b6bd56b18, type: 3}
+    - {fileID: -1683223907, guid: 011db2b9992ba77428b39d5b6bd56b18, type: 3}
+    RunningUp:
+    - {fileID: 982694257, guid: 011db2b9992ba77428b39d5b6bd56b18, type: 3}
+    - {fileID: 598081745, guid: 011db2b9992ba77428b39d5b6bd56b18, type: 3}
+    RunningLeft:
+    - {fileID: 697874570, guid: 011db2b9992ba77428b39d5b6bd56b18, type: 3}
+    - {fileID: 626583404, guid: 011db2b9992ba77428b39d5b6bd56b18, type: 3}
+    RunningRight:
+    - {fileID: 1827534054, guid: 011db2b9992ba77428b39d5b6bd56b18, type: 3}
+    - {fileID: -1800578439, guid: 011db2b9992ba77428b39d5b6bd56b18, type: 3}
+    LookingDownBiking: {fileID: 1088740367, guid: d6b32d076027ac24987fac6b1f451f8c, type: 3}
+    LookingUpBiking: {fileID: -1286353577, guid: d6b32d076027ac24987fac6b1f451f8c, type: 3}
+    LookingLeftBiking: {fileID: 1882496542, guid: d6b32d076027ac24987fac6b1f451f8c, type: 3}
+    LookingRightBiking: {fileID: -416519890, guid: d6b32d076027ac24987fac6b1f451f8c, type: 3}
+    BikingDown:
+    - {fileID: -1618316393, guid: d6b32d076027ac24987fac6b1f451f8c, type: 3}
+    - {fileID: -1957282898, guid: d6b32d076027ac24987fac6b1f451f8c, type: 3}
+    BikingUp:
+    - {fileID: 1147232115, guid: d6b32d076027ac24987fac6b1f451f8c, type: 3}
+    - {fileID: -273790489, guid: d6b32d076027ac24987fac6b1f451f8c, type: 3}
+    BikingLeft:
+    - {fileID: 2009285057, guid: d6b32d076027ac24987fac6b1f451f8c, type: 3}
+    - {fileID: 1855273005, guid: d6b32d076027ac24987fac6b1f451f8c, type: 3}
+    BikingRight:
+    - {fileID: 228904394, guid: d6b32d076027ac24987fac6b1f451f8c, type: 3}
+    - {fileID: -468937798, guid: d6b32d076027ac24987fac6b1f451f8c, type: 3}
+    LookingDownSwimming: {fileID: 740602569, guid: 3c6230b5002d86340b3d669b3d01e881, type: 3}
+    LookingUpSwimming: {fileID: -907813244, guid: 3c6230b5002d86340b3d669b3d01e881, type: 3}
+    LookingLeftSwimming: {fileID: -72118762, guid: 3c6230b5002d86340b3d669b3d01e881, type: 3}
+    LookingRightSwimming: {fileID: -1138775346, guid: 3c6230b5002d86340b3d669b3d01e881, type: 3}
+    WalkingDownSwimming:
+    - {fileID: 1182591102, guid: 3c6230b5002d86340b3d669b3d01e881, type: 3}
+    - {fileID: -1717083753, guid: 3c6230b5002d86340b3d669b3d01e881, type: 3}
+    WalkingUpSwimming:
+    - {fileID: -1133035646, guid: 3c6230b5002d86340b3d669b3d01e881, type: 3}
+    - {fileID: 1181422461, guid: 3c6230b5002d86340b3d669b3d01e881, type: 3}
+    WalkingLeftSwimming:
+    - {fileID: -379760935, guid: 3c6230b5002d86340b3d669b3d01e881, type: 3}
+    - {fileID: -1746387814, guid: 3c6230b5002d86340b3d669b3d01e881, type: 3}
+    WalkingRightSwimming:
+    - {fileID: -1138775346, guid: 3c6230b5002d86340b3d669b3d01e881, type: 3}
+    - {fileID: 863959078, guid: 3c6230b5002d86340b3d669b3d01e881, type: 3}
+  MapIcon: {fileID: 21300000, guid: deb12c3d541fb3d44b2ee2ba66cfa566, type: 3}

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c5d28709640e1c4a980c5611f1e8410, type: 3}
+  m_Name: PoisonSting
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/PoisonSting
+  LocalizableDescription: Moves/PoisonSting/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Poison_Sting_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 3603fd3a7d985df4b9fe806e450268cf, type: 2}
+  MoveCategory: 0
+  BasePowerPoints: 35
+  MaxPowerPoints: 56
+  Priority: 0
+  MakesContact: 0
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 0
+  SoundBased: 0
+  InfiniteAccuracy: 0
+  Accuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 0
+  FallbackAnimation: {fileID: 0}
+  CanBeUsedOutsideBattle: 0
+  Power: 15
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  StatusChance:
+    m_Keys:
+    - {fileID: 11400000, guid: 98c1d698c87382041a9a14a84d06a289, type: 2}
+    m_Values:
+    - 0.3
+  VolatileStatusChance:
+    m_Keys: []
+    m_Values: []
+  Audio:
+    Audio: Poison Sting
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+  StingerPrefab: {fileID: 7337108439352881735, guid: edd8c63969f18e747b01109e9fa81277, type: 3}
+  HitPrefab: {fileID: 7396138073313182406, guid: 27371c0f969a2604c8f5dff6de3eca06, type: 3}

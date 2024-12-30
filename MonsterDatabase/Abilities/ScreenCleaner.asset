@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9fa35f3d4ff4944abfa1ae0c5ec2e34, type: 3}
+  m_Name: ScreenCleaner
+  m_EditorClassIdentifier: 
+  LocalizableName: Abilities/ScreenCleaner
+  LocalizableDescription: Abilities/ScreenCleaner/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Screen_Cleaner_(Ability)
+  AbilitiesImmuneTo: []
+  ClearedSideStatusesOnBothSides:
+  - {fileID: 11400000, guid: 22d5be61952b23f4491faac654c65d5e, type: 2}
+  - {fileID: 11400000, guid: b145dc7a724b73f41b19afe7535eadc0, type: 2}
+  - {fileID: 11400000, guid: abdbcfd903b1ff649944e6b9f5c9b351, type: 2}

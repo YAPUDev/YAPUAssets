@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b626bd22781c47f39720a5e74ebb3692, type: 3}
+  m_Name: KebiaBerry
+  m_EditorClassIdentifier: 
+  LocalizableName: Items/KebiaBerry
+  LocalizableDescription: Items/KebiaBerry/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Kebia_Berry
+  ItemCategory: {fileID: 11400000, guid: a39f78ba045140749a2b6067617d0a31, type: 2}
+  Icon: {fileID: 21300000, guid: 4a6105cd0da653d4f82c4ca82fedf568, type: 3}
+  DefaultPrice: 250
+  CanBeSold: 0
+  SellPercentage: 0.5
+  CanBeHeld: 1
+  FlingPower: 10
+  FlingHasAdditionalEffects: 0
+  FlingEffects: []
+  SharesXP: 0
+  OnItemMovedItemEffects: []
+  OnStatCalculationEffects: []
+  OnCalculateCriticalChanceItemEffects: []
+  OnCalculateAttackMultiplierOfTypesWhenDefendingItemEffects: []
+  OnMonsterEnteredBattleEffects: []
+  AfterActionCallbacks: []
+  OnTerrainSetItemEffects: []
+  PostTurnCallbackItemEffects: []
+  OnCalculateAccuracyWhenUsingItemEffects: []
+  OnCalculateAccuracyWhenTargetedItemEffects: []
+  OnCheckGroundingItemEffects: []
+  OnCheckRunAwayItemEffects: []
+  OnCalculateMoveDamageItemEffects: []
+  HitByMoveCallbacks:
+  - {fileID: 11400000, guid: 643f3a7c60db85e499bc07c7bb3ab128, type: 2}
+  AfterHitByMoveCallbacks: []
+  AfterHitByMultihitMoveCallbacks: []
+  ForceSurviveItemEffects: []
+  AfterUsingMoveCallbacks: []
+  OnDeterminePriorityInsideBracketCallbacks: []
+  OnCalculateDrainHPMultiplierEffects: []
+  OnCalculateXPYieldEffects: []
+  OnYieldEffects: []
+  OnCalculatePriceMoneyItemEffects: []
+  OnCalculateWeatherEffectDurationItemEffects: []
+  OnCalculateSideStatusEffectDurationItemEffects: []
+  OnCalculateVolatileStatusEffectDurationItemEffects: []
+  OnCalculateTerrainEffectDurationItemEffects: []
+  OnVolatileStatusAddedItemEffects: []
+  OnCalculateEncounterChanceItemEffects: []
+  AllowEvolutionItemEffects: []
+  OnCalculateNumberOfIVsToPassOnBreedingItemEffects: []
+  OnCalculateSpecificIVsToPassOnBreedingItemEffects: []
+  OnCalculateNatureToPassOnBreedingItemEffects: []
+  OnCalculateFormToPassOnBreedingItemEffects: []
+  OnAddExtraMovesToPassOnBreedingItemEffects: []
+  NeedsPanelAnimationInBagScreen: 0
+  RequiresUpdatingTheEntirePartyInBagScreen: 0
+  UseOnTargetEffects: []
+  UseOnTargetMoveEffects: []
+  UseOutOfBattleEffects: []
+  UseInBattleEffects: []
+  FlavourData:
+    SerializedList:
+    - Key: 0
+      Value: 0
+    - Key: 1
+      Value: 15
+    - Key: 2
+      Value: 0
+    - Key: 3
+      Value: 0
+    - Key: 4
+      Value: 10
+  GrowthData:
+    SerializedList:
+    - Key: 0
+      Value: 0
+    - Key: 1
+      Value: 18
+    - Key: 2
+      Value: 36
+    - Key: 3
+      Value: 54
+    - Key: 4
+      Value: 72
+  Smoothness: 30
+  Size: 8.9
+  Firmness: 2
+  NaturalGiftType: {fileID: 11400000, guid: 3603fd3a7d985df4b9fe806e450268cf, type: 2}
+  NaturalGiftPower: 80
+  CudChewEffects: []

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a75fd567c70d42d2910b94b41b8ff8a7, type: 3}
+  m_Name: Chlorophyll
+  m_EditorClassIdentifier: 
+  LocalizableName: Abilities/Chlorophyll
+  LocalizableDescription: Abilities/Chlorophyll/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Chlorophyll_(Ability)
+  AbilitiesImmuneTo: []
+  IsIgnorable: 0
+  Stat: 5
+  MultiplierPerWeather:
+    SerializedList:
+    - Key: {fileID: 11400000, guid: 0bb8ea1ddf9dfad468d6450d7b01becc, type: 2}
+      Value: 2
+    - Key: {fileID: 11400000, guid: 5fabdaa0808507547b32ba6dd9cb7758, type: 2}
+      Value: 2

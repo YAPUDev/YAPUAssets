@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af68e4834c34452cb517cd6f02171871, type: 3}
+  m_Name: UltraBall
+  m_EditorClassIdentifier: 
+  LocalizableName: Items/UltraBall
+  LocalizableDescription: Items/UltraBall/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Ultra_Ball
+  ItemCategory: {fileID: 11400000, guid: 2767bef9ebfc42a4094aa8c50cd8c077, type: 2}
+  Icon: {fileID: 21300000, guid: 554664926855712499f105034eecda18, type: 3}
+  DefaultPrice: 800
+  CanBeSold: 1
+  SellPercentage: 0.5
+  CanBeHeld: 1
+  FlingPower: -1
+  FlingHasAdditionalEffects: 0
+  FlingEffects: []
+  SharesXP: 0
+  OnItemMovedItemEffects: []
+  OnStatCalculationEffects: []
+  AfterActionCallbacks: []
+  PostTurnCallbackItemEffects: []
+  OnCalculateAccuracyWhenTargetedItemEffects: []
+  OnCalculateMoveDamageItemEffects: []
+  HitByMoveCallbacks: []
+  AfterHitByMoveCallbacks: []
+  OnDeterminePriorityInsideBracketCallbacks: []
+  OnCalculateXPYieldEffects: []
+  OnYieldEffects: []
+  OnCalculatePriceMoneyItemEffects: []
+  OnCalculateWeatherEffectDurationItemEffects: []
+  OnCalculateTerrainEffectDurationItemEffects: []
+  OnCalculateEncounterChanceItemEffects: []
+  NeedsPanelAnimationInBagScreen: 0
+  UseOnTargetEffects: []
+  UseOnTargetMoveEffects: []
+  UseOutOfBattleEffects: []
+  UseInBattleEffects:
+  - {fileID: 11400000, guid: 0adc7f7a5f3896745906c126d485a69c, type: 2}
+  AnimationFlipBook: {fileID: 2100000, guid: ef0471793ba592849aa075d65f612371, type: 2}
+  NeverFails: 0
+  BasicCatchMultiplier: 2
+  UltraBeastMultiplier: 0.1
+  FriendshipIncreaseModifier: 0

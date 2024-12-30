@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72d98b82af904f869a10948fb1610b69, type: 3}
+  m_Name: XEvasion
+  m_EditorClassIdentifier: 
+  LocalizableName: Items/XEvasion
+  LocalizableDescription: Items/XEvasion/Description
+  ItemCategory: {fileID: 11400000, guid: 53acdefe247d37344bcf6074fb9f9474, type: 2}
+  Icon: {fileID: 21300000, guid: 30c86451fd78ecb4989429a056087142, type: 3}
+  DefaultPrice: 3000
+  CanBeSold: 1
+  SellPercentage: 0.5
+  CanBeHeld: 1
+  FlingPower: 30
+  UseOnTargetEffects:
+  - {fileID: 11400000, guid: a2ea8a7818f0c91459143b62d4f62e21, type: 2}
+  - {fileID: 11400000, guid: 7a4ce0afa36980448a358a246e7b54a1, type: 2}

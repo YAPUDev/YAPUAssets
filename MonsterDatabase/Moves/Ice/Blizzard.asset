@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db71c7eac44440f38e33d3bc19878f23, type: 3}
+  m_Name: Blizzard
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/Blizzard
+  LocalizableDescription: Moves/Blizzard/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Blizzard_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 5564f6595e7fcfd41971380624975935, type: 2}
+  MoveCategory: 1
+  BasePowerPoints: 5
+  MaxPowerPoints: 8
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 0
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 0
+  DamageBypassesSubstitute: 0
+  SoundBased: 0
+  IsBallMove: 0
+  IsWindMove: 1
+  OverridesEffectiveness: 0
+  EffectivenessOverride:
+    SerializedList: []
+  InfiniteAccuracy: 0
+  BaseAccuracy: 70
+  WeatherCanModifyAccuracy: 1
+  WeatherAccuracyModifiers:
+    SerializedList:
+    - Key: {fileID: 11400000, guid: 52ce37f0f0d8e9847afe2ae18930052b, type: 2}
+      Value: -1
+  CanHaveMultipleTargets: 1
+  MovePossibleTargets: 5
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneVolatileStatuses: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 0
+  FallbackAnimation: {fileID: 0}
+  CanBeUsedOutsideBattle: 0
+  Power: 110
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  IsSlicingMove: 0
+  IsPunchingMove: 0
+  StatusChance:
+    m_Keys:
+    - {fileID: 11400000, guid: a3373133552e54f46bc0eac2c6e12785, type: 2}
+    m_Values:
+    - 0.1
+  VolatileStatusChance:
+    m_Keys: []
+    m_Values: []
+  Audio:
+    Audio: Blizzard
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+  AnimationPrefab: {fileID: 8799026204616520454, guid: 2bdffb551e13d5f4ba04fb34b87f949a, type: 3}
+  Particle: {fileID: 2800000, guid: f4e6ae25e27c02e4aa2087696b498d26, type: 3}
+  IcePrefab: {fileID: 6856476278806334103, guid: 0826d4bdfe27c8444b15fe3bdc2e82a1, type: 3}

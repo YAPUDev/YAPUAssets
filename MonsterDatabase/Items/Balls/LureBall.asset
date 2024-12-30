@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb3ea5c0f21459d85591e22d6ac3169, type: 3}
+  m_Name: LureBall
+  m_EditorClassIdentifier: 
+  LocalizableName: Items/LureBall
+  LocalizableDescription: Items/LureBall/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Lure_Ball
+  ItemCategory: {fileID: 11400000, guid: 2767bef9ebfc42a4094aa8c50cd8c077, type: 2}
+  Icon: {fileID: 21300000, guid: 855793da05145f04e8815167820fa9a8, type: 3}
+  DefaultPrice: 300
+  CanBeSold: 1
+  SellPercentage: 0.5
+  CanBeHeld: 1
+  FlingPower: -1
+  FlingHasAdditionalEffects: 0
+  FlingEffects: []
+  SharesXP: 0
+  OnItemMovedItemEffects: []
+  OnStatCalculationEffects: []
+  AfterActionCallbacks: []
+  PostTurnCallbackItemEffects: []
+  OnCalculateAccuracyWhenTargetedItemEffects: []
+  OnCalculateMoveDamageItemEffects: []
+  HitByMoveCallbacks: []
+  AfterHitByMoveCallbacks: []
+  OnDeterminePriorityInsideBracketCallbacks: []
+  OnCalculateXPYieldEffects: []
+  OnYieldEffects: []
+  OnCalculatePriceMoneyItemEffects: []
+  OnCalculateWeatherEffectDurationItemEffects: []
+  OnCalculateTerrainEffectDurationItemEffects: []
+  OnCalculateEncounterChanceItemEffects: []
+  NeedsPanelAnimationInBagScreen: 0
+  UseOnTargetEffects: []
+  UseOnTargetMoveEffects: []
+  UseOutOfBattleEffects: []
+  UseInBattleEffects:
+  - {fileID: 11400000, guid: 0adc7f7a5f3896745906c126d485a69c, type: 2}
+  AnimationFlipBook: {fileID: 2100000, guid: 620daa75be9757a4b89ea27f5db99e02, type: 2}
+  NeverFails: 0
+  BasicCatchMultiplier: 1
+  UltraBeastMultiplier: 0.1
+  FriendshipIncreaseModifier: 0
+  MultipliersPerEncounter:
+    SerializedList:
+    - Key: 4
+      Value: 4
+    - Key: 5
+      Value: 4
+    - Key: 6
+      Value: 4

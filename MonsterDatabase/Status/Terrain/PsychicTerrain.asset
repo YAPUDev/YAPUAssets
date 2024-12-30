@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b44fde82e2fc4f77ab3684cae2f452eb, type: 3}
+  m_Name: PsychicTerrain
+  m_EditorClassIdentifier: 
+  LocalizableName: BattleTerrain/PsychicTerrain
+  LocalizableDescription: NotUsed
+  LocalizationKey: BattleTerrain/PsychicTerrain
+  StartLocalizationKey: BattleTerrain/PsychicTerrain/Start
+  TickLocalizationKey: BattleTerrain/PsychicTerrain/Tick
+  EndLocalizationKey: BattleTerrain/PsychicTerrain/End
+  TypeDamageModifiers:
+    SerializedList:
+    - Key: {fileID: 11400000, guid: 2d58a23f5902ddd488c3786e59fb9e95, type: 2}
+      Value: 1.3
+  NaturePowerMove: {fileID: 11400000, guid: 93f9f8aa4e3d8d2458a77b282f67d41a, type: 2}
+  PostPrefab: {fileID: 5606757391988912668, guid: edc3af05487ff9c44abc3bc018ba4103, type: 3}
+  Audio:
+    Audio: Psychic Terrain part 2
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+  ColorValues: {x: 0.91, y: 0.33, z: 1, w: 0}

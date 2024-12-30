@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db1b9246f14f41b8807f070aab189edc, type: 3}
+  m_Name: ElectricTerrain
+  m_EditorClassIdentifier: 
+  LocalizableName: BattleTerrain/ElectricTerrain
+  LocalizableDescription: NotUsed
+  LocalizationKey: BattleTerrain/ElectricTerrain
+  StartLocalizationKey: BattleTerrain/ElectricTerrain/Start
+  TickLocalizationKey: BattleTerrain/ElectricTerrain/Tick
+  EndLocalizationKey: BattleTerrain/ElectricTerrain/End
+  TypeDamageModifiers:
+    SerializedList:
+    - Key: {fileID: 11400000, guid: 3086e053111d18e46b8f75ab45b81207, type: 2}
+      Value: 1.3
+  NaturePowerMove: {fileID: 11400000, guid: 090e1309cdc38124aa9e59d7615ad5ea, type: 2}
+  PostPrefab: {fileID: 5606757391988912668, guid: edc3af05487ff9c44abc3bc018ba4103, type: 3}
+  Audio:
+    Audio: Electric Terrain part 2
+    AudioLibrary: {fileID: 11400000, guid: 9b56e73791f0e484083e80111bfbb588, type: 2}
+  ColorValues: {x: 1, y: 0.97, z: 0.4, w: 1}

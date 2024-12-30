@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ae0437f111a46679b3da730c3da5d41, type: 3}
+  m_Name: TerrainPulse
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/TerrainPulse
+  LocalizableDescription: Moves/TerrainPulse/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Terrain_Pulse_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: db89964f043f3cb4dbf78a05c8fd5d36, type: 2}
+  MoveCategory: 1
+  BasePowerPoints: 10
+  MaxPowerPoints: 16
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 0
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedByMagicBounce: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 1
+  SoundBased: 0
+  InfiniteAccuracy: 0
+  BaseAccuracy: 100
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: 0c2431d85b4ec7047b2f6265adb9b0c5, type: 2}
+  CanBeUsedOutsideBattle: 0
+  Power: 50
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  TerrainTypeOverrides:
+    SerializedList:
+    - Key: {fileID: 11400000, guid: 86677d70bc770084e9f88854d18a1235, type: 2}
+      Value: {fileID: 11400000, guid: 964c796fc7fc9fa4e8ebe2468b9fea61, type: 2}
+    - Key: {fileID: 11400000, guid: e0ae10442d911394aa8e78fc666792d7, type: 2}
+      Value: {fileID: 11400000, guid: 3086e053111d18e46b8f75ab45b81207, type: 2}
+    - Key: {fileID: 11400000, guid: 531c7515f8f0ad24fa06a3bf38e4e1b5, type: 2}
+      Value: {fileID: 11400000, guid: 848b68aec4045eb488dbcd9561de1753, type: 2}
+    - Key: {fileID: 11400000, guid: b02707a7e7667f445a618c937bc62620, type: 2}
+      Value: {fileID: 11400000, guid: 2d58a23f5902ddd488c3786e59fb9e95, type: 2}

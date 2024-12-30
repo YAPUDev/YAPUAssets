@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d635d132b1c494fa032118f85e5d057, type: 3}
+  m_Name: StrangeSteam
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/StrangeSteam
+  LocalizableDescription: Moves/StrangeSteam/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Strange_Steam_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 848b68aec4045eb488dbcd9561de1753, type: 2}
+  MoveCategory: 1
+  BasePowerPoints: 10
+  MaxPowerPoints: 16
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 0
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 1
+  DamageBypassesSubstitute: 0
+  SoundBased: 0
+  OverridesEffectiveness: 0
+  EffectivenessOverride:
+    SerializedList: []
+  InfiniteAccuracy: 0
+  BaseAccuracy: 95
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: 4d8152914598cd744b73d02ab2816b9e, type: 2}
+  CanBeUsedOutsideBattle: 0
+  Power: 90
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  IsPunchingMove: 0
+  StatusChance:
+    m_Keys: []
+    m_Values: []
+  VolatileStatusChance:
+    m_Keys:
+    - 0.2
+    m_Values:
+    - m_Keys:
+      - {fileID: 11400000, guid: 7bf1c8974129afe41a903f8162524936, type: 2}
+      m_Values: ffffffff

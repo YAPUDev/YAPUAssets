@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5880043f007415094320efa8195cb98, type: 3}
+  m_Name: SandForce
+  m_EditorClassIdentifier: 
+  LocalizableName: Abilities/SandForce
+  LocalizableDescription: Abilities/SandForce/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Sand_Force_(Ability)
+  AbilitiesImmuneTo: []
+  CompatibleWeather: {fileID: 11400000, guid: daca1ab58da873b48abf91d50b3b5a80, type: 2}
+  CompatibleMoveTypes:
+  - {fileID: 11400000, guid: 4676cd353780d2144a0ef2ec68ca942b, type: 2}
+  - {fileID: 11400000, guid: 29fa34924aa008b4fb68ad85c7244f9a, type: 2}
+  - {fileID: 11400000, guid: beeedb36d3bb9aa438171119d70ee919, type: 2}
+  PowerMultiplier: 1.3

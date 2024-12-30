@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dc77b122c3d4545bfb8e5e51e4c8028, type: 3}
+  m_Name: StealthRockStatus
+  m_EditorClassIdentifier: 
+  LocalizableNameKey: Status/Side/StealthRockStatus
+  LocalizableStatusStartKey: Status/Side/StealthRockStatus/Start
+  LocalizableStatusEndKey: Status/Side/StealthRockStatus/End
+  Type: {fileID: 11400000, guid: 4676cd353780d2144a0ef2ec68ca942b, type: 2}
+  DamagePerEffectiveness:
+    SerializedList:
+    - Key: 0.25
+      Value: 0.03125
+    - Key: 0.5
+      Value: 0.0625
+    - Key: 1
+      Value: 0.125
+    - Key: 2
+      Value: 0.25
+    - Key: 4
+      Value: 0.5

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5920db27c4334b4780ac4e97bd1d4db8, type: 3}
+  m_Name: ActorPrefabLibrary
+  m_EditorClassIdentifier: 
+  BlankCharacter: {fileID: 2661746342835208448, guid: f88fc7a778461ed4b9464ee3d1870457, type: 3}
+  EmptyTrigger: {fileID: 822571135555276936, guid: 0686a8666c045824a940022c710ab961, type: 3}
+  Invisible: {fileID: 527575964427963095, guid: 316caba10c240c64b977d2d713751146, type: 3}
+  StaticTrainer: {fileID: 6872853595130385642, guid: a1581f395a6ef7440ab5d289aff0cf70, type: 3}
+  CircleTrainer: {fileID: 2081693793434223315, guid: 565e80849ad4ee549afca310569c4d52, type: 3}
+  LookAroundLoopTrainer: {fileID: 6071490827574497344, guid: 3131748d2d4d94147b66944578696538, type: 3}
+  RandomLookAroundTrainer: {fileID: 9168239596802211605, guid: 23d0f946782ea2f4b95c750113d2c9f0, type: 3}
+  RandomWalkTrainer: {fileID: 388106792651745933, guid: 968aced7b53d12e40aa8ebad16b70718, type: 3}
+  RandomWalkMonster: {fileID: 1846798719161852439, guid: 3e91518640e28a147a1b2641c9ca0269, type: 3}
+  PickUpItem: {fileID: 617641941958746881, guid: 4b383e8b4eb7f704fb51ed11a5476068, type: 3}
+  SimpleDialogNPC: {fileID: 118725106404910511, guid: 6ac4dfde2f369894d9e53c2f34405348, type: 3}
+  GiveItemNPC: {fileID: 3899635056706072625, guid: 66bad3bb22a2b4442905192500c0d4e3, type: 3}
+  GiveMonsterNPC: {fileID: 4595495331101106346, guid: 5e93ccf845651134d87c571bb4734dab, type: 3}
+  Sign: {fileID: 6624899961111248041, guid: df4eaf00ef7b2fd43ab19dd4f435efb1, type: 3}
+  TemporaryCuttableTree: {fileID: 2931965716374103986, guid: a266b0a0872ae2f4db1a001acd5b2e3b, type: 3}
+  PermanentCuttableTree: {fileID: 6772033949250206218, guid: a4e23b3d853a2aa409ba4cc96cf1f64d, type: 3}
+  TemporaryBreakableRock: {fileID: 7461726801022005543, guid: 7940bf934c1cf664c888cd764f9b9bc9, type: 3}
+  PermanentBreakableRock: {fileID: 6393232938266689656, guid: 2405e800722617b4990016c5b52a5cf9, type: 3}
+  TemporaryMovableBoulder: {fileID: 0}
+  TemporaryRemovableWhirlpool: {fileID: 2635653393650076880, guid: dde1426ae241969418e73128a68d0b4d, type: 3}
+  PermanentRemovableWhirlpool: {fileID: 8093314834820968816, guid: 1c4c87424309fb74bab7938ba4ba9eba, type: 3}

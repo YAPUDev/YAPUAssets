@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d8e76d209b74efea96c2fc7990fd7ce, type: 3}
+  m_Name: HoneyGather
+  m_EditorClassIdentifier: 
+  LocalizableName: Abilities/HoneyGather
+  LocalizableDescription: Abilities/HoneyGather/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Honey_Gather_(Ability)
+  AbilitiesImmuneTo: []
+  IsIgnorable: 0
+  AfterBattlePickupChance: 0.1
+  HoneyItem: {fileID: 11400000, guid: 2b3cd6a3996d2c644af29fa763e95889, type: 2}

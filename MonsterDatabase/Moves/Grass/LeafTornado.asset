@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ace6b6964a0d4007956d5a46a3104885, type: 3}
+  m_Name: LeafTornado
+  m_EditorClassIdentifier: 
+  LocalizableName: Moves/LeafTornado
+  LocalizableDescription: Moves/LeafTornado/Description
+  DocsURL: https://bulbapedia.bulbagarden.net/wiki/Leaf_Tornado_(move)
+  ShouldIndex: 1
+  MoveType: {fileID: 11400000, guid: 964c796fc7fc9fa4e8ebe2468b9fea61, type: 2}
+  MoveCategory: 0
+  BasePowerPoints: 10
+  MaxPowerPoints: 16
+  Priority: 0
+  AffectedByTypeEffectivenessMatrix: 0
+  MakesContact: 0
+  AffectedByProtect: 1
+  AffectedByMagicCoat: 0
+  AffectedBySnatch: 0
+  AffectedByMirror: 1
+  AffectedByKingsRock: 1
+  SoundBased: 0
+  OverridesEffectiveness: 0
+  EffectivenessOverride:
+    SerializedList: []
+  InfiniteAccuracy: 0
+  BaseAccuracy: 90
+  WeatherCanModifyAccuracy: 0
+  WeatherAccuracyModifiers:
+    SerializedList: []
+  CanHaveMultipleTargets: 0
+  MovePossibleTargets: 1
+  IsMultiHit: 0
+  HitChances:
+    SerializedList: []
+  ImmuneTypes: []
+  ImmuneAbilities: []
+  ImmuneHeldItems: []
+  ImmuneTerrains: []
+  ImmuneGlobalStatuses: []
+  ShowUsedDialog: 1
+  UsesFallbackAnimation: 1
+  FallbackAnimation: {fileID: 11400000, guid: 170d61da8ae2e5844a97830a034f7bae, type: 2}
+  CanBeUsedOutsideBattle: 0
+  Power: 65
+  CriticalStageModifier: 0
+  BurnEffectApplies: 1
+  ChangeStats: 0
+  StatChangesAffectSelf: 0
+  StatChanges:
+    SerializedList: []
+  ChangeBattleStats: 1
+  BattleStatChanges:
+    SerializedList:
+    - Key: 0.5
+      Value:
+        SerializedList:
+        - Key: 0
+          Value: -1
+  ChangeCritical: 0
+  CriticalChange: 0
+  CriticalChance: 0
